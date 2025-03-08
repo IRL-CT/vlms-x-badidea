@@ -30,9 +30,9 @@ Due to the fact that videos might have different names accoss different data fil
 
 ### Dataset Overview
 
-1. **stimulus_dataset_information.xlxs**: Maps video filenames to question identifiers
-2. **badidea_ground_truth.csv**: Contains prediction values for each question identifier
-3. **analyze-predictions.csv**: Combined analysis file with predictions from multiple sources
+1. **stimulus_dataset_information.xlxs**(Dataset 1): Maps video filenames to question identifiers
+2. **badidea_ground_truth.csv**(Dataset 2): Contains prediction values for each question identifier
+3. **analyze-predictions.csv**(Dataset 3): Combined analysis file with predictions from multiple sources
 
 ### Key Relationships
 
@@ -63,7 +63,6 @@ Example:
 **Key Columns:**
 - `Video` - Video filenames
 - `Question Mapping` - Question identifiers
-- `Average Class of Human Prediction` - Continuous values between 0-1
 - `True Outcome` - Binary values (0 or 1)
 - Model predictions (all binary 0/1):
   - `GPT-4o Prediction (prompt 5)`
@@ -81,61 +80,56 @@ For binary classification:
 
 ## Results & Discussion
 ### Key Findings
+#### 1. Model Performance vs True Outcomes
 
-Based on the comprehensive analysis of prediction performance across human judgments and multiple VLM models (GPT-4o, Qwen, and Gemini), some significant patterns can be found:
+- **GPT-4o (prompt 5)** achieved the highest accuracy (66.7%) against true outcomes, outperforming the average individual human accuracy (62.1%)
+- All other LLM configurations showed lower accuracy than the average individual human, with **GPT-4o (prompt 6)** and **Qwen (prompt 6)** performing worst (46.7%)
+- All models with prompt 6 demonstrated perfect or near-perfect recall (100% for GPT-4o, 84.6% for Qwen and Gemini), but at the cost of precision
 
-#### 1. Overall Performance Ranking
+#### 2. LLM-Human Alignment
 
-- **Human predictions** demonstrated the highest accuracy (73.3%) and F1 score (0.692) against true outcomes, outperforming all VLM models
-- Among VLMs, **GPT-4o with prompt 5** achieved the highest accuracy (66.7%) and AUC (0.652)
-- For most metrics, the performance ranking follows: Human > GPT-4o (prompt 5) > Qwen/Gemini (prompt 5) > Gemini (prompt 6) > GPT-4o/Qwen (prompt 6)
+- **Gemini (prompt 5)** showed the highest agreement with individual human predictions (63.2%), followed by **Qwen (prompt 5)** (60.8%)
+- **GPT-4o** demonstrated the lowest alignment with human predictions across both prompts (49.0% for prompt 5, 47.1% for prompt 6)
+- Models showed consistently higher F1 scores when compared to human predictions than when compared to true outcomes, suggesting humans and models make similar types of errors
 
-#### 2. Prompt Effectiveness
+#### 3. Per-Video Performance
 
-- **Prompt 5 consistently outperformed prompt 6** across all three VLM models for accuracy and precision
-- Interestingly, **prompt 6 yielded higher recall** across all models, suggesting it may bias models toward positive predictions (class 1)
-- The performance gap between prompts was most pronounced for GPT-4o (20 percentage points in accuracy)
+- LLMs outperformed individual humans on a substantial portion of videos: **Qwen (prompt 5)** and **Gemini (prompt 5)** each outperformed humans on 50% of videos
+- The distribution of human accuracy across videos shows much greater variability than LLM accuracy, which tends to be either very high (1.0) or very low (0.0)
+- This binary pattern in LLM performance suggests they may be more confident but less nuanced in their judgments
 
-#### 3. Model Characteristics
+### Model Comparison
 
-- **GPT-4o (prompt 5)** demonstrated the best balance between precision (0.636) and recall (0.538)
-- **Qwen and Gemini** showed identical performance patterns with prompt 5 (accuracy: 56.7%, F1: 0.629)
-- All models with **prompt 6** exhibited perfect or near-perfect recall (1.0 for GPT-4o and Qwen, 0.846 for Gemini) but at the cost of precision (~0.45)
+GPT-4o with prompt 5 emerges as the top performer against true outcomes, exceeding average human performance by 4.6 percentage points in accuracy. However, its approach differs from human prediction patterns—it shows the lowest alignment with human judgments among all tested configurations.
 
-#### 4. Agreement Patterns
+In contrast, Gemini and Qwen with prompt 5 align more closely with human predictions while maintaining reasonable accuracy against true outcomes (56.7%). This suggests these models may better capture human-like reasoning patterns, even if they don't achieve the highest overall accuracy.
 
-- The agreement matrix reveals that **Qwen and Gemini models strongly agree with each other** (86.7-93.3% agreement)
-- **GPT-4o (prompt 5)** shows relatively low agreement with other models (33.3-50.0%)
-- **Human predictions** agree most strongly with the true outcome (73.3%) compared to any VLM
+### Video-Level Analysis
 
-### Detailed Analysis
+The performance by video reveals interesting patterns:
 
-#### Human vs. VLM Performance
+1. Human accuracy varies substantially across videos, indicating some videos are inherently more difficult to judge
+2. LLMs tend toward binary judgments (all correct or all incorrect for a given video)
+3. There is only partial overlap between videos that humans find difficult and those that challenge LLMs
 
-Human predictions significantly outperformed all VLM configurations. With an accuracy of 73.3% and balanced precision and recall (both 0.692), humans demonstrated superior ability to discern the correct outcomes. This may suggest that the task involves nuanced judgment that humans are better equipped to handle.
+The boxplot visualization confirms this pattern, showing much greater variance in human performance compared to the more extreme (all-or-nothing) LLM performance distribution.
 
-The closest VLM performance came from GPT-4o (prompt 5) at 66.7% accuracy, which is still notably lower than human performance. The substantial gap suggests that current VLMs, while impressive, still fall short of human-level discernment for this specific prediction task.
+### Limitations and Future Directions
 
-#### Prompt Engineering Implications
+1. The binary pattern in LLM predictions suggests they may lack nuance in their judgment compared to humans
 
-The dramatic difference in performance between prompts 5 and 6 highlights the critical importance of prompt engineering. For GPT-4o, the choice of prompt created a 20 percentage point difference in accuracy (66.7% vs. 46.7%).
+2. The high variability in human performance indicates inherent task difficulty or subjectivity that should be further explored
 
-The consistent pattern across all models where prompt 6 yields higher recall but lower precision suggests that this prompt biases the models toward predicting class 1 ("Poorly"). This observation is further supported by the confusion matrices showing many false positives for prompt 6 configurations.
+3. Future work could investigate:
+   - The characteristics of videos where LLMs outperform humans and vice versa
+   - The impact of different prompting strategies beyond the two tested here
+   - The potential for ensemble methods combining multiple LLMs or humans+LLMs
 
-#### Model Agreement and Clustering
+### Conclusion
 
-The agreement matrix reveals three distinct clusters:
-1. Human predictions and true outcomes (73.3% agreement)
-2. GPT-4o (prompt 5) as an outlier with unique prediction patterns
-3. All remaining VLM configurations showing high inter-model agreement
+This analysis demonstrates that state-of-the-art LLMs can match or exceed average individual human performance on video prediction tasks when properly prompted. GPT-4o with prompt 5 achieves the highest accuracy overall, while Gemini and Qwen with prompt 5 better align with human judgment patterns.
 
-This clustering suggests that Qwen and Gemini may employ similar reasoning patterns or have been trained on similar data, while GPT-4o's approach differs significantly. Human predictions appear to capture signals that none of the VLMs consistently detect.
-
-## Conclusion
-
-This analysis shows that while VLMs can achieve reasonable performance on this prediction task, they still lag behind human judgment. GPT-4o with appropriate prompting (prompt 5) comes closest to human-level performance, but the gap remains substantial. The significant impact of prompt engineering highlights both a challenge and an opportunity: VLM performance can potentially be further improved through prompt optimization.
-
-The similarity in performance patterns among certain models (Qwen and Gemini) contrasted with the distinct behavior of GPT-4o suggests that different architectural or training approaches may be better suited for different aspects of the task. Future work could explore ensemble methods that leverage the strengths of each model.
+The significant impact of prompt engineering highlights both a challenge and an opportunity—LLM performance can potentially be further improved through careful prompt optimization. The finding that LLMs outperform humans on approximately half of the videos suggests promising avenues for human-AI collaboration in judgment tasks.
 
 ## Todo
 - [x] GPT-4o finish all prompts testing
