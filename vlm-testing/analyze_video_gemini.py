@@ -51,7 +51,9 @@ prompts={
     # "Prompt 3:":"Analyze the video using an action recognition approach. Identify 1. Key movements, 2. Object manipulations, 3. Gestures or postures, 4. Any interactions between humans and robots. Provide a precise technical breakdown of movements",
     # "Promp 4": "Give me a sentence describing what's going on in the video, keeping only key elements of scenario shown",
     # "Prediction": "You think this situation ends well or poorly? (Use only one word to answer)",
-    "Prompt 6": "You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
+    # "Prompt 6": "You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
+    # "Prompt 5.1": "Given the scenario shown on the video, You think this situation ends well or poorly? (Use only one word to answer)",
+    "Prompt 6.1":"Given the scenario shown on the video, You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
 }   
 
 for video_uri in video_uri_third_ten:

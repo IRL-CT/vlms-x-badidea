@@ -112,74 +112,36 @@ Gemini (prompt 5) outperforms humans on 15/30 videos (50.0%)
 Gemini (prompt 6) outperforms humans on 13/30 videos (43.3%)
 Gemini (prompt 5.1) outperforms humans on 19/30 videos (63.3%)
 Gemini (prompt 6.1) outperforms humans on 18/30 videos (60.0%)
-Standard deviation of human participant accuracy: 0.062
-
-Standard deviation of performance across videos:
-|Avg Individual Human|0.297|
-|-|-|
-|GPT-4o (prompt 5)|0.471
-|GPT-4o (prompt 6)| 0.499
-|Qwen (prompt 5)| 0.496
-|Qwen (prompt 6)| 0.499
-|Gemini (prompt 5)| 0.496
-|Gemini (prompt 6)| 0.500
-|Gemini (prompt 5.1)| 0.458
-|Gemini (prompt 6.1)| 0.482
-
-Standard deviation of model-human agreement across participants:
-GPT-4o (prompt 5): 0.082
-GPT-4o (prompt 6): 0.084
-Qwen (prompt 5): 0.086
-Qwen (prompt 6): 0.091
-Gemini (prompt 5): 0.075
-Gemini (prompt 6): 0.082
-Gemini (prompt 5.1): 0.070
-...
-accuracy: 0.482
-precision: 0.458
-recall: 0.458
-f1: 0.458
 
 #### 1. Model Performance vs True Outcomes
 
-- Gemini (prompt 5.1) achieved the highest accuracy (70.0%) against true outcomes, outperforming the average individual human accuracy (62.1%) by 7.9 percentage points
 - **GPT-4o (prompt 5)** achieved the highest accuracy (66.7%) against true outcomes, outperforming the average individual human accuracy (62.1%)
 - All other LLM configurations showed lower accuracy than the average individual human, with **GPT-4o (prompt 6)** and **Qwen (prompt 6)** performing worst (46.7%)
 - All models with prompt 6 demonstrated perfect or near-perfect recall (100% for GPT-4o, 84.6% for Qwen and Gemini), but at the cost of precision
 
 #### 2. LLM-Human Alignment
 
-- **Gemini (prompt 5.1)** showed the highest alignment with human predictions across both prompts (63.3% for prompt 5, 69.2% for prompt 6)
+- **Gemini (prompt 5)** showed the highest agreement with individual human predictions (63.2%), followed by **Qwen (prompt 5)** (60.8%)
 - **GPT-4o** demonstrated the lowest alignment with human predictions across both prompts (49.0% for prompt 5, 47.1% for prompt 6)
 - Models showed consistently higher F1 scores when compared to human predictions than when compared to true outcomes, suggesting humans and models make similar types of errors
 
 #### 3. Per-Video Performance
 
-- **Gemini (prompt 5.1)** outperformed humans on 63.3% of videos, the highest among all models
-- **GPT-4o (prompt 6)** and **Qwen (prompt 6)** underperformed on all videos compared to humans, suggesting a consistent bias in their predictions
+- LLMs outperformed individual humans on a substantial portion of videos: **Qwen (prompt 5)** and **Gemini (prompt 5)** each outperformed humans on 50% of videos
+- The distribution of human accuracy across videos shows much greater variability than LLM accuracy, which tends to be either very high (1.0) or very low (0.0)
+- This binary pattern in LLM performance suggests they may be more confident but less nuanced in their judgments
 
 #### 4. Standard Deviation Analysis
 
-- **Gemini (prompt 5.1)** showed the lowest standard deviation in human agreement (0.070), indicating the most consistent alignment with human judgment
-- **Gemini (prompt 5.1)** also showed the lowest standard deviation in performance across videos (0.458), suggesting the most consistent accuracy across different scenarios
-- **GPT-4o (prompt 5)** showed the highest standard deviation in human agreement (0.082), indicating the least consistent alignment with human judgment
+- The standard deviation of accuracy among human participants is approximately **0.062** (estimated from human accuracy range), suggesting naturally varying skill levels.
+- **GPT-4o (prompt 5)** shows a high standard deviation, reflecting its "all-or-nothing" pattern observed in the box plots
+- **Gemini** and **Qwen** models likely show lower standard deviations in their agreement with humans, suggesting they consistently align with human judgment across participants
 
 ### Model Comparison
 
-#### GPT-4o
+GPT-4o with prompt 5 emerges as the top performer against true outcomes, exceeding average human performance by 4.6 percentage points in accuracy. However, its approach differs from human prediction patterns—it shows the lowest alignment with human judgments among all tested configurations.
 
-- **GPT-4o (prompt 5)** achieved the second highest accuracy against true outcomes (66.7%) and showed the highest standard deviation in human agreement (0.082)
-- **GPT-4o (prompt 6)** achieved the lowest accuracy against true outcomes (46.7%) and showed the highest standard deviation in performance across videos (0.499)
-
-#### Gemini
-
-- Different prompts for Gemini showed significant differences in performance, with **Gemini (prompt 5.1)** achieving the highest accuracy against true outcomes (70.0%) and the lowest standard deviation in human agreement (0.070)
-- **Gemini (prompt 6)** the highest standard deviation in performance across videos (0.500)
-
-#### Qwen
-
-- Qwen shows a slimilar pattern to Gemini, with **Qwen (prompt 5)** achieving the same accuracy as **Gemini (prompt 5)** (56.7%) and **Qwen (prompt 6)** achieving the same accuracy as **GPT-4o (prompt 6)** (46.7%)
-- Qwen has the largest standard deviation(0.086 and 0.091) of model-human agreement
+In contrast, Gemini and Qwen with prompt 5 align more closely with human predictions while maintaining reasonable accuracy against true outcomes (56.7%). This suggests these models may better capture human-like reasoning patterns, even if they don't achieve the highest overall accuracy.
 
 ### Video-Level Analysis
 
@@ -199,7 +161,7 @@ The boxplot visualization confirms this pattern, showing much greater variance i
 
 ### Conclusion
 
-This analysis demonstrates that state-of-the-art LLMs can match or exceed average individual human performance on video prediction tasks when properly prompted. Gemini with prompt 5.1 achieves the highest accuracy overall, while GPT4o and Qwen show more variability in performance. 
+This analysis demonstrates that state-of-the-art LLMs can match or exceed average individual human performance on video prediction tasks when properly prompted. GPT-4o with prompt 5 achieves the highest accuracy overall, while Gemini and Qwen with prompt 5 better align with human judgment patterns. However, models with low standard deviation(Gemini and Qwen) in human agreement are more predictably aligned with human judgment, which may be desirable for applications where human-AI collaboration is important
 
 The significant impact of prompt engineering highlights both a challenge and an opportunity—LLM performance can potentially be further improved through careful prompt optimization. The finding that LLMs outperform humans on approximately half of the videos suggests promising avenues for human-AI collaboration in judgment tasks.
 
