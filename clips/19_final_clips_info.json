@@ -1,0 +1,110 @@
+[
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0000.mp4",
+    "start_time": 0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0001.mp4",
+    "start_time": 0.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0002.mp4",
+    "start_time": 1.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0003.mp4",
+    "start_time": 1.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0004.mp4",
+    "start_time": 2.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0005.mp4",
+    "start_time": 2.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0006.mp4",
+    "start_time": 3.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0007.mp4",
+    "start_time": 3.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0008.mp4",
+    "start_time": 4.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0009.mp4",
+    "start_time": 4.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0010.mp4",
+    "start_time": 5.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0011.mp4",
+    "start_time": 5.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0012.mp4",
+    "start_time": 6.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0013.mp4",
+    "start_time": 6.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0014.mp4",
+    "start_time": 7.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0015.mp4",
+    "start_time": 7.5,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0016.mp4",
+    "start_time": 8.0,
+    "duration": 1.0
+  },
+  {
+    "video_id": "19_final",
+    "clip_path": "./clips/19_final/19_final_clip_0017.mp4",
+    "start_time": 8.5,
+    "duration": 1.0
+  }
+]

@@ -18,7 +18,7 @@ Create a conda env in your folder everytime you start your work:
 ```bash
 source /share/apps/anaconda3/2020.11/etc/profile.d/conda.sh
 conda create --prefix /home/hq48/[foloder-name]/[file-name]
-conda activate /home/hq48/[folder-name]/[file-name]
+conda activate /home/hq48/vlm-testing/myenv
 ```
 ### If conda is Not Found
 
@@ -36,6 +36,14 @@ Then, try activating the environment again:
 source /share/apps/anaconda3/2020.11/etc/profile.d/conda.sh
 conda activate /home/hq48/[folder-name]/[file-name]
 ```
+
+### List clusters and env
+```bash
+which conda
+
+conda env list
+```
+
 ## 2. Understanding Cluster Resources
 
 The cluster uses Slurm for job scheduling, and available resources include:
@@ -47,7 +55,7 @@ The cluster uses Slurm for job scheduling, and available resources include:
 
 To get an interactive session with 1 GPU, 8 CPU cores, and 32GB RAM:
 
-srun -p ju-interactive --gres=gpu:1 --cpus-per-task=8 --mem=32G --time=2:00:00 --pty /bin/bash
+srun -p ju-interactive --gres=gpu:1 --cpus-per-task=8 --mem=64G --time=4:00:00 --pty /bin/bash
 
 Common Parameters:
 	•	-p ju-interactive → Use the interactive queue.
@@ -57,7 +65,7 @@ Common Parameters:
 	•	--time=2:00:00 → Job runs for max 2 hours.
 	•	--pty /bin/bash → Start an interactive shell.
 
-Once inside the GPU node, activate your environment and run Python scripts as usual.
+Once inside the GPU node, **activate your environment** and run Python scripts as usual.
 
 4. Submitting a Job with Slurm
 

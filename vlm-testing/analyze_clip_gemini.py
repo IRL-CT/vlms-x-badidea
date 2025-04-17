@@ -32,7 +32,7 @@ def download_json_from_gcs(json_uri, local_path):
 
 def get_description(vision_model, clip_uri, retry_count=3):
     """Get description using Vertex AI with Prompt 2"""
-    prompt = "Summarize this video as if explaining it to someone who cannot see it. Focus on key actions, emotions, and interactions. Use clear and vivid language to create a mental picture."
+    prompt = "Output a sentence describing what's going on in the video, keeping only key elements of the scenario shown that would allow me to predict the outcome of the situation."
     
     for attempt in range(retry_count):
         try:

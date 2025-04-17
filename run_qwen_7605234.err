@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/hq48/vlm-testing/qwen.py", line 8, in <module>
+    from qwen_vl_utils import process_vision_info
+  File "/home/hq48/vlm-testing/myenv/lib/python3.9/site-packages/qwen_vl_utils/__init__.py", line 1, in <module>
+    from .vision_process import (
+  File "/home/hq48/vlm-testing/myenv/lib/python3.9/site-packages/qwen_vl_utils/vision_process.py", line 15, in <module>
+    import torchvision
+ModuleNotFoundError: No module named 'torchvision'

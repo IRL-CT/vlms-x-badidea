@@ -11,14 +11,14 @@ vision_model = GenerativeModel("gemini-2.0-flash")
 video_uri_first_ten = [
     "gs://vlm-testing-vertex-ai/final_cut_videos/6_final.mp4",
     "gs://vlm-testing-vertex-ai/final_cut_videos/7_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/9_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/11_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/12_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/14_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/15_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/19_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/21_final.mp4",
-    "gs://vlm-testing-vertex-ai/final_cut_videos/22_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/9_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/11_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/12_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/14_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/15_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/19_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/21_final.mp4",
+    # "gs://vlm-testing-vertex-ai/final_cut_videos/22_final.mp4",
 ]
 video_uri_second_ten = [
     "gs://vlm-testing-vertex-ai/final_cut_videos/24_final.mp4",
@@ -49,14 +49,15 @@ prompts={
     # "Prompt 1:":"Describe the content of this video in detail. Include information about the environment, objects, people or robots, and their actions. Provide a coherent narrative that explains what is happening in the scene",
     # "Prompt 2:":"Summarize this video as if explaining it to someone who cannot see it. Focus on key actions, emotions, and interactions. Use clear and vivid language to create a mental picture.",
     # "Prompt 3:":"Analyze the video using an action recognition approach. Identify 1. Key movements, 2. Object manipulations, 3. Gestures or postures, 4. Any interactions between humans and robots. Provide a precise technical breakdown of movements",
-    # "Promp 4": "Give me a sentence describing what's going on in the video, keeping only key elements of scenario shown",
+    # "Promp 4": "Output a sentence describing what's going on in the video, keeping only key elements of scenario shown",
     # "Prediction": "You think this situation ends well or poorly? (Use only one word to answer)",
     # "Prompt 6": "You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
     # "Prompt 5.1": "Given the scenario shown on the video, You think this situation ends well or poorly? (Use only one word to answer)",
-    "Prompt 6.1":"Given the scenario shown on the video, You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
+    # "Prompt 6.1":"Given the scenario shown on the video, You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
+    "Prompt 4.1": "Output a sentence describing what's going on in the video, keeping only key elements of the scenario shown that would allow me to predict the outcome of the situation.",
 }   
 
-for video_uri in video_uri_third_ten:
+for video_uri in video_uri_first_ten:
     print(f"\n Processing video: {video_uri}")
 
     for prompt_name, prompt_text in prompts.items():

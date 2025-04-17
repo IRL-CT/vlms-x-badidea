@@ -1,3 +1,5 @@
 /myenv
 .env
 .DS_store
+.err
+.out
