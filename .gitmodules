@@ -1,0 +1,6 @@
+[submodule "Qwen"]
+	path = Qwen
+	url = https://github.com/QwenLM/Qwen.git
+[submodule "models/LLaVA-NeXT"]
+	path = models/LLaVA-NeXT
+	url = https://github.com/LLaVA-VL/LLaVA-NeXT

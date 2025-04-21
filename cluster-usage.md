@@ -19,6 +19,11 @@ Create a conda env in your folder everytime you start your work:
 source /share/apps/anaconda3/2020.11/etc/profile.d/conda.sh
 conda create --prefix /home/hq48/[foloder-name]/[file-name]
 conda activate /home/hq48/vlm-testing/myenv
+
+# llava env
+conda create --prefix /home/hq48/vlm-testing/llava python=3.9 -y
+# Activate the llava environment
+conda activate /home/hq48/vlm-testing/llava
 ```
 ### If conda is Not Found
 

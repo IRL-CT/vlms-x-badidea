@@ -1,14 +1,3 @@
-# from transformers import AutoProcessor, AutoModelForImageTextToText
-
-# model_name = "lmms-lab/LLaVA-Video-72B-Qwen2"
-
-# processor = AutoProcessor.from_pretrained(model_name)
-# model = AutoModelForImageTextToText.from_pretrained(
-#     model_name,
-#     device_map="auto",
-#     torch_dtype="auto"  # 建议 float16，如果你用 A100/V100 这类卡
-# )
-
 import os
 import json
 import glob
@@ -56,8 +45,8 @@ def load_video(video_path, max_frames_num, fps=1, force_sample=False):
     return spare_frames, frame_time_str, video_time
 
 # Load the model
-print("Loading LLaVA-Video-72B-Qwen2 model...")
-pretrained = "lmms-lab/LLaVA-Video-72B-Qwen2"
+print("Loading LLaVA-Video-7B-Qwen2 model...")
+pretrained = "lmms-lab/LLaVA-Video-7B-Qwen2"
 model_name = "llava_qwen"
 device = "cuda"
 device_map = "auto"
@@ -67,8 +56,10 @@ try:
         pretrained, 
         None, 
         model_name, 
-        torch_dtype="bfloat16", 
-        device_map=device_map
+        torch_dtype="float16",  # 明确使用 torch.float16 而不是字符串
+        device_map=device_map,
+        attn_implementation="eager",
+        use_flash_attention_2=False,
     )
     model.eval()
     print("Model loaded successfully")
@@ -78,8 +69,8 @@ except Exception as e:
 
 # Set up the prompts
 prompts = {
-    "Prompt 5.1": "Given the scenario shown on the video, You think this situation ends well or poorly? (Use only one word to answer)",
-    "Prompt 6.1": "Given the scenario shown on the video, You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
+    "Prompt 5.1": "Describe what you see in this video",
+    # "Prompt 6.1": "Given the scenario shown on the video, You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)",
 }
 
 # Create Excel workbook
@@ -90,9 +81,79 @@ ws.title = "Video Descriptions"
 ws.append(["VIDEO", "TIME_START", "PROMPT", "DESCRIPTION"])
 
 # Function to process a video with the LLaVA model
-def process_video_with_llava(video_path, prompt_text, max_frames=8):
+# def process_video_with_llava(video_path, prompt_text, max_frames=8):
+#     try:
+#         # Load and process video frames
+#         video_frames, frame_time, video_time = load_video(
+#             video_path, 
+#             max_frames_num=max_frames, 
+#             fps=1, 
+#             force_sample=True
+#         )
+        
+#         # Process video frames with image processor
+#         processed_video = image_processor.preprocess(
+#             video_frames, 
+#             return_tensors="pt"
+#         )["pixel_values"].to(device).to(torch.float16)
+        
+#         video = [processed_video]
+        
+#         # Set up conversation template
+#         conv_template = "qwen_1_5"
+#         time_instruction = f"The video lasts for {video_time:.2f} seconds, and {len(video[0])} frames are uniformly sampled from it. These frames are located at {frame_time}."
+        
+#         # Format the question with the prompt
+#         question = DEFAULT_IMAGE_TOKEN + f"\n{time_instruction}\n{prompt_text}"
+        
+#         # Create conversation
+#         conv = copy.deepcopy(conv_templates[conv_template])
+#         conv.append_message(conv.roles[0], question)
+#         conv.append_message(conv.roles[1], None)
+#         prompt_question = conv.get_prompt()
+        
+#         # Tokenize input
+#         input_ids = tokenizer_image_token(
+#             prompt_question, 
+#             tokenizer, 
+#             IMAGE_TOKEN_INDEX, 
+#             return_tensors="pt"
+#         ).unsqueeze(0).to(device)
+        
+#         # Generate response
+#         with torch.no_grad():
+#             output_ids = model.generate(
+#                 input_ids,
+#                 images=video,
+#                 modalities=["video"],
+#                 do_sample=False,
+#                 num_beams=1,      # 使用简单的贪婪搜索
+#                 temperature=1.0,  # 中性温度
+#                 max_new_tokens=100,
+#             )
+        
+#         # Decode output
+#         output_text = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
+        
+#         processed_response = output_text.lower()
+#         if "well" in processed_response:
+#             return "well"
+#         elif "poor" in processed_response or "poorly" in processed_response:
+#             return "poorly"
+#         else:
+#             return processed_response[:30]  # 返回更长的截断回答
+                
+#     except Exception as e:
+#         return f"ERROR: {str(e)}"
+#     finally:
+#         # Clean up memory
+#         if torch.cuda.is_available():
+#             torch.cuda.empty_cache()
+#         gc.collect()
+# 确保每次只处理一个视频（批处理尺寸=1）
+def process_video_with_llava(video_path, prompt_text, max_frames=4):
     try:
-        # Load and process video frames
+        # 加载和处理视频帧
         video_frames, frame_time, video_time = load_video(
             video_path, 
             max_frames_num=max_frames, 
@@ -100,36 +161,45 @@ def process_video_with_llava(video_path, prompt_text, max_frames=8):
             force_sample=True
         )
         
-        # Process video frames with image processor
+        # 处理单个视频
         processed_video = image_processor.preprocess(
             video_frames, 
             return_tensors="pt"
-        )["pixel_values"].to(device).bfloat16()
+        )["pixel_values"].to(device).to(torch.float16)
         
+        # 注意这里只使用一个视频
         video = [processed_video]
         
-        # Set up conversation template
+        # 设置会话模板
         conv_template = "qwen_1_5"
         time_instruction = f"The video lasts for {video_time:.2f} seconds, and {len(video[0])} frames are uniformly sampled from it. These frames are located at {frame_time}."
         
-        # Format the question with the prompt
+        # 格式化问题
         question = DEFAULT_IMAGE_TOKEN + f"\n{time_instruction}\n{prompt_text}"
-        
-        # Create conversation
+        print(question)
+        # 创建会话
         conv = copy.deepcopy(conv_templates[conv_template])
         conv.append_message(conv.roles[0], question)
         conv.append_message(conv.roles[1], None)
         prompt_question = conv.get_prompt()
-        
-        # Tokenize input
+        print(prompt_question)
+        # 标记化输入（一次只处理一个）
         input_ids = tokenizer_image_token(
             prompt_question, 
             tokenizer, 
             IMAGE_TOKEN_INDEX, 
             return_tensors="pt"
         ).unsqueeze(0).to(device)
+        print("EOS Token ID:", tokenizer.eos_token_id)
+        print("PAD Token ID:", tokenizer.pad_token_id)
+        # 打印 tokenizer 的一些基本信息
+        print("Vocab size:", tokenizer.vocab_size)
+        print("Special tokens:", tokenizer.all_special_tokens)
+        print("Special token IDs:", tokenizer.all_special_ids)
         
-        # Generate response
+        exclamation_token_id = tokenizer.encode("!", add_special_tokens=False)[0]
+        print(f"'!' token ID: {exclamation_token_id}")
+        # 生成响应
         with torch.no_grad():
             output_ids = model.generate(
                 input_ids,
@@ -137,35 +207,37 @@ def process_video_with_llava(video_path, prompt_text, max_frames=8):
                 modalities=["video"],
                 do_sample=False,
                 temperature=0,
-                max_new_tokens=100,  # Reduced for efficiency
+                max_new_tokens=100,
             )
         
-        # Decode output
+        # 解码输出
         output_text = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
+        print("Image token:", tokenizer.convert_ids_to_tokens([IMAGE_TOKEN_INDEX]))
+        print("Special tokens:", tokenizer.special_tokens_map)
+        print(output_text)
         
-        # Extract model's response (after the prompt)
+        # 提取模型的响应（在提示之后）
         if conv.roles[1] in output_text:
             response = output_text.split(conv.roles[1])[-1].strip()
         else:
             response = output_text.strip()
         
-        # Format for well/poorly
+        # 处理回答格式
         response = response.lower()
-        if "well" in response:
-            return "well"
-        elif "poor" in response:
-            return "poorly"
-        else:
-            return response[:20]  # Truncate long responses
+        # if "well" in response:
+        #     return "well"
+        # elif "poor" in response:
+        #     return "poorly"
+        # else:
+        return response  # 截断长回答
         
     except Exception as e:
         return f"ERROR: {str(e)}"
     finally:
-        # Clean up memory
+        # 清理内存
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
         gc.collect()
-
 # Process all clip info files
 clip_info_files = glob.glob("./clips/*_clips_info.json")
 
