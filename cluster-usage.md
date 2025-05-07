@@ -107,6 +107,9 @@ Step 3: Monitor the Job
 squeue -u hq48  # Check running jobs
 scancel <job_id>  # Cancel a job
 
+Step 4: Job starting time
+squeue --start  # 查看预计开始时间
+
 5. Managing Conda Environments
 
 Since cluster home directories may have limited space, you should create Conda environments in a specific directory.
@@ -216,3 +219,4 @@ Cancel job	scancel <job_id>
 Activate Conda environment	conda activate /home/hq48/vlm-testing/qwen_env
 Install packages	pip install transformers modelscope
 Check GPU usage	nvidia-smi
+Run ollama model	./ollama-linux-amd64 serve
