@@ -5,16 +5,8 @@
 In this experiment, we want to explore how different prompts or VLMs used for text inputing will affect the output of predition models. By testing different prompts and different VLMs, we expect to find the prompts and vlms that will maximize the accuracy of robot predictions.
 
 ## Tests & Experiments
-This research has three different parts:
-1. **LLM Comparison**: 
-   - Compare the performance of different LLMs (GPT-4o, Gemini 2.0 Flash, Qwen-2.5-vl-72b) on video prediction tasks using various prompts.
-   - Evaluate the models' accuracy, precision, recall, F1 score, AUC, MSE, and MAE.
-2. **Local Models**:
-   - Test local models (Qwen-2.5-vl-7b-Instruct, llava-video, Phi-4) on video prediction tasks.
-   - Compare their performance with cloud-based models.
-3. **Text Embeddings**:
-   - Generate text embeddings for video clips using Gemini 2.0 Flash and prompt 4.1.
-   - Analyze the embeddings for potential insights into video content and prediction tasks.
+
+This section documents the prompts and models tested for our current research.
 
 ### Tested Prompts & Responses
 
@@ -24,23 +16,26 @@ This research has three different parts:
 | 2   | "Analyze this video and describe the following aspects in structured format: 1. Objects Present: List the key objects, 2. Actions: Describe what is happening in the scene, 3. Human or Robot Interaction: If applicable, describe interactions, 4. Emotions or Reactions: Identify any human reactions in the scene. 5. Environment: Describe the setting and background." |
 | 3   | "Summarize this video as if explaining it to someone who cannot see it. Focus on key actions, emotions, and interactions. Use clear and vivid language to create a mental picture."                                                                                                                                                                                         |
 | 4   | Give me a sentence describing what's going on in the video, keeping only key elements of scenario shown                                                                                                                                                                                                                                                                     |
-|4.1|Output a sentence describing what's going on in the video, keeping only key elements of the scenario shown that would allow me to predict the outcome of the situation.|
 | 5   | You think this situation ends well or poorly? (Use only one word to answer)                                                                                                                                                                                                                                                                                                 |
-|5.1|Given the scenario shown on the video, You think this situation ends well or poorly? (Use only one word to answer)|
-| 6   | You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)                                                                                                                                                                                                                                                        |
-|6.1|Given the scenario shown on the video, You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)|
+| 6   | You think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)                                                                                                                                                    
+
+| Model               | Accuracy      | Precision     | Recall        | F1            |
+|---------------------|---------------|---------------|---------------|---------------|
+| Gemini (prompt 5.1) | 0.700 ± 0.482 | 0.625 ± 0.458 | 0.769 ± 0.458 | 0.690 ± 0.458 |
+| Gemini (prompt 6.1) | 0.633 ± 0.482 | 0.562 ± 0.458 | 0.692 ± 0.458 | 0.621 ± 0.458 |
+| Qwen (prompt 6.1)   | 0.533 ± 0.482 | 0.476 ± 0.458 | 0.769 ± 0.458 | 0.588 ± 0.458 |
+| Qwen (prompt 5.1)   | 0.500 ± 0.482 | 0.450 ± 0.458 | 0.692 ± 0.458 | 0.545 ± 0.458 |
+| GPT-4o (prompt 6.1) | 0.467 ± 0.482 | 0.400 ± 0.458 | 0.462 ± 0.458 | 0.429 ± 0.458 |
+| GPT-4o (prompt 5.1) | 0.433 ± 0.482 | 0.375 ± 0.458 | 0.462 ± 0.458 | 0.414 ± 0.458 |                                                                                                    |
 
 ### Models & Settings
 
-| **Model**        | **Experiment** |
+| **Model**        | **Other Parameters** |
 | ---------------- | -------------------- |
-| GPT-4o           | LLM comparison      |
-| Gemini 2.0 Flash | LLM comparison         |
-| Qwen-2.5-vl-72b  | LLM comparison             |
-|Qwen|Local Models|
-|llava-video|Local Models|
-|Phi-4|Local Models|
-|Gemini 2.0 Flash|Text Embeddings|
+| GPT-4o           | OpenAI API           |
+| Gemini 2.0 Flash | top_p=0.9            |
+| Qwen-2.5-vl-72b  | top_k=40             |
+
 ## Dataset
 
 Due to the fact that videos might have different names accoss different data files, this is a reference document for video names.
@@ -86,12 +81,12 @@ Example:
 - `Question Mapping` - Question identifiers
 - `True Outcome` - Binary values (0 or 1)
 - Model predictions (all binary 0/1):
-  - `GPT-4o Prediction (prompt 5.1)`
-  - `GPT-4o Prediction (prompt 6.1)`
-  - `Qwen Prediction (prompt 5.1)`
-  - `Qwen Prediction (prompt 6.1)`
-  - `Gemini Prediction (prompt 5.1)`
-  - `Gemini Prediction (prompt 6.1)`
+  - `GPT-4o Prediction (prompt 5)`
+  - `GPT-4o Prediction (prompt 6)`
+  - `Qwen Prediction (prompt 5)`
+  - `Qwen Prediction (prompt 6)`
+  - `Gemini Prediction (prompt 5)`
+  - `Gemini Prediction (prompt 6)`
 
 ### Value Mappings
 
@@ -102,7 +97,7 @@ For binary classification:
 
 ## Results & Discussion
 
-### Experiment 1(LLM Comparsion) Key Findings
+### Key Findings
 
 | Modal               | accuracy | precision | recall | f1    | auc   | mse   | mae   |
 | ------------------- | -------- | --------- | ------ | ----- | ----- | ----- | ----- |
@@ -143,10 +138,6 @@ accuracy: 0.482
 precision: 0.458
 recall: 0.458
 f1: 0.458
-
-### Experiment 2(Local Models) 
-
-### Experiment 3(Text Embeddings)
 
 #### 1. Model Performance vs True Outcomes
 
@@ -207,7 +198,7 @@ The boxplot visualization confirms this pattern, showing much greater variance i
 
 ### Conclusion
 
-This analysis demonstrates that state-of-the-art LLMs can match or exceed average individual human performance on video prediction tasks when properly prompted. Gemini with prompt 5.1 achieves the highest accuracy overall, while GPT4o and Qwen show more variability in performance. 
+This analysis demonstrates that state-of-the-art LLMs can match or exceed average individual human performance on video prediction tasks when properly prompted. Gemini with prompt 5.1 achieves the highest accuracy overall, while GPT4o and Qwen show more variability in performance.
 
 The significant impact of prompt engineering highlights both a challenge and an opportunity—LLM performance can potentially be further improved through careful prompt optimization. The finding that LLMs outperform humans on approximately half of the videos suggests promising avenues for human-AI collaboration in judgment tasks.
 
@@ -223,6 +214,3 @@ The significant impact of prompt engineering highlights both a challenge and an 
 - [x] Compare VLM predictions vs human predictions
 - [x] Compare True Outcome vs human predictions
 - [x] Compare VLM predictions vs True Outcome
-- [x] Download local model Qwen2.5-vl-7b-Instruct
-- [ ] Download more local models
-
