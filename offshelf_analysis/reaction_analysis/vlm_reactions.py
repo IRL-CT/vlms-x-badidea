@@ -272,6 +272,8 @@ def main():
     # Create video folder if it doesn't exist
     os.makedirs(args.video_folder, exist_ok=True)
     
+
+    
     analyzer = VideoAnalyzer(
         model=args.model,
         prompt=args.prompt,
