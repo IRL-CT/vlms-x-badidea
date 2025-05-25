@@ -1,9 +1,10 @@
 """
-Vision Language Model Demo for Webcam Scene Analysis
+Vision Language Model Demo for Video Analysis
 
-This script uses a webcam to capture live video frames and sends them to a Vision-Language Model
-(VLM) for real-time scene analysis and description. The system uses Ollama to access
+This script processes videos from a folder and sends frames to a Vision-Language Model
+(VLM) for analysis and outcome prediction. The system uses Ollama to access
 open-source multimodal models like Llama 3.2 Vision for completely local inference.
+Results are saved to a CSV file.
 """
 
 import cv2
@@ -12,45 +13,43 @@ import base64
 import requests
 import json
 import argparse
+import os
+import csv
 from io import BytesIO
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 import numpy as np
+from pathlib import Path
 
-class VLMDemo:
+class VideoAnalyzer:
     def __init__(self, 
                  model="llama3-2-vision", 
                  prompt="Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)",
                  ollama_url="http://localhost:11434",
-                 camera_id=0,
-                 fps_target=1,
-                 display_width=1280,
-                 display_height=720):
+                 video_folder="./videos",
+                 output_csv="reaction_results.csv",
+                 frame_sample_rate=30):  # Sample every 30th frame
         
         self.model = model
         self.base_prompt = prompt
         self.ollama_url = ollama_url
-        self.camera_id = camera_id
-        self.fps_target = fps_target
-        self.interval = 1.0 / fps_target
-        self.display_width = display_width
-        self.display_height = display_height
+        self.video_folder = video_folder
+        self.output_csv = output_csv
+        self.frame_sample_rate = frame_sample_rate
         
-        # Initialize webcam
-        self.cap = cv2.VideoCapture(self.camera_id)
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+        # Supported video formats
+        self.video_extensions = {'.mp4', '.avi', '.mov', '.mkv', '.wmv', '.flv', '.webm'}
         
-        # Check if camera opened successfully
-        if not self.cap.isOpened():
-            raise ValueError("Error: Could not open webcam.")
-            
-        # Set up font for displaying text
-        self.font = cv2.FONT_HERSHEY_SIMPLEX
+        # Results storage
+        self.results = []
         
-        # Last analysis time and result
-        self.last_analysis_time = 0
-        self.last_result = "Starting analysis..."
-        
+    def get_video_files(self):
+        """Get all video files from the specified folder"""
+        video_files = []
+        for file_path in Path(self.video_folder).iterdir():
+            if file_path.suffix.lower() in self.video_extensions:
+                video_files.append(file_path)
+        return sorted(video_files)
+    
     def frame_to_base64(self, frame):
         """Convert OpenCV frame to base64 for API request"""
         # Convert BGR to RGB (PIL uses RGB)
@@ -68,15 +67,14 @@ class VLMDemo:
         img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
         return img_str
     
-    def analyze_image(self, frame):
-        """Send image to Ollama for analysis"""
+    def analyze_frame(self, frame, video_name):
+        """Send frame to Ollama for analysis"""
         try:
             # Convert frame to base64
             base64_image = self.frame_to_base64(frame)
             
-            # Build the prompt with the current system time
-            current_time = time.strftime("%H:%M:%S")
-            prompt = f"Current time: {current_time}. {self.base_prompt}"
+            # Build the prompt
+            prompt = f"Video: {video_name}. {self.base_prompt}"
             
             # Prepare Ollama API request
             api_url = f"{self.ollama_url}/api/chat"
@@ -97,12 +95,12 @@ class VLMDemo:
             }
             
             # Make the API request
-            response = requests.post(api_url, json=payload)
+            response = requests.post(api_url, json=payload, timeout=60)
             response_data = response.json()
             
             # Extract the response
             if 'message' in response_data:
-                description = response_data['message']['content']
+                description = response_data['message']['content'].strip()
                 return description
             else:
                 return "Error: Could not process the image."
@@ -110,126 +108,180 @@ class VLMDemo:
         except Exception as e:
             return f"Error analyzing image: {str(e)}"
     
-    def overlay_text(self, frame, text):
-        """Overlay text on frame with proper wrapping and formatting"""
-        # Create a dark overlay for better text visibility
-        h, w = frame.shape[:2]
-        overlay = frame.copy()
+    def process_video(self, video_path):
+        """Process a single video file"""
+        video_name = video_path.name
+        print(f"\nProcessing video: {video_name}")
         
-        # Add semi-transparent black overlay at bottom
-        cv2.rectangle(overlay, (0, h - 230), (w, h), (0, 0, 0), -1)
-        cv2.addWeighted(overlay, 0.6, frame, 0.4, 0, frame)
+        # Open video
+        cap = cv2.VideoCapture(str(video_path))
         
-        # Wrap and render text
-        font_scale = 0.7
-        thickness = 1
-        color = (255, 255, 255)
-        max_width = w - 20
-        
-        # Wrap text to multiple lines
-        words = text.split(' ')
-        lines = []
-        current_line = []
-        current_width = 0
-        
-        for word in words:
-            word_width = cv2.getTextSize(word + ' ', self.font, font_scale, thickness)[0][0]
-            if current_width + word_width > max_width:
-                lines.append(' '.join(current_line))
-                current_line = [word]
-                current_width = word_width
-            else:
-                current_line.append(word)
-                current_width += word_width
-                
-        if current_line:
-            lines.append(' '.join(current_line))
-        
-        # Draw lines
-        y_position = h - 210
-        line_height = 30
-        
-        for i, line in enumerate(lines[:6]):  # Limit to 6 lines
-            cv2.putText(frame, line, (10, y_position + i * line_height), 
-                        self.font, font_scale, color, thickness)
+        if not cap.isOpened():
+            print(f"Error: Could not open video {video_name}")
+            return None
             
-        if len(lines) > 6:
-            cv2.putText(frame, "...", (10, y_position + 6 * line_height), 
-                        self.font, font_scale, color, thickness)
+        # Get video properties
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        fps = cap.get(cv2.CAP_PROP_FPS)
+        duration = total_frames / fps if fps > 0 else 0
+        
+        print(f"Video info: {total_frames} frames, {fps:.2f} FPS, {duration:.2f} seconds")
+        
+        # Sample frames from the video
+        sampled_frames = []
+        frame_indices = range(0, total_frames, self.frame_sample_rate)
+        
+        frame_times = []
+        for frame_idx in frame_indices:
+            cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
+            ret, frame = cap.read()
+            if ret:
+                sampled_frames.append(frame)
+                frame_times.append(frame_idx)
             
-        # Add status line at top
-        status = f"Model: {self.model} | Press 'Q' to quit | 'A' to analyze now"
-        cv2.rectangle(frame, (0, 0), (w, 40), (0, 0, 0), -1)
-        cv2.putText(frame, status, (10, 30), self.font, 0.7, (255, 255, 255), 1)
+            if len(sampled_frames) >= 15:  # Limit to 15 frames per video
+                break
+        
+        cap.release()
+        
+        if not sampled_frames:
+            print(f"Error: Could not extract frames from {video_name}")
+            return None
+        
+        print(f"Extracted {len(sampled_frames)} frames for analysis")
+        
+        # Analyze frames and collect responses
+        responses = []
+        video_names = []
+        for i, frame in enumerate(sampled_frames):
+            print(f"Analyzing frame {i+1}/{len(sampled_frames)}...")
+            response = self.analyze_frame(frame, video_name)
+            responses.append(response)
+            print(f"Response: {response}")
+            video_names.append(video_name)
+            time.sleep(1)  # Small delay to avoid overwhelming the API
+        
+        # Combine responses or take the most common one
+        # For now, we'll take the first valid response
+        
+        #for response in responses:
+        #    if not response.startswith("Error"):
+        #        final_response.append(response)
+        #        video_names.append(video_name)
+        #    else:
+        #        print(f"Skipping error response: {response}")
+        #        break
+        
+        #if final_response is None:
+        #    final_response = responses[0] if responses else "No response"
+        
+        return video_names, frame_times, responses
+    
+    def save_results_to_csv(self):
+        """Save results to CSV file"""
+        if not self.results:
+            print("No results to save.")
+            return
+            
+        #create csv file and save results, knowing that it's 3 columns, video_name, frame_time, outcome_prediction
+        with open(self.output_csv, mode='w', newline='', encoding='utf-8') as csvfile:
+            fieldnames = ['video_name','frame', 'outcome_prediction']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            
+            writer.writeheader()
+            for result in self.results:
+                writer.writerow(result)
+        
+        print(f"\nResults saved to {self.output_csv}")
+        print(f"Total videos processed: {len(self.results)}")
     
     def run(self):
-        """Main loop for capturing and analyzing frames"""
-        print(f"Starting webcam analysis with {self.model}...")
-        print(f"Press 'Q' to quit or 'A' to force analysis of current frame")
+        """Main method to process all videos in the folder"""
+        print(f"Starting video analysis with {self.model}...")
+        print(f"Video folder: {self.video_folder}")
+        print(f"Output CSV: {self.output_csv}")
+        print(f"Prompt: {self.base_prompt}")
         
-        while True:
-            # Capture frame
-            ret, frame = self.cap.read()
-            if not ret:
-                print("Failed to capture frame. Exiting...")
-                break
-                
-            # Calculate time elapsed since last analysis
-            current_time = time.time()
-            time_elapsed = current_time - self.last_analysis_time
-            
-            # Create a copy for display
-            display_frame = frame.copy()
-            
-            # Check if it's time to analyze or if user pressed 'A'
-            key = cv2.waitKey(1) & 0xFF
-            if (time_elapsed >= self.interval) or (key == ord('a')):
-                print("Analyzing current frame...")
-                self.last_analysis_time = current_time
-                
-                # Run analysis in the main thread
-                self.last_result = self.analyze_image(frame)
-                print(f"Analysis result: {self.last_result}")
-            
-            # Overlay the most recent result
-            self.overlay_text(display_frame, self.last_result)
-            
-            # Display frame
-            cv2.imshow('VLM Demo - Scene Analysis', display_frame)
-            
-            # Check for exit
-            if key == ord('q'):
-                break
-                
-        # Release resources
-        self.cap.release()
-        cv2.destroyAllWindows()
+        # Get all video files
+        video_files = self.get_video_files()
         
+        if not video_files:
+            print(f"No video files found in {self.video_folder}")
+            print(f"Supported formats: {', '.join(self.video_extensions)}")
+            return
+        
+        print(f"Found {len(video_files)} video files")
+        
+        # Process each video
+        for i, video_path in enumerate(video_files, 1):
+            print(f"\n{'='*50}")
+            print(f"Processing video {i}/{len(video_files)}")
+            
+            try:
+                result = self.process_video(video_path)
+                
+
+                if result:
+                    #self.results.append({
+                    #    'video_name': result[0][0],  # video name
+                    #    'frame': result[1],  # frame times
+                    #    'outcome_prediction': result
+                    #})
+                    # Append results to the list
+                    for j in range(len(result[0])):
+                        self.results.append({
+                            'video_name': result[0][j],  # video name
+                            'frame': result[1][j],  # frame times
+                            'outcome_prediction': result[2][j]  # outcome prediction
+                        })
+                    print(f"Final prediction for {video_path.name}: {result[2][0]}")
+                else:
+                    print(f"Failed to process {video_path.name}")
+                    
+            except Exception as e:
+                print(f"Error processing {video_path.name}: {str(e)}")
+                self.results.append({
+                    'video_name': video_path.name,
+                    'outcome_prediction': f"Error: {str(e)}"
+                })
+        
+        # Save results to CSV
+        self.save_results_to_csv()
+        
+        print(f"\n{'='*50}")
+        print("Analysis complete!")
+
 def main():
-    parser = argparse.ArgumentParser(description='Webcam Scene Analysis using Vision-Language Models')
+    parser = argparse.ArgumentParser(description='Video Analysis using Vision-Language Models')
     parser.add_argument('--model', type=str, default='llama3-2-vision', 
                         help='Ollama model to use (default: llama3-2-vision)')
     parser.add_argument('--prompt', type=str, 
-                        default='Describe what you see in detail, including people, objects, actions, and the setting.',
+                        default='Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)',
                         help='Prompt for the vision model')
-    parser.add_argument('--camera', type=int, default=0, 
-                        help='Camera device ID (default: 0)')
-    parser.add_argument('--fps', type=float, default=0.2,
-                        help='Target analysis frames per second (default: 0.2 - once every 5 seconds)')
+    parser.add_argument('--video-folder', type=str, default='./videos',
+                        help='Folder containing video files (default: ./videos)')
+    parser.add_argument('--output-csv', type=str, default='results.csv',
+                        help='Output CSV file name (default: results.csv)')
+    parser.add_argument('--frame-sample-rate', type=int, default=30,
+                        help='Sample every Nth frame from video (default: 30)')
     parser.add_argument('--ollama-url', type=str, default='http://localhost:11434',
                         help='Ollama API URL (default: http://localhost:11434)')
     
     args = parser.parse_args()
     
-    demo = VLMDemo(
+    # Create video folder if it doesn't exist
+    os.makedirs(args.video_folder, exist_ok=True)
+    
+    analyzer = VideoAnalyzer(
         model=args.model,
         prompt=args.prompt,
         ollama_url=args.ollama_url,
-        camera_id=args.camera,
-        fps_target=args.fps
+        video_folder=args.video_folder,
+        output_csv=args.output_csv,
+        frame_sample_rate=args.frame_sample_rate
     )
     
-    demo.run()
+    analyzer.run()
 
 if __name__ == "__main__":
     main()

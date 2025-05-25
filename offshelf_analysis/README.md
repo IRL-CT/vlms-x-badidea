@@ -11,6 +11,9 @@
 
 ## Tested Prompts & Responses
 
+
+### Scenario Analysis
+
 | No. | **Prompts**                                                                                                                                                                                                                                                                                                                                                                 |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | "Describe the content of this video in detail. Include information about the environment, objects, people or robots, and their actions. Provide a coherent narrative that explains what is happening in the scene"                                                                                                                                                          |
@@ -20,6 +23,16 @@
 |4.1|Output a sentence describing what's going on in the video, keeping only key elements of the scenario shown that would allow me to predict the outcome of the situation.|                                                                                                                                      
 |5 |Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)|
 |6|Given the scenario shown on the video, you think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)|
+
+
+### Reaction analysis
+
+| No. | **Prompts**                                                                                                                                                                                                                                                                                                                                                                 |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+|1 |Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)|
+|2 | Given the reaction shown on the video, you think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)|
+
 
 
 ### Models & Settings
