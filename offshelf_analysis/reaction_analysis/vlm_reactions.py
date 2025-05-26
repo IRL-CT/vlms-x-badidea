@@ -166,7 +166,8 @@ class VideoAnalyzer:
             print(f"Response: {response}")
             video_names.append(video_name)
             time.sleep(1)  # Small delay to avoid overwhelming the API
-            
+            #if i >= 2:
+            #    break  # For testing, limit to first 3 frames
         
         # Combine responses or take the most common one
         # For now, we'll take the first valid response

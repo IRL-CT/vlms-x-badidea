@@ -1,0 +1,882 @@
+nohup: ignoring input
+Starting video analysis with llama3.2-vision...
+Video folder: ../../../data/final_cut_videos/
+Output CSV: ./test_results.csv
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Found 30 video files
+
+==================================================
+Processing video 1/30
+
+Processing video: 11_final.mp4
+Video info: 424 frames, 30.00 FPS, 14.13 seconds
+Extracted 29 frames for analysis
+Analyzing frame 1/29...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31960 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:10:04.309236811Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121633673987, 'load_duration': 42980689, 'prompt_eval_count': 35, 'prompt_eval_duration': 121470138575, 'eval_count': 4, 'eval_duration': 118651177}
+Response: Poorly.
+Analyzing frame 2/29...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32712 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:12:06.817326986Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121462366994, 'load_duration': 39773960, 'prompt_eval_count': 35, 'prompt_eval_duration': 121302898822, 'eval_count': 4, 'eval_duration': 116745938}
+Response: Poorly.
+Analyzing frame 3/29...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32356 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:14:04.089430965Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116231425103, 'load_duration': 21423574, 'prompt_eval_count': 35, 'prompt_eval_duration': 116092805269, 'eval_count': 4, 'eval_duration': 115939793}
+Response: Poorly.
+Final prediction for 11_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 3
+
+==================================================
+Processing video 2/30
+
+Processing video: 12_final.mp4
+Video info: 217 frames, 30.00 FPS, 7.23 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22400 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:16:05.898912187Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120134108607, 'load_duration': 26112086, 'prompt_eval_count': 35, 'prompt_eval_duration': 119988388474, 'eval_count': 4, 'eval_duration': 118347528}
+Response: Poorly.
+Analyzing frame 2/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21820 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:18:08.591536773Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121650170312, 'load_duration': 43794794, 'prompt_eval_count': 35, 'prompt_eval_duration': 121487791057, 'eval_count': 4, 'eval_duration': 117016255}
+Response: Poorly.
+Analyzing frame 3/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21460 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:20:04.745174705Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115113892575, 'load_duration': 20514312, 'prompt_eval_count': 35, 'prompt_eval_duration': 114972235768, 'eval_count': 4, 'eval_duration': 119873957}
+Response: Poorly.
+Final prediction for 12_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 6
+
+==================================================
+Processing video 3/30
+
+Processing video: 14_final.mp4
+Video info: 388 frames, 30.00 FPS, 12.93 seconds
+Extracted 26 frames for analysis
+Analyzing frame 1/26...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31284 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:22:10.187487344Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123363153353, 'load_duration': 29616239, 'prompt_eval_count': 35, 'prompt_eval_duration': 123209411953, 'eval_count': 4, 'eval_duration': 122593504}
+Response: Poorly.
+Analyzing frame 2/26...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31356 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:24:04.426823084Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113200451236, 'load_duration': 42291961, 'prompt_eval_count': 35, 'prompt_eval_duration': 113030853523, 'eval_count': 4, 'eval_duration': 126017296}
+Response: Poorly.
+Analyzing frame 3/26...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31616 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:26:01.61750779Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116148410865, 'load_duration': 21952936, 'prompt_eval_count': 35, 'prompt_eval_duration': 116009025120, 'eval_count': 4, 'eval_duration': 116111704}
+Response: Poorly.
+Final prediction for 14_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 9
+
+==================================================
+Processing video 4/30
+
+Processing video: 15_final.mp4
+Video info: 217 frames, 30.00 FPS, 7.23 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34364 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:28:02.304063021Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 118944082044, 'load_duration': 33301116, 'prompt_eval_count': 35, 'prompt_eval_duration': 118790088922, 'eval_count': 4, 'eval_duration': 119333792}
+Response: Poorly.
+Analyzing frame 2/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34096 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:29:55.266566459Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111922477143, 'load_duration': 38540180, 'prompt_eval_count': 35, 'prompt_eval_duration': 111767082217, 'eval_count': 4, 'eval_duration': 115299149}
+Response: Poorly.
+Analyzing frame 3/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34520 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:31:49.954321415Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113650848930, 'load_duration': 41163224, 'prompt_eval_count': 35, 'prompt_eval_duration': 113489132490, 'eval_count': 4, 'eval_duration': 118743614}
+Response: Poorly.
+Final prediction for 15_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 12
+
+==================================================
+Processing video 5/30
+
+Processing video: 19_final.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31332 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:33:45.263037138Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113540277242, 'load_duration': 35818680, 'prompt_eval_count': 35, 'prompt_eval_duration': 113381610875, 'eval_count': 4, 'eval_duration': 120890391}
+Response: Poorly.
+Analyzing frame 2/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33328 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:36:01.151488928Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 134849948670, 'load_duration': 40194593, 'prompt_eval_count': 35, 'prompt_eval_duration': 134688433019, 'eval_count': 4, 'eval_duration': 119433093}
+Response: Poorly.
+Analyzing frame 3/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32920 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:37:55.803525949Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113613837927, 'load_duration': 54590438, 'prompt_eval_count': 35, 'prompt_eval_duration': 113439597127, 'eval_count': 4, 'eval_duration': 118067778}
+Response: Poorly.
+Final prediction for 19_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 15
+
+==================================================
+Processing video 6/30
+
+Processing video: 21_final.mp4
+Video info: 328 frames, 30.00 FPS, 10.93 seconds
+Extracted 22 frames for analysis
+Analyzing frame 1/22...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13952 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:40:08.285557612Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116797273701, 'load_duration': 39539075, 'prompt_eval_count': 35, 'prompt_eval_duration': 116637332291, 'eval_count': 4, 'eval_duration': 119046715}
+Response: Poorly.
+Analyzing frame 2/22...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14128 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:42:01.925218776Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112599530677, 'load_duration': 41770808, 'prompt_eval_count': 35, 'prompt_eval_duration': 112437988811, 'eval_count': 4, 'eval_duration': 118509351}
+Response: Poorly.
+Analyzing frame 3/22...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14140 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:43:59.239915168Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116276670837, 'load_duration': 20270289, 'prompt_eval_count': 35, 'prompt_eval_duration': 116140406964, 'eval_count': 4, 'eval_duration': 114650551}
+Response: Poorly.
+Final prediction for 21_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 18
+
+==================================================
+Processing video 7/30
+
+Processing video: 22_final.mp4
+Video info: 206 frames, 30.00 FPS, 6.87 seconds
+Extracted 14 frames for analysis
+Analyzing frame 1/14...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17868 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:46:06.527573516Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111867927731, 'load_duration': 32333850, 'prompt_eval_count': 35, 'prompt_eval_duration': 111716026897, 'eval_count': 4, 'eval_duration': 118375444}
+Response: Poorly.
+Analyzing frame 2/14...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17764 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:48:02.560979628Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114993966070, 'load_duration': 20414812, 'prompt_eval_count': 35, 'prompt_eval_duration': 114856257555, 'eval_count': 4, 'eval_duration': 115923892}
+Response: Poorly.
+Analyzing frame 3/14...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17776 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:50:00.61090516Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 117008197486, 'load_duration': 42804055, 'prompt_eval_count': 35, 'prompt_eval_duration': 116848522206, 'eval_count': 4, 'eval_duration': 116004909}
+Response: Poorly.
+Final prediction for 22_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 21
+
+==================================================
+Processing video 8/30
+
+Processing video: 24_final.mp4
+Video info: 374 frames, 30.00 FPS, 12.47 seconds
+Extracted 25 frames for analysis
+Analyzing frame 1/25...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38968 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:52:12.987032284Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116241325910, 'load_duration': 37560043, 'prompt_eval_count': 35, 'prompt_eval_duration': 116084850698, 'eval_count': 4, 'eval_duration': 117491589}
+Response: Poorly.
+Analyzing frame 2/25...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37120 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:54:13.985120694Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 119958140098, 'load_duration': 40691371, 'prompt_eval_count': 35, 'prompt_eval_duration': 119796254973, 'eval_count': 4, 'eval_duration': 119409759}
+Response: Poorly.
+Analyzing frame 3/25...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 39472 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:56:08.304043236Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113276590176, 'load_duration': 42384024, 'prompt_eval_count': 35, 'prompt_eval_duration': 113113573103, 'eval_count': 4, 'eval_duration': 118766704}
+Response: Poorly.
+Final prediction for 24_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 24
+
+==================================================
+Processing video 9/30
+
+Processing video: 29_final.mp4
+Video info: 218 frames, 30.00 FPS, 7.27 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15692 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T14:58:16.995516765Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113276570572, 'load_duration': 31528867, 'prompt_eval_count': 35, 'prompt_eval_duration': 113128552623, 'eval_count': 4, 'eval_duration': 115396881}
+Response: Poorly.
+Analyzing frame 2/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15864 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:00:14.265618095Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116231729529, 'load_duration': 21189057, 'prompt_eval_count': 35, 'prompt_eval_duration': 116093342227, 'eval_count': 4, 'eval_duration': 115822708}
+Response: Poorly.
+Analyzing frame 3/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16368 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:02:17.979517874Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122672222340, 'load_duration': 42398551, 'prompt_eval_count': 35, 'prompt_eval_duration': 122510684844, 'eval_count': 4, 'eval_duration': 118043445}
+Response: Poorly.
+Final prediction for 29_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 27
+
+==================================================
+Processing video 10/30
+
+Processing video: 30_final.mp4
+Video info: 377 frames, 30.00 FPS, 12.57 seconds
+Extracted 26 frames for analysis
+Analyzing frame 1/26...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16428 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:04:28.624633859Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115360756662, 'load_duration': 29732929, 'prompt_eval_count': 35, 'prompt_eval_duration': 115212015739, 'eval_count': 4, 'eval_duration': 118123351}
+Response: Poorly.
+Analyzing frame 2/26...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15828 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:06:26.555377537Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116898999496, 'load_duration': 40727112, 'prompt_eval_count': 35, 'prompt_eval_duration': 116736775478, 'eval_count': 4, 'eval_duration': 120148008}
+Response: Poorly.
+Analyzing frame 3/26...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17508 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:08:26.565502094Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 118978423058, 'load_duration': 41463631, 'prompt_eval_count': 35, 'prompt_eval_duration': 118814863121, 'eval_count': 4, 'eval_duration': 120123930}
+Response: Poorly.
+Final prediction for 30_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 30
+
+==================================================
+Processing video 11/30
+
+Processing video: 31_final.mp4
+Video info: 296 frames, 30.00 FPS, 9.87 seconds
+Extracted 20 frames for analysis
+Analyzing frame 1/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26420 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:10:37.184793229Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114875814800, 'load_duration': 32596839, 'prompt_eval_count': 35, 'prompt_eval_duration': 114724262829, 'eval_count': 4, 'eval_duration': 117188909}
+Response: Poorly.
+Analyzing frame 2/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26428 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:12:33.851020192Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115625829910, 'load_duration': 21838785, 'prompt_eval_count': 35, 'prompt_eval_duration': 115482613041, 'eval_count': 4, 'eval_duration': 118891026}
+Response: Poorly.
+Analyzing frame 3/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26532 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:14:31.235176625Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116344782788, 'load_duration': 20982134, 'prompt_eval_count': 35, 'prompt_eval_duration': 116205544274, 'eval_count': 4, 'eval_duration': 116600041}
+Response: Poorly.
+Final prediction for 31_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 33
+
+==================================================
+Processing video 12/30
+
+Processing video: 33_final.mp4
+Video info: 221 frames, 30.00 FPS, 7.37 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 51524 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:16:44.565683603Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 117725150458, 'load_duration': 22043332, 'prompt_eval_count': 35, 'prompt_eval_duration': 117588373779, 'eval_count': 4, 'eval_duration': 112915914}
+Response: Poorly.
+Analyzing frame 2/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 52056 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:18:42.411237816Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116803179996, 'load_duration': 22928639, 'prompt_eval_count': 35, 'prompt_eval_duration': 116658469498, 'eval_count': 4, 'eval_duration': 119708821}
+Response: Poorly.
+Analyzing frame 3/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 52508 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:20:38.681799925Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115227869882, 'load_duration': 41312256, 'prompt_eval_count': 35, 'prompt_eval_duration': 115065403893, 'eval_count': 4, 'eval_duration': 119408744}
+Response: Poorly.
+Final prediction for 33_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 36
+
+==================================================
+Processing video 13/30
+
+Processing video: 34_final.mp4
+Video info: 213 frames, 30.00 FPS, 7.10 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29196 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:22:48.306492037Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114123078617, 'load_duration': 23060166, 'prompt_eval_count': 35, 'prompt_eval_duration': 113982137016, 'eval_count': 4, 'eval_duration': 115692729}
+Response: Poorly.
+Analyzing frame 2/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29224 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:24:42.178181281Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112832316594, 'load_duration': 21141026, 'prompt_eval_count': 35, 'prompt_eval_duration': 112692849003, 'eval_count': 4, 'eval_duration': 116747884}
+Response: Poorly.
+Analyzing frame 3/15...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29504 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:26:42.965971634Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 119745777443, 'load_duration': 22431910, 'prompt_eval_count': 35, 'prompt_eval_duration': 119603790752, 'eval_count': 4, 'eval_duration': 117860451}
+Response: Poorly.
+Final prediction for 34_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 39
+
+==================================================
+Processing video 14/30
+
+Processing video: 40_final.mp4
+Video info: 252 frames, 30.00 FPS, 8.40 seconds
+Extracted 17 frames for analysis
+Analyzing frame 1/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23532 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:29:00.772361904Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122337671923, 'load_duration': 19315965, 'prompt_eval_count': 35, 'prompt_eval_duration': 122199368212, 'eval_count': 4, 'eval_duration': 117834558}
+Response: Poorly.
+Analyzing frame 2/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23584 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:31:03.867314749Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122055612615, 'load_duration': 23016603, 'prompt_eval_count': 35, 'prompt_eval_duration': 121910631555, 'eval_count': 4, 'eval_duration': 120590433}
+Response: Poorly.
+Analyzing frame 3/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23584 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:32:58.292884952Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113382492677, 'load_duration': 21382286, 'prompt_eval_count': 35, 'prompt_eval_duration': 113236638883, 'eval_count': 4, 'eval_duration': 123449073}
+Response: Poorly.
+Final prediction for 40_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 42
+
+==================================================
+Processing video 15/30
+
+Processing video: 41_final.mp4
+Video info: 272 frames, 30.00 FPS, 9.07 seconds
+Extracted 19 frames for analysis
+Analyzing frame 1/19...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33688 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:35:10.693504109Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116341636975, 'load_duration': 27422514, 'prompt_eval_count': 35, 'prompt_eval_duration': 116194318053, 'eval_count': 4, 'eval_duration': 118854430}
+Response: Poorly.
+Analyzing frame 2/19...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34412 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:37:07.809213822Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116072882336, 'load_duration': 23354561, 'prompt_eval_count': 35, 'prompt_eval_duration': 115922304589, 'eval_count': 4, 'eval_duration': 124082638}
+Response: Poorly.
+Analyzing frame 3/19...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34440 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:39:02.603551422Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113755096697, 'load_duration': 40089961, 'prompt_eval_count': 35, 'prompt_eval_duration': 113594510214, 'eval_count': 4, 'eval_duration': 118736679}
+Response: Poorly.
+Final prediction for 41_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 45
+
+==================================================
+Processing video 16/30
+
+Processing video: 44_final.mp4
+Video info: 231 frames, 30.00 FPS, 7.70 seconds
+Extracted 16 frames for analysis
+Analyzing frame 1/16...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15792 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:41:12.556517821Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114651976049, 'load_duration': 36422940, 'prompt_eval_count': 35, 'prompt_eval_duration': 114492574134, 'eval_count': 4, 'eval_duration': 121391452}
+Response: Poorly.
+Analyzing frame 2/16...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15780 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:43:06.315505764Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112721025968, 'load_duration': 20893052, 'prompt_eval_count': 35, 'prompt_eval_duration': 112581056091, 'eval_count': 4, 'eval_duration': 117999128}
+Response: Poorly.
+Analyzing frame 3/16...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16148 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:45:00.8246154Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113467993276, 'load_duration': 19909782, 'prompt_eval_count': 35, 'prompt_eval_duration': 113330529956, 'eval_count': 4, 'eval_duration': 115598934}
+Response: Poorly.
+Final prediction for 44_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 48
+
+==================================================
+Processing video 17/30
+
+Processing video: 46_final.mp4
+Video info: 300 frames, 30.00 FPS, 10.00 seconds
+Extracted 20 frames for analysis
+Analyzing frame 1/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53112 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:47:10.851540583Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114535381181, 'load_duration': 23316705, 'prompt_eval_count': 35, 'prompt_eval_duration': 114391734136, 'eval_count': 4, 'eval_duration': 118444167}
+Response: Poorly.
+Analyzing frame 2/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53492 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:49:06.479718939Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114585483432, 'load_duration': 41728688, 'prompt_eval_count': 35, 'prompt_eval_duration': 114423917349, 'eval_count': 4, 'eval_duration': 117963687}
+Response: Poorly.
+Analyzing frame 3/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53036 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:51:01.123550976Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113600758660, 'load_duration': 39798951, 'prompt_eval_count': 35, 'prompt_eval_duration': 113440123269, 'eval_count': 4, 'eval_duration': 118659616}
+Response: Poorly.
+Final prediction for 46_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 51
+
+==================================================
+Processing video 18/30
+
+Processing video: 48_final.mp4
+Video info: 242 frames, 30.00 FPS, 8.07 seconds
+Extracted 17 frames for analysis
+Analyzing frame 1/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37944 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:52:59.125028015Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116114293393, 'load_duration': 47589432, 'prompt_eval_count': 35, 'prompt_eval_duration': 115945079217, 'eval_count': 4, 'eval_duration': 120437029}
+Response: Poorly.
+Analyzing frame 2/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38100 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:54:52.654929919Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112487434537, 'load_duration': 23548675, 'prompt_eval_count': 35, 'prompt_eval_duration': 112347574826, 'eval_count': 4, 'eval_duration': 115076034}
+Response: Poorly.
+Analyzing frame 3/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38304 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:56:46.964516319Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113267105593, 'load_duration': 41720141, 'prompt_eval_count': 35, 'prompt_eval_duration': 113104727329, 'eval_count': 4, 'eval_duration': 118688805}
+Response: Poorly.
+Final prediction for 48_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 54
+
+==================================================
+Processing video 19/30
+
+Processing video: 49_final.mp4
+Video info: 350 frames, 30.00 FPS, 11.67 seconds
+Extracted 24 frames for analysis
+Analyzing frame 1/24...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37568 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T15:59:01.424409165Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 118478650468, 'load_duration': 20377740, 'prompt_eval_count': 35, 'prompt_eval_duration': 118336913145, 'eval_count': 4, 'eval_duration': 118441944}
+Response: Poorly.
+Analyzing frame 2/24...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38632 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:00:58.385392261Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115921369277, 'load_duration': 22515572, 'prompt_eval_count': 35, 'prompt_eval_duration': 115779836945, 'eval_count': 4, 'eval_duration': 118047852}
+Response: Poorly.
+Analyzing frame 3/24...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38472 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:02:52.122381733Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112696826845, 'load_duration': 40100888, 'prompt_eval_count': 35, 'prompt_eval_duration': 112535933445, 'eval_count': 4, 'eval_duration': 118964463}
+Response: Poorly.
+Final prediction for 49_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 57
+
+==================================================
+Processing video 20/30
+
+Processing video: 50_final.mp4
+Video info: 268 frames, 30.00 FPS, 8.93 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29552 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:05:03.251598802Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115378644827, 'load_duration': 23315395, 'prompt_eval_count': 35, 'prompt_eval_duration': 115235090048, 'eval_count': 4, 'eval_duration': 118706279}
+Response: Poorly.
+Analyzing frame 2/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29780 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:07:00.893405069Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116598817347, 'load_duration': 20771918, 'prompt_eval_count': 35, 'prompt_eval_duration': 116455961393, 'eval_count': 4, 'eval_duration': 120642042}
+Response: Poorly.
+Analyzing frame 3/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29196 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:08:54.015957098Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112082776946, 'load_duration': 40139669, 'prompt_eval_count': 35, 'prompt_eval_duration': 111922155399, 'eval_count': 4, 'eval_duration': 118870986}
+Response: Poorly.
+Final prediction for 50_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 60
+
+==================================================
+Processing video 21/30
+
+Processing video: 52_final.mp4
+Video info: 597 frames, 30.00 FPS, 19.90 seconds
+Extracted 40 frames for analysis
+Analyzing frame 1/40...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22936 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:11:06.846386164Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116561876944, 'load_duration': 20170505, 'prompt_eval_count': 35, 'prompt_eval_duration': 116424976023, 'eval_count': 4, 'eval_duration': 115589698}
+Response: Poorly.
+Analyzing frame 2/40...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22968 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:13:01.307318425Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113419580017, 'load_duration': 22950760, 'prompt_eval_count': 35, 'prompt_eval_duration': 113279418326, 'eval_count': 4, 'eval_duration': 115833426}
+Response: Poorly.
+Analyzing frame 3/40...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22960 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:14:54.932201135Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112584668202, 'load_duration': 23482745, 'prompt_eval_count': 35, 'prompt_eval_duration': 112434511459, 'eval_count': 4, 'eval_duration': 125218211}
+Response: Poorly.
+Final prediction for 52_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 63
+
+==================================================
+Processing video 22/30
+
+Processing video: 53_final.mp4
+Video info: 328 frames, 30.00 FPS, 10.93 seconds
+Extracted 22 frames for analysis
+Analyzing frame 1/22...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19180 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:16:49.323824975Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112454147111, 'load_duration': 20045582, 'prompt_eval_count': 35, 'prompt_eval_duration': 112318149157, 'eval_count': 4, 'eval_duration': 114769544}
+Response: Poorly.
+Analyzing frame 2/22...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18688 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:18:45.407520561Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115045941683, 'load_duration': 41402754, 'prompt_eval_count': 35, 'prompt_eval_duration': 114884154116, 'eval_count': 4, 'eval_duration': 119202999}
+Response: Poorly.
+Analyzing frame 3/22...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19072 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:20:39.146449759Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112698165753, 'load_duration': 40010297, 'prompt_eval_count': 35, 'prompt_eval_duration': 112538905826, 'eval_count': 4, 'eval_duration': 118220338}
+Response: Poorly.
+Final prediction for 53_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 66
+
+==================================================
+Processing video 23/30
+
+Processing video: 54_final.mp4
+Video info: 260 frames, 30.00 FPS, 8.67 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38332 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:22:50.148787124Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115119488275, 'load_duration': 37565108, 'prompt_eval_count': 35, 'prompt_eval_duration': 114961676823, 'eval_count': 4, 'eval_duration': 118861468}
+Response: Poorly.
+Analyzing frame 2/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38540 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:24:43.059159819Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111868135149, 'load_duration': 40456712, 'prompt_eval_count': 35, 'prompt_eval_duration': 111706573882, 'eval_count': 4, 'eval_duration': 119395505}
+Response: Poorly.
+Analyzing frame 3/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 36476 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:26:36.98280414Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112880306734, 'load_duration': 41847470, 'prompt_eval_count': 35, 'prompt_eval_duration': 112715983736, 'eval_count': 4, 'eval_duration': 120557163}
+Response: Poorly.
+Final prediction for 54_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 69
+
+==================================================
+Processing video 24/30
+
+Processing video: 55_final.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 80872 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:28:47.822344734Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 114447622208, 'load_duration': 51151435, 'prompt_eval_count': 35, 'prompt_eval_duration': 114277375049, 'eval_count': 4, 'eval_duration': 116278428}
+Response: Poorly.
+Analyzing frame 2/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81460 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:30:40.744199303Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111877938678, 'load_duration': 21367110, 'prompt_eval_count': 35, 'prompt_eval_duration': 111734463189, 'eval_count': 4, 'eval_duration': 119067465}
+Response: Poorly.
+Analyzing frame 3/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81736 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:32:35.556553228Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113770453577, 'load_duration': 21350035, 'prompt_eval_count': 35, 'prompt_eval_duration': 113623502915, 'eval_count': 4, 'eval_duration': 121438358}
+Response: Poorly.
+Final prediction for 55_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 72
+
+==================================================
+Processing video 25/30
+
+Processing video: 57_final.mp4
+Video info: 275 frames, 30.00 FPS, 9.17 seconds
+Extracted 19 frames for analysis
+Analyzing frame 1/19...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34316 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:34:44.065543585Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113029164141, 'load_duration': 26306137, 'prompt_eval_count': 35, 'prompt_eval_duration': 112882663733, 'eval_count': 4, 'eval_duration': 118627737}
+Response: Poorly.
+Analyzing frame 2/19...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34220 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:36:41.929567659Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116825093207, 'load_duration': 22137104, 'prompt_eval_count': 35, 'prompt_eval_duration': 116682784018, 'eval_count': 4, 'eval_duration': 118612193}
+Response: Poorly.
+Analyzing frame 3/19...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34628 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:38:35.559653572Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112590978620, 'load_duration': 42170529, 'prompt_eval_count': 35, 'prompt_eval_duration': 112426096782, 'eval_count': 4, 'eval_duration': 119723022}
+Response: Poorly.
+Final prediction for 57_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 75
+
+==================================================
+Processing video 26/30
+
+Processing video: 59_final.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21268 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:40:47.05285433Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116660723524, 'load_duration': 29609641, 'prompt_eval_count': 35, 'prompt_eval_duration': 116511420805, 'eval_count': 4, 'eval_duration': 118380619}
+Response: Poorly.
+Analyzing frame 2/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21664 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:42:43.538723965Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 115444813864, 'load_duration': 39526680, 'prompt_eval_count': 35, 'prompt_eval_duration': 115288792042, 'eval_count': 4, 'eval_duration': 115315584}
+Response: Poorly.
+Analyzing frame 3/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21808 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:44:45.541940128Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120963501859, 'load_duration': 20857406, 'prompt_eval_count': 35, 'prompt_eval_duration': 120820379661, 'eval_count': 4, 'eval_duration': 121292633}
+Response: Poorly.
+Final prediction for 59_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 78
+
+==================================================
+Processing video 27/30
+
+Processing video: 60_final.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 57640 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:46:53.509994756Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111996240954, 'load_duration': 37433270, 'prompt_eval_count': 35, 'prompt_eval_duration': 111836968919, 'eval_count': 4, 'eval_duration': 120495536}
+Response: Poorly.
+Analyzing frame 2/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 56664 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:48:46.475425598Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111923841589, 'load_duration': 40174182, 'prompt_eval_count': 35, 'prompt_eval_duration': 111754879429, 'eval_count': 4, 'eval_duration': 127718756}
+Response: Poorly.
+Analyzing frame 3/18...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 57208 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:50:40.723828185Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113206955425, 'load_duration': 39919879, 'prompt_eval_count': 35, 'prompt_eval_duration': 113048100300, 'eval_count': 4, 'eval_duration': 116731630}
+Response: Poorly.
+Final prediction for 60_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 81
+
+==================================================
+Processing video 28/30
+
+Processing video: 6_final.mp4
+Video info: 184 frames, 30.00 FPS, 6.13 seconds
+Extracted 13 frames for analysis
+Analyzing frame 1/13...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24564 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:52:47.848985556Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111789740487, 'load_duration': 30482620, 'prompt_eval_count': 35, 'prompt_eval_duration': 111638843028, 'eval_count': 4, 'eval_duration': 118893112}
+Response: Poorly.
+Analyzing frame 2/13...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24692 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:54:40.80751053Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111921153478, 'load_duration': 40197201, 'prompt_eval_count': 35, 'prompt_eval_duration': 111760124854, 'eval_count': 4, 'eval_duration': 119805415}
+Response: Poorly.
+Analyzing frame 3/13...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25460 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:56:34.63248025Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 112785729548, 'load_duration': 20744762, 'prompt_eval_count': 35, 'prompt_eval_duration': 112643826176, 'eval_count': 4, 'eval_duration': 119544366}
+Response: Poorly.
+Final prediction for 6_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 84
+
+==================================================
+Processing video 29/30
+
+Processing video: 7_final.mp4
+Video info: 244 frames, 30.00 FPS, 8.13 seconds
+Extracted 17 frames for analysis
+Analyzing frame 1/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18172 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T16:58:43.716284569Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 113565029977, 'load_duration': 37960032, 'prompt_eval_count': 35, 'prompt_eval_duration': 113406313149, 'eval_count': 4, 'eval_duration': 119476161}
+Response: Poorly.
+Analyzing frame 2/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18596 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T17:00:41.160663436Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116403914455, 'load_duration': 41137738, 'prompt_eval_count': 35, 'prompt_eval_duration': 116242045873, 'eval_count': 4, 'eval_duration': 119423765}
+Response: Poorly.
+Analyzing frame 3/17...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18948 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T17:02:39.171362466Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116973420466, 'load_duration': 20327562, 'prompt_eval_count': 35, 'prompt_eval_duration': 116827283089, 'eval_count': 4, 'eval_duration': 124643937}
+Response: Poorly.
+Final prediction for 7_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 87
+
+==================================================
+Processing video 30/30
+
+Processing video: 9_final.mp4
+Video info: 296 frames, 30.00 FPS, 9.87 seconds
+Extracted 20 frames for analysis
+Analyzing frame 1/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16968 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T17:04:50.84871277Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 116242578787, 'load_duration': 20359383, 'prompt_eval_count': 35, 'prompt_eval_duration': 116102587217, 'eval_count': 4, 'eval_duration': 118585978}
+Response: Poorly.
+Analyzing frame 2/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17160 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T17:06:43.588983589Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 111702083560, 'load_duration': 41684995, 'prompt_eval_count': 35, 'prompt_eval_duration': 111543319372, 'eval_count': 4, 'eval_duration': 115704329}
+Response: Poorly.
+Analyzing frame 3/20...
+Prompt: Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17148 bytes
+Response status code: 200
+{'model': 'llama3.2-vision', 'created_at': '2025-05-26T17:08:42.490127157Z', 'message': {'role': 'assistant', 'content': 'Poorly.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 117862939410, 'load_duration': 20226114, 'prompt_eval_count': 35, 'prompt_eval_duration': 117722311294, 'eval_count': 4, 'eval_duration': 118971073}
+Response: Poorly.
+Final prediction for 9_final.mp4: Poorly.
+
+Results saved to ./test_results.csv
+Total videos processed: 90
+
+Results saved to ./test_results.csv
+Total videos processed: 90
+
+==================================================
+Analysis complete!
