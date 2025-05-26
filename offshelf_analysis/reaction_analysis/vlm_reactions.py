@@ -166,6 +166,7 @@ class VideoAnalyzer:
             print(f"Response: {response}")
             video_names.append(video_name)
             time.sleep(1)  # Small delay to avoid overwhelming the API
+            
         
         # Combine responses or take the most common one
         # For now, we'll take the first valid response
@@ -243,6 +244,10 @@ class VideoAnalyzer:
                     print(f"Final prediction for {video_path.name}: {result[2][0]}")
                 else:
                     print(f"Failed to process {video_path.name}")
+
+                #save results to CSV after each video
+                self.save_results_to_csv()
+
                     
             except Exception as e:
                 print(f"Error processing {video_path.name}: {str(e)}")
