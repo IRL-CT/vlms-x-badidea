@@ -22,7 +22,7 @@ from pathlib import Path
 
 class VideoAnalyzer:
     def __init__(self, 
-                 model="llama3-2-vision", 
+                 model="llama3.2-vision", 
                  prompt="Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)",
                  ollama_url="http://localhost:11434",
                  video_folder="./videos",
@@ -74,7 +74,11 @@ class VideoAnalyzer:
             base64_image = self.frame_to_base64(frame)
             
             # Build the prompt
-            prompt = f"Video: {video_name}. {self.base_prompt}"
+            #prompt = f"Video: {video_name}. {self.base_prompt}"
+            prompt = self.base_prompt
+
+            print(f"Prompt: {prompt}")
+            print(f"Image size: {len(base64_image)} bytes")
             
             # Prepare Ollama API request
             api_url = f"{self.ollama_url}/api/chat"
@@ -95,7 +99,9 @@ class VideoAnalyzer:
             }
             
             # Make the API request
-            response = requests.post(api_url, json=payload, timeout=60)
+            response = requests.post(api_url, json=payload, timeout=600)
+            print(f"Response status code: {response.status_code}")
+            print(response.json())
             response_data = response.json()
             
             # Extract the response
@@ -139,7 +145,7 @@ class VideoAnalyzer:
                 sampled_frames.append(frame)
                 frame_times.append(frame_idx)
             
-            if len(sampled_frames) >= 15:  # Limit to 15 frames per video
+            if len(sampled_frames) >= 45:  # Limit to 45 frames per video
                 break
         
         cap.release()
@@ -253,8 +259,8 @@ class VideoAnalyzer:
 
 def main():
     parser = argparse.ArgumentParser(description='Video Analysis using Vision-Language Models')
-    parser.add_argument('--model', type=str, default='llama3-2-vision', 
-                        help='Ollama model to use (default: llama3-2-vision)')
+    parser.add_argument('--model', type=str, default='llama3.2-vision', 
+                        help='Ollama model to use (default: llama3.2-vision)')
     parser.add_argument('--prompt', type=str, 
                         default='Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)',
                         help='Prompt for the vision model')
@@ -273,7 +279,7 @@ def main():
     os.makedirs(args.video_folder, exist_ok=True)
     
 
-    
+
     analyzer = VideoAnalyzer(
         model=args.model,
         prompt=args.prompt,
@@ -284,6 +290,11 @@ def main():
     )
     
     analyzer.run()
+
+    #conda activate ollama
+    #ollama pull llama3.2-vision
+    #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './test_results.csv' --frame-sample-rate 15
+    
 
 if __name__ == "__main__":
     main()
