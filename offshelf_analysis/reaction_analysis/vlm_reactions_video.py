@@ -113,6 +113,55 @@ class VideoAnalyzer:
         
         except Exception as e:
             return f"Error analyzing image: {str(e)}"
+
+
+    def analyze_video(self, frames, video_name):
+        """Send frames to Ollama for analysis"""
+        try:
+            new_frames = []
+            for frame in frames:
+            # Convert frame to base64
+                base64_image = self.frame_to_base64(frame)
+                new_frames.append(base64_image)
+            # Prepare the prompt
+            #prompt = f"Video: {video_name}. {self.base_prompt}"
+            prompt = self.base_prompt
+            print(f"Prompt: {prompt}")
+            print(f"Image size: {len(new_frames[0])} bytes")
+            # Prepare Ollama API request
+            api_url = f"{self.ollama_url}/api/chat"
+            payload = { 
+                "model": self.model,
+                "messages": [
+                    {
+                        "role": "user", 
+                        "content": prompt,
+                        "images": new_frames
+                    }
+                ],
+                "stream": False,
+                "options": {
+                    "temperature": 0.2,
+                    "num_ctx": 4096
+                }
+            }
+
+            
+            # Make the API request
+            response = requests.post(api_url, json=payload, timeout=600)
+            print(f"Response status code: {response.status_code}")
+            print(response.json())
+            response_data = response.json()
+            
+            # Extract the response
+            if 'message' in response_data:
+                description = response_data['message']['content'].strip()
+                return description
+            else:
+                return "Error: Could not process the frames."
+        
+        except Exception as e:
+            return f"Error analyzing frames: {str(e)}"
     
     def process_video(self, video_path):
         """Process a single video file"""
@@ -159,16 +208,15 @@ class VideoAnalyzer:
         # Analyze frames and collect responses
         responses = []
         video_names = []
-        for i, frame in enumerate(sampled_frames):
-            print(f"Analyzing frame {i+1}/{len(sampled_frames)}...")
-            response = self.analyze_frame(frame, video_name)
-            responses.append(response)
-            print(f"Response: {response}")
-            video_names.append(video_name)
-            time.sleep(1)  # Small delay to avoid overwhelming the API
-            #if i >= 2:
-            #    break  # For testing, limit to first 3 frames
-        
+        print(f"Analyzing video {video_name}...")
+        response = self.analyze_video(sampled_frames,  video_name)
+        responses.append(response)
+        print(f"Response: {response}")
+        video_names.append(video_name)
+        time.sleep(1)  # Small delay to avoid overwhelming the API
+        #if i >= 2:
+        #    break  # For testing, limit to first 3 frames
+    
         # Combine responses or take the most common one
         # For now, we'll take the first valid response
         
@@ -300,7 +348,8 @@ def main():
     #conda activate ollama
     #ollama pull llama3.2-vision
     #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './test_results.csv' --frame-sample-rate 15
-    #nohup python vlm_reactions.py  --model llava --video-folder '../../../data/final_cut_videos/' --output-csv './results_llava.csv' --frame-sample-rate 15 > vlm_output_llava.log 2>&1 &
+    #python vlm_reactions.py  --model llava --video-folder '../../../data/final_cut_videos/' --output-csv './results_llava.csv' --frame-sample-rate 15
+ 
     #nohup python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './test_results.csv' --frame-sample-rate 15 > vlm_output.log 2>&1 &
 
 if __name__ == "__main__":
