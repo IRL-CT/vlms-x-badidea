@@ -1,0 +1,1714 @@
+nohup: ignoring input
+Starting video analysis with llava...
+Video folder: ../../../data/final_cut_videos/
+Output CSV: ./results_llava.csv
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Found 30 video files
+
+==================================================
+Processing video 1/30
+
+Processing video: 11_final.mp4
+Video info: 424 frames, 30.00 FPS, 14.13 seconds
+Extracted 29 frames for analysis
+Analyzing frame 1/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31940 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:04:21.656194579Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 164281614210, 'load_duration': 163775526534, 'prompt_eval_count': 610, 'prompt_eval_duration': 444453240, 'eval_count': 4, 'eval_duration': 59116513}
+Response: Poorly
+Analyzing frame 2/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32676 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:08:14.3794555Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231695028352, 'load_duration': 231172926384, 'prompt_eval_count': 610, 'prompt_eval_duration': 459670731, 'eval_count': 4, 'eval_duration': 60505589}
+Response: Poorly
+Analyzing frame 3/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32352 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:12:33.531016802Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 258109872169, 'load_duration': 257540135129, 'prompt_eval_count': 610, 'prompt_eval_duration': 506384653, 'eval_count': 4, 'eval_duration': 61305316}
+Response: Poorly
+Analyzing frame 4/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32292 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:16:47.589146064Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 253020862509, 'load_duration': 252471550942, 'prompt_eval_count': 610, 'prompt_eval_duration': 486619450, 'eval_count': 4, 'eval_duration': 59534248}
+Response: Poorly
+Analyzing frame 5/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32280 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:20:45.415211455Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236789978835, 'load_duration': 236270525362, 'prompt_eval_count': 610, 'prompt_eval_duration': 457327395, 'eval_count': 4, 'eval_duration': 58898980}
+Response: Poorly
+Analyzing frame 6/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31268 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:24:53.681000117Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 247228337101, 'load_duration': 246684215501, 'prompt_eval_count': 610, 'prompt_eval_duration': 482302341, 'eval_count': 4, 'eval_duration': 59745501}
+Response: Poorly
+Analyzing frame 7/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 30924 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:29:05.921982732Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 251201674261, 'load_duration': 250667451616, 'prompt_eval_count': 610, 'prompt_eval_duration': 469003179, 'eval_count': 4, 'eval_duration': 63328980}
+Response: Poorly
+Analyzing frame 8/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32056 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:33:01.398313253Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234438699911, 'load_duration': 233932428813, 'prompt_eval_count': 610, 'prompt_eval_duration': 448701495, 'eval_count': 3, 'eval_duration': 54281076}
+Response: Well
+Analyzing frame 9/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32272 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:36:58.47693228Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236049203296, 'load_duration': 235538895821, 'prompt_eval_count': 610, 'prompt_eval_duration': 447990730, 'eval_count': 4, 'eval_duration': 59028548}
+Response: Poorly
+Analyzing frame 10/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31692 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:41:11.253258489Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 251733577226, 'load_duration': 251148931290, 'prompt_eval_count': 610, 'prompt_eval_duration': 524061917, 'eval_count': 4, 'eval_duration': 58762146}
+Response: Poorly
+Analyzing frame 11/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32284 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:45:10.19482836Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237902237459, 'load_duration': 237386354339, 'prompt_eval_count': 610, 'prompt_eval_duration': 465437880, 'eval_count': 3, 'eval_duration': 48216988}
+Response: Well
+Analyzing frame 12/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31840 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:49:09.541763318Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238308748856, 'load_duration': 237805885965, 'prompt_eval_count': 610, 'prompt_eval_duration': 441513951, 'eval_count': 4, 'eval_duration': 59166088}
+Response: Poorly
+Analyzing frame 13/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31424 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:53:08.744944252Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238164257593, 'load_duration': 237650806749, 'prompt_eval_count': 610, 'prompt_eval_duration': 446551679, 'eval_count': 4, 'eval_duration': 63752710}
+Response: Poorly
+Analyzing frame 14/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31632 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T16:57:13.346545656Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 243566926714, 'load_duration': 243043994348, 'prompt_eval_count': 610, 'prompt_eval_duration': 453586055, 'eval_count': 4, 'eval_duration': 66366821}
+Response: Poorly
+Analyzing frame 15/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32108 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:01:11.267728068Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236882730260, 'load_duration': 236344111638, 'prompt_eval_count': 610, 'prompt_eval_duration': 467849500, 'eval_count': 4, 'eval_duration': 65978545}
+Response: Poorly
+Analyzing frame 16/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31220 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:05:18.188576828Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 245885752870, 'load_duration': 245352896555, 'prompt_eval_count': 610, 'prompt_eval_duration': 463074793, 'eval_count': 4, 'eval_duration': 67592863}
+Response: Poorly
+Analyzing frame 17/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 30640 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:09:15.59537512Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236370503434, 'load_duration': 235848297664, 'prompt_eval_count': 610, 'prompt_eval_duration': 458911377, 'eval_count': 4, 'eval_duration': 61274205}
+Response: Poorly
+Analyzing frame 18/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31888 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:13:16.87797575Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240238766488, 'load_duration': 239705020928, 'prompt_eval_count': 610, 'prompt_eval_duration': 470286454, 'eval_count': 4, 'eval_duration': 61263925}
+Response: Poorly
+Analyzing frame 19/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32460 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:17:18.487696911Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240572540186, 'load_duration': 240058432387, 'prompt_eval_count': 610, 'prompt_eval_duration': 447183544, 'eval_count': 4, 'eval_duration': 64983280}
+Response: Poorly
+Analyzing frame 20/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32504 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:21:24.504527241Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 244980858710, 'load_duration': 244433764978, 'prompt_eval_count': 610, 'prompt_eval_duration': 481940408, 'eval_count': 4, 'eval_duration': 60886958}
+Response: Poorly
+Analyzing frame 21/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33992 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:25:26.097198084Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240562676348, 'load_duration': 240025024222, 'prompt_eval_count': 610, 'prompt_eval_duration': 485025393, 'eval_count': 3, 'eval_duration': 48858483}
+Response: Well
+Analyzing frame 22/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33772 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:29:24.407469804Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237274848321, 'load_duration': 236765370705, 'prompt_eval_count': 610, 'prompt_eval_duration': 448246578, 'eval_count': 4, 'eval_duration': 58946675}
+Response: Poorly
+Analyzing frame 23/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33020 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:33:44.980086178Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 259536006273, 'load_duration': 258985485110, 'prompt_eval_count': 610, 'prompt_eval_duration': 475854623, 'eval_count': 4, 'eval_duration': 69612496}
+Response: Poorly
+Analyzing frame 24/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32816 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:38:02.800326726Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 256780785171, 'load_duration': 256187408094, 'prompt_eval_count': 610, 'prompt_eval_duration': 532048950, 'eval_count': 4, 'eval_duration': 58869394}
+Response: Poorly
+Analyzing frame 25/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32816 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:42:01.395640021Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237561426242, 'load_duration': 237025890464, 'prompt_eval_count': 610, 'prompt_eval_duration': 472877171, 'eval_count': 4, 'eval_duration': 59149111}
+Response: Poorly
+Analyzing frame 26/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32812 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:45:54.225107965Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231790266084, 'load_duration': 231267153286, 'prompt_eval_count': 610, 'prompt_eval_duration': 460443320, 'eval_count': 4, 'eval_duration': 60639164}
+Response: Poorly
+Analyzing frame 27/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32824 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:49:49.712677146Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234452737771, 'load_duration': 233908395662, 'prompt_eval_count': 610, 'prompt_eval_duration': 482689303, 'eval_count': 4, 'eval_duration': 59082825}
+Response: Poorly
+Analyzing frame 28/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32844 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:53:51.255325722Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240502966575, 'load_duration': 239989930915, 'prompt_eval_count': 610, 'prompt_eval_duration': 451859931, 'eval_count': 4, 'eval_duration': 59192366}
+Response: Poorly
+Analyzing frame 29/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32836 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T17:57:46.524796501Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234234992934, 'load_duration': 233631736555, 'prompt_eval_count': 610, 'prompt_eval_duration': 541379896, 'eval_count': 4, 'eval_duration': 59177707}
+Response: Poorly
+Final prediction for 11_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 29
+
+==================================================
+Processing video 2/30
+
+Processing video: 12_final.mp4
+Video info: 217 frames, 30.00 FPS, 7.23 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22340 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:01:45.775368337Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237545890991, 'load_duration': 237028672898, 'prompt_eval_count': 610, 'prompt_eval_duration': 455491838, 'eval_count': 4, 'eval_duration': 59703202}
+Response: Poorly
+Analyzing frame 2/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21808 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:05:55.425973273Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 248606598038, 'load_duration': 248100052494, 'prompt_eval_count': 610, 'prompt_eval_duration': 445732236, 'eval_count': 4, 'eval_duration': 59054382}
+Response: Poorly
+Analyzing frame 3/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21464 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:09:59.103796962Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 242642083813, 'load_duration': 242117064351, 'prompt_eval_count': 610, 'prompt_eval_duration': 462408410, 'eval_count': 4, 'eval_duration': 60569133}
+Response: Poorly
+Analyzing frame 4/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21516 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:13:54.341671619Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234203873749, 'load_duration': 233650104023, 'prompt_eval_count': 610, 'prompt_eval_duration': 491879653, 'eval_count': 4, 'eval_duration': 59808409}
+Response: Poorly
+Analyzing frame 5/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24696 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:18:14.871675627Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 259491436348, 'load_duration': 258938423605, 'prompt_eval_count': 610, 'prompt_eval_duration': 492290620, 'eval_count': 4, 'eval_duration': 58695647}
+Response: Poorly
+Analyzing frame 6/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25580 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:22:18.314680511Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 242425245999, 'load_duration': 241914116936, 'prompt_eval_count': 610, 'prompt_eval_duration': 450070717, 'eval_count': 4, 'eval_duration': 59181454}
+Response: Poorly
+Analyzing frame 7/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25660 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:26:19.715027216Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240363981905, 'load_duration': 239803884342, 'prompt_eval_count': 610, 'prompt_eval_duration': 495181092, 'eval_count': 4, 'eval_duration': 62185886}
+Response: Poorly
+Analyzing frame 8/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26012 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:30:24.748234515Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 243995134882, 'load_duration': 243466236101, 'prompt_eval_count': 610, 'prompt_eval_duration': 466687620, 'eval_count': 4, 'eval_duration': 59037555}
+Response: Poorly
+Analyzing frame 9/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26264 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:34:28.496289211Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 242705383892, 'load_duration': 242154770428, 'prompt_eval_count': 610, 'prompt_eval_duration': 487684942, 'eval_count': 4, 'eval_duration': 60677208}
+Response: Poorly
+Analyzing frame 10/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26272 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:38:34.906146149Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 245369093034, 'load_duration': 244862805709, 'prompt_eval_count': 610, 'prompt_eval_duration': 438428663, 'eval_count': 4, 'eval_duration': 63278024}
+Response: Poorly
+Analyzing frame 11/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26292 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:42:35.198368291Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 239252678502, 'load_duration': 238697006401, 'prompt_eval_count': 610, 'prompt_eval_duration': 482699798, 'eval_count': 4, 'eval_duration': 70993573}
+Response: Poorly
+Analyzing frame 12/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26256 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:46:39.556019521Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 243335942525, 'load_duration': 242832224815, 'prompt_eval_count': 610, 'prompt_eval_duration': 441690215, 'eval_count': 4, 'eval_duration': 60810011}
+Response: Poorly
+Analyzing frame 13/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26300 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:50:39.060088882Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238473614095, 'load_duration': 237947045090, 'prompt_eval_count': 610, 'prompt_eval_duration': 465297230, 'eval_count': 4, 'eval_duration': 59275206}
+Response: Poorly
+Analyzing frame 14/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26272 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:54:43.420500327Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 243324444781, 'load_duration': 242773874459, 'prompt_eval_count': 610, 'prompt_eval_duration': 483786715, 'eval_count': 4, 'eval_duration': 64856147}
+Response: Poorly
+Analyzing frame 15/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26292 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T18:58:43.124164272Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238672611453, 'load_duration': 238106809246, 'prompt_eval_count': 610, 'prompt_eval_duration': 504545713, 'eval_count': 4, 'eval_duration': 59187162}
+Response: Poorly
+Final prediction for 12_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 44
+
+==================================================
+Processing video 3/30
+
+Processing video: 14_final.mp4
+Video info: 388 frames, 30.00 FPS, 12.93 seconds
+Extracted 26 frames for analysis
+Analyzing frame 1/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31260 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:02:46.324875899Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240917854397, 'load_duration': 240407422997, 'prompt_eval_count': 610, 'prompt_eval_duration': 447736774, 'eval_count': 4, 'eval_duration': 60751600}
+Response: Poorly
+Analyzing frame 2/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31308 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:06:44.118417917Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236742198841, 'load_duration': 236228460392, 'prompt_eval_count': 610, 'prompt_eval_duration': 452567979, 'eval_count': 4, 'eval_duration': 59220234}
+Response: Poorly
+Analyzing frame 3/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31580 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:10:40.68646556Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235528144342, 'load_duration': 234995737949, 'prompt_eval_count': 610, 'prompt_eval_duration': 469091874, 'eval_count': 4, 'eval_duration': 61232053}
+Response: Poorly
+Analyzing frame 4/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31456 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:14:39.713426607Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237980982651, 'load_duration': 237462748768, 'prompt_eval_count': 610, 'prompt_eval_duration': 455337231, 'eval_count': 4, 'eval_duration': 60745671}
+Response: Poorly
+Analyzing frame 5/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32068 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:19:14.194744394Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 273441408258, 'load_duration': 272915570296, 'prompt_eval_count': 610, 'prompt_eval_duration': 464485096, 'eval_count': 4, 'eval_duration': 59118801}
+Response: Poorly
+Analyzing frame 6/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32428 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:23:08.887793532Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 233652750444, 'load_duration': 233127825885, 'prompt_eval_count': 610, 'prompt_eval_duration': 473981355, 'eval_count': 3, 'eval_duration': 48976455}
+Response: Well
+Analyzing frame 7/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32720 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:27:17.400083267Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 247475505078, 'load_duration': 246957998365, 'prompt_eval_count': 610, 'prompt_eval_duration': 454695071, 'eval_count': 4, 'eval_duration': 60526732}
+Response: Poorly
+Analyzing frame 8/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32656 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:31:21.912898909Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 243474400312, 'load_duration': 242918039560, 'prompt_eval_count': 610, 'prompt_eval_duration': 493829225, 'eval_count': 4, 'eval_duration': 60451322}
+Response: Poorly
+Analyzing frame 9/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32124 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:35:22.423189778Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 239469502412, 'load_duration': 238952579410, 'prompt_eval_count': 610, 'prompt_eval_duration': 453927602, 'eval_count': 4, 'eval_duration': 60961462}
+Response: Poorly
+Analyzing frame 10/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31760 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:39:28.619647036Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 245171302361, 'load_duration': 244652625041, 'prompt_eval_count': 610, 'prompt_eval_duration': 455095680, 'eval_count': 4, 'eval_duration': 60532136}
+Response: Poorly
+Analyzing frame 11/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32052 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:43:30.655905812Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 241013509569, 'load_duration': 240498578643, 'prompt_eval_count': 610, 'prompt_eval_duration': 448070824, 'eval_count': 4, 'eval_duration': 64961715}
+Response: Poorly
+Analyzing frame 12/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31840 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:47:35.397227345Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 243707167250, 'load_duration': 243159452128, 'prompt_eval_count': 610, 'prompt_eval_duration': 485307425, 'eval_count': 4, 'eval_duration': 59933800}
+Response: Poorly
+Analyzing frame 13/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31028 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:51:30.050595345Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 233624884797, 'load_duration': 233103742418, 'prompt_eval_count': 610, 'prompt_eval_duration': 459492117, 'eval_count': 4, 'eval_duration': 59082679}
+Response: Poorly
+Analyzing frame 14/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31292 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:55:29.186052911Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238099491973, 'load_duration': 237595641602, 'prompt_eval_count': 610, 'prompt_eval_duration': 452199875, 'eval_count': 3, 'eval_duration': 49480850}
+Response: Well
+Analyzing frame 15/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32016 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T19:59:26.007831957Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235782444052, 'load_duration': 235261994154, 'prompt_eval_count': 610, 'prompt_eval_duration': 470001388, 'eval_count': 3, 'eval_duration': 48393570}
+Response: Well
+Analyzing frame 16/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31296 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:03:21.844832223Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234800905752, 'load_duration': 234293005677, 'prompt_eval_count': 610, 'prompt_eval_duration': 441206351, 'eval_count': 4, 'eval_duration': 63146841}
+Response: Poorly
+Analyzing frame 17/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31560 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:07:14.52691862Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231642535135, 'load_duration': 231130585611, 'prompt_eval_count': 610, 'prompt_eval_duration': 458504455, 'eval_count': 3, 'eval_duration': 50031849}
+Response: Well
+Analyzing frame 18/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29720 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:11:16.286551871Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240720285633, 'load_duration': 240146212032, 'prompt_eval_count': 610, 'prompt_eval_duration': 511281640, 'eval_count': 4, 'eval_duration': 60827776}
+Response: Poorly
+Analyzing frame 19/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28776 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:15:24.718800835Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 247392524139, 'load_duration': 246880038074, 'prompt_eval_count': 610, 'prompt_eval_duration': 449515205, 'eval_count': 4, 'eval_duration': 61068298}
+Response: Poorly
+Analyzing frame 20/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29380 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:19:24.375234305Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238616951823, 'load_duration': 238034401728, 'prompt_eval_count': 610, 'prompt_eval_duration': 530177335, 'eval_count': 3, 'eval_duration': 48763496}
+Response: Well
+Analyzing frame 21/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28492 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:23:30.867286974Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 245468710578, 'load_duration': 244960296199, 'prompt_eval_count': 610, 'prompt_eval_duration': 444837028, 'eval_count': 4, 'eval_duration': 61453720}
+Response: Poorly
+Analyzing frame 22/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28496 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:27:27.67132399Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235765451516, 'load_duration': 235236682715, 'prompt_eval_count': 610, 'prompt_eval_duration': 464850571, 'eval_count': 4, 'eval_duration': 60546568}
+Response: Poorly
+Analyzing frame 23/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28516 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:31:23.504791489Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234810421992, 'load_duration': 234253547873, 'prompt_eval_count': 610, 'prompt_eval_duration': 487992815, 'eval_count': 4, 'eval_duration': 66851561}
+Response: Poorly
+Analyzing frame 24/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28500 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:35:33.48802601Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 248952104709, 'load_duration': 248417808746, 'prompt_eval_count': 610, 'prompt_eval_duration': 471031081, 'eval_count': 4, 'eval_duration': 61081969}
+Response: Poorly
+Analyzing frame 25/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28536 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:39:40.724123659Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 246197691849, 'load_duration': 245677362774, 'prompt_eval_count': 610, 'prompt_eval_duration': 453979246, 'eval_count': 4, 'eval_duration': 64450797}
+Response: Poorly
+Analyzing frame 26/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 28504 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:43:37.592397572Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235831121741, 'load_duration': 235282334651, 'prompt_eval_count': 610, 'prompt_eval_duration': 495650403, 'eval_count': 3, 'eval_duration': 50000442}
+Response: Well
+Final prediction for 14_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 70
+
+==================================================
+Processing video 4/30
+
+Processing video: 15_final.mp4
+Video info: 217 frames, 30.00 FPS, 7.23 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34292 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:47:47.561812545Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 248119012798, 'load_duration': 247561837249, 'prompt_eval_count': 610, 'prompt_eval_duration': 495564540, 'eval_count': 4, 'eval_duration': 59199679}
+Response: Poorly
+Analyzing frame 2/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34048 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:51:48.81812411Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240225506120, 'load_duration': 239708302548, 'prompt_eval_count': 610, 'prompt_eval_duration': 453784367, 'eval_count': 4, 'eval_duration': 60880691}
+Response: Poorly
+Analyzing frame 3/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34508 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:55:43.48963338Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 233626174214, 'load_duration': 233118183713, 'prompt_eval_count': 610, 'prompt_eval_duration': 444742680, 'eval_count': 4, 'eval_duration': 61193304}
+Response: Poorly
+Analyzing frame 4/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34048 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T20:59:36.221281504Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231690254226, 'load_duration': 231183768408, 'prompt_eval_count': 610, 'prompt_eval_duration': 443795380, 'eval_count': 4, 'eval_duration': 60578341}
+Response: Poorly
+Analyzing frame 5/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33444 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:03:34.711200103Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237459550360, 'load_duration': 236918232176, 'prompt_eval_count': 610, 'prompt_eval_duration': 479855166, 'eval_count': 4, 'eval_duration': 59154967}
+Response: Poorly
+Analyzing frame 6/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32832 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:07:30.864845153Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235119072870, 'load_duration': 234606233900, 'prompt_eval_count': 610, 'prompt_eval_duration': 451360749, 'eval_count': 4, 'eval_duration': 59522855}
+Response: Poorly
+Analyzing frame 7/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33072 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:11:40.203155585Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 248305091956, 'load_duration': 247799762744, 'prompt_eval_count': 610, 'prompt_eval_duration': 441299719, 'eval_count': 4, 'eval_duration': 61545830}
+Response: Poorly
+Analyzing frame 8/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34348 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:15:36.603790958Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235380935498, 'load_duration': 234872984278, 'prompt_eval_count': 610, 'prompt_eval_duration': 445100567, 'eval_count': 4, 'eval_duration': 60813924}
+Response: Poorly
+Analyzing frame 9/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35128 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:19:30.546167776Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 232905564695, 'load_duration': 232380863719, 'prompt_eval_count': 610, 'prompt_eval_duration': 455471543, 'eval_count': 4, 'eval_duration': 65544377}
+Response: Poorly
+Analyzing frame 10/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35220 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:23:45.856009785Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 254269807329, 'load_duration': 253725343817, 'prompt_eval_count': 610, 'prompt_eval_duration': 477265939, 'eval_count': 4, 'eval_duration': 65007354}
+Response: Poorly
+Analyzing frame 11/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35188 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:27:43.617266099Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236734432377, 'load_duration': 236157528443, 'prompt_eval_count': 610, 'prompt_eval_duration': 514814502, 'eval_count': 4, 'eval_duration': 59649007}
+Response: Poorly
+Analyzing frame 12/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35224 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:31:41.498769174Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236858456349, 'load_duration': 236331863513, 'prompt_eval_count': 610, 'prompt_eval_duration': 474676108, 'eval_count': 3, 'eval_duration': 48290034}
+Response: Well
+Analyzing frame 13/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35216 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:35:36.876009954Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234337861398, 'load_duration': 233824706412, 'prompt_eval_count': 610, 'prompt_eval_duration': 445669404, 'eval_count': 4, 'eval_duration': 65116862}
+Response: Poorly
+Analyzing frame 14/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35236 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:39:30.438711566Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 232543135882, 'load_duration': 232008735320, 'prompt_eval_count': 610, 'prompt_eval_duration': 469878404, 'eval_count': 4, 'eval_duration': 60826426}
+Response: Poorly
+Analyzing frame 15/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35216 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:43:29.002828622Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237534875047, 'load_duration': 236989470103, 'prompt_eval_count': 610, 'prompt_eval_duration': 477459112, 'eval_count': 4, 'eval_duration': 63867727}
+Response: Poorly
+Final prediction for 15_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 85
+
+==================================================
+Processing video 5/30
+
+Processing video: 19_final.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31308 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:47:24.175038816Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 233292620010, 'load_duration': 232762087801, 'prompt_eval_count': 610, 'prompt_eval_duration': 467691472, 'eval_count': 4, 'eval_duration': 59120113}
+Response: Poorly
+Analyzing frame 2/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33288 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:51:30.762100807Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 245543713806, 'load_duration': 245009647159, 'prompt_eval_count': 610, 'prompt_eval_duration': 471763047, 'eval_count': 4, 'eval_duration': 59872705}
+Response: Poorly
+Analyzing frame 3/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32840 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:55:27.121144878Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235320809614, 'load_duration': 234808628607, 'prompt_eval_count': 610, 'prompt_eval_duration': 446800236, 'eval_count': 4, 'eval_duration': 62022083}
+Response: Poorly
+Analyzing frame 4/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33492 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T21:59:27.585157589Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 239443667791, 'load_duration': 238917034541, 'prompt_eval_count': 610, 'prompt_eval_duration': 464696820, 'eval_count': 4, 'eval_duration': 59145378}
+Response: Poorly
+Analyzing frame 5/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32312 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:03:20.458451653Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231837108139, 'load_duration': 231308624059, 'prompt_eval_count': 610, 'prompt_eval_duration': 457621031, 'eval_count': 4, 'eval_duration': 67901371}
+Response: Poorly
+Analyzing frame 6/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31804 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:07:17.347214389Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235849444581, 'load_duration': 235340917044, 'prompt_eval_count': 610, 'prompt_eval_duration': 447574936, 'eval_count': 4, 'eval_duration': 59147686}
+Response: Poorly
+Analyzing frame 7/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32884 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:11:11.895375667Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 233510201198, 'load_duration': 232991645561, 'prompt_eval_count': 610, 'prompt_eval_duration': 456125850, 'eval_count': 4, 'eval_duration': 59288017}
+Response: Poorly
+Analyzing frame 8/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33224 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:15:12.773181926Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 239838671180, 'load_duration': 239328349074, 'prompt_eval_count': 610, 'prompt_eval_duration': 447225381, 'eval_count': 4, 'eval_duration': 60802488}
+Response: Poorly
+Analyzing frame 9/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33780 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:19:23.712260083Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 249904689919, 'load_duration': 249398570652, 'prompt_eval_count': 610, 'prompt_eval_duration': 444986272, 'eval_count': 4, 'eval_duration': 59071298}
+Response: Poorly
+Analyzing frame 10/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33448 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:23:17.536612616Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 232792232712, 'load_duration': 232281819015, 'prompt_eval_count': 610, 'prompt_eval_duration': 445911092, 'eval_count': 4, 'eval_duration': 62410523}
+Response: Poorly
+Analyzing frame 11/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32548 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:27:09.986238603Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231410193376, 'load_duration': 230891980084, 'prompt_eval_count': 610, 'prompt_eval_duration': 455543825, 'eval_count': 4, 'eval_duration': 60707939}
+Response: Poorly
+Analyzing frame 12/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35444 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:31:02.988425634Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231962847574, 'load_duration': 231441909073, 'prompt_eval_count': 610, 'prompt_eval_duration': 454331939, 'eval_count': 4, 'eval_duration': 64056182}
+Response: Poorly
+Analyzing frame 13/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35816 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:35:02.940943033Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238915794678, 'load_duration': 238370639389, 'prompt_eval_count': 610, 'prompt_eval_duration': 480957193, 'eval_count': 4, 'eval_duration': 60810765}
+Response: Poorly
+Analyzing frame 14/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35864 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:39:17.810354994Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 253840821378, 'load_duration': 253325826576, 'prompt_eval_count': 610, 'prompt_eval_duration': 449552262, 'eval_count': 4, 'eval_duration': 63417039}
+Response: Poorly
+Analyzing frame 15/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35792 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:43:09.909613332Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 231062327705, 'load_duration': 230558921391, 'prompt_eval_count': 610, 'prompt_eval_duration': 442045099, 'eval_count': 4, 'eval_duration': 59109178}
+Response: Poorly
+Analyzing frame 16/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35828 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:47:03.487441243Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 232539782051, 'load_duration': 231989630362, 'prompt_eval_count': 610, 'prompt_eval_duration': 486709624, 'eval_count': 4, 'eval_duration': 61043295}
+Response: Poorly
+Analyzing frame 17/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35816 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:51:00.415080461Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235889910954, 'load_duration': 235358253821, 'prompt_eval_count': 610, 'prompt_eval_duration': 465765774, 'eval_count': 4, 'eval_duration': 60805008}
+Response: Poorly
+Analyzing frame 18/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35832 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:55:02.444837178Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 240988802501, 'load_duration': 240475749681, 'prompt_eval_count': 610, 'prompt_eval_duration': 451563262, 'eval_count': 4, 'eval_duration': 59289119}
+Response: Poorly
+Final prediction for 19_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 103
+
+==================================================
+Processing video 6/30
+
+Processing video: 21_final.mp4
+Video info: 328 frames, 30.00 FPS, 10.93 seconds
+Extracted 22 frames for analysis
+Analyzing frame 1/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13940 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T22:59:00.417882316Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236049878691, 'load_duration': 235497287023, 'prompt_eval_count': 610, 'prompt_eval_duration': 490501364, 'eval_count': 4, 'eval_duration': 60489418}
+Response: Poorly
+Analyzing frame 2/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14128 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:02:57.692554174Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 236233611372, 'load_duration': 235723794208, 'prompt_eval_count': 610, 'prompt_eval_duration': 446425484, 'eval_count': 4, 'eval_duration': 61134874}
+Response: Poorly
+Analyzing frame 3/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14112 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:06:57.555649183Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 238832692168, 'load_duration': 238330522915, 'prompt_eval_count': 610, 'prompt_eval_duration': 438998645, 'eval_count': 4, 'eval_duration': 61559721}
+Response: Poorly
+Analyzing frame 4/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14356 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:10:59.696071981Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 241103719096, 'load_duration': 240589784594, 'prompt_eval_count': 610, 'prompt_eval_duration': 451258998, 'eval_count': 4, 'eval_duration': 60019482}
+Response: Poorly
+Analyzing frame 5/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14284 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:14:54.785337337Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 234059174543, 'load_duration': 233535301141, 'prompt_eval_count': 610, 'prompt_eval_duration': 461045495, 'eval_count': 4, 'eval_duration': 60521561}
+Response: Poorly
+Analyzing frame 6/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14732 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:18:51.302540409Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 235479030855, 'load_duration': 234937222002, 'prompt_eval_count': 610, 'prompt_eval_duration': 489572815, 'eval_count': 3, 'eval_duration': 50540072}
+Response: Well
+Analyzing frame 7/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15284 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:22:49.492103211Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237151039786, 'load_duration': 236628161856, 'prompt_eval_count': 610, 'prompt_eval_duration': 461551087, 'eval_count': 4, 'eval_duration': 58852118}
+Response: Poorly
+Analyzing frame 8/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15776 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:26:56.259609041Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 245732231223, 'load_duration': 245235743222, 'prompt_eval_count': 610, 'prompt_eval_duration': 443358967, 'eval_count': 3, 'eval_duration': 50794437}
+Response: Well
+Analyzing frame 9/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16700 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:30:56.891633962Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 239607205813, 'load_duration': 239081862199, 'prompt_eval_count': 610, 'prompt_eval_duration': 458250858, 'eval_count': 4, 'eval_duration': 65056516}
+Response: Poorly
+Analyzing frame 10/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18008 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:35:04.278274011Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 246351186114, 'load_duration': 245813195157, 'prompt_eval_count': 610, 'prompt_eval_duration': 486644315, 'eval_count': 3, 'eval_duration': 49633051}
+Response: Well
+Analyzing frame 11/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15112 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:38:59.12475999Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 233815515448, 'load_duration': 233255906014, 'prompt_eval_count': 610, 'prompt_eval_duration': 504638501, 'eval_count': 3, 'eval_duration': 52343960}
+Response: Well
+Analyzing frame 12/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15512 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:43:07.498637198Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 247355042791, 'load_duration': 246849702275, 'prompt_eval_count': 610, 'prompt_eval_duration': 452739794, 'eval_count': 3, 'eval_duration': 50183634}
+Response: Well
+Analyzing frame 13/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17356 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:47:05.942232155Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 237403705265, 'load_duration': 236890681779, 'prompt_eval_count': 610, 'prompt_eval_duration': 449286803, 'eval_count': 4, 'eval_duration': 61516724}
+Response: Poorly
+Analyzing frame 14/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20084 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:49:08.761769966Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121780302936, 'load_duration': 121256138798, 'prompt_eval_count': 610, 'prompt_eval_duration': 452830358, 'eval_count': 4, 'eval_duration': 69555668}
+Response: Poorly
+Analyzing frame 15/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18060 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:51:08.047312931Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118246624297, 'load_duration': 117720591104, 'prompt_eval_count': 610, 'prompt_eval_duration': 462628558, 'eval_count': 4, 'eval_duration': 60781397}
+Response: Poorly
+Analyzing frame 16/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17664 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:53:07.366817413Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118282979710, 'load_duration': 117766012595, 'prompt_eval_count': 610, 'prompt_eval_duration': 455451277, 'eval_count': 4, 'eval_duration': 59674577}
+Response: Poorly
+Analyzing frame 17/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17968 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:55:12.313443761Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123910342209, 'load_duration': 123387374414, 'prompt_eval_count': 610, 'prompt_eval_duration': 460683940, 'eval_count': 4, 'eval_duration': 60426227}
+Response: Poorly
+Analyzing frame 18/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17972 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:57:24.112426839Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 130762777407, 'load_duration': 130233171343, 'prompt_eval_count': 610, 'prompt_eval_duration': 468035109, 'eval_count': 4, 'eval_duration': 59848189}
+Response: Poorly
+Analyzing frame 19/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17996 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-27T23:59:30.13270587Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 124983988859, 'load_duration': 124450407219, 'prompt_eval_count': 610, 'prompt_eval_duration': 470903655, 'eval_count': 4, 'eval_duration': 60817441}
+Response: Poorly
+Analyzing frame 20/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17980 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:01:31.02013683Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119854148915, 'load_duration': 119324480024, 'prompt_eval_count': 610, 'prompt_eval_duration': 468800295, 'eval_count': 4, 'eval_duration': 59185118}
+Response: Poorly
+Analyzing frame 21/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18012 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:03:30.677715872Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118622130752, 'load_duration': 118093381214, 'prompt_eval_count': 610, 'prompt_eval_duration': 465913499, 'eval_count': 4, 'eval_duration': 61070975}
+Response: Poorly
+Analyzing frame 22/22...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17988 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:05:31.323698379Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119608768509, 'load_duration': 119090444939, 'prompt_eval_count': 610, 'prompt_eval_duration': 456911931, 'eval_count': 4, 'eval_duration': 59053342}
+Response: Poorly
+Final prediction for 21_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 125
+
+==================================================
+Processing video 7/30
+
+Processing video: 22_final.mp4
+Video info: 206 frames, 30.00 FPS, 6.87 seconds
+Extracted 14 frames for analysis
+Analyzing frame 1/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17840 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:07:32.302150277Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119437631659, 'load_duration': 118931449097, 'prompt_eval_count': 610, 'prompt_eval_duration': 455696320, 'eval_count': 3, 'eval_duration': 48779847}
+Response: Well
+Analyzing frame 2/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17744 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:09:35.315080421Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121985970914, 'load_duration': 121461960657, 'prompt_eval_count': 610, 'prompt_eval_duration': 473520559, 'eval_count': 3, 'eval_duration': 48802472}
+Response: Well
+Analyzing frame 3/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17764 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:11:35.806799238Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119452244047, 'load_duration': 118931167114, 'prompt_eval_count': 610, 'prompt_eval_duration': 468846970, 'eval_count': 3, 'eval_duration': 50379335}
+Response: Well
+Analyzing frame 4/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17904 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:13:36.317589853Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119487622007, 'load_duration': 118971300226, 'prompt_eval_count': 610, 'prompt_eval_duration': 466024816, 'eval_count': 3, 'eval_duration': 48600681}
+Response: Well
+Analyzing frame 5/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17872 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:15:38.723774211Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121369140052, 'load_duration': 120841798522, 'prompt_eval_count': 610, 'prompt_eval_duration': 475888899, 'eval_count': 3, 'eval_duration': 49833850}
+Response: Well
+Analyzing frame 6/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18224 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:17:38.928475739Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119174088979, 'load_duration': 118657636646, 'prompt_eval_count': 610, 'prompt_eval_duration': 453970801, 'eval_count': 4, 'eval_duration': 60726264}
+Response: Poorly
+Analyzing frame 7/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18196 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:19:39.977533143Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120015306061, 'load_duration': 119486373089, 'prompt_eval_count': 610, 'prompt_eval_duration': 478033770, 'eval_count': 3, 'eval_duration': 49003659}
+Response: Well
+Analyzing frame 8/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18372 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:21:55.096547386Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 134078966847, 'load_duration': 133571396491, 'prompt_eval_count': 610, 'prompt_eval_duration': 456204408, 'eval_count': 3, 'eval_duration': 49720015}
+Response: Well
+Analyzing frame 9/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18292 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:23:57.438067753Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121302957250, 'load_duration': 120769207062, 'prompt_eval_count': 610, 'prompt_eval_duration': 483000698, 'eval_count': 3, 'eval_duration': 49082000}
+Response: Well
+Analyzing frame 10/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18308 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:25:58.241306138Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119765745048, 'load_duration': 119232866417, 'prompt_eval_count': 610, 'prompt_eval_duration': 481922177, 'eval_count': 3, 'eval_duration': 48601193}
+Response: Well
+Analyzing frame 11/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18308 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:27:58.687886261Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119417024291, 'load_duration': 118883345361, 'prompt_eval_count': 610, 'prompt_eval_duration': 483261040, 'eval_count': 3, 'eval_duration': 48674447}
+Response: Well
+Analyzing frame 12/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18312 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:30:10.381461554Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 130659745487, 'load_duration': 130070216567, 'prompt_eval_count': 610, 'prompt_eval_duration': 524931472, 'eval_count': 4, 'eval_duration': 62186276}
+Response: Poorly
+Analyzing frame 13/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18300 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:32:15.261790428Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123850031873, 'load_duration': 123331362135, 'prompt_eval_count': 610, 'prompt_eval_duration': 456607554, 'eval_count': 4, 'eval_duration': 60411166}
+Response: Poorly
+Analyzing frame 14/14...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18300 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:34:17.770891034Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121472920991, 'load_duration': 120937327184, 'prompt_eval_count': 610, 'prompt_eval_duration': 485623648, 'eval_count': 3, 'eval_duration': 48294139}
+Response: Well
+Final prediction for 22_final.mp4: Well
+
+Results saved to ./results_llava.csv
+Total videos processed: 139
+
+==================================================
+Processing video 8/30
+
+Processing video: 24_final.mp4
+Video info: 374 frames, 30.00 FPS, 12.47 seconds
+Extracted 25 frames for analysis
+Analyzing frame 1/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38960 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:36:17.825258787Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 117240435651, 'load_duration': 116739580536, 'prompt_eval_count': 610, 'prompt_eval_duration': 450152971, 'eval_count': 3, 'eval_duration': 48303254}
+Response: Well
+Analyzing frame 2/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37076 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:38:17.989877922Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119126555564, 'load_duration': 118588705757, 'prompt_eval_count': 610, 'prompt_eval_duration': 467926473, 'eval_count': 4, 'eval_duration': 66297048}
+Response: Poorly
+Analyzing frame 3/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 39428 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:40:18.299246362Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119270998446, 'load_duration': 118728148806, 'prompt_eval_count': 610, 'prompt_eval_duration': 483450642, 'eval_count': 3, 'eval_duration': 55866006}
+Response: Well
+Analyzing frame 4/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 39032 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:42:18.418106713Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119081754848, 'load_duration': 118569376395, 'prompt_eval_count': 610, 'prompt_eval_duration': 449621727, 'eval_count': 4, 'eval_duration': 60511834}
+Response: Poorly
+Analyzing frame 5/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42208 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:44:20.372159433Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120913571852, 'load_duration': 120386505764, 'prompt_eval_count': 610, 'prompt_eval_duration': 476343904, 'eval_count': 3, 'eval_duration': 48277285}
+Response: Well
+Analyzing frame 6/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 43340 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:46:23.482140817Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 122072395065, 'load_duration': 121557978147, 'prompt_eval_count': 610, 'prompt_eval_duration': 450911929, 'eval_count': 4, 'eval_duration': 61444762}
+Response: Poorly
+Analyzing frame 7/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 41520 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:48:23.16430471Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118641379102, 'load_duration': 118139407577, 'prompt_eval_count': 610, 'prompt_eval_duration': 451163923, 'eval_count': 3, 'eval_duration': 48440171}
+Response: Well
+Analyzing frame 8/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35880 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:50:23.43417537Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119232934059, 'load_duration': 118700403851, 'prompt_eval_count': 610, 'prompt_eval_duration': 468357096, 'eval_count': 4, 'eval_duration': 61983608}
+Response: Poorly
+Analyzing frame 9/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37532 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:52:25.393618627Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120924421897, 'load_duration': 120340116802, 'prompt_eval_count': 610, 'prompt_eval_duration': 522702530, 'eval_count': 4, 'eval_duration': 59527736}
+Response: Poorly
+Analyzing frame 10/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 36720 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:54:30.203635293Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123769878311, 'load_duration': 123262423248, 'prompt_eval_count': 610, 'prompt_eval_duration': 455270610, 'eval_count': 3, 'eval_duration': 49874913}
+Response: Well
+Analyzing frame 11/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40012 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:56:30.666350902Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119427883477, 'load_duration': 118907313102, 'prompt_eval_count': 610, 'prompt_eval_duration': 456882484, 'eval_count': 4, 'eval_duration': 61267597}
+Response: Poorly
+Analyzing frame 12/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40476 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T00:58:43.905316721Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 132205799716, 'load_duration': 131681381586, 'prompt_eval_count': 610, 'prompt_eval_duration': 470683445, 'eval_count': 3, 'eval_duration': 50081637}
+Response: Well
+Analyzing frame 13/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 41268 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:01:00.30656829Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 135361568661, 'load_duration': 134860698761, 'prompt_eval_count': 610, 'prompt_eval_duration': 450030879, 'eval_count': 3, 'eval_duration': 48418665}
+Response: Well
+Analyzing frame 14/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 39644 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:03:14.523023957Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 133176438716, 'load_duration': 132667583290, 'prompt_eval_count': 610, 'prompt_eval_duration': 448669411, 'eval_count': 3, 'eval_duration': 56886678}
+Response: Well
+Analyzing frame 15/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 39816 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:05:16.379685943Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120818080054, 'load_duration': 120302341063, 'prompt_eval_count': 610, 'prompt_eval_duration': 456571894, 'eval_count': 3, 'eval_duration': 57059517}
+Response: Well
+Analyzing frame 16/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38136 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:07:24.113383281Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 126697282224, 'load_duration': 126160902395, 'prompt_eval_count': 610, 'prompt_eval_duration': 482201443, 'eval_count': 3, 'eval_duration': 50158962}
+Response: Well
+Analyzing frame 17/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40308 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:09:26.689150579Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121538774348, 'load_duration': 121021277181, 'prompt_eval_count': 610, 'prompt_eval_duration': 453022355, 'eval_count': 4, 'eval_duration': 60822343}
+Response: Poorly
+Analyzing frame 18/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38956 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:11:31.552650162Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123822978374, 'load_duration': 123280745113, 'prompt_eval_count': 610, 'prompt_eval_duration': 478925076, 'eval_count': 4, 'eval_duration': 60903016}
+Response: Poorly
+Analyzing frame 19/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37916 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:13:33.435442906Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120845344860, 'load_duration': 120331603058, 'prompt_eval_count': 610, 'prompt_eval_duration': 463112252, 'eval_count': 3, 'eval_duration': 48323738}
+Response: Well
+Analyzing frame 20/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34980 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:15:33.875970996Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119402226545, 'load_duration': 118876094948, 'prompt_eval_count': 610, 'prompt_eval_duration': 473835315, 'eval_count': 3, 'eval_duration': 49915679}
+Response: Well
+Analyzing frame 21/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35020 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:17:41.535700658Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 126621477081, 'load_duration': 126079182600, 'prompt_eval_count': 610, 'prompt_eval_duration': 479954612, 'eval_count': 4, 'eval_duration': 60269605}
+Response: Poorly
+Analyzing frame 22/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35044 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:19:40.896770014Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118325959582, 'load_duration': 117790860360, 'prompt_eval_count': 610, 'prompt_eval_duration': 469724845, 'eval_count': 4, 'eval_duration': 60948166}
+Response: Poorly
+Analyzing frame 23/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35024 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:21:41.182202457Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119248468566, 'load_duration': 118713951217, 'prompt_eval_count': 610, 'prompt_eval_duration': 473217757, 'eval_count': 4, 'eval_duration': 59167935}
+Response: Poorly
+Analyzing frame 24/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35056 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:23:45.061335918Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 122841552230, 'load_duration': 122307198392, 'prompt_eval_count': 610, 'prompt_eval_duration': 472826964, 'eval_count': 4, 'eval_duration': 59200596}
+Response: Poorly
+Analyzing frame 25/25...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34992 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:25:45.298578905Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119199829271, 'load_duration': 118666491959, 'prompt_eval_count': 610, 'prompt_eval_duration': 469569198, 'eval_count': 4, 'eval_duration': 60915406}
+Response: Poorly
+Final prediction for 24_final.mp4: Well
+
+Results saved to ./results_llava.csv
+Total videos processed: 164
+
+==================================================
+Processing video 9/30
+
+Processing video: 29_final.mp4
+Video info: 218 frames, 30.00 FPS, 7.27 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15680 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:27:46.470687569Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119577865363, 'load_duration': 119064077672, 'prompt_eval_count': 610, 'prompt_eval_duration': 451166889, 'eval_count': 4, 'eval_duration': 60823410}
+Response: Poorly
+Analyzing frame 2/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15864 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:29:50.535150049Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123023669173, 'load_duration': 122437449706, 'prompt_eval_count': 610, 'prompt_eval_duration': 521891117, 'eval_count': 4, 'eval_duration': 60616925}
+Response: Poorly
+Analyzing frame 3/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16376 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:31:49.608335253Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118043953585, 'load_duration': 117508652114, 'prompt_eval_count': 610, 'prompt_eval_duration': 474107234, 'eval_count': 4, 'eval_duration': 59433562}
+Response: Poorly
+Analyzing frame 4/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16356 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:33:51.480889108Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120834040449, 'load_duration': 120307410619, 'prompt_eval_count': 610, 'prompt_eval_duration': 472858373, 'eval_count': 3, 'eval_duration': 52249304}
+Response: Well
+Analyzing frame 5/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15756 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:36:01.434387511Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 128918466068, 'load_duration': 128329887390, 'prompt_eval_count': 610, 'prompt_eval_duration': 525494882, 'eval_count': 4, 'eval_duration': 61289277}
+Response: Poorly
+Analyzing frame 6/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16032 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:38:08.544342956Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 126072548850, 'load_duration': 125549282764, 'prompt_eval_count': 610, 'prompt_eval_duration': 451109577, 'eval_count': 4, 'eval_duration': 70397860}
+Response: Poorly
+Analyzing frame 7/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15920 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:40:11.6479239Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 122068637569, 'load_duration': 121479488141, 'prompt_eval_count': 610, 'prompt_eval_duration': 521002999, 'eval_count': 4, 'eval_duration': 66621546}
+Response: Poorly
+Analyzing frame 8/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16416 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:42:11.242820007Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118572164394, 'load_duration': 118065914438, 'prompt_eval_count': 610, 'prompt_eval_duration': 454315166, 'eval_count': 3, 'eval_duration': 50256308}
+Response: Well
+Analyzing frame 9/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16604 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:44:15.441755251Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123160557760, 'load_duration': 122616353869, 'prompt_eval_count': 610, 'prompt_eval_duration': 480837957, 'eval_count': 4, 'eval_duration': 61612617}
+Response: Poorly
+Analyzing frame 10/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16484 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:46:19.969241637Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123489411121, 'load_duration': 122979773774, 'prompt_eval_count': 610, 'prompt_eval_duration': 455887148, 'eval_count': 3, 'eval_duration': 52048415}
+Response: Well
+Analyzing frame 11/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16480 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:48:23.039300353Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 122031154947, 'load_duration': 121493002795, 'prompt_eval_count': 610, 'prompt_eval_duration': 476802620, 'eval_count': 3, 'eval_duration': 57839252}
+Response: Well
+Analyzing frame 12/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16488 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:50:23.568958314Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119492048173, 'load_duration': 118876651982, 'prompt_eval_count': 610, 'prompt_eval_duration': 565396058, 'eval_count': 3, 'eval_duration': 48420256}
+Response: Well
+Analyzing frame 13/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16476 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:52:25.860835063Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121262819612, 'load_duration': 120760347161, 'prompt_eval_count': 610, 'prompt_eval_duration': 451155116, 'eval_count': 3, 'eval_duration': 49831498}
+Response: Well
+Analyzing frame 14/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16484 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:54:35.097308533Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 128203498964, 'load_duration': 127705015619, 'prompt_eval_count': 610, 'prompt_eval_duration': 447338261, 'eval_count': 3, 'eval_duration': 49524965}
+Response: Well
+Analyzing frame 15/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16492 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:56:37.079537453Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120954697824, 'load_duration': 120444596579, 'prompt_eval_count': 610, 'prompt_eval_duration': 458195839, 'eval_count': 3, 'eval_duration': 50318854}
+Response: Well
+Final prediction for 29_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 179
+
+==================================================
+Processing video 10/30
+
+Processing video: 30_final.mp4
+Video info: 377 frames, 30.00 FPS, 12.57 seconds
+Extracted 26 frames for analysis
+Analyzing frame 1/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16412 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T01:58:38.312490826Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119644241236, 'load_duration': 119114045673, 'prompt_eval_count': 610, 'prompt_eval_duration': 466737166, 'eval_count': 4, 'eval_duration': 60924983}
+Response: Poorly
+Analyzing frame 2/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15800 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:00:42.858042734Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 123519682754, 'load_duration': 122944125305, 'prompt_eval_count': 610, 'prompt_eval_duration': 523102630, 'eval_count': 3, 'eval_duration': 50186935}
+Response: Well
+Analyzing frame 3/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17500 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:02:42.814959034Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 118939689494, 'load_duration': 118426169632, 'prompt_eval_count': 610, 'prompt_eval_duration': 444269589, 'eval_count': 4, 'eval_duration': 66695808}
+Response: Poorly
+Analyzing frame 4/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17912 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:04:43.021882271Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119179968995, 'load_duration': 118662212451, 'prompt_eval_count': 610, 'prompt_eval_duration': 455032108, 'eval_count': 4, 'eval_duration': 61112795}
+Response: Poorly
+Analyzing frame 5/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18556 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:06:54.338921352Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 130287555538, 'load_duration': 129736202492, 'prompt_eval_count': 610, 'prompt_eval_duration': 488131556, 'eval_count': 4, 'eval_duration': 60623714}
+Response: Poorly
+Analyzing frame 6/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19236 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:08:56.070292525Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120704396425, 'load_duration': 120196086425, 'prompt_eval_count': 610, 'prompt_eval_duration': 456577670, 'eval_count': 3, 'eval_duration': 49811160}
+Response: Well
+Analyzing frame 7/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18988 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:10:56.528538001Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 119430958581, 'load_duration': 118914833379, 'prompt_eval_count': 610, 'prompt_eval_duration': 454821174, 'eval_count': 4, 'eval_duration': 59503843}
+Response: Poorly
+Analyzing frame 8/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19340 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:12:58.935371816Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 121381310154, 'load_duration': 120851785846, 'prompt_eval_count': 610, 'prompt_eval_duration': 479051103, 'eval_count': 3, 'eval_duration': 48692508}
+Response: Well
+Analyzing frame 9/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19436 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:00.340952593Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 120377998557, 'load_duration': 119882166263, 'prompt_eval_count': 610, 'prompt_eval_duration': 444043750, 'eval_count': 3, 'eval_duration': 49293528}
+Response: Well
+Analyzing frame 10/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19740 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:01.753861922Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 382629401, 'load_duration': 11707207, 'prompt_eval_count': 610, 'prompt_eval_duration': 317771772, 'eval_count': 4, 'eval_duration': 51779428}
+Response: Poorly
+Analyzing frame 11/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19832 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:03.152200929Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 369034559, 'load_duration': 12914012, 'prompt_eval_count': 610, 'prompt_eval_duration': 314548009, 'eval_count': 3, 'eval_duration': 40604145}
+Response: Well
+Analyzing frame 12/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20012 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:04.536787606Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 352604194, 'load_duration': 8659981, 'prompt_eval_count': 610, 'prompt_eval_duration': 302302446, 'eval_count': 3, 'eval_duration': 40497464}
+Response: Well
+Analyzing frame 13/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20136 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:05.924223156Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 357072973, 'load_duration': 6661961, 'prompt_eval_count': 610, 'prompt_eval_duration': 298224579, 'eval_count': 4, 'eval_duration': 51053294}
+Response: Poorly
+Analyzing frame 14/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20008 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:07.321897036Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 365821748, 'load_duration': 10428436, 'prompt_eval_count': 610, 'prompt_eval_duration': 313761959, 'eval_count': 3, 'eval_duration': 40173717}
+Response: Well
+Analyzing frame 15/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20916 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:08.718949243Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 365694487, 'load_duration': 8811633, 'prompt_eval_count': 610, 'prompt_eval_duration': 314997053, 'eval_count': 3, 'eval_duration': 40735650}
+Response: Well
+Analyzing frame 16/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19616 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:10.120888361Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 371902340, 'load_duration': 7859182, 'prompt_eval_count': 610, 'prompt_eval_duration': 311006928, 'eval_count': 4, 'eval_duration': 51758475}
+Response: Poorly
+Analyzing frame 17/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19172 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:11.524366582Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 373397148, 'load_duration': 14866388, 'prompt_eval_count': 610, 'prompt_eval_duration': 316612248, 'eval_count': 3, 'eval_duration': 40414512}
+Response: Well
+Analyzing frame 18/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18172 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:12.921252739Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 365842129, 'load_duration': 9723385, 'prompt_eval_count': 610, 'prompt_eval_duration': 303677785, 'eval_count': 4, 'eval_duration': 51322623}
+Response: Poorly
+Analyzing frame 19/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18480 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:14.305711169Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 353701423, 'load_duration': 8368629, 'prompt_eval_count': 610, 'prompt_eval_duration': 304155527, 'eval_count': 3, 'eval_duration': 40318686}
+Response: Well
+Analyzing frame 20/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20528 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:15.702430088Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 366809080, 'load_duration': 12496393, 'prompt_eval_count': 610, 'prompt_eval_duration': 311900392, 'eval_count': 3, 'eval_duration': 40644134}
+Response: Well
+Analyzing frame 21/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20860 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:17.103856731Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 371126584, 'load_duration': 13061400, 'prompt_eval_count': 610, 'prompt_eval_duration': 315873989, 'eval_count': 3, 'eval_duration': 40804381}
+Response: Well
+Analyzing frame 22/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20864 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:18.515975937Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 381905737, 'load_duration': 14551411, 'prompt_eval_count': 610, 'prompt_eval_duration': 313531428, 'eval_count': 4, 'eval_duration': 51554813}
+Response: Poorly
+Analyzing frame 23/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20864 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:19.920883585Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 375944448, 'load_duration': 13078804, 'prompt_eval_count': 610, 'prompt_eval_duration': 320925826, 'eval_count': 3, 'eval_duration': 40557433}
+Response: Well
+Analyzing frame 24/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20876 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:21.321361384Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 369504990, 'load_duration': 11448870, 'prompt_eval_count': 610, 'prompt_eval_duration': 305046477, 'eval_count': 4, 'eval_duration': 51969546}
+Response: Poorly
+Analyzing frame 25/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20860 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:22.69916148Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 348176560, 'load_duration': 7726098, 'prompt_eval_count': 610, 'prompt_eval_duration': 298103678, 'eval_count': 3, 'eval_duration': 40964750}
+Response: Well
+Analyzing frame 26/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 20860 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:24.077104115Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 348870619, 'load_duration': 9368417, 'prompt_eval_count': 610, 'prompt_eval_duration': 297791561, 'eval_count': 3, 'eval_duration': 40699815}
+Response: Well
+Final prediction for 30_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 205
+
+==================================================
+Processing video 11/30
+
+Processing video: 31_final.mp4
+Video info: 296 frames, 30.00 FPS, 9.87 seconds
+Extracted 20 frames for analysis
+Analyzing frame 1/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26420 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:26.387462688Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 404131429, 'load_duration': 14347570, 'prompt_eval_count': 610, 'prompt_eval_duration': 346919986, 'eval_count': 3, 'eval_duration': 40670346}
+Response: Well
+Analyzing frame 2/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26408 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:27.81073564Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 382651501, 'load_duration': 14748701, 'prompt_eval_count': 610, 'prompt_eval_duration': 325801240, 'eval_count': 3, 'eval_duration': 40624507}
+Response: Well
+Analyzing frame 3/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26520 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:29.191518281Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 344133695, 'load_duration': 4897205, 'prompt_eval_count': 610, 'prompt_eval_duration': 297766480, 'eval_count': 3, 'eval_duration': 40395469}
+Response: Well
+Analyzing frame 4/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26596 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:30.59323469Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 363491254, 'load_duration': 6763541, 'prompt_eval_count': 610, 'prompt_eval_duration': 303895717, 'eval_count': 4, 'eval_duration': 51752822}
+Response: Poorly
+Analyzing frame 5/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26612 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:31.977490509Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 346827006, 'load_duration': 7725602, 'prompt_eval_count': 610, 'prompt_eval_duration': 296788434, 'eval_count': 3, 'eval_duration': 40963564}
+Response: Well
+Analyzing frame 6/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26552 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:33.378894388Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 362753827, 'load_duration': 15016683, 'prompt_eval_count': 610, 'prompt_eval_duration': 305735808, 'eval_count': 3, 'eval_duration': 40764160}
+Response: Well
+Analyzing frame 7/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26572 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:34.793964756Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 378148384, 'load_duration': 13695186, 'prompt_eval_count': 610, 'prompt_eval_duration': 322196943, 'eval_count': 3, 'eval_duration': 41089277}
+Response: Well
+Analyzing frame 8/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26972 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:36.200600565Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 366566037, 'load_duration': 6152915, 'prompt_eval_count': 610, 'prompt_eval_duration': 318219614, 'eval_count': 3, 'eval_duration': 40710410}
+Response: Well
+Analyzing frame 9/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 27060 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:37.621800034Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 382836754, 'load_duration': 4899851, 'prompt_eval_count': 610, 'prompt_eval_duration': 324099307, 'eval_count': 4, 'eval_duration': 52390057}
+Response: Poorly
+Analyzing frame 10/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 27140 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:39.011181809Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 350858065, 'load_duration': 7040193, 'prompt_eval_count': 610, 'prompt_eval_duration': 301353615, 'eval_count': 3, 'eval_duration': 41075679}
+Response: Well
+Analyzing frame 11/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 27112 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:40.416603132Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 367946167, 'load_duration': 15166842, 'prompt_eval_count': 610, 'prompt_eval_duration': 309702663, 'eval_count': 3, 'eval_duration': 41645656}
+Response: Well
+Analyzing frame 12/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26792 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:41.801168375Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 347131254, 'load_duration': 5794619, 'prompt_eval_count': 610, 'prompt_eval_duration': 298426665, 'eval_count': 3, 'eval_duration': 41586028}
+Response: Well
+Analyzing frame 13/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26972 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:43.180290165Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 345755135, 'load_duration': 5393636, 'prompt_eval_count': 610, 'prompt_eval_duration': 297993968, 'eval_count': 3, 'eval_duration': 41123723}
+Response: Well
+Analyzing frame 14/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26956 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:44.588644024Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 369147816, 'load_duration': 8998774, 'prompt_eval_count': 610, 'prompt_eval_duration': 306820490, 'eval_count': 4, 'eval_duration': 52187508}
+Response: Poorly
+Analyzing frame 15/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26972 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:46.015814065Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 387816867, 'load_duration': 15714110, 'prompt_eval_count': 610, 'prompt_eval_duration': 318328542, 'eval_count': 4, 'eval_duration': 52404439}
+Response: Poorly
+Analyzing frame 16/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26996 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:47.433144188Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 376816348, 'load_duration': 14210808, 'prompt_eval_count': 610, 'prompt_eval_duration': 319510288, 'eval_count': 3, 'eval_duration': 41632072}
+Response: Well
+Analyzing frame 17/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 27008 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:48.83891799Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 364214419, 'load_duration': 13172552, 'prompt_eval_count': 610, 'prompt_eval_duration': 308036252, 'eval_count': 3, 'eval_duration': 41724358}
+Response: Well
+Analyzing frame 18/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 27036 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:50.243245337Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 366069177, 'load_duration': 15145450, 'prompt_eval_count': 610, 'prompt_eval_duration': 308257459, 'eval_count': 3, 'eval_duration': 41652573}
+Response: Well
+Analyzing frame 19/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 27060 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:51.646267727Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 363365112, 'load_duration': 5658924, 'prompt_eval_count': 610, 'prompt_eval_duration': 315014678, 'eval_count': 3, 'eval_duration': 41801504}
+Response: Well
+Analyzing frame 20/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26972 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:53.052198735Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 367897185, 'load_duration': 15436492, 'prompt_eval_count': 610, 'prompt_eval_duration': 310101632, 'eval_count': 3, 'eval_duration': 41247356}
+Response: Well
+Final prediction for 31_final.mp4: Well
+
+Results saved to ./results_llava.csv
+Total videos processed: 225
+
+==================================================
+Processing video 12/30
+
+Processing video: 33_final.mp4
+Video info: 221 frames, 30.00 FPS, 7.37 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 51524 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:55.329854156Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 415362946, 'load_duration': 8189892, 'prompt_eval_count': 610, 'prompt_eval_duration': 354400305, 'eval_count': 4, 'eval_duration': 51773167}
+Response: Poorly
+Analyzing frame 2/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 52008 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:56.76663336Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 394545344, 'load_duration': 14867745, 'prompt_eval_count': 610, 'prompt_eval_duration': 325626787, 'eval_count': 4, 'eval_duration': 52351358}
+Response: Poorly
+Analyzing frame 3/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 52516 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:58.17742474Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 364318321, 'load_duration': 7716081, 'prompt_eval_count': 610, 'prompt_eval_duration': 302971291, 'eval_count': 4, 'eval_duration': 51962136}
+Response: Poorly
+Analyzing frame 4/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 52812 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:15:59.594633264Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 378566265, 'load_duration': 7478191, 'prompt_eval_count': 610, 'prompt_eval_duration': 316946364, 'eval_count': 4, 'eval_duration': 52385188}
+Response: Poorly
+Analyzing frame 5/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53540 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:01.016342235Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 382128917, 'load_duration': 15087507, 'prompt_eval_count': 610, 'prompt_eval_duration': 311613373, 'eval_count': 4, 'eval_duration': 52035085}
+Response: Poorly
+Analyzing frame 6/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53668 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:02.440911664Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 384459700, 'load_duration': 7981123, 'prompt_eval_count': 610, 'prompt_eval_duration': 322257034, 'eval_count': 4, 'eval_duration': 52042861}
+Response: Poorly
+Analyzing frame 7/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53608 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:03.8380633Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 358835601, 'load_duration': 5332959, 'prompt_eval_count': 610, 'prompt_eval_duration': 300088152, 'eval_count': 4, 'eval_duration': 52124947}
+Response: Poorly
+Analyzing frame 8/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 53956 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:05.239482265Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 361469833, 'load_duration': 6620187, 'prompt_eval_count': 610, 'prompt_eval_duration': 301521214, 'eval_count': 4, 'eval_duration': 51972091}
+Response: Poorly
+Analyzing frame 9/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54656 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:06.663733524Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 383717941, 'load_duration': 7662852, 'prompt_eval_count': 610, 'prompt_eval_duration': 322002852, 'eval_count': 4, 'eval_duration': 51937272}
+Response: Poorly
+Analyzing frame 10/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54960 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:08.091701175Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 388859319, 'load_duration': 12620509, 'prompt_eval_count': 610, 'prompt_eval_duration': 322083762, 'eval_count': 4, 'eval_duration': 52177800}
+Response: Poorly
+Analyzing frame 11/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54952 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:09.495653526Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 363337398, 'load_duration': 8646311, 'prompt_eval_count': 610, 'prompt_eval_duration': 301274209, 'eval_count': 4, 'eval_duration': 51993145}
+Response: Poorly
+Analyzing frame 12/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54924 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:10.935105398Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 400900952, 'load_duration': 15392820, 'prompt_eval_count': 610, 'prompt_eval_duration': 330988160, 'eval_count': 4, 'eval_duration': 52377901}
+Response: Poorly
+Analyzing frame 13/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54924 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:12.336179116Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 361051933, 'load_duration': 5704942, 'prompt_eval_count': 610, 'prompt_eval_duration': 302011506, 'eval_count': 4, 'eval_duration': 52131115}
+Response: Poorly
+Analyzing frame 14/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54928 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:13.767854439Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 392209283, 'load_duration': 15072417, 'prompt_eval_count': 610, 'prompt_eval_duration': 323605372, 'eval_count': 4, 'eval_duration': 52142351}
+Response: Poorly
+Analyzing frame 15/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54944 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:15.188911583Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 380579417, 'load_duration': 14363841, 'prompt_eval_count': 610, 'prompt_eval_duration': 312492988, 'eval_count': 4, 'eval_duration': 52194348}
+Response: Poorly
+Final prediction for 33_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 240
+
+==================================================
+Processing video 13/30
+
+Processing video: 34_final.mp4
+Video info: 213 frames, 30.00 FPS, 7.10 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29156 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:17.295128166Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 387147672, 'load_duration': 5548267, 'prompt_eval_count': 610, 'prompt_eval_duration': 328737098, 'eval_count': 4, 'eval_duration': 52124548}
+Response: Poorly
+Analyzing frame 2/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29188 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:18.716549132Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 381056246, 'load_duration': 14689711, 'prompt_eval_count': 610, 'prompt_eval_duration': 312443412, 'eval_count': 4, 'eval_duration': 52334723}
+Response: Poorly
+Analyzing frame 3/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 29472 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:20.1434663Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 388989167, 'load_duration': 14775869, 'prompt_eval_count': 610, 'prompt_eval_duration': 320269604, 'eval_count': 4, 'eval_duration': 52407198}
+Response: Poorly
+Analyzing frame 4/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 36440 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:21.571306822Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 389137990, 'load_duration': 5673375, 'prompt_eval_count': 610, 'prompt_eval_duration': 323390447, 'eval_count': 4, 'eval_duration': 58488370}
+Response: Poorly
+Analyzing frame 5/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35836 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:22.99437805Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 382520075, 'load_duration': 7920514, 'prompt_eval_count': 610, 'prompt_eval_duration': 320613087, 'eval_count': 4, 'eval_duration': 52342059}
+Response: Poorly
+Analyzing frame 6/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 36020 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:24.413644273Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 379461796, 'load_duration': 6029860, 'prompt_eval_count': 610, 'prompt_eval_duration': 319489193, 'eval_count': 4, 'eval_duration': 52487883}
+Response: Poorly
+Analyzing frame 7/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 37680 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:25.814380107Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 361073942, 'load_duration': 5608041, 'prompt_eval_count': 610, 'prompt_eval_duration': 302047776, 'eval_count': 4, 'eval_duration': 52187060}
+Response: Poorly
+Analyzing frame 8/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40960 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:27.252340878Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 398007193, 'load_duration': 14548377, 'prompt_eval_count': 610, 'prompt_eval_duration': 329474417, 'eval_count': 4, 'eval_duration': 52322043}
+Response: Poorly
+Analyzing frame 9/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 41320 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:28.659024752Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 366114351, 'load_duration': 7359309, 'prompt_eval_count': 610, 'prompt_eval_duration': 305143480, 'eval_count': 4, 'eval_duration': 52366463}
+Response: Poorly
+Analyzing frame 10/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42276 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:30.082293118Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 383383136, 'load_duration': 10516841, 'prompt_eval_count': 610, 'prompt_eval_duration': 318675557, 'eval_count': 4, 'eval_duration': 52333140}
+Response: Poorly
+Analyzing frame 11/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42224 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:31.49896043Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 376937365, 'load_duration': 6738965, 'prompt_eval_count': 610, 'prompt_eval_duration': 316152044, 'eval_count': 4, 'eval_duration': 52262129}
+Response: Poorly
+Analyzing frame 12/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42256 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:32.934061893Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 396964264, 'load_duration': 15841407, 'prompt_eval_count': 610, 'prompt_eval_duration': 325837431, 'eval_count': 4, 'eval_duration': 52319886}
+Response: Poorly
+Analyzing frame 13/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42272 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:34.364000786Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 391162574, 'load_duration': 14365327, 'prompt_eval_count': 610, 'prompt_eval_duration': 322583809, 'eval_count': 4, 'eval_duration': 52266048}
+Response: Poorly
+Analyzing frame 14/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42256 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:35.790883667Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 388451007, 'load_duration': 8167753, 'prompt_eval_count': 610, 'prompt_eval_duration': 326239725, 'eval_count': 4, 'eval_duration': 52355891}
+Response: Poorly
+Analyzing frame 15/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42288 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:37.220487557Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 390429997, 'load_duration': 14971354, 'prompt_eval_count': 610, 'prompt_eval_duration': 320623833, 'eval_count': 4, 'eval_duration': 52392558}
+Response: Poorly
+Final prediction for 34_final.mp4: Poorly
+
+Results saved to ./results_llava.csv
+Total videos processed: 255
+
+==================================================
+Processing video 14/30
+
+Processing video: 40_final.mp4
+Video info: 252 frames, 30.00 FPS, 8.40 seconds
+Extracted 17 frames for analysis
+Analyzing frame 1/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23524 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:39.23007459Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 361610502, 'load_duration': 6674520, 'prompt_eval_count': 610, 'prompt_eval_duration': 312831251, 'eval_count': 3, 'eval_duration': 41265660}
+Response: Well
+Analyzing frame 2/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23592 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:40.630803268Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 361732437, 'load_duration': 6619618, 'prompt_eval_count': 610, 'prompt_eval_duration': 301683548, 'eval_count': 4, 'eval_duration': 52515655}
+Response: Poorly
+Analyzing frame 3/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23576 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:42.054154954Z', 'message': {'role': 'assistant', 'content': ' Poorly '}, 'done_reason': 'stop', 'done': True, 'total_duration': 385087291, 'load_duration': 7835403, 'prompt_eval_count': 610, 'prompt_eval_duration': 323412529, 'eval_count': 4, 'eval_duration': 52387513}
+Response: Poorly
+Analyzing frame 4/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23644 bytes
+Response status code: 200
+{'model': 'llava', 'created_at': '2025-05-28T02:16:43.453904723Z', 'message': {'role': 'assistant', 'content': ' Well '}, 'done_reason': 'stop', 'done': True, 'total_duration': 362683353, 'load_duration': 4776049, 'prompt_eval_count': 610, 'prompt_eval_duration': 315286149, 'eval_count': 3, 'eval_duration': 41262719}
+Response: Well
+Analyzing frame 5/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 23664 bytes
+Response status code: 200
