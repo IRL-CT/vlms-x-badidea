@@ -304,6 +304,9 @@ def main():
     #nohup python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './test_results.csv' --frame-sample-rate 15 > vlm_output.log 2>&1 &
     #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results_gemma3.csv' --frame-sample-rate 15 > vlm_output_gemma3.log 2>&1 &
     #nohup python vlm_reactions.py  --model gemma3:27b --video-folder '../../../data/final_cut_videos/' --output-csv './results_gemma3_27b.csv' --frame-sample-rate 15 > vlm_output_gemma3S_27b.log 2>&1 &
+    #nohup python vlm_reactions.py  --model llama4:scout --video-folder '../../../data/final_cut_videos/' --output-csv './results_llama4.csv' --frame-sample-rate 15 > vlm_output_llama4.log 2>&1 &
+    #nohup python vlm_reactions.py  --model qwen2.5vl --video-folder '../../../data/final_cut_videos/' --output-csv './results_qwen25.csv' --frame-sample-rate 15 > vlm_output_qwen25.log 2>&1 &
+
 
 
 
