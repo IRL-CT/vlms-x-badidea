@@ -1,0 +1,187 @@
+nohup: ignoring input
+Starting video analysis with minicpm-v...
+Video folder: ../../../data/final_cut_videos/
+Output CSV: ./results_minicpm.csv
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Found 30 video files
+
+==================================================
+Processing video 1/30
+
+Processing video: 11_final.mp4
+Video info: 424 frames, 30.00 FPS, 14.13 seconds
+Extracted 29 frames for analysis
+Analyzing frame 1/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31940 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:22:10.705283582Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 110542478342, 'load_duration': 109800716941, 'prompt_eval_count': 225, 'prompt_eval_duration': 680554952, 'eval_count': 4, 'eval_duration': 59034961}
+Response: poorly
+Analyzing frame 2/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32676 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:24:13.943320637Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122198579459, 'load_duration': 121516112372, 'prompt_eval_count': 225, 'prompt_eval_duration': 624418222, 'eval_count': 4, 'eval_duration': 55638124}
+Response: poorly
+Analyzing frame 3/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32352 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:26:15.948047368Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120957958779, 'load_duration': 120254534493, 'prompt_eval_count': 225, 'prompt_eval_duration': 639091719, 'eval_count': 4, 'eval_duration': 62122845}
+Response: poorly
+Analyzing frame 4/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32292 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:28:18.888878364Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121906646137, 'load_duration': 121233815443, 'prompt_eval_count': 225, 'prompt_eval_duration': 613303694, 'eval_count': 4, 'eval_duration': 56254122}
+Response: poorly
+Analyzing frame 5/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32280 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:30:20.558693921Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120628801123, 'load_duration': 119955847465, 'prompt_eval_count': 225, 'prompt_eval_duration': 613195438, 'eval_count': 4, 'eval_duration': 56265815}
+Response: poorly
+Analyzing frame 6/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31268 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:32:28.567205957Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126972074875, 'load_duration': 126336366613, 'prompt_eval_count': 225, 'prompt_eval_duration': 577367454, 'eval_count': 4, 'eval_duration': 56414344}
+Response: poorly
+Analyzing frame 7/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 30924 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:34:31.555291105Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121953418970, 'load_duration': 121282342202, 'prompt_eval_count': 225, 'prompt_eval_duration': 613950376, 'eval_count': 4, 'eval_duration': 55129948}
+Response: poorly
+Analyzing frame 8/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32056 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:36:41.416158525Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128837303586, 'load_duration': 128178125835, 'prompt_eval_count': 225, 'prompt_eval_duration': 600740573, 'eval_count': 4, 'eval_duration': 54879756}
+Response: poorly
+Analyzing frame 9/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32272 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:38:46.22702543Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123771955353, 'load_duration': 123114921882, 'prompt_eval_count': 225, 'prompt_eval_duration': 623129329, 'eval_count': 2, 'eval_duration': 31845796}
+Response: well
+Analyzing frame 10/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31692 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:40:49.12864256Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121861503325, 'load_duration': 121181589144, 'prompt_eval_count': 225, 'prompt_eval_duration': 622703882, 'eval_count': 4, 'eval_duration': 55053801}
+Response: poorly
+Analyzing frame 11/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32284 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:42:53.611123756Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123453406947, 'load_duration': 122788563003, 'prompt_eval_count': 225, 'prompt_eval_duration': 607742846, 'eval_count': 4, 'eval_duration': 55039710}
+Response: poorly
+Analyzing frame 12/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31840 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:44:55.754016558Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121103965489, 'load_duration': 120462973473, 'prompt_eval_count': 225, 'prompt_eval_duration': 582133179, 'eval_count': 4, 'eval_duration': 56553486}
+Response: poorly
+Analyzing frame 13/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31424 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:46:59.425014575Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122632043106, 'load_duration': 121956350309, 'prompt_eval_count': 225, 'prompt_eval_duration': 615970836, 'eval_count': 4, 'eval_duration': 57021571}
+Response: poorly
+Analyzing frame 14/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31632 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:49:00.297729341Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 119842028412, 'load_duration': 119170097195, 'prompt_eval_count': 225, 'prompt_eval_duration': 614780776, 'eval_count': 4, 'eval_duration': 55177691}
+Response: poorly
+Analyzing frame 15/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32108 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:51:04.190392083Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122857981168, 'load_duration': 122197259287, 'prompt_eval_count': 225, 'prompt_eval_duration': 602116627, 'eval_count': 4, 'eval_duration': 56676320}
+Response: poorly
+Analyzing frame 16/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31220 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:53:10.655315664Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125427151469, 'load_duration': 124749579274, 'prompt_eval_count': 225, 'prompt_eval_duration': 618347958, 'eval_count': 4, 'eval_duration': 55914707}
+Response: poorly
+Analyzing frame 17/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 30640 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:55:12.207780368Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120514660134, 'load_duration': 119843495738, 'prompt_eval_count': 225, 'prompt_eval_duration': 614048590, 'eval_count': 4, 'eval_duration': 55152924}
+Response: poorly
+Analyzing frame 18/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31888 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:57:17.161190162Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123913493182, 'load_duration': 123250505315, 'prompt_eval_count': 225, 'prompt_eval_duration': 604764044, 'eval_count': 4, 'eval_duration': 55905916}
+Response: poorly
+Analyzing frame 19/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32460 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T19:59:21.925659181Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123741895217, 'load_duration': 123078999895, 'prompt_eval_count': 225, 'prompt_eval_duration': 602767762, 'eval_count': 4, 'eval_duration': 56244119}
+Response: poorly
+Analyzing frame 20/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32504 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:01:23.900834104Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120937377031, 'load_duration': 120229097282, 'prompt_eval_count': 225, 'prompt_eval_duration': 647805964, 'eval_count': 4, 'eval_duration': 58421740}
+Response: poorly
+Analyzing frame 21/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33992 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:03:25.845839059Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120907537070, 'load_duration': 120192805007, 'prompt_eval_count': 225, 'prompt_eval_duration': 657084995, 'eval_count': 4, 'eval_duration': 55356520}
+Response: poorly
+Analyzing frame 22/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33772 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:05:29.306526597Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122422294397, 'load_duration': 121760468746, 'prompt_eval_count': 225, 'prompt_eval_duration': 602834545, 'eval_count': 4, 'eval_duration': 56246413}
+Response: poorly
+Analyzing frame 23/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33020 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:07:54.274988374Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 143933822532, 'load_duration': 143263444324, 'prompt_eval_count': 225, 'prompt_eval_duration': 611816706, 'eval_count': 4, 'eval_duration': 55236047}
+Response: poorly
+Analyzing frame 24/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32816 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:09:57.07865739Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 121776710624, 'load_duration': 121071737942, 'prompt_eval_count': 225, 'prompt_eval_duration': 646497974, 'eval_count': 4, 'eval_duration': 54919317}
+Response: poorly
+Analyzing frame 25/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32816 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:12:02.241432808Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124125093401, 'load_duration': 123492113290, 'prompt_eval_count': 225, 'prompt_eval_duration': 575040747, 'eval_count': 4, 'eval_duration': 56424959}
+Response: poorly
+Analyzing frame 26/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32812 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:14:13.233598456Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129954056894, 'load_duration': 129300511380, 'prompt_eval_count': 225, 'prompt_eval_duration': 585307104, 'eval_count': 4, 'eval_duration': 66133036}
+Response: poorly
+Analyzing frame 27/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32824 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:16:21.840023818Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127566549542, 'load_duration': 126915677008, 'prompt_eval_count': 225, 'prompt_eval_duration': 592274955, 'eval_count': 4, 'eval_duration': 56406786}
+Response: poorly
+Analyzing frame 28/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32844 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:18:28.091878242Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125233026657, 'load_duration': 124541799421, 'prompt_eval_count': 225, 'prompt_eval_duration': 634005136, 'eval_count': 4, 'eval_duration': 55010007}
+Response: poorly
+Analyzing frame 29/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32836 bytes
+Response status code: 200
+{'model': 'minicpm-v', 'created_at': '2025-05-29T20:20:28.297835774Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 119167121694, 'load_duration': 118500247099, 'prompt_eval_count': 225, 'prompt_eval_duration': 608495971, 'eval_count': 4, 'eval_duration': 55036082}
+Response: poorly
