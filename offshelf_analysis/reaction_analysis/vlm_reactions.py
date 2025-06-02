@@ -299,15 +299,15 @@ def main():
 
     #conda activate ollama
     #ollama pull llama3.2-vision
-    #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './test_results.csv' --frame-sample-rate 15
-    #nohup python vlm_reactions.py  --model llava --video-folder '../../../data/final_cut_videos/' --output-csv './results_llava.csv' --frame-sample-rate 15 > vlm_output_llava.log 2>&1 &
-    #nohup python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './test_results.csv' --frame-sample-rate 15 > vlm_output.log 2>&1 &
-    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results_gemma3.csv' --frame-sample-rate 15 > vlm_output_gemma3.log 2>&1 &
-    #nohup python vlm_reactions.py  --model gemma3:27b --video-folder '../../../data/final_cut_videos/' --output-csv './results_gemma3_27b.csv' --frame-sample-rate 15 > vlm_output_gemma3S_27b.log 2>&1 &
-    #nohup python vlm_reactions.py  --model llama4:scout --video-folder '../../../data/final_cut_videos/' --output-csv './results_llama4.csv' --frame-sample-rate 15 > vlm_output_llama4.log 2>&1 &
-    #nohup python vlm_reactions.py  --model qwen2.5vl --video-folder '../../../data/final_cut_videos/' --output-csv './results_qwen25.csv' --frame-sample-rate 15 > vlm_output_qwen25.log 2>&1 &
-
-
+    #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/test_results.csv' --frame-sample-rate 15
+    #nohup python vlm_reactions.py  --model llava --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llava.csv' --frame-sample-rate 15 > ./logs/vlm_output_llava.log 2>&1 &
+    #nohup python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/test_results.csv' --frame-sample-rate 15 > ./logs/vlm_output.log 2>&1 &
+    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3.log 2>&1 &
+    #nohup python vlm_reactions.py  --model gemma3:27b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3_27b.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3S_27b.log 2>&1 &
+    #nohup python vlm_reactions.py  --model llama4:scout --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llama4.csv' --frame-sample-rate 15 > ./logs/vlm_output_llama4.log 2>&1 &
+    #nohup python vlm_reactions.py  --model qwen2.5vl --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_qwen25.csv' --frame-sample-rate 15 > ./logs/vlm_output_qwen25.log 2>&1 &
+    #nohup python vlm_reactions.py  --model minicpm-v --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_minicpm.csv' --frame-sample-rate 15 > ./logs/vlm_output_minicpm.log 2>&1 &
+    #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 15 > ./logs/vlm_output_llavallama3.log 2>&1 &
 
 
 if __name__ == "__main__":
