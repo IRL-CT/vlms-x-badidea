@@ -46,8 +46,18 @@ class VideoAnalyzer:
         """Get all video files from the specified folder"""
         video_files = []
         for file_path in Path(self.video_folder).iterdir():
-            if file_path.suffix.lower() in self.video_extensions:
-                video_files.append(file_path)
+            #if files are folders, go folder by folder
+            if file_path.is_dir():
+                #open folder and get all video files recursively
+                for sub_file in file_path.rglob('*'):
+                    if sub_file.is_file() and sub_file.suffix.lower() in self.video_extensions:
+                        #append file_path and sub_file to video_files, to keep information about the folder
+                    
+                        video_files.append(sub_file)
+            else:
+                # Check if the file is a video based on its extension
+                if file_path.suffix.lower() in self.video_extensions:
+                    video_files.append(file_path)
         return sorted(video_files)
     
     def frame_to_base64(self, frame):
@@ -57,7 +67,7 @@ class VideoAnalyzer:
         pil_img = Image.fromarray(rgb_frame)
         
         # Resize image to reduce payload size
-        pil_img = pil_img.resize((640, 360))
+        pil_img = pil_img.resize((320,180))#((640, 360))
         
         # Save image to BytesIO object
         buffered = BytesIO()
@@ -118,6 +128,9 @@ class VideoAnalyzer:
         """Process a single video file"""
         video_name = video_path.name
         print(f"\nProcessing video: {video_name}")
+        #keep video name and folder
+        video_folder = video_path.parent.name
+        
         
         # Open video
         cap = cv2.VideoCapture(str(video_path))
@@ -159,12 +172,14 @@ class VideoAnalyzer:
         # Analyze frames and collect responses
         responses = []
         video_names = []
+        participant = []
         for i, frame in enumerate(sampled_frames):
             print(f"Analyzing frame {i+1}/{len(sampled_frames)}...")
             response = self.analyze_frame(frame, video_name)
             responses.append(response)
             print(f"Response: {response}")
             video_names.append(video_name)
+            participant.append(video_folder)
             time.sleep(1)  # Small delay to avoid overwhelming the API
             #if i >= 2:
             #    break  # For testing, limit to first 3 frames
@@ -183,7 +198,7 @@ class VideoAnalyzer:
         #if final_response is None:
         #    final_response = responses[0] if responses else "No response"
         
-        return video_names, frame_times, responses
+        return video_names, participant, frame_times, responses
     
     def save_results_to_csv(self):
         """Save results to CSV file"""
@@ -193,7 +208,7 @@ class VideoAnalyzer:
             
         #create csv file and save results, knowing that it's 3 columns, video_name, frame_time, outcome_prediction
         with open(self.output_csv, mode='w', newline='', encoding='utf-8') as csvfile:
-            fieldnames = ['video_name','frame', 'outcome_prediction']
+            fieldnames = ['video_name','participant','frame', 'outcome_prediction']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             
             writer.writeheader()
@@ -239,10 +254,11 @@ class VideoAnalyzer:
                     for j in range(len(result[0])):
                         self.results.append({
                             'video_name': result[0][j],  # video name
-                            'frame': result[1][j],  # frame times
-                            'outcome_prediction': result[2][j]  # outcome prediction
+                            'participant': result[1][j],  # participant folder
+                            'frame': result[2][j],  # frame times
+                            'outcome_prediction': result[3][j]  # outcome prediction
                         })
-                    print(f"Final prediction for {video_path.name}: {result[2][0]}")
+                    print(f"Final prediction for {video_path.name}: {result[3][0]}")
                 else:
                     print(f"Failed to process {video_path.name}")
 
@@ -268,7 +284,7 @@ def main():
     parser.add_argument('--model', type=str, default='llama3.2-vision', 
                         help='Ollama model to use (default: llama3.2-vision)')
     parser.add_argument('--prompt', type=str, 
-                        default='Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)',
+                        default='Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)',
                         help='Prompt for the vision model')
     parser.add_argument('--video-folder', type=str, default='./videos',
                         help='Folder containing video files (default: ./videos)')
@@ -299,15 +315,17 @@ def main():
 
     #conda activate ollama
     #ollama pull llama3.2-vision
-    #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/test_results.csv' --frame-sample-rate 15
-    #nohup python vlm_reactions.py  --model llava --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llava.csv' --frame-sample-rate 15 > ./logs/vlm_output_llava.log 2>&1 &
-    #nohup python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/test_results.csv' --frame-sample-rate 15 > ./logs/vlm_output.log 2>&1 &
-    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3.log 2>&1 &
-    #nohup python vlm_reactions.py  --model gemma3:27b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3_27b.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3S_27b.log 2>&1 &
-    #nohup python vlm_reactions.py  --model llama4:scout --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llama4.csv' --frame-sample-rate 15 > ./logs/vlm_output_llama4.log 2>&1 &
-    #nohup python vlm_reactions.py  --model qwen2.5vl --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_qwen25.csv' --frame-sample-rate 15 > ./logs/vlm_output_qwen25.log 2>&1 &
-    #nohup python vlm_reactions.py  --model minicpm-v --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_minicpm.csv' --frame-sample-rate 15 > ./logs/vlm_output_minicpm.log 2>&1 &
-    #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 15 > ./logs/vlm_output_llavallama3.log 2>&1 &
+    #python vlm_reactions.py --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/test_results.csv' --frame-sample-rate 15
+    #nohup python vlm_reactions.py --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_llama32vision.csv' --frame-sample-rate 15 > ./logs/vlm_output_llama32.log 2>&1 &
+
+    #nohup python vlm_reactions.py  --model llava --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_llava.csv' --frame-sample-rate 15 > ./logs/vlm_output_llava.log 2>&1 &
+    #nohup python vlm_reactions.py --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/test_results.csv' --frame-sample-rate 15 > ./logs/vlm_output.log 2>&1 &
+    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3.log 2>&1 &
+    #nohup python vlm_reactions.py  --model gemma3:27b --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_gemma3_27b.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3S_27b.log 2>&1 &
+    #nohup python vlm_reactions.py  --model llama4:scout --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_llama4.csv' --frame-sample-rate 15 > ./logs/vlm_output_llama4.log 2>&1 &
+    #nohup python vlm_reactions.py  --model qwen2.5vl --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_qwen25.csv' --frame-sample-rate 15 > ./logs/vlm_output_qwen25.log 2>&1 &
+    #nohup python vlm_reactions.py  --model minicpm-v --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_minicpm.csv' --frame-sample-rate 15 > ./logs/vlm_output_minicpm.log 2>&1 &
+    #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/reactions/cut_dataset_1s/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 15 > ./logs/vlm_output_llavallama3.log 2>&1 &
 
 
 if __name__ == "__main__":
