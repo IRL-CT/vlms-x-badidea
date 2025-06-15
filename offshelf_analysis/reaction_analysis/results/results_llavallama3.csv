@@ -1,0 +1,547 @@
+video_name,participant,frame,outcome_prediction
+q_10_main_0.mp4,1048,0,Poorly
+q_10_main_0.mp4,1048,15,Poorly
+q_11_main_0.mp4,1048,0,Poorly
+q_11_main_0.mp4,1048,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_12_main_1.mp4,1048,0,Poorly
+q_12_main_1.mp4,1048,15,Poorly
+q_13_main_0.mp4,1048,0,Well
+q_13_main_0.mp4,1048,15,Well
+q_14_main_0.mp4,1048,0,Poorly
+q_14_main_0.mp4,1048,15,Poorly
+q_15_main_1.mp4,1048,0,Poorly
+q_15_main_1.mp4,1048,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_16_main_1.mp4,1048,0,Poorly
+q_16_main_1.mp4,1048,15,Poorly
+q_17_main_1.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_17_main_1.mp4,1048,15,Poorly
+q_18_main_0.mp4,1048,0,Poorly
+q_18_main_0.mp4,1048,15,Poorly
+q_19_main_0.mp4,1048,0,Poorly
+q_19_main_0.mp4,1048,15,Poorly
+q_1_main_0.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_1_main_0.mp4,1048,15,Poorly
+q_20_main_0.mp4,1048,0,Poorly
+q_20_main_0.mp4,1048,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_21_main_1.mp4,1048,0,Poorly
+q_21_main_1.mp4,1048,15,Poorly
+q_22_main_0.mp4,1048,0,Poorly
+q_22_main_0.mp4,1048,15,Poorly
+q_23_main_0.mp4,1048,0,Poorly
+q_23_main_0.mp4,1048,15,Poorly
+q_24_main_0.mp4,1048,0,Poorly
+q_24_main_0.mp4,1048,15,Poorly
+q_25_main_0.mp4,1048,0,Poorly
+q_25_main_0.mp4,1048,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_26_main_0.mp4,1048,0,Poorly
+q_26_main_0.mp4,1048,15,Poorly
+q_27_main_0.mp4,1048,0,Poorly
+q_27_main_0.mp4,1048,15,Poorly
+q_28_main_1.mp4,1048,0,Poorly
+q_28_main_1.mp4,1048,15,Poorly
+q_29_main_0.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_29_main_0.mp4,1048,15,Poorly
+q_2_main_1.mp4,1048,0,Poorly
+q_2_main_1.mp4,1048,15,Poorly
+q_30_main_0.mp4,1048,0,Poorly
+q_30_main_0.mp4,1048,15,Poorly
+q_3_main_1.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_3_main_1.mp4,1048,15,Well
+q_4_main_1.mp4,1048,0,Poorly
+q_4_main_1.mp4,1048,15,Poorly
+q_5_main_0.mp4,1048,0,Well
+q_5_main_0.mp4,1048,15,Poorly
+q_6_main_1.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_6_main_1.mp4,1048,15,Poorly
+q_7_main_1.mp4,1048,0,Poorly
+q_7_main_1.mp4,1048,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_8_main_0.mp4,1048,0,Poorly
+q_8_main_0.mp4,1048,15,Poorly
+q_9_main_0.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_9_main_0.mp4,1048,15,Poorly
+q_warmup_3_main_1.mp4,1048,0,Poorly
+q_warmup_3_main_1.mp4,1048,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_4_main_0.mp4,1048,0,Poorly
+q_warmup_4_main_0.mp4,1048,15,Poorly
+q_warmup_5_main_0.mp4,1048,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_5_main_0.mp4,1048,15,Poorly
+q_10_main_0.mp4,1251,0,Poorly
+q_10_main_0.mp4,1251,15,Poorly
+q_11_main_1.mp4,1251,0,Poorly
+q_11_main_1.mp4,1251,15,Poorly
+q_12_main_1.mp4,1251,0,Poorly
+q_12_main_1.mp4,1251,15,Poorly
+q_13_main_1.mp4,1251,0,Poorly
+q_13_main_1.mp4,1251,15,Poorly
+q_14_main_0.mp4,1251,0,Poorly
+q_14_main_0.mp4,1251,15,Poorly
+q_15_main_1.mp4,1251,0,Poorly
+q_15_main_1.mp4,1251,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_16_main_1.mp4,1251,0,Poorly
+q_16_main_1.mp4,1251,15,Poorly
+q_17_main_0.mp4,1251,0,Poorly
+q_17_main_0.mp4,1251,15,Poorly
+q_18_main_0.mp4,1251,0,Poorly
+q_18_main_0.mp4,1251,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_19_main_0.mp4,1251,0,Poorly
+q_19_main_0.mp4,1251,15,Poorly
+q_1_main_0.mp4,1251,0,Poorly
+q_1_main_0.mp4,1251,15,Poorly
+q_20_main_0.mp4,1251,0,Poorly
+q_20_main_0.mp4,1251,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_21_main_0.mp4,1251,0,Poorly
+q_21_main_0.mp4,1251,15,Poorly
+q_22_main_0.mp4,1251,0,Poorly
+q_22_main_0.mp4,1251,15,Poorly
+q_23_main_1.mp4,1251,0,Poorly
+q_23_main_1.mp4,1251,15,Poorly
+q_24_main_0.mp4,1251,0,Poorly
+q_24_main_0.mp4,1251,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_25_main_0.mp4,1251,0,Poorly
+q_25_main_0.mp4,1251,15,Poorly
+q_26_main_1.mp4,1251,0,Poorly
+q_26_main_1.mp4,1251,15,Poorly
+q_27_main_0.mp4,1251,0,Poorly
+q_27_main_0.mp4,1251,15,Poorly
+q_28_main_0.mp4,1251,0,Poorly
+q_28_main_0.mp4,1251,15,Poorly
+q_29_main_0.mp4,1251,0,Poorly
+q_29_main_0.mp4,1251,15,Poorly
+q_2_main_1.mp4,1251,0,Poorly
+q_2_main_1.mp4,1251,15,Poorly
+q_30_main_0.mp4,1251,0,Poorly
+q_30_main_0.mp4,1251,15,Poorly
+q_3_main_0.mp4,1251,0,Poorly
+q_3_main_0.mp4,1251,15,Poorly
+q_4_main_1.mp4,1251,0,Poorly
+q_4_main_1.mp4,1251,15,Poorly
+q_5_main_0.mp4,1251,0,Poorly
+q_5_main_0.mp4,1251,15,Poorly
+q_6_main_1.mp4,1251,0,Well
+q_6_main_1.mp4,1251,15,Poorly
+q_7_main_1.mp4,1251,0,Poorly
+q_7_main_1.mp4,1251,15,Poorly
+q_8_main_0.mp4,1251,0,Poorly
+q_8_main_0.mp4,1251,15,Poorly
+q_9_main_1.mp4,1251,0,Poorly
+q_9_main_1.mp4,1251,15,Poorly
+q_warmup_3_main_1.mp4,1251,0,Poorly
+q_warmup_3_main_1.mp4,1251,15,Poorly
+q_warmup_4_main_0.mp4,1251,0,Poorly
+q_warmup_4_main_0.mp4,1251,15,Poorly
+q_warmup_5_main_1.mp4,1251,0,Poorly
+q_warmup_5_main_1.mp4,1251,15,Poorly
+q_10_main_1.mp4,1483,0,Poorly
+q_10_main_1.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_11_main_1.mp4,1483,0,Poorly
+q_11_main_1.mp4,1483,15,Poorly
+q_12_main_1.mp4,1483,0,Poorly
+q_12_main_1.mp4,1483,15,Poorly
+q_13_main_0.mp4,1483,0,Poorly
+q_13_main_0.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_14_main_0.mp4,1483,0,Poorly
+q_14_main_0.mp4,1483,15,Poorly
+q_15_main_1.mp4,1483,0,Poorly
+q_15_main_1.mp4,1483,15,Poorly
+q_16_main_1.mp4,1483,0,Poorly
+q_16_main_1.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_17_main_1.mp4,1483,0,Poorly
+q_17_main_1.mp4,1483,15,Poorly
+q_18_main_0.mp4,1483,0,Poorly
+q_18_main_0.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_19_main_0.mp4,1483,0,Poorly
+q_19_main_0.mp4,1483,15,Poorly
+q_21_main_1.mp4,1483,0,Poorly
+q_21_main_1.mp4,1483,15,Poorly
+q_22_main_1.mp4,1483,0,Poorly
+q_22_main_1.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_23_main_0.mp4,1483,0,Poorly
+q_23_main_0.mp4,1483,15,Poorly
+q_24_main_0.mp4,1483,0,Poorly
+q_24_main_0.mp4,1483,15,Poorly
+q_25_main_0.mp4,1483,0,Poorly
+q_25_main_0.mp4,1483,15,Poorly
+q_26_main_1.mp4,1483,0,Poorly
+q_26_main_1.mp4,1483,15,Poorly
+q_27_main_1.mp4,1483,0,Poorly
+q_27_main_1.mp4,1483,15,Poorly
+q_28_main_0.mp4,1483,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_28_main_0.mp4,1483,15,Poorly
+q_29_main_0.mp4,1483,0,Poorly
+q_29_main_0.mp4,1483,15,Poorly
+q_2_main_1.mp4,1483,0,Poorly
+q_2_main_1.mp4,1483,15,Poorly
+q_30_main_0.mp4,1483,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_30_main_0.mp4,1483,15,Poorly
+q_3_main_0.mp4,1483,0,Poorly
+q_3_main_0.mp4,1483,15,Poorly
+q_4_main_0.mp4,1483,0,Poorly
+q_4_main_0.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_5_main_0.mp4,1483,0,Poorly
+q_5_main_0.mp4,1483,15,Poorly
+q_6_main_1.mp4,1483,0,Poorly
+q_6_main_1.mp4,1483,15,Poorly
+q_7_main_1.mp4,1483,0,Poorly
+q_7_main_1.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_8_main_0.mp4,1483,0,Poorly
+q_8_main_0.mp4,1483,15,Poorly
+q_9_main_0.mp4,1483,0,Poorly
+q_9_main_0.mp4,1483,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_3_main_1.mp4,1483,0,Poorly
+q_warmup_3_main_1.mp4,1483,15,Poorly
+q_warmup_4_main_0.mp4,1483,0,Poorly
+q_warmup_4_main_0.mp4,1483,15,Poorly
+q_warmup_5_main_1.mp4,1483,0,Well
+q_warmup_5_main_1.mp4,1483,15,Well
+q_10_main_0.mp4,1676,0,Well
+q_10_main_0.mp4,1676,15,Well
+q_11_main_1.mp4,1676,0,Well
+q_11_main_1.mp4,1676,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_12_main_1.mp4,1676,0,Well
+q_12_main_1.mp4,1676,15,Well
+q_13_main_0.mp4,1676,0,Well
+q_13_main_0.mp4,1676,15,Well
+q_14_main_0.mp4,1676,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_14_main_0.mp4,1676,15,Poorly
+q_15_main_1.mp4,1676,0,Well
+q_15_main_1.mp4,1676,15,Well
+q_16_main_1.mp4,1676,0,Well
+q_16_main_1.mp4,1676,15,Well
+q_17_main_0.mp4,1676,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_17_main_0.mp4,1676,15,Poorly
+q_18_main_0.mp4,1676,0,Poorly
+q_18_main_0.mp4,1676,15,Well
+q_19_main_0.mp4,1676,0,Poorly
+q_19_main_0.mp4,1676,15,Poorly
+q_1_main_0.mp4,1676,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_1_main_0.mp4,1676,15,Well
+q_20_main_0.mp4,1676,0,Well
+q_20_main_0.mp4,1676,15,Well
+q_21_main_0.mp4,1676,0,Well
+q_21_main_0.mp4,1676,15,Poorly
+q_22_main_0.mp4,1676,0,Well
+q_22_main_0.mp4,1676,15,Well
+q_23_main_0.mp4,1676,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_23_main_0.mp4,1676,15,Well
+q_24_main_0.mp4,1676,0,Poorly
+q_24_main_0.mp4,1676,15,Well
+q_25_main_0.mp4,1676,0,Well
+q_25_main_0.mp4,1676,15,Well
+q_26_main_0.mp4,1676,0,Poorly
+q_26_main_0.mp4,1676,15,Poorly
+q_27_main_1.mp4,1676,0,Poorly
+q_27_main_1.mp4,1676,15,Well
+q_28_main_0.mp4,1676,0,Poorly
+q_28_main_0.mp4,1676,15,Poorly
+q_29_main_0.mp4,1676,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_29_main_0.mp4,1676,15,Poorly
+q_2_main_1.mp4,1676,0,Well
+q_2_main_1.mp4,1676,15,Well
+q_30_main_0.mp4,1676,0,Well
+q_30_main_0.mp4,1676,15,Poorly
+q_3_main_1.mp4,1676,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_3_main_1.mp4,1676,15,Well
+q_4_main_0.mp4,1676,0,Well
+q_4_main_0.mp4,1676,15,Poorly
+q_5_main_0.mp4,1676,0,Poorly
+q_5_main_0.mp4,1676,15,Poorly
+q_6_main_0.mp4,1676,0,Well
+q_6_main_0.mp4,1676,15,Well
+q_7_main_1.mp4,1676,0,Poorly
+q_7_main_1.mp4,1676,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_8_main_0.mp4,1676,0,Poorly
+q_8_main_0.mp4,1676,15,Well
+q_9_main_1.mp4,1676,0,Well
+q_9_main_1.mp4,1676,15,Well
+q_warmup_3_main_0.mp4,1676,0,Well
+q_warmup_3_main_0.mp4,1676,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_4_main_0.mp4,1676,0,Well
+q_warmup_4_main_0.mp4,1676,15,Well
+q_warmup_5_main_0.mp4,1676,0,Well
+q_warmup_5_main_0.mp4,1676,15,Well
+q_10_main_1.mp4,2103,0,Poorly
+q_10_main_1.mp4,2103,15,Poorly
+q_11_main_1.mp4,2103,0,Well
+q_11_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_12_main_1.mp4,2103,0,Poorly
+q_12_main_1.mp4,2103,15,Poorly
+q_13_main_1.mp4,2103,0,Poorly
+q_13_main_1.mp4,2103,15,Poorly
+q_14_main_0.mp4,2103,0,Poorly
+q_14_main_0.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_15_main_1.mp4,2103,0,Poorly
+q_15_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_16_main_1.mp4,2103,0,Poorly
+q_16_main_1.mp4,2103,15,Poorly
+q_17_main_1.mp4,2103,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_17_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_18_main_1.mp4,2103,0,Poorly
+q_18_main_1.mp4,2103,15,Poorly
+q_19_main_1.mp4,2103,0,Poorly
+q_19_main_1.mp4,2103,15,Poorly
+q_1_main_1.mp4,2103,0,Poorly
+q_1_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_20_main_1.mp4,2103,0,Poorly
+q_20_main_1.mp4,2103,15,Poorly
+q_21_main_0.mp4,2103,0,Well
+q_21_main_0.mp4,2103,15,Well
+q_22_main_1.mp4,2103,0,Well
+q_22_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_23_main_0.mp4,2103,0,Poorly
+q_23_main_0.mp4,2103,15,Poorly
+q_24_main_0.mp4,2103,0,Poorly
+q_24_main_0.mp4,2103,15,Poorly
+q_25_main_0.mp4,2103,0,Poorly
+q_25_main_0.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_26_main_0.mp4,2103,0,Poorly
+q_26_main_0.mp4,2103,15,Poorly
+q_27_main_0.mp4,2103,0,Poorly
+q_27_main_0.mp4,2103,15,Poorly
+q_28_main_1.mp4,2103,0,Poorly
+q_28_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_29_main_0.mp4,2103,0,Poorly
+q_29_main_0.mp4,2103,15,Poorly
+q_2_main_1.mp4,2103,0,Poorly
+q_2_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_30_main_1.mp4,2103,0,Poorly
+q_30_main_1.mp4,2103,15,Poorly
+q_3_main_1.mp4,2103,0,Well
+q_3_main_1.mp4,2103,15,Poorly
+q_4_main_1.mp4,2103,0,Poorly
+q_4_main_1.mp4,2103,15,Poorly
+q_5_main_0.mp4,2103,0,Poorly
+q_5_main_0.mp4,2103,15,Well
+q_6_main_0.mp4,2103,0,Poorly
+q_6_main_0.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_7_main_1.mp4,2103,0,Poorly
+q_7_main_1.mp4,2103,15,Well
+q_8_main_0.mp4,2103,0,Poorly
+q_8_main_0.mp4,2103,15,Poorly
+q_9_main_1.mp4,2103,0,Poorly
+q_9_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_3_main_1.mp4,2103,0,Well
+q_warmup_3_main_1.mp4,2103,15,Poorly
+q_warmup_4_main_0.mp4,2103,0,Poorly
+q_warmup_4_main_0.mp4,2103,15,Poorly
+q_warmup_5_main_1.mp4,2103,0,Poorly
+q_warmup_5_main_1.mp4,2103,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_10_main_0.mp4,2313,0,Poorly
+q_10_main_0.mp4,2313,15,Well
+q_11_main_1.mp4,2313,0,Well
+q_11_main_1.mp4,2313,15,Poorly
+q_12_main_1.mp4,2313,0,Poorly
+q_12_main_1.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_13_main_0.mp4,2313,0,Poorly
+q_13_main_0.mp4,2313,15,Poorly
+q_14_main_0.mp4,2313,0,Poorly
+q_14_main_0.mp4,2313,15,Poorly
+q_15_main_1.mp4,2313,0,Well
+q_15_main_1.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_16_main_1.mp4,2313,0,Poorly
+q_16_main_1.mp4,2313,15,Poorly
+q_17_main_1.mp4,2313,0,Poorly
+q_17_main_1.mp4,2313,15,Poorly
+q_18_main_0.mp4,2313,0,Poorly
+q_18_main_0.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_19_main_1.mp4,2313,0,Well
+q_19_main_1.mp4,2313,15,Poorly
+q_1_main_0.mp4,2313,0,Poorly
+q_1_main_0.mp4,2313,15,Poorly
+q_20_main_0.mp4,2313,0,Poorly
+q_20_main_0.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_21_main_0.mp4,2313,0,Poorly
+q_21_main_0.mp4,2313,15,Poorly
+q_22_main_0.mp4,2313,0,Poorly
+q_22_main_0.mp4,2313,15,Poorly
+q_23_main_0.mp4,2313,0,Poorly
+q_23_main_0.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_24_main_1.mp4,2313,0,Poorly
+q_24_main_1.mp4,2313,15,Poorly
+q_25_main_0.mp4,2313,0,Poorly
+q_25_main_0.mp4,2313,15,Poorly
+q_26_main_0.mp4,2313,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_26_main_0.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_27_main_0.mp4,2313,0,Poorly
+q_27_main_0.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_28_main_0.mp4,2313,0,Poorly
+q_28_main_0.mp4,2313,15,Poorly
+q_29_main_1.mp4,2313,0,Well
+q_29_main_1.mp4,2313,15,Poorly
+q_2_main_1.mp4,2313,0,Poorly
+q_2_main_1.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_30_main_0.mp4,2313,0,Poorly
+q_30_main_0.mp4,2313,15,Poorly
+q_3_main_1.mp4,2313,0,Poorly
+q_3_main_1.mp4,2313,15,Poorly
+q_4_main_1.mp4,2313,0,Well
+q_4_main_1.mp4,2313,15,Poorly
+q_5_main_0.mp4,2313,0,Poorly
+q_5_main_0.mp4,2313,15,Poorly
+q_6_main_1.mp4,2313,0,Poorly
+q_6_main_1.mp4,2313,15,Poorly
+q_7_main_1.mp4,2313,0,Poorly
+q_7_main_1.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_8_main_0.mp4,2313,0,Poorly
+q_8_main_0.mp4,2313,15,Poorly
+q_9_main_0.mp4,2313,0,Poorly
+q_9_main_0.mp4,2313,15,Poorly
+q_warmup_3_main_1.mp4,2313,0,Poorly
+q_warmup_3_main_1.mp4,2313,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_4_main_0.mp4,2313,0,Poorly
+q_warmup_4_main_0.mp4,2313,15,Well
+q_warmup_5_main_1.mp4,2313,0,Poorly
+q_warmup_5_main_1.mp4,2313,15,Poorly
+q_10_main_0.mp4,2698,0,Poorly
+q_10_main_0.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_11_main_1.mp4,2698,0,Poorly
+q_11_main_1.mp4,2698,15,Poorly
+q_12_main_1.mp4,2698,0,Poorly
+q_12_main_1.mp4,2698,15,Poorly
+q_13_main_1.mp4,2698,0,Poorly
+q_13_main_1.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_14_main_0.mp4,2698,0,Poorly
+q_14_main_0.mp4,2698,15,Poorly
+q_15_main_1.mp4,2698,0,Poorly
+q_15_main_1.mp4,2698,15,Poorly
+q_16_main_1.mp4,2698,0,Poorly
+q_16_main_1.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_17_main_1.mp4,2698,0,Well
+q_17_main_1.mp4,2698,15,Well
+q_18_main_0.mp4,2698,0,Poorly
+q_18_main_0.mp4,2698,15,Poorly
+q_19_main_1.mp4,2698,0,Well
+q_19_main_1.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_1_main_0.mp4,2698,0,Poorly
+q_1_main_0.mp4,2698,15,Poorly
+q_20_main_0.mp4,2698,0,Poorly
+q_20_main_0.mp4,2698,15,Well
+q_21_main_1.mp4,2698,0,Well
+q_21_main_1.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_22_main_1.mp4,2698,0,Poorly
+q_22_main_1.mp4,2698,15,Poorly
+q_23_main_0.mp4,2698,0,Poorly
+q_23_main_0.mp4,2698,15,Poorly
+q_24_main_0.mp4,2698,0,Poorly
+q_24_main_0.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_25_main_0.mp4,2698,0,Poorly
+q_25_main_0.mp4,2698,15,Poorly
+q_26_main_0.mp4,2698,0,Poorly
+q_26_main_0.mp4,2698,15,Poorly
+q_27_main_0.mp4,2698,0,Poorly
+q_27_main_0.mp4,2698,15,Poorly
+q_28_main_0.mp4,2698,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_28_main_0.mp4,2698,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_29_main_0.mp4,2698,0,Poorly
+q_29_main_0.mp4,2698,15,Poorly
+q_2_main_1.mp4,2698,0,Poorly
+q_2_main_1.mp4,2698,15,Poorly
+q_30_main_0.mp4,2698,0,Poorly
+q_30_main_0.mp4,2698,15,Poorly
+q_3_main_1.mp4,2698,0,Well
+q_3_main_1.mp4,2698,15,Poorly
+q_4_main_0.mp4,2698,0,Poorly
+q_4_main_0.mp4,2698,15,Well
+q_5_main_0.mp4,2698,0,Poorly
+q_5_main_0.mp4,2698,15,Poorly
+q_6_main_1.mp4,2698,0,Poorly
+q_6_main_1.mp4,2698,15,Poorly
+q_7_main_1.mp4,2698,0,Poorly
+q_7_main_1.mp4,2698,15,Poorly
+q_8_main_0.mp4,2698,0,Poorly
+q_8_main_0.mp4,2698,15,Poorly
+q_9_main_1.mp4,2698,0,Poorly
+q_9_main_1.mp4,2698,15,Poorly
+q_warmup_3_main_1.mp4,2698,0,Poorly
+q_warmup_3_main_1.mp4,2698,15,Poorly
+q_warmup_4_main_0.mp4,2698,0,Poorly
+q_warmup_4_main_0.mp4,2698,15,Poorly
+q_warmup_5_main_1.mp4,2698,0,Poorly
+q_warmup_5_main_1.mp4,2698,15,Poorly
+q_10_main_0.mp4,2946,0,Poorly
+q_10_main_0.mp4,2946,15,Well
+q_11_main_1.mp4,2946,0,Poorly
+q_11_main_1.mp4,2946,15,Poorly
+q_12_main_1.mp4,2946,0,Poorly
+q_12_main_1.mp4,2946,15,Poorly
+q_13_main_0.mp4,2946,0,Poorly
+q_13_main_0.mp4,2946,15,Well
+q_14_main_0.mp4,2946,0,Well
+q_14_main_0.mp4,2946,15,Poorly
+q_15_main_1.mp4,2946,0,Poorly
+q_15_main_1.mp4,2946,15,Poorly
+q_16_main_1.mp4,2946,0,Poorly
+q_16_main_1.mp4,2946,15,Poorly
+q_17_main_1.mp4,2946,0,Poorly
+q_17_main_1.mp4,2946,15,Well
+q_18_main_1.mp4,2946,0,Poorly
+q_18_main_1.mp4,2946,15,Poorly
+q_19_main_1.mp4,2946,0,Well
+q_19_main_1.mp4,2946,15,Poorly
+q_1_main_0.mp4,2946,0,Well
+q_1_main_0.mp4,2946,15,Poorly
+q_20_main_0.mp4,2946,0,Poorly
+q_20_main_0.mp4,2946,15,Poorly
+q_21_main_1.mp4,2946,0,Poorly
+q_21_main_1.mp4,2946,15,Poorly
+q_22_main_0.mp4,2946,0,Poorly
+q_22_main_0.mp4,2946,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_23_main_0.mp4,2946,0,Poorly
+q_23_main_0.mp4,2946,15,Poorly
+q_24_main_0.mp4,2946,0,Poorly
+q_24_main_0.mp4,2946,15,Poorly
+q_25_main_1.mp4,2946,0,Poorly
+q_25_main_1.mp4,2946,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_26_main_0.mp4,2946,0,Poorly
+q_26_main_0.mp4,2946,15,Poorly
+q_27_main_1.mp4,2946,0,Poorly
+q_27_main_1.mp4,2946,15,Poorly
+q_28_main_1.mp4,2946,0,Poorly
+q_28_main_1.mp4,2946,15,Poorly
+q_29_main_0.mp4,2946,0,Poorly
+q_29_main_0.mp4,2946,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_2_main_1.mp4,2946,0,Poorly
+q_2_main_1.mp4,2946,15,Poorly
+q_30_main_0.mp4,2946,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_30_main_0.mp4,2946,15,Poorly
+q_3_main_1.mp4,2946,0,Well
+q_3_main_1.mp4,2946,15,Well
+q_4_main_0.mp4,2946,0,Poorly
+q_4_main_0.mp4,2946,15,Well
+q_5_main_0.mp4,2946,0,Poorly
+q_5_main_0.mp4,2946,15,Well
+q_6_main_1.mp4,2946,0,Poorly
+q_6_main_1.mp4,2946,15,Poorly
+q_7_main_1.mp4,2946,0,Poorly
+q_7_main_1.mp4,2946,15,Poorly
+q_8_main_1.mp4,2946,0,Poorly
+q_8_main_1.mp4,2946,15,Poorly
+q_9_main_0.mp4,2946,0,Poorly
+q_9_main_0.mp4,2946,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_3_main_1.mp4,2946,0,Poorly
+q_warmup_3_main_1.mp4,2946,15,Poorly
+q_warmup_4_main_0.mp4,2946,0,Poorly
+q_warmup_4_main_0.mp4,2946,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_warmup_5_main_0.mp4,2946,0,Poorly
+q_warmup_5_main_0.mp4,2946,15,Poorly
+q_10_main_0.mp4,3157,0,Poorly
+q_10_main_0.mp4,3157,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_11_main_1.mp4,3157,0,Well
+q_11_main_1.mp4,3157,15,Poorly
+q_12_main_1.mp4,3157,0,Poorly
+q_12_main_1.mp4,3157,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+q_13_main_1.mp4,3157,0,Poorly
+q_13_main_1.mp4,3157,15,Well
+q_14_main_0.mp4,3157,0,Poorly
+q_14_main_0.mp4,3157,15,Poorly
+q_15_main_1.mp4,3157,0,Poorly
+q_15_main_1.mp4,3157,15,Well
+q_16_main_1.mp4,3157,0,Well
+q_16_main_1.mp4,3157,15,Well
+q_17_main_1.mp4,3157,0,Well
+q_17_main_1.mp4,3157,15,Poorly
+q_18_main_0.mp4,3157,0,Well
+q_18_main_0.mp4,3157,15,Well
+q_19_main_1.mp4,3157,0,Poorly
+q_19_main_1.mp4,3157,15,Poorly
+q_1_main_0.mp4,3157,0,Well
+q_1_main_0.mp4,3157,15,Poorly
