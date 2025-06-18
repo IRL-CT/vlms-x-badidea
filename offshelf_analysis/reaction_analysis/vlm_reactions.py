@@ -52,12 +52,16 @@ class VideoAnalyzer:
                 for sub_file in file_path.rglob('*'):
                     if sub_file.is_file() and sub_file.suffix.lower() in self.video_extensions:
                         #append file_path and sub_file to video_files, to keep information about the folder
+                        #only add if _30fps not in the name
+                        if '_30fps' not in sub_file.name:
+                            video_files.append(sub_file)
                     
-                        video_files.append(sub_file)
+                        #video_files.append(sub_file)
             else:
                 # Check if the file is a video based on its extension
                 if file_path.suffix.lower() in self.video_extensions:
-                    video_files.append(file_path)
+                    if '_30fps' not in file_path.name:
+                        video_files.append(file_path)
         return sorted(video_files)
     
     def frame_to_base64(self, frame):

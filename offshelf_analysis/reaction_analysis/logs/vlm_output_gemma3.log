@@ -3171,3 +3171,2553 @@ Analyzing frame 1/2...
 Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
 Image size: 11596 bytes
 Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T02:38:09.421385829Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 267748638393, 'load_duration': 266775242021, 'prompt_eval_count': 296, 'prompt_eval_duration': 948137964, 'eval_count': 3, 'eval_duration': 23551116}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11576 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T02:42:33.423656501Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 262977114711, 'load_duration': 262035314210, 'prompt_eval_count': 296, 'prompt_eval_duration': 916933578, 'eval_count': 3, 'eval_duration': 23548104}
+Response: Poorly
+Final prediction for q_18_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 278
+
+==================================================
+Processing video 140/984
+
+Processing video: q_19_main_1.mp4
+Video info: 271 frames, 30.00 FPS, 9.03 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11712 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T02:46:59.996587532Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 265257637447, 'load_duration': 264295264963, 'prompt_eval_count': 296, 'prompt_eval_duration': 937932648, 'eval_count': 3, 'eval_duration': 22955400}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11760 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T02:52:11.515732604Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 310500294029, 'load_duration': 309509973754, 'prompt_eval_count': 296, 'prompt_eval_duration': 965511748, 'eval_count': 3, 'eval_duration': 23185259}
+Response: Poorly
+Final prediction for q_19_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 280
+
+==================================================
+Processing video 141/984
+
+Processing video: q_1_main_1.mp4
+Video info: 241 frames, 30.00 FPS, 8.03 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11672 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11644 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:05:14.461563721Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 180230134898, 'load_duration': 179269940478, 'prompt_eval_count': 296, 'prompt_eval_duration': 933504474, 'eval_count': 3, 'eval_duration': 24963765}
+Response: Poorly
+Final prediction for q_1_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 282
+
+==================================================
+Processing video 142/984
+
+Processing video: q_20_main_1.mp4
+Video info: 230 frames, 30.00 FPS, 7.67 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12988 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13136 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:18:22.485143654Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 185290116835, 'load_duration': 184248318625, 'prompt_eval_count': 296, 'prompt_eval_duration': 1016714513, 'eval_count': 3, 'eval_duration': 23272849}
+Response: Poorly
+Final prediction for q_20_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 284
+
+==================================================
+Processing video 143/984
+
+Processing video: q_21_main_0.mp4
+Video info: 50 frames, 30.00 FPS, 1.67 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12468 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:20:40.828581801Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 137198302936, 'load_duration': 136167007728, 'prompt_eval_count': 296, 'prompt_eval_duration': 999847894, 'eval_count': 3, 'eval_duration': 29261991}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12488 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:28:21.72983478Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 459880525156, 'load_duration': 458919685526, 'prompt_eval_count': 296, 'prompt_eval_duration': 936869897, 'eval_count': 3, 'eval_duration': 22571745}
+Response: Poorly
+Final prediction for q_21_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 286
+
+==================================================
+Processing video 144/984
+
+Processing video: q_22_main_1.mp4
+Video info: 99 frames, 30.00 FPS, 3.30 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12344 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:37:30.057258707Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 547130769506, 'load_duration': 546146468147, 'prompt_eval_count': 296, 'prompt_eval_duration': 960025328, 'eval_count': 3, 'eval_duration': 22740456}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13424 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:44:34.515072233Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 423438645116, 'load_duration': 422448478864, 'prompt_eval_count': 296, 'prompt_eval_duration': 963050046, 'eval_count': 3, 'eval_duration': 24774105}
+Response: Poorly
+Final prediction for q_22_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 288
+
+==================================================
+Processing video 145/984
+
+Processing video: q_23_main_0.mp4
+Video info: 243 frames, 30.00 FPS, 8.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11692 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T03:53:39.453750575Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 543282814740, 'load_duration': 542258454888, 'prompt_eval_count': 296, 'prompt_eval_duration': 999281831, 'eval_count': 3, 'eval_duration': 23412905}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11672 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:01:01.543945038Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 441050565179, 'load_duration': 440081541365, 'prompt_eval_count': 296, 'prompt_eval_duration': 944837199, 'eval_count': 3, 'eval_duration': 22780339}
+Response: Poorly
+Final prediction for q_23_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 290
+
+==================================================
+Processing video 146/984
+
+Processing video: q_24_main_0.mp4
+Video info: 96 frames, 30.00 FPS, 3.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11444 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:09:26.253425345Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 503489633120, 'load_duration': 502517231005, 'prompt_eval_count': 296, 'prompt_eval_duration': 946784057, 'eval_count': 3, 'eval_duration': 24012040}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11416 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:16:53.769537215Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 446495653924, 'load_duration': 445495624247, 'prompt_eval_count': 296, 'prompt_eval_duration': 976398158, 'eval_count': 3, 'eval_duration': 21908419}
+Response: Poorly
+Final prediction for q_24_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 292
+
+==================================================
+Processing video 147/984
+
+Processing video: q_25_main_0.mp4
+Video info: 77 frames, 30.00 FPS, 2.57 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12200 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:23:30.519555043Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 395537640953, 'load_duration': 394590242307, 'prompt_eval_count': 296, 'prompt_eval_duration': 923929980, 'eval_count': 3, 'eval_duration': 22058123}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12256 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:30:30.288311233Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 418747851880, 'load_duration': 417762288887, 'prompt_eval_count': 296, 'prompt_eval_duration': 959037078, 'eval_count': 3, 'eval_duration': 24906827}
+Response: Poorly
+Final prediction for q_25_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 294
+
+==================================================
+Processing video 148/984
+
+Processing video: q_26_main_0.mp4
+Video info: 259 frames, 30.00 FPS, 8.63 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11768 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:38:21.92453513Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 470362160500, 'load_duration': 469428909391, 'prompt_eval_count': 296, 'prompt_eval_duration': 909443809, 'eval_count': 3, 'eval_duration': 22435509}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11676 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:46:11.242156782Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 468298922367, 'load_duration': 467293177494, 'prompt_eval_count': 296, 'prompt_eval_duration': 980889712, 'eval_count': 3, 'eval_duration': 23092342}
+Response: Poorly
+Final prediction for q_26_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 296
+
+==================================================
+Processing video 149/984
+
+Processing video: q_27_main_0.mp4
+Video info: 268 frames, 30.00 FPS, 8.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11732 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T04:53:25.357090348Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 432789637050, 'load_duration': 431807916897, 'prompt_eval_count': 296, 'prompt_eval_duration': 955668793, 'eval_count': 3, 'eval_duration': 23985108}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11796 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:01:04.367156796Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 457987921887, 'load_duration': 457016914210, 'prompt_eval_count': 296, 'prompt_eval_duration': 945930413, 'eval_count': 3, 'eval_duration': 23025365}
+Response: Poorly
+Final prediction for q_27_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 298
+
+==================================================
+Processing video 150/984
+
+Processing video: q_28_main_1.mp4
+Video info: 274 frames, 30.00 FPS, 9.13 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12108 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:09:12.796099261Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 487080714502, 'load_duration': 486133184014, 'prompt_eval_count': 296, 'prompt_eval_duration': 923833183, 'eval_count': 3, 'eval_duration': 22343272}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12140 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:15:59.191428566Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 405375741544, 'load_duration': 404418251848, 'prompt_eval_count': 296, 'prompt_eval_duration': 932344943, 'eval_count': 3, 'eval_duration': 23042078}
+Response: Poorly
+Final prediction for q_28_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 300
+
+==================================================
+Processing video 151/984
+
+Processing video: q_29_main_0.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11644 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:23:13.20234342Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 432627718802, 'load_duration': 431605718357, 'prompt_eval_count': 296, 'prompt_eval_duration': 998249507, 'eval_count': 3, 'eval_duration': 22245520}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11672 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:30:46.180282848Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 451956433783, 'load_duration': 450960481345, 'prompt_eval_count': 296, 'prompt_eval_duration': 971374217, 'eval_count': 3, 'eval_duration': 22105442}
+Response: Poorly
+Final prediction for q_29_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 302
+
+==================================================
+Processing video 152/984
+
+Processing video: q_2_main_1.mp4
+Video info: 184 frames, 30.00 FPS, 6.13 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11496 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:38:28.686007794Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 461026445270, 'load_duration': 460033182426, 'prompt_eval_count': 296, 'prompt_eval_duration': 969260338, 'eval_count': 3, 'eval_duration': 22232388}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11468 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:45:37.916154405Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 428208438227, 'load_duration': 427232103471, 'prompt_eval_count': 296, 'prompt_eval_duration': 952253823, 'eval_count': 3, 'eval_duration': 22120410}
+Response: Poorly
+Final prediction for q_2_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 304
+
+==================================================
+Processing video 153/984
+
+Processing video: q_30_main_1.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11588 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T05:52:23.416669907Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 404164767976, 'load_duration': 403180628736, 'prompt_eval_count': 296, 'prompt_eval_duration': 959727555, 'eval_count': 3, 'eval_duration': 23003068}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11604 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:01:07.338402285Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 522902074414, 'load_duration': 521951742028, 'prompt_eval_count': 296, 'prompt_eval_duration': 924287139, 'eval_count': 3, 'eval_duration': 24452913}
+Response: Poorly
+Final prediction for q_30_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 306
+
+==================================================
+Processing video 154/984
+
+Processing video: q_3_main_1.mp4
+Video info: 243 frames, 30.00 FPS, 8.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12440 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:08:00.285610145Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 411201129680, 'load_duration': 410179128058, 'prompt_eval_count': 296, 'prompt_eval_duration': 997847516, 'eval_count': 3, 'eval_duration': 22386003}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12280 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:14:53.329437405Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 412022314069, 'load_duration': 411032505841, 'prompt_eval_count': 296, 'prompt_eval_duration': 960685439, 'eval_count': 3, 'eval_duration': 27600615}
+Response: Poorly
+Final prediction for q_3_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 308
+
+==================================================
+Processing video 155/984
+
+Processing video: q_4_main_1.mp4
+Video info: 45 frames, 30.00 FPS, 1.50 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11640 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:22:43.495971679Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 469032725681, 'load_duration': 468095643746, 'prompt_eval_count': 296, 'prompt_eval_duration': 913464138, 'eval_count': 3, 'eval_duration': 22205166}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11544 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:30:09.850477321Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 445333232433, 'load_duration': 444335926151, 'prompt_eval_count': 296, 'prompt_eval_duration': 973655740, 'eval_count': 3, 'eval_duration': 22083113}
+Response: Poorly
+Final prediction for q_4_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 310
+
+==================================================
+Processing video 156/984
+
+Processing video: q_5_main_0.mp4
+Video info: 173 frames, 30.00 FPS, 5.77 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12520 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:37:31.919057198Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 440675844069, 'load_duration': 439669748095, 'prompt_eval_count': 296, 'prompt_eval_duration': 981693091, 'eval_count': 3, 'eval_duration': 22078480}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12456 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:45:17.954721207Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 465014350207, 'load_duration': 464032139677, 'prompt_eval_count': 296, 'prompt_eval_duration': 957754926, 'eval_count': 3, 'eval_duration': 22925173}
+Response: Poorly
+Final prediction for q_5_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 312
+
+==================================================
+Processing video 157/984
+
+Processing video: q_6_main_0.mp4
+Video info: 216 frames, 30.00 FPS, 7.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11880 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:52:55.20911837Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 455586300951, 'load_duration': 454647737931, 'prompt_eval_count': 296, 'prompt_eval_duration': 914210078, 'eval_count': 3, 'eval_duration': 22795584}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11900 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T06:59:31.350727376Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 395120170410, 'load_duration': 394178067059, 'prompt_eval_count': 296, 'prompt_eval_duration': 917924623, 'eval_count': 3, 'eval_duration': 22630565}
+Response: Poorly
+Final prediction for q_6_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 314
+
+==================================================
+Processing video 158/984
+
+Processing video: q_7_main_1.mp4
+Video info: 137 frames, 30.00 FPS, 4.57 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11660 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:06:00.478132209Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 387809056331, 'load_duration': 386841709694, 'prompt_eval_count': 296, 'prompt_eval_duration': 942846507, 'eval_count': 3, 'eval_duration': 22863256}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11608 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:12:24.108039565Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 382609318123, 'load_duration': 381647500887, 'prompt_eval_count': 296, 'prompt_eval_duration': 936854454, 'eval_count': 3, 'eval_duration': 22960227}
+Response: Poorly
+Final prediction for q_7_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 316
+
+==================================================
+Processing video 159/984
+
+Processing video: q_8_main_0.mp4
+Video info: 216 frames, 30.00 FPS, 7.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11900 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:18:49.734373086Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 384040795798, 'load_duration': 383058964861, 'prompt_eval_count': 296, 'prompt_eval_duration': 956752591, 'eval_count': 3, 'eval_duration': 23173818}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11824 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:21:04.740089211Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 133986623372, 'load_duration': 133014532982, 'prompt_eval_count': 296, 'prompt_eval_duration': 946573071, 'eval_count': 3, 'eval_duration': 23433729}
+Response: Poorly
+Final prediction for q_8_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 318
+
+==================================================
+Processing video 160/984
+
+Processing video: q_9_main_1.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11504 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:25:19.024137428Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 252935501313, 'load_duration': 251981458868, 'prompt_eval_count': 296, 'prompt_eval_duration': 930469462, 'eval_count': 3, 'eval_duration': 22151046}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 11580 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:29:29.758322057Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 249714676330, 'load_duration': 248758542911, 'prompt_eval_count': 296, 'prompt_eval_duration': 930938926, 'eval_count': 3, 'eval_duration': 23860850}
+Response: Poorly
+Final prediction for q_9_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 320
+
+==================================================
+Processing video 161/984
+
+Processing video: q_warmup_3_main_1.mp4
+Video info: 178 frames, 30.00 FPS, 5.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12540 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12608 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:47:52.305835402Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 499932543691, 'load_duration': 498972644495, 'prompt_eval_count': 296, 'prompt_eval_duration': 935483408, 'eval_count': 3, 'eval_duration': 22442260}
+Response: Poorly
+Final prediction for q_warmup_3_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 322
+
+==================================================
+Processing video 162/984
+
+Processing video: q_warmup_4_main_0.mp4
+Video info: 126 frames, 30.00 FPS, 4.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12916 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T07:57:57.618768189Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 596418268067, 'load_duration': 595467690393, 'prompt_eval_count': 296, 'prompt_eval_duration': 926312307, 'eval_count': 3, 'eval_duration': 22137668}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12900 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_warmup_4_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 324
+
+==================================================
+Processing video 163/984
+
+Processing video: q_warmup_5_main_1.mp4
+Video info: 57 frames, 30.00 FPS, 1.90 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12680 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T08:14:00.606954268Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 346945221096, 'load_duration': 345982402840, 'prompt_eval_count': 296, 'prompt_eval_duration': 934404296, 'eval_count': 3, 'eval_duration': 26603190}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 12680 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T08:19:48.469748466Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 346841222285, 'load_duration': 345883241412, 'prompt_eval_count': 296, 'prompt_eval_duration': 921000740, 'eval_count': 3, 'eval_duration': 34864047}
+Response: Poorly
+Final prediction for q_warmup_5_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 326
+
+==================================================
+Processing video 164/984
+
+Processing video: q_10_main_0.mp4
+Video info: 78 frames, 30.00 FPS, 2.60 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13920 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13892 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_10_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 328
+
+==================================================
+Processing video 165/984
+
+Processing video: q_11_main_1.mp4
+Video info: 206 frames, 30.00 FPS, 6.87 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14184 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T08:42:35.378050786Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 134598320070, 'load_duration': 133637318714, 'prompt_eval_count': 296, 'prompt_eval_duration': 935657051, 'eval_count': 3, 'eval_duration': 23262632}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14068 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_11_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 330
+
+==================================================
+Processing video 166/984
+
+Processing video: q_12_main_1.mp4
+Video info: 123 frames, 30.00 FPS, 4.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14052 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14060 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:07:12.196859267Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 259445922055, 'load_duration': 258490092363, 'prompt_eval_count': 296, 'prompt_eval_duration': 932043743, 'eval_count': 3, 'eval_duration': 21896181}
+Response: Poorly
+Final prediction for q_12_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 332
+
+==================================================
+Processing video 167/984
+
+Processing video: q_13_main_0.mp4
+Video info: 217 frames, 30.00 FPS, 7.23 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15176 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:11:28.151993178Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 254286513045, 'load_duration': 253324407300, 'prompt_eval_count': 296, 'prompt_eval_duration': 937983667, 'eval_count': 3, 'eval_duration': 22299673}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15152 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:17:33.117412707Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 363944573992, 'load_duration': 362990889536, 'prompt_eval_count': 296, 'prompt_eval_duration': 928328188, 'eval_count': 3, 'eval_duration': 23872468}
+Response: Poorly
+Final prediction for q_13_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 334
+
+==================================================
+Processing video 168/984
+
+Processing video: q_14_main_0.mp4
+Video info: 127 frames, 30.00 FPS, 4.23 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14568 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:19:45.690409728Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 131238018072, 'load_duration': 130288910538, 'prompt_eval_count': 296, 'prompt_eval_duration': 923718993, 'eval_count': 3, 'eval_duration': 24194180}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14556 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:23:57.065129951Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 250356416970, 'load_duration': 249400457926, 'prompt_eval_count': 296, 'prompt_eval_duration': 931662734, 'eval_count': 3, 'eval_duration': 22075439}
+Response: Poorly
+Final prediction for q_14_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 336
+
+==================================================
+Processing video 169/984
+
+Processing video: q_15_main_1.mp4
+Video info: 45 frames, 30.00 FPS, 1.50 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13672 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:28:06.591346762Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 248409802278, 'load_duration': 247440394507, 'prompt_eval_count': 296, 'prompt_eval_duration': 945884760, 'eval_count': 3, 'eval_duration': 22045274}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13668 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_15_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 338
+
+==================================================
+Processing video 170/984
+
+Processing video: q_16_main_1.mp4
+Video info: 220 frames, 30.00 FPS, 7.33 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14156 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:42:48.658161956Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 278807253145, 'load_duration': 277859269051, 'prompt_eval_count': 296, 'prompt_eval_duration': 924153712, 'eval_count': 3, 'eval_duration': 22383062}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14116 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:44:59.710516012Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 130038578343, 'load_duration': 129000159087, 'prompt_eval_count': 296, 'prompt_eval_duration': 1014784874, 'eval_count': 3, 'eval_duration': 22089425}
+Response: Poorly
+Final prediction for q_16_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 340
+
+==================================================
+Processing video 171/984
+
+Processing video: q_17_main_1.mp4
+Video info: 212 frames, 30.00 FPS, 7.07 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13744 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T09:50:49.891072464Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 338096391059, 'load_duration': 337142497583, 'prompt_eval_count': 296, 'prompt_eval_duration': 929718081, 'eval_count': 3, 'eval_duration': 22350864}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13724 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_17_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 342
+
+==================================================
+Processing video 172/984
+
+Processing video: q_18_main_0.mp4
+Video info: 250 frames, 30.00 FPS, 8.33 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13936 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:07:08.717026955Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 361408477482, 'load_duration': 360474429593, 'prompt_eval_count': 296, 'prompt_eval_duration': 908478817, 'eval_count': 3, 'eval_duration': 23468958}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14028 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:15:14.816016753Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 485076876285, 'load_duration': 484104946993, 'prompt_eval_count': 296, 'prompt_eval_duration': 947395827, 'eval_count': 3, 'eval_duration': 22508510}
+Response: Poorly
+Final prediction for q_18_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 344
+
+==================================================
+Processing video 173/984
+
+Processing video: q_19_main_1.mp4
+Video info: 272 frames, 30.00 FPS, 9.07 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13644 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13720 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:33:20.586547029Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 477931372522, 'load_duration': 476993321010, 'prompt_eval_count': 296, 'prompt_eval_duration': 914483924, 'eval_count': 3, 'eval_duration': 22082434}
+Response: Poorly
+Final prediction for q_19_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 346
+
+==================================================
+Processing video 174/984
+
+Processing video: q_1_main_0.mp4
+Video info: 241 frames, 30.00 FPS, 8.03 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13380 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:39:29.209748702Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 366956752603, 'load_duration': 365988808063, 'prompt_eval_count': 296, 'prompt_eval_duration': 943994721, 'eval_count': 3, 'eval_duration': 22008435}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13516 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:43:38.19538111Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 247962456066, 'load_duration': 246965293748, 'prompt_eval_count': 296, 'prompt_eval_duration': 971760201, 'eval_count': 3, 'eval_duration': 23748340}
+Response: Poorly
+Final prediction for q_1_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 348
+
+==================================================
+Processing video 175/984
+
+Processing video: q_20_main_0.mp4
+Video info: 230 frames, 30.00 FPS, 7.67 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13788 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:47:55.592278093Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 255778678964, 'load_duration': 254783158162, 'prompt_eval_count': 296, 'prompt_eval_duration': 971496575, 'eval_count': 3, 'eval_duration': 21977518}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13748 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:52:01.588702456Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 244974962129, 'load_duration': 244029970098, 'prompt_eval_count': 296, 'prompt_eval_duration': 919555951, 'eval_count': 3, 'eval_duration': 23034093}
+Response: Poorly
+Final prediction for q_20_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 350
+
+==================================================
+Processing video 176/984
+
+Processing video: q_21_main_0.mp4
+Video info: 50 frames, 30.00 FPS, 1.67 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13792 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T10:58:12.182806756Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 360163964757, 'load_duration': 359211840338, 'prompt_eval_count': 296, 'prompt_eval_duration': 928248918, 'eval_count': 3, 'eval_duration': 22194627}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13688 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:08:11.180538409Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 597976414323, 'load_duration': 597012011665, 'prompt_eval_count': 296, 'prompt_eval_duration': 939730834, 'eval_count': 3, 'eval_duration': 23203895}
+Response: Poorly
+Final prediction for q_21_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 352
+
+==================================================
+Processing video 177/984
+
+Processing video: q_22_main_0.mp4
+Video info: 99 frames, 30.00 FPS, 3.30 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14064 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14120 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:24:21.079006445Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 367509482790, 'load_duration': 366498388775, 'prompt_eval_count': 296, 'prompt_eval_duration': 986460600, 'eval_count': 3, 'eval_duration': 23133620}
+Response: Poorly
+Final prediction for q_22_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 354
+
+==================================================
+Processing video 178/984
+
+Processing video: q_23_main_0.mp4
+Video info: 243 frames, 30.00 FPS, 8.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13788 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:30:37.813519377Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 361204621795, 'load_duration': 360238056257, 'prompt_eval_count': 296, 'prompt_eval_duration': 942849659, 'eval_count': 3, 'eval_duration': 22233736}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13848 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:34:56.203093184Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 257368941424, 'load_duration': 256411561938, 'prompt_eval_count': 296, 'prompt_eval_duration': 932854735, 'eval_count': 3, 'eval_duration': 23014425}
+Response: Poorly
+Final prediction for q_23_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 356
+
+==================================================
+Processing video 179/984
+
+Processing video: q_24_main_1.mp4
+Video info: 97 frames, 30.00 FPS, 3.23 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14284 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:37:33.904234387Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 142659725271, 'load_duration': 141636937451, 'prompt_eval_count': 296, 'prompt_eval_duration': 998740675, 'eval_count': 3, 'eval_duration': 22501514}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14340 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:46:53.761846109Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 558838184117, 'load_duration': 557870649047, 'prompt_eval_count': 296, 'prompt_eval_duration': 942896991, 'eval_count': 3, 'eval_duration': 22392414}
+Response: Poorly
+Final prediction for q_24_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 358
+
+==================================================
+Processing video 180/984
+
+Processing video: q_25_main_0.mp4
+Video info: 77 frames, 30.00 FPS, 2.57 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13864 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T11:51:11.084372616Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 246315918612, 'load_duration': 245357029205, 'prompt_eval_count': 296, 'prompt_eval_duration': 933906746, 'eval_count': 3, 'eval_duration': 23467655}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13820 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_25_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 360
+
+==================================================
+Processing video 181/984
+
+Processing video: q_26_main_0.mp4
+Video info: 258 frames, 30.00 FPS, 8.60 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15068 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:03:45.967447731Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 152352492932, 'load_duration': 151362378256, 'prompt_eval_count': 296, 'prompt_eval_duration': 965067479, 'eval_count': 3, 'eval_duration': 22898889}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 15160 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:11:46.790538478Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 479807023428, 'load_duration': 478802464958, 'prompt_eval_count': 296, 'prompt_eval_duration': 980699470, 'eval_count': 3, 'eval_duration': 22324078}
+Response: Poorly
+Final prediction for q_26_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 362
+
+==================================================
+Processing video 182/984
+
+Processing video: q_27_main_0.mp4
+Video info: 268 frames, 30.00 FPS, 8.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14036 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:18:09.561325326Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 381367392150, 'load_duration': 380406542860, 'prompt_eval_count': 296, 'prompt_eval_duration': 936659415, 'eval_count': 3, 'eval_duration': 22458073}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14284 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:24:46.147088998Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 395563858466, 'load_duration': 394581856918, 'prompt_eval_count': 296, 'prompt_eval_duration': 957726824, 'eval_count': 3, 'eval_duration': 22099145}
+Response: Poorly
+Final prediction for q_27_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 364
+
+==================================================
+Processing video 183/984
+
+Processing video: q_28_main_0.mp4
+Video info: 274 frames, 30.00 FPS, 9.13 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14528 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:31:02.896104987Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 374965198296, 'load_duration': 373982872664, 'prompt_eval_count': 296, 'prompt_eval_duration': 941616328, 'eval_count': 3, 'eval_duration': 38608677}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14476 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:33:31.35446802Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 147437191894, 'load_duration': 146483622640, 'prompt_eval_count': 296, 'prompt_eval_duration': 929913363, 'eval_count': 3, 'eval_duration': 22098229}
+Response: Poorly
+Final prediction for q_28_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 366
+
+==================================================
+Processing video 184/984
+
+Processing video: q_29_main_1.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14240 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:42:02.975494017Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 510265739885, 'load_duration': 509296388266, 'prompt_eval_count': 296, 'prompt_eval_duration': 945684753, 'eval_count': 3, 'eval_duration': 22526139}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14236 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_29_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 368
+
+==================================================
+Processing video 185/984
+
+Processing video: q_2_main_1.mp4
+Video info: 183 frames, 30.00 FPS, 6.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13532 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T12:54:42.613206755Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 156414424024, 'load_duration': 155444490840, 'prompt_eval_count': 296, 'prompt_eval_duration': 945306685, 'eval_count': 3, 'eval_duration': 23172731}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13316 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_2_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 370
+
+==================================================
+Processing video 186/984
+
+Processing video: q_30_main_0.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14480 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T13:07:18.672260027Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 140244137990, 'load_duration': 139267826920, 'prompt_eval_count': 296, 'prompt_eval_duration': 952665842, 'eval_count': 3, 'eval_duration': 22043890}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14488 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T13:13:43.196318752Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 383503658069, 'load_duration': 382539646526, 'prompt_eval_count': 296, 'prompt_eval_duration': 932254979, 'eval_count': 3, 'eval_duration': 29686466}
+Response: Poorly
+Final prediction for q_30_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 372
+
+==================================================
+Processing video 187/984
+
+Processing video: q_3_main_1.mp4
+Video info: 243 frames, 30.00 FPS, 8.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14224 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T13:20:11.146966139Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 386270166034, 'load_duration': 385286910085, 'prompt_eval_count': 296, 'prompt_eval_duration': 958832881, 'eval_count': 3, 'eval_duration': 22176008}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14132 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_3_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 374
+
+==================================================
+Processing video 188/984
+
+Processing video: q_4_main_1.mp4
+Video info: 45 frames, 30.00 FPS, 1.50 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13412 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T13:34:35.064038917Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 261697832070, 'load_duration': 260745578750, 'prompt_eval_count': 296, 'prompt_eval_duration': 927914275, 'eval_count': 3, 'eval_duration': 22650809}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13392 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T13:40:31.401920086Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 355316472103, 'load_duration': 354383558966, 'prompt_eval_count': 296, 'prompt_eval_duration': 899043675, 'eval_count': 3, 'eval_duration': 31697223}
+Response: Poorly
+Final prediction for q_4_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 376
+
+==================================================
+Processing video 189/984
+
+Processing video: q_5_main_0.mp4
+Video info: 174 frames, 30.00 FPS, 5.80 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13712 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13600 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_5_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 378
+
+==================================================
+Processing video 190/984
+
+Processing video: q_6_main_1.mp4
+Video info: 216 frames, 30.00 FPS, 7.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13884 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13920 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T14:11:28.635475777Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 30665194499, 'load_duration': 29695246322, 'prompt_eval_count': 296, 'prompt_eval_duration': 937477631, 'eval_count': 3, 'eval_duration': 30813360}
+Response: Poorly
+Final prediction for q_6_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 380
+
+==================================================
+Processing video 191/984
+
+Processing video: q_7_main_1.mp4
+Video info: 137 frames, 30.00 FPS, 4.57 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13672 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 13620 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_7_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 382
+
+==================================================
+Processing video 192/984
+
+Processing video: q_8_main_0.mp4
+Video info: 216 frames, 30.00 FPS, 7.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14192 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T14:36:06.211140231Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 259702368383, 'load_duration': 258713469727, 'prompt_eval_count': 296, 'prompt_eval_duration': 964961927, 'eval_count': 3, 'eval_duration': 22067935}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14164 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T14:44:39.061667476Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 511828897583, 'load_duration': 510865295839, 'prompt_eval_count': 296, 'prompt_eval_duration': 939762372, 'eval_count': 3, 'eval_duration': 22213430}
+Response: Poorly
+Final prediction for q_8_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 384
+
+==================================================
+Processing video 193/984
+
+Processing video: q_9_main_0.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14092 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T14:50:43.980540083Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 363496771722, 'load_duration': 362564472343, 'prompt_eval_count': 296, 'prompt_eval_duration': 905072503, 'eval_count': 3, 'eval_duration': 25270986}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14208 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T14:54:55.139228634Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 250137425376, 'load_duration': 249184386724, 'prompt_eval_count': 296, 'prompt_eval_duration': 927833967, 'eval_count': 3, 'eval_duration': 23068166}
+Response: Poorly
+Final prediction for q_9_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 386
+
+==================================================
+Processing video 194/984
+
+Processing video: q_warmup_3_main_1.mp4
+Video info: 178 frames, 30.00 FPS, 5.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14552 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:00:54.843658446Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 347149865756, 'load_duration': 346180490412, 'prompt_eval_count': 296, 'prompt_eval_duration': 945292196, 'eval_count': 3, 'eval_duration': 22028625}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14520 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:06:12.062898866Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 316195758065, 'load_duration': 315147460508, 'prompt_eval_count': 296, 'prompt_eval_duration': 1022527669, 'eval_count': 3, 'eval_duration': 23467314}
+Response: Poorly
+Final prediction for q_warmup_3_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 388
+
+==================================================
+Processing video 195/984
+
+Processing video: q_warmup_4_main_0.mp4
+Video info: 127 frames, 30.00 FPS, 4.23 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14508 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14540 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:22:09.577512049Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 355065403017, 'load_duration': 354076176903, 'prompt_eval_count': 296, 'prompt_eval_duration': 964609848, 'eval_count': 3, 'eval_duration': 22852900}
+Response: Poorly
+Final prediction for q_warmup_4_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 390
+
+==================================================
+Processing video 196/984
+
+Processing video: q_warmup_5_main_1.mp4
+Video info: 56 frames, 30.00 FPS, 1.87 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14984 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:27:00.033089549Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 289282150259, 'load_duration': 288277237165, 'prompt_eval_count': 296, 'prompt_eval_duration': 979346859, 'eval_count': 3, 'eval_duration': 23874685}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 14888 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_warmup_5_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 392
+
+==================================================
+Processing video 197/984
+
+Processing video: q_10_main_0.mp4
+Video info: 84 frames, 30.00 FPS, 2.80 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8208 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:42:48.630019878Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 346245236376, 'load_duration': 345245492773, 'prompt_eval_count': 296, 'prompt_eval_duration': 974969070, 'eval_count': 3, 'eval_duration': 23036007}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8180 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:52:38.680487256Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 589026392506, 'load_duration': 588015917372, 'prompt_eval_count': 296, 'prompt_eval_duration': 985650357, 'eval_count': 3, 'eval_duration': 23132134}
+Response: Poorly
+Final prediction for q_10_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 394
+
+==================================================
+Processing video 198/984
+
+Processing video: q_11_main_1.mp4
+Video info: 203 frames, 30.00 FPS, 6.77 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8768 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T15:58:43.886440485Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 363582958951, 'load_duration': 362616484495, 'prompt_eval_count': 296, 'prompt_eval_duration': 942019907, 'eval_count': 3, 'eval_duration': 22332785}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8744 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:05:24.116582109Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 399206968406, 'load_duration': 398217019032, 'prompt_eval_count': 296, 'prompt_eval_duration': 965844027, 'eval_count': 3, 'eval_duration': 22440670}
+Response: Poorly
+Final prediction for q_11_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 396
+
+==================================================
+Processing video 199/984
+
+Processing video: q_12_main_1.mp4
+Video info: 152 frames, 30.00 FPS, 5.07 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8724 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:13:56.129792259Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 510347327679, 'load_duration': 509324299560, 'prompt_eval_count': 296, 'prompt_eval_duration': 998137262, 'eval_count': 3, 'eval_duration': 23349639}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8880 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:20:22.688658652Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 385538789086, 'load_duration': 384586050275, 'prompt_eval_count': 296, 'prompt_eval_duration': 927713612, 'eval_count': 3, 'eval_duration': 23554676}
+Response: Poorly
+Final prediction for q_12_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 398
+
+==================================================
+Processing video 200/984
+
+Processing video: q_13_main_1.mp4
+Video info: 218 frames, 30.00 FPS, 7.27 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9096 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:26:45.050702325Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 380883102404, 'load_duration': 379911438018, 'prompt_eval_count': 296, 'prompt_eval_duration': 946307726, 'eval_count': 3, 'eval_duration': 23836134}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9708 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:33:06.792043073Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 380728511507, 'load_duration': 379707891461, 'prompt_eval_count': 296, 'prompt_eval_duration': 997349941, 'eval_count': 3, 'eval_duration': 21899422}
+Response: Poorly
+Final prediction for q_13_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 400
+
+==================================================
+Processing video 201/984
+
+Processing video: q_14_main_0.mp4
+Video info: 127 frames, 30.00 FPS, 4.23 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9816 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:39:30.955697268Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 382873926333, 'load_duration': 381935614613, 'prompt_eval_count': 296, 'prompt_eval_duration': 912094194, 'eval_count': 3, 'eval_duration': 23881884}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9808 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:41:47.332896054Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 135364414200, 'load_duration': 134389007628, 'prompt_eval_count': 296, 'prompt_eval_duration': 943834503, 'eval_count': 3, 'eval_duration': 30027424}
+Response: Poorly
+Final prediction for q_14_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 402
+
+==================================================
+Processing video 202/984
+
+Processing video: q_15_main_1.mp4
+Video info: 138 frames, 30.00 FPS, 4.60 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9608 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9472 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T16:56:49.807378538Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 299703260820, 'load_duration': 298707078325, 'prompt_eval_count': 296, 'prompt_eval_duration': 972724665, 'eval_count': 3, 'eval_duration': 22094095}
+Response: Poorly
+Final prediction for q_15_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 404
+
+==================================================
+Processing video 203/984
+
+Processing video: q_16_main_1.mp4
+Video info: 220 frames, 30.00 FPS, 7.33 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 10356 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:03:16.261609008Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 384753790954, 'load_duration': 383791440433, 'prompt_eval_count': 296, 'prompt_eval_duration': 938072160, 'eval_count': 3, 'eval_duration': 22798077}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 10460 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:09:38.887310093Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 381604664872, 'load_duration': 380570748196, 'prompt_eval_count': 296, 'prompt_eval_duration': 1008636019, 'eval_count': 3, 'eval_duration': 23710731}
+Response: Poorly
+Final prediction for q_16_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 406
+
+==================================================
+Processing video 204/984
+
+Processing video: q_17_main_1.mp4
+Video info: 214 frames, 30.00 FPS, 7.13 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9136 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:15:56.919227251Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 375998657651, 'load_duration': 375049229629, 'prompt_eval_count': 296, 'prompt_eval_duration': 921176531, 'eval_count': 3, 'eval_duration': 27202797}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9208 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:22:10.395476124Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 372454319396, 'load_duration': 371492326020, 'prompt_eval_count': 296, 'prompt_eval_duration': 937581896, 'eval_count': 3, 'eval_duration': 22394386}
+Response: Poorly
+Final prediction for q_17_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 408
+
+==================================================
+Processing video 205/984
+
+Processing video: q_18_main_0.mp4
+Video info: 250 frames, 30.00 FPS, 8.33 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8664 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:24:24.329086111Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 132148019457, 'load_duration': 131181888666, 'prompt_eval_count': 296, 'prompt_eval_duration': 942540993, 'eval_count': 3, 'eval_duration': 22028942}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8700 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:28:45.563186859Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 260213388228, 'load_duration': 259243111854, 'prompt_eval_count': 296, 'prompt_eval_duration': 946682622, 'eval_count': 3, 'eval_duration': 22169890}
+Response: Poorly
+Final prediction for q_18_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 410
+
+==================================================
+Processing video 206/984
+
+Processing video: q_19_main_1.mp4
+Video info: 66 frames, 30.00 FPS, 2.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 10052 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:32:54.0401066Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 247249609537, 'load_duration': 246287149942, 'prompt_eval_count': 296, 'prompt_eval_duration': 938836911, 'eval_count': 3, 'eval_duration': 22208220}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9948 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:39:14.725762773Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 379665348498, 'load_duration': 378658829279, 'prompt_eval_count': 296, 'prompt_eval_duration': 983148670, 'eval_count': 3, 'eval_duration': 22031362}
+Response: Poorly
+Final prediction for q_19_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 412
+
+==================================================
+Processing video 207/984
+
+Processing video: q_1_main_0.mp4
+Video info: 239 frames, 30.00 FPS, 7.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8708 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:41:26.321121694Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129887536384, 'load_duration': 128913608664, 'prompt_eval_count': 296, 'prompt_eval_duration': 949751026, 'eval_count': 3, 'eval_duration': 22001709}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8592 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T17:45:44.576128113Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 257234073062, 'load_duration': 256226221245, 'prompt_eval_count': 296, 'prompt_eval_duration': 983625414, 'eval_count': 3, 'eval_duration': 22468910}
+Response: Poorly
+Final prediction for q_1_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 414
+
+==================================================
+Processing video 208/984
+
+Processing video: q_20_main_0.mp4
+Video info: 230 frames, 30.00 FPS, 7.67 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9272 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9192 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:02:00.811482253Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 373643682423, 'load_duration': 372641787773, 'prompt_eval_count': 296, 'prompt_eval_duration': 977831497, 'eval_count': 3, 'eval_duration': 22580932}
+Response: Poorly
+Final prediction for q_20_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 416
+
+==================================================
+Processing video 209/984
+
+Processing video: q_21_main_1.mp4
+Video info: 105 frames, 30.00 FPS, 3.50 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9848 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:04:24.832002731Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 136684489308, 'load_duration': 135631990940, 'prompt_eval_count': 296, 'prompt_eval_duration': 1025242442, 'eval_count': 3, 'eval_duration': 25694674}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9728 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:12:59.828458468Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 513974974924, 'load_duration': 512986021808, 'prompt_eval_count': 296, 'prompt_eval_duration': 962451537, 'eval_count': 3, 'eval_duration': 24524292}
+Response: Poorly
+Final prediction for q_21_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 418
+
+==================================================
+Processing video 210/984
+
+Processing video: q_22_main_1.mp4
+Video info: 99 frames, 30.00 FPS, 3.30 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8572 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:21:07.711951741Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 470381619328, 'load_duration': 469411347401, 'prompt_eval_count': 296, 'prompt_eval_duration': 945109331, 'eval_count': 3, 'eval_duration': 23824739}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8584 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:25:13.601979423Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 244867945663, 'load_duration': 243900886502, 'prompt_eval_count': 296, 'prompt_eval_duration': 933243990, 'eval_count': 3, 'eval_duration': 32141654}
+Response: Poorly
+Final prediction for q_22_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 420
+
+==================================================
+Processing video 211/984
+
+Processing video: q_23_main_0.mp4
+Video info: 243 frames, 30.00 FPS, 8.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8700 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:33:39.563463567Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 489515840391, 'load_duration': 488483636318, 'prompt_eval_count': 296, 'prompt_eval_duration': 1007073160, 'eval_count': 3, 'eval_duration': 23577676}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8648 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:39:58.687854237Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 378111350822, 'load_duration': 377136357477, 'prompt_eval_count': 296, 'prompt_eval_duration': 951288556, 'eval_count': 3, 'eval_duration': 22326442}
+Response: Poorly
+Final prediction for q_23_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 422
+
+==================================================
+Processing video 212/984
+
+Processing video: q_24_main_0.mp4
+Video info: 114 frames, 30.00 FPS, 3.80 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 10044 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:44:21.444452264Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 252006062765, 'load_duration': 251047241776, 'prompt_eval_count': 296, 'prompt_eval_duration': 934311418, 'eval_count': 3, 'eval_duration': 23175782}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9956 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:50:49.046218607Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 386585527580, 'load_duration': 385616597498, 'prompt_eval_count': 296, 'prompt_eval_duration': 945228851, 'eval_count': 3, 'eval_duration': 22177875}
+Response: Poorly
+Final prediction for q_24_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 424
+
+==================================================
+Processing video 213/984
+
+Processing video: q_25_main_0.mp4
+Video info: 76 frames, 30.00 FPS, 2.53 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8284 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T18:57:08.912898034Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 378633756493, 'load_duration': 377627483789, 'prompt_eval_count': 296, 'prompt_eval_duration': 982187321, 'eval_count': 3, 'eval_duration': 22428471}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8216 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:01:45.895309629Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 275960837550, 'load_duration': 275011076030, 'prompt_eval_count': 296, 'prompt_eval_duration': 923003243, 'eval_count': 3, 'eval_duration': 25307515}
+Response: Poorly
+Final prediction for q_25_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 426
+
+==================================================
+Processing video 214/984
+
+Processing video: q_26_main_0.mp4
+Video info: 259 frames, 30.00 FPS, 8.63 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8496 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:08:04.518989324Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377278321997, 'load_duration': 376314134760, 'prompt_eval_count': 296, 'prompt_eval_duration': 940784810, 'eval_count': 3, 'eval_duration': 22147460}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8440 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:14:27.112632884Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 381572308971, 'load_duration': 380606885667, 'prompt_eval_count': 296, 'prompt_eval_duration': 939950075, 'eval_count': 3, 'eval_duration': 23578796}
+Response: Poorly
+Final prediction for q_26_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 428
+
+==================================================
+Processing video 215/984
+
+Processing video: q_27_main_0.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9420 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:16:51.069067292Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128506541197, 'load_duration': 127533999470, 'prompt_eval_count': 296, 'prompt_eval_duration': 948757771, 'eval_count': 3, 'eval_duration': 22238752}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9536 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_27_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 430
+
+==================================================
+Processing video 216/984
+
+Processing video: q_28_main_0.mp4
+Video info: 273 frames, 30.00 FPS, 9.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8940 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:29:30.252260166Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 145679916868, 'load_duration': 144738896675, 'prompt_eval_count': 296, 'prompt_eval_duration': 917579108, 'eval_count': 3, 'eval_duration': 22035918}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8832 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:36:09.52916166Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 398255266297, 'load_duration': 397286860929, 'prompt_eval_count': 296, 'prompt_eval_duration': 944850223, 'eval_count': 3, 'eval_duration': 22090132}
+Response: Poorly
+Final prediction for q_28_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 432
+
+==================================================
+Processing video 217/984
+
+Processing video: q_29_main_0.mp4
+Video info: 49 frames, 30.00 FPS, 1.63 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8436 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:42:36.741168131Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 386047070767, 'load_duration': 385054691379, 'prompt_eval_count': 296, 'prompt_eval_duration': 967790254, 'eval_count': 3, 'eval_duration': 23096127}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8436 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:48:56.714612235Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 378953713463, 'load_duration': 377984452544, 'prompt_eval_count': 296, 'prompt_eval_duration': 944236554, 'eval_count': 3, 'eval_duration': 23465781}
+Response: Poorly
+Final prediction for q_29_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 434
+
+==================================================
+Processing video 218/984
+
+Processing video: q_2_main_1.mp4
+Video info: 191 frames, 30.00 FPS, 6.37 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8656 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T19:55:20.034871873Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 381820369539, 'load_duration': 380842996950, 'prompt_eval_count': 296, 'prompt_eval_duration': 952292348, 'eval_count': 3, 'eval_duration': 23694782}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8680 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:01:38.24867124Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377196041747, 'load_duration': 376207876071, 'prompt_eval_count': 296, 'prompt_eval_duration': 964845372, 'eval_count': 3, 'eval_duration': 21962511}
+Response: Poorly
+Final prediction for q_2_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 436
+
+==================================================
+Processing video 219/984
+
+Processing video: q_30_main_0.mp4
+Video info: 183 frames, 30.00 FPS, 6.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8408 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:07:56.986166139Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377169225940, 'load_duration': 376208201013, 'prompt_eval_count': 296, 'prompt_eval_duration': 936919110, 'eval_count': 3, 'eval_duration': 22813351}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8092 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:10:08.301789328Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 130295660563, 'load_duration': 129294756911, 'prompt_eval_count': 296, 'prompt_eval_duration': 975283275, 'eval_count': 3, 'eval_duration': 24121078}
+Response: Poorly
+Final prediction for q_30_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 438
+
+==================================================
+Processing video 220/984
+
+Processing video: q_3_main_1.mp4
+Video info: 245 frames, 30.00 FPS, 8.17 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9348 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:16:47.474319257Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 396955697571, 'load_duration': 395966832333, 'prompt_eval_count': 296, 'prompt_eval_duration': 962252150, 'eval_count': 3, 'eval_duration': 24380543}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9332 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:23:38.410544415Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 409914335436, 'load_duration': 408940046231, 'prompt_eval_count': 296, 'prompt_eval_duration': 949657288, 'eval_count': 3, 'eval_duration': 23237391}
+Response: Poorly
+Final prediction for q_3_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 440
+
+==================================================
+Processing video 221/984
+
+Processing video: q_4_main_0.mp4
+Video info: 92 frames, 30.00 FPS, 3.07 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9156 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:30:44.693579769Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 424965987448, 'load_duration': 424014649299, 'prompt_eval_count': 296, 'prompt_eval_duration': 926358889, 'eval_count': 3, 'eval_duration': 23572251}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9160 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:37:24.29209868Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 398579822451, 'load_duration': 397609413682, 'prompt_eval_count': 296, 'prompt_eval_duration': 944602228, 'eval_count': 3, 'eval_duration': 23835405}
+Response: Poorly
+Final prediction for q_4_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 442
+
+==================================================
+Processing video 222/984
+
+Processing video: q_5_main_0.mp4
+Video info: 172 frames, 30.00 FPS, 5.73 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8704 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:44:04.672785954Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 398880597297, 'load_duration': 397921213655, 'prompt_eval_count': 296, 'prompt_eval_duration': 934644216, 'eval_count': 3, 'eval_duration': 23397816}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8924 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:50:53.319015798Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 407625842827, 'load_duration': 406678223282, 'prompt_eval_count': 296, 'prompt_eval_duration': 918394427, 'eval_count': 3, 'eval_duration': 27762559}
+Response: Poorly
+Final prediction for q_5_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 444
+
+==================================================
+Processing video 223/984
+
+Processing video: q_6_main_1.mp4
+Video info: 216 frames, 30.00 FPS, 7.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 10024 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T20:57:26.685855871Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 391770196688, 'load_duration': 390793402856, 'prompt_eval_count': 296, 'prompt_eval_duration': 952914186, 'eval_count': 3, 'eval_duration': 22070612}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 10128 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:03:51.47108354Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 383766660296, 'load_duration': 382814463867, 'prompt_eval_count': 296, 'prompt_eval_duration': 929164606, 'eval_count': 3, 'eval_duration': 22115659}
+Response: Poorly
+Final prediction for q_6_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 446
+
+==================================================
+Processing video 224/984
+
+Processing video: q_7_main_1.mp4
+Video info: 149 frames, 30.00 FPS, 4.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9948 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:10:38.073280361Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 404740211791, 'load_duration': 403778565042, 'prompt_eval_count': 296, 'prompt_eval_duration': 934036539, 'eval_count': 3, 'eval_duration': 26130645}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9968 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:16:56.846304416Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377751854034, 'load_duration': 376761817713, 'prompt_eval_count': 296, 'prompt_eval_duration': 956903250, 'eval_count': 3, 'eval_duration': 31724901}
+Response: Poorly
+Final prediction for q_7_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 448
+
+==================================================
+Processing video 225/984
+
+Processing video: q_8_main_0.mp4
+Video info: 215 frames, 30.00 FPS, 7.17 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8648 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:23:39.535279898Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 401115287816, 'load_duration': 400171167731, 'prompt_eval_count': 296, 'prompt_eval_duration': 920022622, 'eval_count': 3, 'eval_duration': 22726940}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8504 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:29:58.070642645Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377514896467, 'load_duration': 376568635932, 'prompt_eval_count': 296, 'prompt_eval_duration': 921288773, 'eval_count': 3, 'eval_duration': 23557686}
+Response: Poorly
+Final prediction for q_8_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 450
+
+==================================================
+Processing video 226/984
+
+Processing video: q_9_main_1.mp4
+Video info: 268 frames, 30.00 FPS, 8.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8276 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:36:28.937939534Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 375938753110, 'load_duration': 374973879821, 'prompt_eval_count': 296, 'prompt_eval_duration': 941185723, 'eval_count': 3, 'eval_duration': 22268007}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 8388 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:42:52.570671259Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 382611306049, 'load_duration': 381627562809, 'prompt_eval_count': 296, 'prompt_eval_duration': 959770117, 'eval_count': 3, 'eval_duration': 22163674}
+Response: Poorly
+Final prediction for q_9_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 452
+
+==================================================
+Processing video 227/984
+
+Processing video: q_warmup_3_main_1.mp4
+Video info: 178 frames, 30.00 FPS, 5.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9312 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:49:21.20885858Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 387086519561, 'load_duration': 386111427299, 'prompt_eval_count': 296, 'prompt_eval_duration': 951395478, 'eval_count': 3, 'eval_duration': 22327885}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9292 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T21:55:41.038903355Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 378811669548, 'load_duration': 377850901016, 'prompt_eval_count': 296, 'prompt_eval_duration': 937307736, 'eval_count': 3, 'eval_duration': 22420907}
+Response: Poorly
+Final prediction for q_warmup_3_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 454
+
+==================================================
+Processing video 228/984
+
+Processing video: q_warmup_4_main_0.mp4
+Video info: 126 frames, 30.00 FPS, 4.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9284 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:02:15.982506968Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 393477138210, 'load_duration': 392495912986, 'prompt_eval_count': 296, 'prompt_eval_duration': 956120267, 'eval_count': 3, 'eval_duration': 23127393}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9148 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:08:31.359333719Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 374357057754, 'load_duration': 373393773692, 'prompt_eval_count': 296, 'prompt_eval_duration': 939268282, 'eval_count': 3, 'eval_duration': 22090391}
+Response: Poorly
+Final prediction for q_warmup_4_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 456
+
+==================================================
+Processing video 229/984
+
+Processing video: q_warmup_5_main_1.mp4
+Video info: 233 frames, 30.00 FPS, 7.77 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9604 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:14:50.388118795Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377362398814, 'load_duration': 376391116892, 'prompt_eval_count': 296, 'prompt_eval_duration': 947498736, 'eval_count': 3, 'eval_duration': 22399682}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9500 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:21:07.353293026Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 375946625219, 'load_duration': 374962698640, 'prompt_eval_count': 296, 'prompt_eval_duration': 960451049, 'eval_count': 3, 'eval_duration': 22139308}
+Response: Poorly
+Final prediction for q_warmup_5_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 458
+
+==================================================
+Processing video 230/984
+
+Processing video: q_10_main_0.mp4
+Video info: 77 frames, 30.00 FPS, 2.57 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9628 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:27:40.153397819Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 391590503317, 'load_duration': 390668697603, 'prompt_eval_count': 296, 'prompt_eval_duration': 895554184, 'eval_count': 3, 'eval_duration': 24912885}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9680 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:33:59.473527575Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 378300518516, 'load_duration': 377350856898, 'prompt_eval_count': 296, 'prompt_eval_duration': 926129648, 'eval_count': 3, 'eval_duration': 22054645}
+Response: Poorly
+Final prediction for q_10_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 460
+
+==================================================
+Processing video 231/984
+
+Processing video: q_11_main_1.mp4
+Video info: 205 frames, 30.00 FPS, 6.83 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9696 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:38:30.358065028Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 269252933271, 'load_duration': 268269437240, 'prompt_eval_count': 296, 'prompt_eval_duration': 959675871, 'eval_count': 3, 'eval_duration': 22339366}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9692 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:48:17.504088241Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 586128932883, 'load_duration': 585159326657, 'prompt_eval_count': 296, 'prompt_eval_duration': 944506546, 'eval_count': 3, 'eval_duration': 23180108}
+Response: Poorly
+Final prediction for q_11_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 462
+
+==================================================
+Processing video 232/984
+
+Processing video: q_12_main_1.mp4
+Video info: 122 frames, 30.00 FPS, 4.07 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9568 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T22:57:58.782393934Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 579908834806, 'load_duration': 578906709787, 'prompt_eval_count': 296, 'prompt_eval_duration': 978508583, 'eval_count': 3, 'eval_duration': 22209170}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9660 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:07:55.476656674Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 595675792998, 'load_duration': 594703301438, 'prompt_eval_count': 296, 'prompt_eval_duration': 948847852, 'eval_count': 3, 'eval_duration': 22250135}
+Response: Poorly
+Final prediction for q_12_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 464
+
+==================================================
+Processing video 233/984
+
+Processing video: q_13_main_0.mp4
+Video info: 218 frames, 30.00 FPS, 7.27 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9844 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:14:22.880036763Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 385795536767, 'load_duration': 384760288092, 'prompt_eval_count': 296, 'prompt_eval_duration': 1011273274, 'eval_count': 3, 'eval_duration': 22056984}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9820 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:19:13.794935115Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 289905042722, 'load_duration': 288931063921, 'prompt_eval_count': 296, 'prompt_eval_duration': 947730972, 'eval_count': 3, 'eval_duration': 24310673}
+Response: Poorly
+Final prediction for q_13_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 466
+
+==================================================
+Processing video 234/984
+
+Processing video: q_14_main_0.mp4
+Video info: 126 frames, 30.00 FPS, 4.20 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9676 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:21:30.027177612Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 134931336152, 'load_duration': 133926442617, 'prompt_eval_count': 296, 'prompt_eval_duration': 980700273, 'eval_count': 3, 'eval_duration': 22388178}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9600 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:23:47.264113617Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 136216943447, 'load_duration': 135197921001, 'prompt_eval_count': 296, 'prompt_eval_duration': 992591746, 'eval_count': 3, 'eval_duration': 24398537}
+Response: Poorly
+Final prediction for q_14_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 468
+
+==================================================
+Processing video 235/984
+
+Processing video: q_15_main_1.mp4
+Video info: 45 frames, 30.00 FPS, 1.50 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9820 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9792 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:38:40.639237713Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 291108203459, 'load_duration': 290125615458, 'prompt_eval_count': 296, 'prompt_eval_duration': 954897545, 'eval_count': 3, 'eval_duration': 26371522}
+Response: Poorly
+Final prediction for q_15_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 470
+
+==================================================
+Processing video 236/984
+
+Processing video: q_16_main_1.mp4
+Video info: 221 frames, 30.00 FPS, 7.37 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9656 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9788 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:52:40.479680828Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 237146089629, 'load_duration': 236178139128, 'prompt_eval_count': 296, 'prompt_eval_duration': 928318851, 'eval_count': 3, 'eval_duration': 37731895}
+Response: Poorly
+Final prediction for q_16_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 472
+
+==================================================
+Processing video 237/984
+
+Processing video: q_17_main_1.mp4
+Video info: 211 frames, 30.00 FPS, 7.03 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9836 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-17T23:58:36.004144411Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 354000806773, 'load_duration': 353030731985, 'prompt_eval_count': 296, 'prompt_eval_duration': 946087170, 'eval_count': 3, 'eval_duration': 22498875}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9780 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:00:49.084551156Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 132060622560, 'load_duration': 131073487966, 'prompt_eval_count': 296, 'prompt_eval_duration': 952526146, 'eval_count': 3, 'eval_duration': 33149689}
+Response: Poorly
+Final prediction for q_17_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 474
+
+==================================================
+Processing video 238/984
+
+Processing video: q_18_main_1.mp4
+Video info: 251 frames, 30.00 FPS, 8.37 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9504 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:07:21.091603359Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 390712287283, 'load_duration': 389710398568, 'prompt_eval_count': 296, 'prompt_eval_duration': 978164402, 'eval_count': 3, 'eval_duration': 22249863}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9552 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:11:35.286017131Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 253172687755, 'load_duration': 252156461131, 'prompt_eval_count': 296, 'prompt_eval_duration': 990242476, 'eval_count': 3, 'eval_duration': 24383873}
+Response: Poorly
+Final prediction for q_18_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 476
+
+==================================================
+Processing video 239/984
+
+Processing video: q_19_main_1.mp4
+Video info: 271 frames, 30.00 FPS, 9.03 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9696 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:15:49.053736758Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 238913941171, 'load_duration': 237953610529, 'prompt_eval_count': 296, 'prompt_eval_duration': 935164258, 'eval_count': 3, 'eval_duration': 23370041}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9796 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:22:10.744103488Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 380669837352, 'load_duration': 379720081069, 'prompt_eval_count': 296, 'prompt_eval_duration': 925719127, 'eval_count': 3, 'eval_duration': 22602685}
+Response: Poorly
+Final prediction for q_19_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 478
+
+==================================================
+Processing video 240/984
+
+Processing video: q_1_main_0.mp4
+Video info: 240 frames, 30.00 FPS, 8.00 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9452 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:26:24.631519713Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 238431887975, 'load_duration': 237472651263, 'prompt_eval_count': 296, 'prompt_eval_duration': 933763228, 'eval_count': 3, 'eval_duration': 24140837}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9424 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:28:39.709277138Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 134057791432, 'load_duration': 133083797400, 'prompt_eval_count': 296, 'prompt_eval_duration': 948837799, 'eval_count': 3, 'eval_duration': 23796164}
+Response: Poorly
+Final prediction for q_1_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 480
+
+==================================================
+Processing video 241/984
+
+Processing video: q_20_main_0.mp4
+Video info: 229 frames, 30.00 FPS, 7.63 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9436 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:33:03.315497796Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 262024861442, 'load_duration': 261052869539, 'prompt_eval_count': 296, 'prompt_eval_duration': 942980895, 'eval_count': 3, 'eval_duration': 27709028}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9516 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T00:42:34.110529805Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 569772945971, 'load_duration': 568824130865, 'prompt_eval_count': 296, 'prompt_eval_duration': 925461803, 'eval_count': 3, 'eval_duration': 22048822}
+Response: Poorly
+Final prediction for q_20_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 482
+
+==================================================
+Processing video 242/984
+
+Processing video: q_21_main_1.mp4
+Video info: 49 frames, 30.00 FPS, 1.63 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9740 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9596 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_21_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 484
+
+==================================================
+Processing video 243/984
+
+Processing video: q_22_main_0.mp4
+Video info: 98 frames, 30.00 FPS, 3.27 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9776 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9832 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T01:14:58.176016099Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 120205965663, 'load_duration': 119183428977, 'prompt_eval_count': 296, 'prompt_eval_duration': 984948540, 'eval_count': 3, 'eval_duration': 35853880}
+Response: Poorly
+Final prediction for q_22_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 486
+
+==================================================
+Processing video 244/984
+
+Processing video: q_23_main_0.mp4
+Video info: 243 frames, 30.00 FPS, 8.10 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9736 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T01:19:25.710122755Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 265816407773, 'load_duration': 264848565113, 'prompt_eval_count': 296, 'prompt_eval_duration': 944369922, 'eval_count': 3, 'eval_duration': 22439486}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9708 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T01:23:49.413722438Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 262681203920, 'load_duration': 261685795383, 'prompt_eval_count': 296, 'prompt_eval_duration': 971416834, 'eval_count': 3, 'eval_duration': 22103521}
+Response: Poorly
+Final prediction for q_23_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 488
+
+==================================================
+Processing video 245/984
+
+Processing video: q_24_main_0.mp4
+Video info: 97 frames, 30.00 FPS, 3.23 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9752 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9612 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T01:39:15.822355731Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 324059644878, 'load_duration': 323086474033, 'prompt_eval_count': 296, 'prompt_eval_duration': 947522016, 'eval_count': 3, 'eval_duration': 24073074}
+Response: Poorly
+Final prediction for q_24_main_0.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 490
+
+==================================================
+Processing video 246/984
+
+Processing video: q_25_main_1.mp4
+Video info: 77 frames, 30.00 FPS, 2.57 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9536 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T01:45:25.774403433Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 368746814519, 'load_duration': 367727772966, 'prompt_eval_count': 296, 'prompt_eval_duration': 995597354, 'eval_count': 3, 'eval_duration': 21926121}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9696 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_25_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 492
+
+==================================================
+Processing video 247/984
+
+Processing video: q_26_main_0.mp4
+Video info: 258 frames, 30.00 FPS, 8.60 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9536 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:04:15.649554042Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 527370482357, 'load_duration': 526405391962, 'prompt_eval_count': 296, 'prompt_eval_duration': 941246342, 'eval_count': 3, 'eval_duration': 22160733}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9556 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:08:20.891349872Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 244223578850, 'load_duration': 243266534195, 'prompt_eval_count': 296, 'prompt_eval_duration': 932805056, 'eval_count': 3, 'eval_duration': 22844535}
+Response: Poorly
+Final prediction for q_26_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 494
+
+==================================================
+Processing video 248/984
+
+Processing video: q_27_main_1.mp4
+Video info: 268 frames, 30.00 FPS, 8.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9688 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9716 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:24:21.653776255Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 358363582698, 'load_duration': 357248570176, 'prompt_eval_count': 296, 'prompt_eval_duration': 1091224481, 'eval_count': 3, 'eval_duration': 22173060}
+Response: Poorly
+Final prediction for q_27_main_1.mp4: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 496
+
+==================================================
+Processing video 249/984
+
+Processing video: q_28_main_1.mp4
+Video info: 275 frames, 30.00 FPS, 9.17 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9832 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:26:57.695029209Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 154598742209, 'load_duration': 153599014674, 'prompt_eval_count': 296, 'prompt_eval_duration': 975096857, 'eval_count': 3, 'eval_duration': 23284935}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9948 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Final prediction for q_28_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 498
+
+==================================================
+Processing video 250/984
+
+Processing video: q_29_main_0.mp4
+Video info: 269 frames, 30.00 FPS, 8.97 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9544 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:41:37.000501681Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 276733904455, 'load_duration': 275756237070, 'prompt_eval_count': 296, 'prompt_eval_duration': 953774187, 'eval_count': 3, 'eval_duration': 22313985}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9556 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:49:40.610225556Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 482587396241, 'load_duration': 481626148838, 'prompt_eval_count': 296, 'prompt_eval_duration': 937077711, 'eval_count': 3, 'eval_duration': 22289256}
+Response: Poorly
+Final prediction for q_29_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 500
+
+==================================================
+Processing video 251/984
+
+Processing video: q_2_main_1.mp4
+Video info: 184 frames, 30.00 FPS, 6.13 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9996 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T02:55:55.978115724Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 373915028225, 'load_duration': 372930397032, 'prompt_eval_count': 296, 'prompt_eval_duration': 961254238, 'eval_count': 3, 'eval_duration': 21989836}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9896 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T03:00:07.860989251Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 250862084713, 'load_duration': 249833428483, 'prompt_eval_count': 296, 'prompt_eval_duration': 1004516100, 'eval_count': 3, 'eval_duration': 22596370}
+Response: Poorly
+Final prediction for q_2_main_1.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 502
+
+==================================================
+Processing video 252/984
+
+Processing video: q_30_main_0.mp4
+Video info: 268 frames, 30.00 FPS, 8.93 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9608 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T03:06:43.531153058Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 394173871533, 'load_duration': 393175515604, 'prompt_eval_count': 296, 'prompt_eval_duration': 974438431, 'eval_count': 3, 'eval_duration': 22115557}
+Response: Poorly
+Analyzing frame 2/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 9716 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-06-18T03:13:16.095183889Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 391544512935, 'load_duration': 390604912292, 'prompt_eval_count': 296, 'prompt_eval_duration': 915717166, 'eval_count': 3, 'eval_duration': 22167122}
+Response: Poorly
+Final prediction for q_30_main_0.mp4: Poorly
+
+Results saved to ./results/results_gemma3.csv
+Total videos processed: 504
+
+==================================================
+Processing video 253/984
+
+Processing video: q_3_main_1.mp4
+Video info: 244 frames, 30.00 FPS, 8.13 seconds
+Extracted 2 frames for analysis
+Analyzing frame 1/2...
+Prompt: Given the human reaction shown on the video, do you think this situation ends well or poorly? (Use only one word to answer)
