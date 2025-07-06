@@ -1,5 +1,8 @@
 # Off-the-Shelf VLM Prompt Testing
 
+## TO DOS
+
+
 ## Research Questions
 
 ### RQ1 - What is the off-the-shelf predictive power of current VLMs?
@@ -37,15 +40,18 @@
 
 ### Models & Settings
 
-| **Model**        | **Experiment** |
+| **Model**        | **Parameters** |
 | ---------------- | -------------------- |
 | GPT-4o           | LLM comparison      |
 | Gemini 2.0 Flash | LLM comparison         |
 | Qwen-2.5-vl-72b  | LLM comparison             |
-|Qwen|Local Models|
+|llama3.2-vision (ollama)|11B parameters, "temperature": 0.2, "num_ctx": 4096 |
+|gemma3 (ollama)|4B parameters, "temperature": 0.2, "num_ctx": 4096|
+|llava (ollama)|7B parameters, "temperature": 0.2, "num_ctx": 4096|
 |llava-video|Local Models|
 |Phi-4|Local Models|
 |Gemini 2.0 Flash|Text Embeddings|
+
 ## Dataset
 
 Due to the fact that videos might have different names accoss different data files, this is a reference document for video names.
@@ -112,3 +118,12 @@ Using Ollama on Linux, code based on [this repository](https://github.com/AGRami
 
 Prompts: prompt 5 and 6
 
+### Pending issues
+- [ ] Llama3.2-vision only predicting "poorly"
+- [ ] Models cannot accept more than 1 image
+- [ ] Test different frame rates?
+- [ ] Test [phi-4-multimodal](https://arxiv.org/abs/2503.01743)
+- [x] Test [Gemma 3](https://github.com/huggingface/transformers/releases/tag/v4.50.0)
+- [x] Test larger Gemma3
+- [ ] Test qwen3, qwen2.5vl
+- [ ] Test llama4
