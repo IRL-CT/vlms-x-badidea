@@ -1,0 +1,26 @@
+2025-07-07 00:44:18.444345: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-07-07 00:44:38.793917: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Some kwargs in processor config are unused and will not have any effect: num_additional_image_tokens. 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:47<00:47, 23.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:08<00:22, 22.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:10<00:00, 14.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:10<00:00, 17.63s/it]
+Expanding inputs for image tokens in LLaVa-NeXT should be done in processing. Please add `patch_size` and `vision_feature_select_strategy` to the model's processing config or set directly with `processor.patch_size = {{patch_size}}` and processor.vision_feature_select_strategy = {{vision_feature_select_strategy}}`. Using processors without these attributes in the config is deprecated and will throw an error in v4.47.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564cd349dac0] moov atom not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564cba1c6fc0] moov atom not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564cb89b6600] moov atom not found
+2025-07-07 00:53:18.701634: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-07-07 00:53:20.283972: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization. 
+The tokenizer class you load from this checkpoint is 'GPT2Tokenizer'. 
+The class this function is called from is 'BertTokenizerFast'.
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [00:38<00:38, 38.30s/it]Downloading shards: 100%|██████████| 2/2 [00:57<00:00, 26.83s/it]Downloading shards: 100%|██████████| 2/2 [00:57<00:00, 28.55s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:29<00:29, 29.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:37<00:00, 16.70s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:37<00:00, 18.61s/it][mov,mp4,m4a,3gp,3g2,mj2 @ 0x55fd829f6c80] moov atom not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55fc524016c0] moov atom not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55fd829f7380] moov atom not found
+
+2025-07-07 00:56:30.445028: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-07-07 00:56:32.130878: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55cc2d984940] moov atom not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55cc2d984940] moov atom not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55cc2d984940] moov atom not found

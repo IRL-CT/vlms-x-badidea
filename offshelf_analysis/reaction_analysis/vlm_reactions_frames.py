@@ -24,7 +24,7 @@ from pathlib import Path
 class FrameAnalyzer:
     def __init__(self,
                  model="llama3.2-vision",
-                 prompt="Given the reaction shown in the image, do you think this situation ends well or poorly? (Use only one word to answer)",
+                 prompt="Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)",
                  ollama_url="http://localhost:11434",
                  frames_folder="./frames",
                  output_csv="reaction_results.csv"):
@@ -58,10 +58,10 @@ class FrameAnalyzer:
         for participant_dir in sorted(frames_folder_path.iterdir()):
             if participant_dir.is_dir():
                 participant_id = participant_dir.name
-
                 # Get all image files in this participant folder
                 frame_files = []
                 for frame_file in participant_dir.iterdir():
+                    #print(f"Found file: {frame_file.name}")
                     if frame_file.is_file() and frame_file.suffix.lower() in self.image_extensions:
                         frame_files.append(frame_file)
 
@@ -74,8 +74,35 @@ class FrameAnalyzer:
     def image_to_base64(self, image_path):
         """Convert image file to base64 for API request"""
         try:
-            # Open image
-            pil_img = Image.open(image_path)
+            # Check if file exists and has non-zero size
+            if not image_path.exists():
+                print(f"Error: Image file does not exist: {image_path}")
+                return None
+            
+            if image_path.stat().st_size == 0:
+                print(f"Error: Image file is empty: {image_path}")
+                return None
+
+            # Open image with error handling for truncated files
+            try:
+                pil_img = Image.open(image_path)
+                # Force loading of the image data to catch truncated files early
+                pil_img.load()
+            except (OSError, IOError) as e:
+                if "truncated" in str(e).lower() or "broken" in str(e).lower():
+                    print(f"Warning: Truncated or corrupted image file: {image_path}")
+                    try:
+                        # Try to load the image with partial data
+                        from PIL import ImageFile
+                        ImageFile.LOAD_TRUNCATED_IMAGES = True
+                        pil_img = Image.open(image_path)
+                        pil_img.load()
+                        print(f"Successfully loaded truncated image: {image_path}")
+                    except Exception as retry_e:
+                        print(f"Error: Cannot load corrupted image {image_path}: {retry_e}")
+                        return None
+                else:
+                    raise e
 
             # Convert to RGB if necessary
             if pil_img.mode != 'RGB':
@@ -93,7 +120,7 @@ class FrameAnalyzer:
             return img_str
 
         except Exception as e:
-            print(f"Error converting image to base64: {str(e)}")
+            print(f"Error converting image to base64 for {image_path}: {str(e)}")
             return None
 
     def analyze_frame(self, frame_path):
@@ -241,7 +268,7 @@ def main():
     parser.add_argument('--model', type=str, default='llama3.2-vision',
                         help='Ollama model to use (default: llama3.2-vision)')
     parser.add_argument('--prompt', type=str,
-                        default='Given the human reaction shown in the image, do you think this situation ends well or poorly? (Use only one word to answer)',
+                        default='Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)',
                         help='Prompt for the vision model')
     parser.add_argument('--frames-folder', type=str, default='./frames',
                         help='Folder containing frame files organized by participant (default: ./frames)')
@@ -265,10 +292,6 @@ def main():
     # Example usage:
     # python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/frames_results_1s.csv'
     # python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_5s/' --output-csv './results/frames_results_5s.csv'
-
-    # Run in background:
-    # nohup python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/frames_results_llama32_1s.csv' > ./logs/vlm_frames_1s.log 2>&1 &
-    # nohup python vlm_reactions_frames.py --model llava --frames-folder '../../../data/new_reactions/image_dataset_5s/' --output-csv './results/frames_results_llava_5s.csv' > ./logs/vlm_frames_5s.log 2>&1 &
 
 if __name__ == "__main__":
     main()
