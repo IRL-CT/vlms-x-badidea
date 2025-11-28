@@ -1,0 +1,339 @@
+nohup: ignoring input
+Starting video analysis with qwen3-vl...
+Video folder: ../../../data/final_cut_videos/
+Output CSV: ./results/results_qwen3.csv
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Found 30 video files
+
+==================================================
+Processing video 1/30
+
+Processing video: 11_final.mp4
+Video info: 424 frames, 30.00 FPS, 14.13 seconds
+Extracted 29 frames for analysis
+Analyzing frame 1/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31940 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:14:52.11750198Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a Boston Dynamics model, in what looks like a lab or office setting. The robot is moving, maybe doing a task. The question is whether the situation ends well or poorly. Since it\'s a robot in a controlled environment, likely it\'s part of a successful demonstration. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 24348988962, 'load_duration': 21505781653, 'prompt_eval_count': 260, 'prompt_eval_duration': 150721338, 'eval_count': 81, 'eval_duration': 2283781609}
+Response: well
+Analyzing frame 2/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32676 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:15:19.362879806Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, with its arm extended. The background is a bit blurred, but the robot seems to be in a controlled environment, maybe a lab or a demonstration area. The question is whether the situation ends well or poorly. Since it\'s a robot performing an action, likely in a positive context like a successful demonstration. So the answer should be "well" or "poorly". Wait, the robot is moving, maybe it\'s doing a task. If it\'s a normal operation, it ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 26216004070, 'load_duration': 21933608561, 'prompt_eval_count': 260, 'prompt_eval_duration': 144872697, 'eval_count': 129, 'eval_duration': 3716398851}
+Response: well
+Analyzing frame 3/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32352 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:15:34.605699968Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, with its arms raised. The background has people, maybe in a conference or event setting. The question is whether the situation ends well or poorly. Since the robot is likely performing a task or demonstration, and there\'s no indication of malfunction or danger, it\'s probably a positive scenario. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14198794672, 'load_duration': 11192605988, 'prompt_eval_count': 260, 'prompt_eval_duration': 142295604, 'eval_count': 87, 'eval_duration': 2492275756}
+Response: well
+Analyzing frame 4/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32292 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:15:49.218434349Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot dancing, right? The robot is white with black spots, doing some moves. The background has people, maybe in a formal setting. Dancing robots are usually fun and positive. So the situation probably ends well. Need to use one word. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 13570734805, 'load_duration': 11114364859, 'prompt_eval_count': 260, 'prompt_eval_duration': 148763804, 'eval_count': 69, 'eval_duration': 1930068091}
+Response: well
+Analyzing frame 5/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32280 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:16:04.280521182Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, with its arms raised. The background has people, maybe in a lab or event space. The question is whether the situation ends well or poorly. Since the robot is likely performing a task or demonstration, and there\'s no sign of malfunction or danger, it\'s probably a positive outcome. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14022148866, 'load_duration': 11028443999, 'prompt_eval_count': 260, 'prompt_eval_duration': 148089426, 'eval_count': 87, 'eval_duration': 2473143044}
+Response: well
+Analyzing frame 6/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31268 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:16:21.725327516Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or a controlled environment. The robot is standing on a checkered floor, maybe doing some task. The question is whether the situation ends well or poorly. But since it\'s a video frame, we need to infer. Wait, the robot is likely performing a task, maybe a demonstration. If it\'s a successful demonstration, it ends well. But without more context, maybe the robot is stable. The image shows the robot upright, so maybe it\'s doing something correctly. The answer should be one word. So "well" or "poorly". But since it\'s a robot in a controlled setting, probably ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16407953066, 'load_duration': 11085631067, 'prompt_eval_count': 260, 'prompt_eval_duration': 142166635, 'eval_count': 162, 'eval_duration': 4756936361}
+Response: well
+Analyzing frame 7/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 30924 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:16:39.115895101Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in a setting that looks like a public place. The robot is white with black spots, maybe like a Roomba but more advanced. The question is whether the situation ends well or poorly. Since it\'s a robot, maybe it\'s doing something normal, like interacting with people. But the user wants a one-word answer. Common sense: robots in public usually have positive outcomes unless there\'s a malfunction. But the image doesn\'t show a problem. So maybe "well" is the answer. Wait, but need to be sure. The scenario is the video, which might be a robot performing a task. If it\'s a demonstration, it ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16351184210, 'load_duration': 11056420393, 'prompt_eval_count': 260, 'prompt_eval_duration': 148380594, 'eval_count': 161, 'eval_duration': 4745283599}
+Response: well
+Analyzing frame 8/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32056 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:16:54.344737851Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a dancing or interactive one, in a public space. The question is whether the situation ends well or poorly. Since it\'s a robot, maybe it\'s performing or interacting, which is usually positive. But wait, the user wants one word. Common sense: robots in public often have positive outcomes, like entertainment. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14188896782, 'load_duration': 11126156876, 'prompt_eval_count': 260, 'prompt_eval_duration': 150749291, 'eval_count': 86, 'eval_duration': 2514932955}
+Response: well
+Analyzing frame 9/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32272 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:17:09.527212968Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a dancing or interactive one, in a public space. The question is whether the situation ends well or poorly. Since it\'s a robot, maybe it\'s performing or interacting, which is usually positive. But wait, the user wants one word. Common sense: robots in public spaces often have positive outcomes, like entertainment. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14141310250, 'load_duration': 11075388479, 'prompt_eval_count': 260, 'prompt_eval_duration': 142415037, 'eval_count': 87, 'eval_duration': 2521671821}
+Response: well
+Analyzing frame 10/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31692 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:17:25.969786239Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, with its arm extended. The background is a bit blurred, but the robot seems to be in a controlled environment, maybe a lab or a demonstration area. The question is whether the situation ends well or poorly. Since it\'s a robot in what looks like a normal operation, maybe it\'s doing a task. The key is to use one word. If the robot is functioning as intended, it\'s probably a success. So "well" would be the answer.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15401264776, 'load_duration': 11425709435, 'prompt_eval_count': 260, 'prompt_eval_duration': 163545498, 'eval_count': 115, 'eval_duration': 3389006514}
+Response: well
+Analyzing frame 11/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32284 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:17:41.914784492Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a service robot, in what looks like a public space. The robot is standing with arms out, maybe interacting with someone. The question is whether the situation ends well or poorly. Since it\'s a robot in a public area, maybe it\'s a normal interaction. But wait, the user wants one word. Common sense: robots in public are usually for helpful tasks, so likely ends well. So answer "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14904415894, 'load_duration': 11368898203, 'prompt_eval_count': 260, 'prompt_eval_duration': 144201842, 'eval_count': 102, 'eval_duration': 2985415601}
+Response: well
+Analyzing frame 12/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31840 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:17:59.750500247Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, in what looks like a store or public space. The robot is moving, maybe interacting with something. But the question is whether the situation ends well or poorly. Wait, the user wants a one-word answer. Hmm. I need to think about common scenarios. Maybe the robot is doing something normal, like assisting or moving around. But without more context, maybe it\'s a standard interaction. Wait, the image might be from a video where the robot is performing a task. If it\'s a typical robot operation, maybe it ends well. But I need to pick one word. Let\'s go with "well" or "poorly". Wait, maybe the robot is in a situation where it\'s working correctly. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16794276322, 'load_duration': 11181124256, 'prompt_eval_count': 260, 'prompt_eval_duration': 142724175, 'eval_count': 171, 'eval_duration': 5036956708}
+Response: well
+Analyzing frame 13/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31424 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:18:17.698746343Z', 'message': {'role': 'assistant', 'content': 'poorly', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, holding what looks like a gun. Wait, but is it a real gun or a prop? The context might be important. But the question is whether the situation ends well or poorly. If the robot is holding a gun, that could be dangerous. But maybe it\'s a demonstration or a simulation. However, the user wants a one-word answer. Let\'s think: if it\'s a robot with a gun, maybe it\'s a bad situation. But maybe it\'s a controlled environment. Wait, the problem is to decide if it ends well or poorly. The robot is holding something that looks like a weapon. In most cases, having a robot with a gun might lead to a bad outcome. So the answer would be "poorly".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16913315165, 'load_duration': 11219226276, 'prompt_eval_count': 260, 'prompt_eval_duration': 143085889, 'eval_count': 174, 'eval_duration': 5133364633}
+Response: poorly
+Analyzing frame 14/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31632 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:18:40.20520882Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, interacting with something. The question is whether the situation ends well or poorly. But wait, the user wants only one word. Hmm. Wait, maybe the robot is doing something that\'s successful? Or maybe it\'s a common scenario where robots are used in tasks. Wait, the image is a bit blurry, but the robot is standing on a checkered floor, maybe in a lab or a facility. The robot\'s posture—maybe it\'s performing a task. Since the question is about the end, but we don\'t have the full video. Wait, but the user says "given the scenario shown on the video". Wait, the image is a still from the video. Maybe the robot is doing something that\'s successful. But how to know? Wait, maybe the robot is a well-known model like Boston Dynamics\' Spot or something else. Wait, the robot in the image has a white and black body, maybe a humanoid. If it\'s a demonstration, maybe it\'s successful. But the question is to say if it ends well or poorly. Wait, maybe the answer is "well" because robots in such settings are often successful. But I need to pick one word. Wait, maybe the context is that the robot is interacting with a person or object, and if it\'s a positive interaction, then "well". But without more info, but since it\'s a common scenario where robots are used for tasks, maybe it\'s successful. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 21467180268, 'load_duration': 11196178285, 'prompt_eval_count': 260, 'prompt_eval_duration': 144378927, 'eval_count': 320, 'eval_duration': 9663508396}
+Response: well
+Analyzing frame 15/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32108 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:18:56.350754839Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a service robot, in what looks like a public space. The robot is white with black spots, maybe a delivery or assistance robot. The background has a checkered floor and some blurred elements, maybe people or vehicles. The question is whether the situation ends well or poorly. Since it\'s a robot in a public area, maybe it\'s doing its job. Robots in such settings are usually designed to help, so the outcome is likely positive. Need to answer with one word. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15102319781, 'load_duration': 11077318705, 'prompt_eval_count': 260, 'prompt_eval_duration': 149545509, 'eval_count': 119, 'eval_duration': 3465866822}
+Response: well
+Analyzing frame 16/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31220 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:19:12.6077729Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a service robot, in what looks like a store or mall. The robot is white with black spots, maybe a Roomba or similar. The question is whether the situation ends well or poorly. Since it\'s a robot interacting, maybe it\'s doing its job. But the user wants one word. Common sense: robots in public spaces usually work, so maybe "well". Wait, but maybe there\'s a problem? The image is a bit blurry, but the robot is standing, maybe working. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15218446482, 'load_duration': 11039160753, 'prompt_eval_count': 260, 'prompt_eval_duration': 154319290, 'eval_count': 125, 'eval_duration': 3615861354}
+Response: well
+Analyzing frame 17/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 30640 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:19:28.799354011Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a delivery or service robot, in what looks like a store or office. The robot is white with black dots, maybe a Roomba or similar. The question is whether the situation ends well or poorly. Since it\'s a robot in a workspace, maybe it\'s doing its job. But wait, the image is a bit blurry, but the robot seems to be operating normally. If it\'s a typical scenario where the robot is working, it\'s likely to end well. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15151227541, 'load_duration': 11082570781, 'prompt_eval_count': 260, 'prompt_eval_duration': 148468478, 'eval_count': 121, 'eval_duration': 3491982044}
+Response: well
+Analyzing frame 18/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31888 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:19:44.479724276Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a service or entertainment robot, in what looks like a public space. The robot is white with black spots, maybe like a Roomba but more humanoid. The question is whether the situation ends well or poorly. Since it\'s a robot interacting, maybe it\'s a normal scenario. But the user wants one word. Common sense: robots in public spaces are usually positive, so "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14638254375, 'load_duration': 11261353104, 'prompt_eval_count': 260, 'prompt_eval_duration': 145149253, 'eval_count': 97, 'eval_duration': 2810826521}
+Response: well
+Analyzing frame 19/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32460 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:20:02.750770534Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or tech environment. The robot is standing on a checkered floor, maybe interacting with something. The question is whether the situation ends well or poorly. But since it\'s a video scenario, I need to think about typical robot interactions. Wait, the user wants a one-word answer. Common scenarios: if it\'s a robot doing a task, maybe it\'s successful. But maybe the robot is malfunctioning? Wait, the image is a bit blurry, but the robot is upright. Maybe it\'s a positive scenario. Wait, the problem is to decide if it ends well or poorly. Since it\'s a robot in a controlled environment, likely it\'s a successful demonstration. So "well" or "poorly". Hmm. Maybe the robot is performing a task correctly, so ends well. So answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 17231124606, 'load_duration': 10891636883, 'prompt_eval_count': 260, 'prompt_eval_duration': 143456599, 'eval_count': 194, 'eval_duration': 5750056869}
+Response: well
+Analyzing frame 20/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32504 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:20:21.190334732Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, in what looks like a lab or industrial setting. The robot is standing on a checkered floor, maybe doing some task. The question is whether the situation ends well or poorly. But wait, the image is a still from a video. Since it\'s a robot, maybe it\'s performing a task. But the user wants a one-word answer. Hmm. Wait, maybe the robot is doing something that\'s successful? Or maybe it\'s a failure? But without more context, but the image shows the robot in a controlled environment. Maybe the situation ends well. Wait, but the user says "use only one word". Let\'s think. If the robot is functioning, then "well". But maybe the robot is malfunctioning? The image is a bit blurry, but the robot is standing. Maybe it\'s a positive scenario. So the answer would be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 17391629587, 'load_duration': 10990179797, 'prompt_eval_count': 260, 'prompt_eval_duration': 153203286, 'eval_count': 197, 'eval_duration': 5810874881}
+Response: well
+Analyzing frame 21/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33992 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:20:38.459581196Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or workshop. The robot is standing on a checkered floor, maybe interacting with something. The question is whether the situation ends well or poorly. But since it\'s a video scenario, we need to infer. Wait, the robot is likely doing a task, maybe a demonstration. If it\'s a successful demonstration, it ends well. But without more context, maybe the robot is stable. The image shows the robot upright, so maybe it\'s a positive outcome. The answer should be one word. So "well" or "poorly". Since the robot is standing, probably ends well.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16230298538, 'load_duration': 11289984323, 'prompt_eval_count': 260, 'prompt_eval_duration': 143694819, 'eval_count': 148, 'eval_duration': 4335745750}
+Response: well
+Analyzing frame 22/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33772 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:20:56.772196104Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or workshop setting. The robot is white with blue accents, standing on a checkered floor. The background has some blurred elements, maybe equipment or people. The question is whether the situation ends well or poorly, and I need to use one word.\n\nFirst, I need to think about common scenarios with robots. If it\'s a robot performing a task, maybe it\'s successful. But the image is static, so maybe it\'s part of a demonstration. Robots in such settings are often used for tasks like dancing, assisting, or experiments. Since it\'s a robot, maybe it\'s doing something intended, so the outcome is positive. The word should be "well" or "poorly". But the question is about the situation ending. If the robot is working as expected, it ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 17272094888, 'load_duration': 11057481444, 'prompt_eval_count': 260, 'prompt_eval_duration': 147219940, 'eval_count': 196, 'eval_duration': 5648887498}
+Response: well
+Analyzing frame 23/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33020 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:21:15.934561325Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or workspace. The robot has a white and blue design, and there\'s a person in the background. The question is whether the situation ends well or poorly. But wait, the image is a still from a video. I need to think about common scenarios with robots. Maybe the robot is doing a task, like dancing or moving. If it\'s a robot performing a routine, maybe it ends well. But without more context, maybe it\'s a standard robot operation. Wait, the user wants one word. Let\'s think: if it\'s a robot working, maybe "well" but maybe "poorly"? Wait, no. Wait, the image might be from a video where the robot is doing something. Maybe the robot is dancing, which is a positive thing. Or maybe it\'s a malfunction. But the image itself—robot standing, maybe moving. Since it\'s a robot in a controlled environment, likely ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18126998727, 'load_duration': 11050238694, 'prompt_eval_count': 260, 'prompt_eval_duration': 160029860, 'eval_count': 223, 'eval_duration': 6482014365}
+Response: well
+Analyzing frame 24/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32816 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:21:39.906627003Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or office setting. The robot is white with blue accents, and there\'s a person in the background. The question is whether the situation ends well or poorly. But wait, the image is a still from a video. The user wants a one-word answer. Hmm, I need to think about common scenarios with robots. Maybe the robot is doing something, but the image doesn\'t show the end. Wait, maybe the robot is in a position that suggests it\'s working or maybe malfunctioning? But the question is about the situation ending. Wait, maybe the robot is dancing or moving, which is positive. But the user says "ends well or poorly". Wait, the image might be from a video where the robot is performing a task. If it\'s a successful task, ends well. But without more context, maybe the robot is in a lab, so maybe it\'s part of a test. But the user wants one word. Let\'s think: if the robot is moving, maybe it\'s doing something good. But maybe the image is from a video where the robot is about to fall or something. Wait, no, the image shows the robot standing. Wait, maybe the robot is a dancing robot, which is a positive thing. So ends well. But I need to pick one word. Let\'s go with "well" or "poorly". Wait, the user says "ends well or poorly". So the answer is either "well" or "poorly". Which one? If the robot is in a lab, maybe it\'s a successful demonstration. So ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22932298882, 'load_duration': 11502285744, 'prompt_eval_count': 260, 'prompt_eval_duration': 146074781, 'eval_count': 357, 'eval_duration': 10753924757}
+Response: well
+Analyzing frame 25/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32816 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:22:00.323443259Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or office setting. The robot is white with blue accents, and there\'s a person in the background. The question is whether the situation ends well or poorly. But wait, the image is a still from a video. The user wants a one-word answer. Hmm, maybe the robot is doing something, but without more context, I need to think. Wait, maybe the robot is moving, but the key is to decide if it ends well. But since it\'s a still, maybe the scenario is about the robot\'s action. Wait, maybe the robot is in a position that suggests it\'s working, so it ends well. Or maybe it\'s a malfunction? But the image doesn\'t show a problem. Wait, the user says "given the scenario shown on the video"—but the image is a still. Maybe the robot is performing a task, so it ends well. So the answer would be "well" or "poorly". Wait, the question is "ends well or poorly". So need to pick one. Since the robot is likely doing its job, maybe it ends well. So answer: well.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19376114312, 'load_duration': 11153956569, 'prompt_eval_count': 260, 'prompt_eval_duration': 148643882, 'eval_count': 255, 'eval_duration': 7595819851}
+Response: well
+Analyzing frame 26/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32812 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:22:19.787411315Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, in what looks like a lab or office setting. The robot is moving, maybe interacting with something. But the question is whether the situation ends well or poorly. Wait, the user wants a one-word answer. Hmm. Since it\'s a robot, maybe it\'s doing a task. But without more context, maybe the robot is performing a function. Wait, the image might be from a video where the robot is working. But the question is about the end. Wait, maybe the robot is in a situation where it\'s doing something positive. Or maybe it\'s a problem. Wait, the user says "use only one word". So possible answers: well or poorly. But which one? Let\'s think. If the robot is in a controlled environment, maybe it\'s working as intended, so ends well. Or maybe it\'s malfunctioning. But the image shows the robot standing, maybe moving. Maybe the scenario is a successful demonstration. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18427131382, 'load_duration': 11358890733, 'prompt_eval_count': 260, 'prompt_eval_duration': 143373886, 'eval_count': 216, 'eval_duration': 6442448789}
+Response: well
+Analyzing frame 27/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32824 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:22:38.910841443Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a robot, probably a humanoid one, in what looks like a lab or office setting. The robot is moving, maybe interacting with something. The question is whether the situation ends well or poorly. But wait, the user wants only one word. Hmm. I need to think about common robot scenarios. If it\'s a robot doing a task, maybe it\'s successful. But without more context, maybe it\'s a standard robot operation. Wait, the image might be from a video where the robot is performing a task, so likely ends well. Or maybe it\'s a failure? Wait, the robot is standing, maybe doing something. Let me think. In many cases, robots in such settings are part of a successful demonstration. So maybe "well". But need to confirm. The user says "use only one word". So possible answers: well or poorly. Which is more likely? If it\'s a robot in a controlled environment, probably ends well. So answer is well.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18085171906, 'load_duration': 11275572650, 'prompt_eval_count': 260, 'prompt_eval_duration': 143698448, 'eval_count': 211, 'eval_duration': 6233190745}
+Response: well
+Analyzing frame 28/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32844 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:22:59.232211794Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or office setting. The robot is white with blue accents, and there\'s a person in the background. The question is whether the situation ends well or poorly. But since it\'s a still image, we need to infer. Wait, the robot might be doing something, maybe a task. But without more context, maybe it\'s a normal scenario. Wait, the user says "use only one word". So possible answers: well or poorly. But what\'s the context? The robot is standing, maybe interacting. If it\'s a successful task, then well. But maybe it\'s a failure? Wait, the image is a bit blurry, but the robot seems to be in a controlled environment. Maybe it\'s a positive scenario. Wait, but the user might be thinking of a specific event. Wait, maybe the robot is doing a dance or something, but the question is about the situation ending. Hmm. Wait, the problem is to decide if it ends well or poorly. Since it\'s a robot in a lab, likely a successful demonstration. So "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19282223612, 'load_duration': 11385962211, 'prompt_eval_count': 260, 'prompt_eval_duration': 143360626, 'eval_count': 243, 'eval_duration': 7306727883}
+Response: well
+Analyzing frame 29/29...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32836 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:23:12.164717309Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a robot, probably a humanoid one, in what looks like a lab or office setting. The robot is standing on a checkered floor, maybe interacting with something. The question is whether the situation ends well or poorly. But since it\'s a video, maybe the robot is doing something. Wait, the user wants a one-word answer. Common scenarios with robots: if it\'s a robot dancing or moving, maybe it\'s a positive thing. But the image is a bit blurry. Wait, the robot might be in a controlled environment, so maybe it\'s a success. Or maybe it\'s a malfunction? Hmm. But the question is about the situation ending. Since it\'s a robot in a lab, likely a positive outcome. So "well" or "poorly". I think the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 11901921868, 'load_duration': 5995435361, 'prompt_eval_count': 260, 'prompt_eval_duration': 151340031, 'eval_count': 179, 'eval_duration': 5329018412}
+Response: well
+Final prediction for 11_final.mp4: well
+
+Results saved to ./results/results_qwen3.csv
+Total videos processed: 29
+
+==================================================
+Processing video 2/30
+
+Processing video: 12_final.mp4
+Video info: 217 frames, 30.00 FPS, 7.23 seconds
+Extracted 15 frames for analysis
+Analyzing frame 1/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22340 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:23:24.778865048Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. There\'s a robotic arm on a table, and it seems like the arm is holding or interacting with a block. Wait, the block might be moving or the arm is in action. But the question is whether the situation ends well or poorly. Hmm, the image shows the robotic arm in motion, maybe doing a task. But without more context, maybe it\'s a successful operation? Or maybe the block is falling? Wait, the image is a still frame. The robotic arm is probably part of a task, like picking up an object. If it\'s doing its job, maybe it ends well. But the question is to use one word. Let\'s think: in such setups, if the robot is working as intended, it\'s a success. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 10850358854, 'load_duration': 5242923712, 'prompt_eval_count': 260, 'prompt_eval_duration': 149961499, 'eval_count': 170, 'eval_duration': 5029985871}
+Response: well
+Analyzing frame 2/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21808 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:23:33.563478175Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': "Got it, let's look at the image. There's a table with a coffee maker, some wires, and a pitcher. The setup seems normal—maybe a coffee station. No obvious signs of danger or mess. So the situation probably ends well. Need to use one word."}, 'done': True, 'done_reason': 'stop', 'total_duration': 7748956938, 'load_duration': 5487749672, 'prompt_eval_count': 260, 'prompt_eval_duration': 142713910, 'eval_count': 61, 'eval_duration': 1738905632}
+Response: well
+Analyzing frame 3/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21464 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:23:45.140846422Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. The video shows a table with some electronic equipment, maybe a camera or drone, and a container. The setup seems like a workspace, but there\'s no obvious problem. Wait, the question is whether the situation ends well or poorly. Since there\'s no indication of a problem (like broken equipment, spills, etc.), it\'s probably okay. So the answer should be "well" or "poorly"? Wait, the scenario is just a static image of a table with items. Maybe it\'s a setup for a project, so it ends well. Need to pick one word. Let\'s think: if it\'s a normal setup, it\'s good. So "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 10532509856, 'load_duration': 5583858576, 'prompt_eval_count': 260, 'prompt_eval_duration': 141733758, 'eval_count': 151, 'eval_duration': 4410267211}
+Response: well
+Analyzing frame 4/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21516 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:24:01.451821965Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. There\'s a doll on the left, and on the right, a table with some device that looks like a robot or maybe a toy. The doll is near a black object, maybe a chair. The robot-like thing has wires, so maybe it\'s a toy. But the question is whether the situation ends well or poorly. Wait, the image is static, but the user is asking about the scenario. Maybe the doll is interacting with the robot? But without more context, maybe it\'s a setup where the robot is supposed to do something. But since it\'s a toy, maybe it\'s playful. Wait, the user says "use only one word". So possible answers: well or poorly. But what\'s the context? The doll is on the left, robot on the table. Maybe the robot is a toy that\'s supposed to be friendly. But maybe the wires are messy, but that\'s not bad. Wait, maybe the scenario is that the robot is malfunctioning? But the image is unclear. Wait, the problem is to decide if it ends well or poorly. Since it\'s a toy setup, maybe it\'s a playful scenario, so ends well. Or maybe the robot is a threat? But the image is too vague. Wait, the doll is a toy, the robot is a toy. Maybe it\'s a child\'s play, so ends well. So answer: well.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15287078777, 'load_duration': 5863399167, 'prompt_eval_count': 260, 'prompt_eval_duration': 142525442, 'eval_count': 296, 'eval_duration': 8775111541}
+Response: well
+Analyzing frame 5/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24696 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:24:16.366128032Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. There\'s a baby doll in a high chair, and on the table, there\'s a pitcher and some items. The question is whether the situation ends well or poorly. But wait, the image is static. Hmm, maybe the context is about the doll being in a high chair, which is a common setup for feeding. But the problem is, the user says "use only one word to answer". Wait, maybe the scenario is that the doll is in a high chair, but maybe there\'s a risk? Wait, no, the image shows a typical setup. Wait, maybe the answer is "well" because it\'s a normal setup. Or "poorly"? Wait, no, the doll is in a high chair, which is a safe place. Wait, maybe the question is about the doll\'s situation. Wait, the image is a baby doll in a high chair, table with pitcher. Maybe the answer is "well" because it\'s a normal, safe scenario. But I need to think. Wait, the user says "the situation ends well or poorly". Since it\'s a doll in a high chair, which is a common setup, probably ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 13878047554, 'load_duration': 5468879102, 'prompt_eval_count': 260, 'prompt_eval_duration': 147589479, 'eval_count': 259, 'eval_duration': 7737387030}
+Response: well
+Analyzing frame 6/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25580 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:24:32.530639246Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a doll in a high chair and a robot arm with a cup. The doll is probably a toy, so maybe it\'s a setup for a playful scenario. The robot arm is moving towards the doll, but since it\'s a toy, maybe it\'s not dangerous. The question is whether it ends well or poorly. Since it\'s a toy setup, likely it\'s a harmless, playful situation. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15123718108, 'load_duration': 11640607274, 'prompt_eval_count': 260, 'prompt_eval_duration': 147449591, 'eval_count': 102, 'eval_duration': 2932246257}
+Response: well
+Analyzing frame 7/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25660 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:24:55.644076777Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a doll in a high chair, and there\'s a bottle being poured, maybe into the doll\'s mouth? Wait, the bottle is tilted towards the doll. If it\'s pouring something, maybe it\'s a spill or a mistake. But the question is whether it ends well or poorly. Since it\'s a doll, maybe it\'s a playful scenario, but the action of pouring might lead to a spill. But the user wants one word. Hmm. Wait, the doll is in a high chair, and the bottle is being poured—maybe it\'s a pretend feeding, so it\'s okay. But maybe the bottle is spilling, so it\'s a mess. But the question is about the situation ending well or poorly. If it\'s a toy scenario, maybe it\'s intended to be playful, so ends well? Or maybe the bottle is pouring into the doll, which could be a spill, so poorly. Wait, the image shows the bottle being poured towards the doll. Maybe the doll is being fed, so it\'s a normal play scenario, so ends well. But I need to pick one word. Let\'s think: "well" or "poorly". If it\'s a toy setup, maybe it\'s a happy scene, so ends well. But maybe the bottle is spilling, so poorly. Wait, the doll is in a high chair, which is a common toy setup for feeding. So maybe it\'s a pretend meal, so it ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22074739519, 'load_duration': 11800027576, 'prompt_eval_count': 260, 'prompt_eval_duration': 142607780, 'eval_count': 319, 'eval_duration': 9649675722}
+Response: well
+Analyzing frame 8/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26012 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:25:16.373322399Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. There\'s a doll in a high chair, and a bottle with a baby bottle nipple is being held by a mechanical arm or something. Wait, the doll is a baby doll, and the bottle might be for feeding. But the question is if the situation ends well or poorly. Hmm, maybe the bottle is positioned to feed the doll. But wait, the doll is a mannequin, so maybe it\'s a toy setup. Wait, the problem is to decide if it ends well or poorly. Let\'s think: if the doll is being fed, that\'s a positive scenario. But maybe there\'s a problem? Wait, the image shows the doll in a high chair, and a bottle is being held near it. Maybe it\'s a feeding scene, so it ends well. But wait, maybe the bottle is not positioned right? Or maybe it\'s a toy setup where the doll is being fed, so it\'s a happy ending. The question is to use one word. So "well" or "poorly". Let\'s see. If it\'s a normal feeding scenario, it ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19692091852, 'load_duration': 11862863388, 'prompt_eval_count': 260, 'prompt_eval_duration': 141682781, 'eval_count': 245, 'eval_duration': 7256721704}
+Response: well
+Analyzing frame 9/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26264 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:25:32.769440605Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. There\'s a doll in a high chair, and a bottle with a baby bottle holder. Wait, the bottle might be a milk bottle, but the doll is a baby doll. The setup seems like a pretend feeding scenario. Since it\'s a doll, it\'s probably a play situation. The question is whether it ends well or poorly. In doll play, usually, it\'s a happy scenario. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15357552310, 'load_duration': 11849076455, 'prompt_eval_count': 260, 'prompt_eval_duration': 150091416, 'eval_count': 102, 'eval_duration': 2934293566}
+Response: well
+Analyzing frame 10/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26272 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:25:49.16293647Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': "Got it, let's look at the image. There's a doll in a high chair, and a camera on a boom arm pointing at it. The doll is a baby doll, so maybe it's a setup for a video. The question is whether the situation ends well or poorly. Since it's a staged scene (like a video shoot), it's probably intentional. The doll is just a prop, so the situation is set up, so it ends well. Need to use one word."}, 'done': True, 'done_reason': 'stop', 'total_duration': 15346086979, 'load_duration': 11741150066, 'prompt_eval_count': 260, 'prompt_eval_duration': 156606670, 'eval_count': 104, 'eval_duration': 3022658553}
+Response: well
+Analyzing frame 11/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26292 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:26:10.614889977Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a doll in a high chair, and there\'s a camera or something attached to a bottle. Wait, maybe the bottle is being used to feed the doll? But the question is whether the situation ends well or poorly. Hmm, the doll is just sitting there, maybe it\'s a setup for a video. But the user wants a one-word answer. Let\'s think: if it\'s a typical scenario where the doll is being fed, maybe it\'s okay. But maybe there\'s a problem? Wait, the bottle is attached to a camera? Maybe the doll is interacting with the camera. But the question is about the end. Wait, maybe the situation is that the doll is in a high chair, and the bottle is being used, so it\'s a normal feeding scenario, so it ends well. Or maybe the camera is causing a problem? Wait, the image shows the doll looking at the bottle with the camera. Maybe the doll is just sitting, so it\'s a calm scene. The answer should be one word. Let\'s go with "well" or "poorly". Wait, maybe it\'s a setup for a video, so it\'s intentional, so it ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20413483176, 'load_duration': 11919612523, 'prompt_eval_count': 260, 'prompt_eval_duration': 150433234, 'eval_count': 262, 'eval_duration': 7880851747}
+Response: well
+Analyzing frame 12/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26256 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:26:35.292136952Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a doll in a high chair, and there\'s a camera or some device near it. Wait, the question is whether the situation ends well or poorly. But the image is static, so maybe it\'s about the setup. Wait, the doll is in a high chair, and there\'s a camera mounted, maybe for a video. But the question is about the situation ending. Hmm, maybe the context is that the doll is being filmed, but is there a problem? Wait, the user says "use only one word". Let\'s think: if it\'s a doll in a high chair, maybe it\'s a setup for a video, so it ends well? Or maybe the camera is positioned in a way that\'s not right? Wait, no, the question is about the situation ending. Wait, maybe the scenario is that the doll is in a high chair, and the camera is there, but maybe it\'s a normal setup. Wait, the problem might be that the doll is in a high chair, but maybe the camera is too close? Or maybe it\'s a toy setup, so it\'s fine. Wait, the answer should be one word. Let\'s think: "well" or "poorly". If it\'s a setup for a video, maybe it ends well. But maybe the doll is in a high chair, which is a normal situation, so it ends well. Wait, but maybe there\'s a problem. Wait, the image shows a doll, high chair, camera. Maybe the camera is mounted in a way that\'s not safe? But the question is about the situation ending. Wait, maybe the scenario is that the doll is being filmed, so it\'s a positive situation. So "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 23638964163, 'load_duration': 11971727850, 'prompt_eval_count': 260, 'prompt_eval_duration': 142022362, 'eval_count': 364, 'eval_duration': 10992675781}
+Response: well
+Analyzing frame 13/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26300 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:27:04.28385678Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a doll in a high chair, and there\'s a bottle or something near the doll. Wait, the question is whether the situation ends well or poorly. But the image is static, so maybe it\'s about the setup. Wait, the doll is in a high chair, and there\'s a bottle. Maybe the bottle is about to spill or something? But the user wants a one-word answer. Hmm. Wait, maybe the context is that the doll is in a high chair, and the bottle is near, but without more info, maybe it\'s a setup for a baby bottle spill, which would be bad. But I need to pick one word. Let\'s think: if the bottle is being held or about to be used, maybe it\'s a normal situation. Wait, no, the question is about the end. Wait, maybe the doll is in a high chair, and the bottle is on the table, so maybe it\'s a safe setup. But the user says "ends well or poorly". Wait, maybe the image is a still from a video where the doll is interacting with the bottle, but since it\'s a still, maybe the situation is that the bottle is about to spill, which would be bad. But I need to choose one word. Let\'s go with "poorly" because maybe the bottle is unstable, but wait, no. Wait, maybe the doll is in a high chair, and the bottle is near, but the high chair is safe. Wait, maybe the answer is "well" if it\'s a normal setup. Wait, the problem is I need to decide. Let\'s think: in doll play, sometimes they simulate feeding, so maybe it\'s a good scenario. But the question is about the situation ending. Wait, maybe the bottle is being held by the doll, but the doll is a mannequin, so maybe it\'s a setup where the bottle is about to fall. Hmm. Wait, the user says "use only one word". Let\'s think of common scenarios. If a baby is in a high chair and a bottle is near, maybe it\'s a safe situation. But maybe the bottle is on the table, so the doll is safe. Wait, maybe the answer is "well". But I\'m not sure. Wait, another angle: the doll is in a high chair, which is a safe place for a baby, so the situation ends well. So "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 27956630649, 'load_duration': 11775705888, 'prompt_eval_count': 260, 'prompt_eval_duration': 145067379, 'eval_count': 508, 'eval_duration': 15415214926}
+Response: well
+Analyzing frame 14/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26272 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:27:24.225357827Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The video shows a doll in a high chair, and there\'s a camera or something near the doll. Wait, the question is whether the situation ends well or poorly. But the image is static, so maybe it\'s about the setup. Wait, the doll is in a high chair, and there\'s a device (maybe a camera) pointing at it. But the question is about the end. Hmm, maybe the context is that the doll is being filmed, but since it\'s a doll, maybe it\'s a play scenario. Wait, the user wants a one-word answer. Let\'s think: if it\'s a doll, maybe the situation is harmless. But maybe the camera is a toy, so it\'s playful. Wait, the problem is to determine if it ends well or poorly. Since it\'s a doll, probably the situation is fine. So "well" or "poorly"? Wait, maybe the camera is a toy, so it\'s a happy scenario. So the answer would be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18902948463, 'load_duration': 11875636276, 'prompt_eval_count': 260, 'prompt_eval_duration': 141900293, 'eval_count': 217, 'eval_duration': 6442784560}
+Response: well
+Analyzing frame 15/15...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 26292 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:27:39.987797847Z', 'message': {'role': 'assistant', 'content': 'good', 'thinking': "Got it, let's look at the image. There's a baby doll in a high chair, and a camera on a boom arm pointing at it. The doll is probably part of a setup for a video, maybe a vlog or a toy review. Since it's a staged scene, the situation is likely intentional and not harmful. So the outcome would be good. Need to use one word."}, 'done': True, 'done_reason': 'stop', 'total_duration': 14724099328, 'load_duration': 11755193089, 'prompt_eval_count': 260, 'prompt_eval_duration': 143116676, 'eval_count': 85, 'eval_duration': 2455834995}
+Response: good
+Final prediction for 12_final.mp4: well
+
+Results saved to ./results/results_qwen3.csv
+Total videos processed: 44
+
+==================================================
+Processing video 3/30
+
+Processing video: 14_final.mp4
+Video info: 388 frames, 30.00 FPS, 12.93 seconds
+Extracted 26 frames for analysis
+Analyzing frame 1/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31260 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:28:02.18498552Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s look at the image. There\'s a person on a couch with a laptop, and a robot next to them. The robot has a claw, maybe? But the question is whether the situation ends well or poorly. Wait, the user wants one word. Let\'s think: in the scene, the robot might be interacting, but is there danger? The robot\'s claw is extended, but maybe it\'s just a normal setup. Wait, maybe the robot is a friendly one, like a service robot. But the user says "ends well or poorly". Hmm. Wait, the image shows a person using a laptop, robot nearby. Maybe the robot is part of a setup that\'s okay. But maybe the robot is about to do something. Wait, the problem is to decide if it ends well or poorly. Let\'s think of common scenarios. If the robot is a helper, maybe it\'s good. But maybe the robot is malfunctioning? Wait, the image doesn\'t show any immediate danger. The person is calm, using a laptop. The robot is stationary. Maybe it\'s a normal interaction. So maybe it ends well. But wait, the user says "ends well or poorly". Let\'s check the context. The robot has a claw, maybe it\'s a robot that\'s supposed to help. So probably ends well. So the answer is "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20002685677, 'load_duration': 10809078287, 'prompt_eval_count': 260, 'prompt_eval_duration': 148671025, 'eval_count': 284, 'eval_duration': 8570756957}
+Response: well
+Analyzing frame 2/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31308 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:28:22.489097727Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a person on a couch with a laptop, and there\'s a robot arm nearby. The robot arm looks like it\'s holding a cup, maybe? The setting is a living room. Now, the question is whether the situation ends well or poorly. I need to pick one word. \n\nFirst, what\'s the context? The robot is probably interacting with the person. Maybe the robot is doing something helpful, like serving a drink. If the robot is functioning correctly, maybe it\'s a positive scenario. But I need to think if there\'s any danger. The robot arm is near the person, but it\'s not clear if it\'s malfunctioning. The person seems calm, using a laptop. Maybe the robot is part of a setup where it\'s assisting, so it ends well. \n\nWait, the problem says "use only one word". So possible answers: well or poorly. Let\'s think. If the robot is doing something normal, like holding a cup, maybe it\'s a good situation. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19261612599, 'load_duration': 11716187021, 'prompt_eval_count': 260, 'prompt_eval_duration': 146972744, 'eval_count': 221, 'eval_duration': 6958941842}
+Response: well
+Analyzing frame 3/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31580 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:29:22.498743801Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a person on a couch with a laptop, and there\'s a robotic arm nearby. The robotic arm might be set up to interact with the laptop or something. But the question is whether the situation ends well or poorly. Wait, the user wants a one-word answer. Hmm. Maybe the robotic arm is part of a setup, like maybe it\'s a project that\'s going smoothly. Or maybe there\'s a problem? Wait, the image itself doesn\'t show any immediate problem. The person is using the laptop, the robotic arm is there. Maybe it\'s a positive scenario, like a successful setup. So "well" or "poorly"? The question is about the situation ending. If it\'s a setup for a project, maybe it ends well. But I need to pick one word. Let\'s think: the robotic arm is probably part of a controlled environment, so maybe it\'s a good setup. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 58966696294, 'load_duration': 51957247626, 'prompt_eval_count': 260, 'prompt_eval_duration': 148614898, 'eval_count': 203, 'eval_duration': 6364654455}
+Response: well
+Analyzing frame 4/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 31456 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:32:20.233107293Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a person on a couch with a laptop, and there\'s a robotic arm with a camera. The robotic arm is probably set up to interact with the laptop. Maybe the person is testing the robot, or the robot is doing something. But the question is whether the situation ends well or poorly. Since it\'s a setup, maybe it\'s a controlled environment. The person seems calm, the robot is positioned. Maybe it\'s a positive scenario, like a successful test. So "well" would be the answer.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 176692082938, 'load_duration': 172725826666, 'prompt_eval_count': 260, 'prompt_eval_duration': 149063003, 'eval_count': 117, 'eval_duration': 3263038089}
+Response: well
+Analyzing frame 5/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32068 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:33:05.67143808Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a person sitting on a couch with a book, and there\'s a robotic arm next to them. The robotic arm is probably interacting with the book or something. But the question is whether the situation ends well or poorly. Wait, the user wants a one-word answer. Hmm. Maybe the robotic arm is helping, like maybe it\'s assisting with reading or something. But I need to think if it\'s positive or negative. Since it\'s a robot helping, maybe it\'s a good situation. So "well"?'}, 'done': True, 'done_reason': 'stop', 'total_duration': 44396684852, 'load_duration': 40588456362, 'prompt_eval_count': 260, 'prompt_eval_duration': 142855031, 'eval_count': 118, 'eval_duration': 3261369163}
+Response: well
+Analyzing frame 6/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32428 bytes
+Response status code: 200
+{'model': 'qwen3-vl', 'created_at': '2025-11-28T16:33:35.079170906Z', 'message': {'role': 'assistant', 'content': 'well', 'thinking': 'Got it, let\'s see. The image shows a person sitting on a couch reading a book, and there\'s a large robot with a mechanical arm holding the book open. The robot is probably interacting with the person, maybe helping them read. Since the robot is doing something helpful (holding the book), it seems like a positive interaction. The question is whether the situation ends well or poorly. If the robot is assisting, that\'s good. So the answer should be "well".'}, 'done': True, 'done_reason': 'stop', 'total_duration': 28378681919, 'load_duration': 25082804690, 'prompt_eval_count': 260, 'prompt_eval_duration': 149233065, 'eval_count': 101, 'eval_duration': 2755701032}
+Response: well
+Analyzing frame 7/26...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32720 bytes
+Response status code: 200

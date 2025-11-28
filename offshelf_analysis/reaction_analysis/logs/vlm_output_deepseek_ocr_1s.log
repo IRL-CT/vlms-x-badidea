@@ -1,0 +1,86 @@
+nohup: ignoring input
+Starting frame analysis with deepseek-ocr:3b...
+Frames folder: ../../../data/new_reactions/image_dataset_1s/
+Output CSV: ./results/results_deepseek-ocr_1s.csv
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Found 30 participants
+Total frames: 1968
+
+==================================================
+Processing participant 1/30
+
+Processing participant: 1048
+Found 66 frames
+Analyzing frame 1/66: q_10_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 19268 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:26:20.394470438Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 12827217778, 'load_duration': 11674298856, 'prompt_eval_count': 520, 'prompt_eval_duration': 423798628, 'eval_count': 2, 'eval_duration': 4188709}
+Response: Well
+Analyzing frame 2/66: q_10_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 19116 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:26:44.877437652Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 23451965286, 'load_duration': 22293977918, 'prompt_eval_count': 520, 'prompt_eval_duration': 424258748, 'eval_count': 2, 'eval_duration': 4185925}
+Response: Well
+Analyzing frame 3/66: q_11_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18780 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:27:13.974781033Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 28066434598, 'load_duration': 26893190467, 'prompt_eval_count': 520, 'prompt_eval_duration': 418060689, 'eval_count': 2, 'eval_duration': 4228339}
+Response: Well
+Analyzing frame 4/66: q_11_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18720 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:27:33.79113503Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18785457805, 'load_duration': 17604212450, 'prompt_eval_count': 520, 'prompt_eval_duration': 425121543, 'eval_count': 2, 'eval_duration': 4181018}
+Response: Well
+Analyzing frame 5/66: q_12_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 19080 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:27:49.773012986Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14950059053, 'load_duration': 13732250632, 'prompt_eval_count': 520, 'prompt_eval_duration': 422903016, 'eval_count': 2, 'eval_duration': 4194629}
+Response: Well
+Analyzing frame 6/66: q_12_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18968 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:28:11.746799939Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20944663515, 'load_duration': 19768945287, 'prompt_eval_count': 520, 'prompt_eval_duration': 430417523, 'eval_count': 2, 'eval_duration': 4184668}
+Response: Well
+Analyzing frame 7/66: q_13_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 19388 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:28:37.106791017Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 24329107089, 'load_duration': 23038774760, 'prompt_eval_count': 520, 'prompt_eval_duration': 421217723, 'eval_count': 2, 'eval_duration': 4217035}
+Response: Well
+Analyzing frame 8/66: q_13_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 19120 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:28:39.524591448Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 1385981354, 'load_duration': 110938613, 'prompt_eval_count': 520, 'prompt_eval_duration': 402682141, 'eval_count': 2, 'eval_duration': 4202330}
+Response: Well
+Analyzing frame 9/66: q_14_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18512 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:31:30.627753628Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 170075610283, 'load_duration': 168855221063, 'prompt_eval_count': 520, 'prompt_eval_duration': 422285785, 'eval_count': 2, 'eval_duration': 4302738}
+Response: Well
+Analyzing frame 10/66: q_14_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18544 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:32:54.939274977Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 83291036566, 'load_duration': 82100919453, 'prompt_eval_count': 520, 'prompt_eval_duration': 415845708, 'eval_count': 2, 'eval_duration': 4170998}
+Response: Well
+Analyzing frame 11/66: q_15_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 19060 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:33:17.580989363Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 21610520967, 'load_duration': 20454685181, 'prompt_eval_count': 520, 'prompt_eval_duration': 425256110, 'eval_count': 2, 'eval_duration': 4201010}
+Response: Well
+Analyzing frame 12/66: q_15_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18932 bytes
+Response status code: 200
+{'model': 'deepseek-ocr:3b', 'created_at': '2025-11-28T16:34:05.102219421Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 46494018416, 'load_duration': 45321102670, 'prompt_eval_count': 520, 'prompt_eval_duration': 420666485, 'eval_count': 2, 'eval_duration': 4189356}
+Response: Well
+Analyzing frame 13/66: q_16_main_1_30fps_frame0015.png

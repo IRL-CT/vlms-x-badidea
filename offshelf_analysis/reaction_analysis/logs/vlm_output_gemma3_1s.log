@@ -1,0 +1,664 @@
+nohup: ignoring input
+Starting frame analysis with gemma3...
+Frames folder: ../../../data/new_reactions/image_dataset_1s/
+Output CSV: ./results/results_gemma3_1s.csv
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Found 30 participants
+Total frames: 1968
+
+==================================================
+Processing participant 1/30
+
+Processing participant: 1048
+Found 66 frames
+Analyzing frame 1/66: q_10_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19268 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:07:44.87553468Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 122714060338, 'load_duration': 121728302985, 'prompt_eval_count': 300, 'prompt_eval_duration': 961396304, 'eval_count': 3, 'eval_duration': 22366519}
+Response: Poorly
+Analyzing frame 2/66: q_10_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19116 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:10:10.589030691Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 144678945279, 'load_duration': 143662016727, 'prompt_eval_count': 300, 'prompt_eval_duration': 991458729, 'eval_count': 3, 'eval_duration': 23056856}
+Response: Poorly
+Analyzing frame 3/66: q_11_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18780 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:14:39.576820434Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 267955134342, 'load_duration': 266929122850, 'prompt_eval_count': 300, 'prompt_eval_duration': 1001008487, 'eval_count': 3, 'eval_duration': 22008790}
+Response: Poorly
+Analyzing frame 4/66: q_11_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18720 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:18:19.092945727Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 218489782925, 'load_duration': 217505975483, 'prompt_eval_count': 300, 'prompt_eval_duration': 941630752, 'eval_count': 3, 'eval_duration': 40335775}
+Response: Poorly
+Analyzing frame 5/66: q_12_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19080 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:20:55.780956194Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 155622331023, 'load_duration': 153986453460, 'prompt_eval_count': 300, 'prompt_eval_duration': 923491823, 'eval_count': 3, 'eval_duration': 710251003}
+Response: Poorly
+Analyzing frame 6/66: q_12_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18968 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:27:14.761632536Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 377952475907, 'load_duration': 376996729357, 'prompt_eval_count': 300, 'prompt_eval_duration': 931284792, 'eval_count': 3, 'eval_duration': 22756436}
+Response: Poorly
+Analyzing frame 7/66: q_13_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19388 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:29:22.50440954Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126714455768, 'load_duration': 125784702471, 'prompt_eval_count': 300, 'prompt_eval_duration': 903795884, 'eval_count': 3, 'eval_duration': 23464575}
+Response: Poorly
+Analyzing frame 8/66: q_13_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19120 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:31:30.929362839Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127394511200, 'load_duration': 126437168725, 'prompt_eval_count': 300, 'prompt_eval_duration': 933268585, 'eval_count': 3, 'eval_duration': 22243648}
+Response: Poorly
+Analyzing frame 9/66: q_14_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18512 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:35:40.128063451Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 248168890917, 'load_duration': 246492244553, 'prompt_eval_count': 300, 'prompt_eval_duration': 1652106469, 'eval_count': 3, 'eval_duration': 22591069}
+Response: Poorly
+Analyzing frame 10/66: q_14_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18544 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:39:55.105800649Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 253952647564, 'load_duration': 252970418029, 'prompt_eval_count': 300, 'prompt_eval_duration': 956492124, 'eval_count': 3, 'eval_duration': 23413214}
+Response: Poorly
+Analyzing frame 11/66: q_15_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19060 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:44:11.426192899Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 255295144765, 'load_duration': 253605586607, 'prompt_eval_count': 300, 'prompt_eval_duration': 1660238396, 'eval_count': 3, 'eval_duration': 26765841}
+Response: Poorly
+Analyzing frame 12/66: q_15_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18932 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:52:13.595359667Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 481152656310, 'load_duration': 479482774346, 'prompt_eval_count': 300, 'prompt_eval_duration': 1645071862, 'eval_count': 3, 'eval_duration': 22246198}
+Response: Poorly
+Analyzing frame 13/66: q_16_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19028 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:54:18.72552591Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124100619635, 'load_duration': 122432140584, 'prompt_eval_count': 300, 'prompt_eval_duration': 1645476742, 'eval_count': 3, 'eval_duration': 21630847}
+Response: Poorly
+Analyzing frame 14/66: q_16_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19028 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:56:40.627380489Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 140871700013, 'load_duration': 139229897234, 'prompt_eval_count': 300, 'prompt_eval_duration': 931556562, 'eval_count': 3, 'eval_duration': 708522595}
+Response: Poorly
+Analyzing frame 15/66: q_17_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19232 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T17:58:53.427621511Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 131772285384, 'load_duration': 130100402737, 'prompt_eval_count': 300, 'prompt_eval_duration': 947929274, 'eval_count': 3, 'eval_duration': 722328699}
+Response: Poorly
+Analyzing frame 16/66: q_17_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19296 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:01:11.031558058Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 136582039496, 'load_duration': 134899711164, 'prompt_eval_count': 300, 'prompt_eval_duration': 1658428358, 'eval_count': 3, 'eval_duration': 21918074}
+Response: Poorly
+Analyzing frame 17/66: q_18_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19144 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:03:18.00613919Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125946913366, 'load_duration': 124282503033, 'prompt_eval_count': 300, 'prompt_eval_duration': 956656069, 'eval_count': 3, 'eval_duration': 706368912}
+Response: Poorly
+Analyzing frame 18/66: q_18_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19044 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:05:25.975963717Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126938732831, 'load_duration': 125280808967, 'prompt_eval_count': 300, 'prompt_eval_duration': 946511843, 'eval_count': 3, 'eval_duration': 708775564}
+Response: Poorly
+Analyzing frame 19/66: q_19_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19316 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:07:42.927630835Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 135929652466, 'load_duration': 134233948298, 'prompt_eval_count': 300, 'prompt_eval_duration': 1671816854, 'eval_count': 3, 'eval_duration': 21631364}
+Response: Poorly
+Analyzing frame 20/66: q_19_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19412 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:09:52.807145604Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128851059467, 'load_duration': 127136253238, 'prompt_eval_count': 300, 'prompt_eval_duration': 1688998397, 'eval_count': 3, 'eval_duration': 24159453}
+Response: Poorly
+Analyzing frame 21/66: q_1_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19148 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:12:00.855340769Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127019198529, 'load_duration': 125337817703, 'prompt_eval_count': 300, 'prompt_eval_duration': 1657597629, 'eval_count': 3, 'eval_duration': 21528966}
+Response: Poorly
+Analyzing frame 22/66: q_1_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19136 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:14:08.728026134Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126844552999, 'load_duration': 125159701769, 'prompt_eval_count': 300, 'prompt_eval_duration': 1661269848, 'eval_count': 3, 'eval_duration': 21611303}
+Response: Poorly
+Analyzing frame 23/66: q_20_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18344 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:16:15.70197207Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125946975227, 'load_duration': 124319887762, 'prompt_eval_count': 300, 'prompt_eval_duration': 917618543, 'eval_count': 3, 'eval_duration': 707961790}
+Response: Poorly
+Analyzing frame 24/66: q_20_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18560 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:18:20.859133257Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124125151957, 'load_duration': 122409823951, 'prompt_eval_count': 300, 'prompt_eval_duration': 1004208227, 'eval_count': 3, 'eval_duration': 709091006}
+Response: Poorly
+Analyzing frame 25/66: q_21_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19036 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:20:30.839959922Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128950774690, 'load_duration': 127271688184, 'prompt_eval_count': 300, 'prompt_eval_duration': 1654732069, 'eval_count': 3, 'eval_duration': 21686534}
+Response: Poorly
+Analyzing frame 26/66: q_21_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18900 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:22:37.923516298Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126049737335, 'load_duration': 124371380266, 'prompt_eval_count': 300, 'prompt_eval_duration': 1653574503, 'eval_count': 3, 'eval_duration': 23169826}
+Response: Poorly
+Analyzing frame 27/66: q_22_main_0_30fps_frame0012.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19396 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:24:46.971504314Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128019693713, 'load_duration': 126365084120, 'prompt_eval_count': 300, 'prompt_eval_duration': 945495083, 'eval_count': 3, 'eval_duration': 707292444}
+Response: Poorly
+Analyzing frame 28/66: q_22_main_0_30fps_frame0027.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19332 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:26:53.897460373Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125897012271, 'load_duration': 124251140269, 'prompt_eval_count': 300, 'prompt_eval_duration': 938269038, 'eval_count': 3, 'eval_duration': 704679719}
+Response: Poorly
+Analyzing frame 29/66: q_23_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18984 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:29:03.939210583Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129009261065, 'load_duration': 127345214164, 'prompt_eval_count': 300, 'prompt_eval_duration': 946199387, 'eval_count': 3, 'eval_duration': 715667329}
+Response: Poorly
+Analyzing frame 30/66: q_23_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18928 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:31:10.497427975Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125526863949, 'load_duration': 123844815773, 'prompt_eval_count': 300, 'prompt_eval_duration': 972784149, 'eval_count': 3, 'eval_duration': 707230830}
+Response: Poorly
+Analyzing frame 31/66: q_24_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19260 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:33:16.766562741Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125237552180, 'load_duration': 123548997352, 'prompt_eval_count': 300, 'prompt_eval_duration': 1665350812, 'eval_count': 3, 'eval_duration': 21271797}
+Response: Poorly
+Analyzing frame 32/66: q_24_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19264 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:35:36.292552234Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 138496332190, 'load_duration': 136843259985, 'prompt_eval_count': 300, 'prompt_eval_duration': 1626413349, 'eval_count': 3, 'eval_duration': 24559051}
+Response: Poorly
+Analyzing frame 33/66: q_25_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19244 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:37:45.755756387Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128442799975, 'load_duration': 126774450703, 'prompt_eval_count': 300, 'prompt_eval_duration': 955203702, 'eval_count': 3, 'eval_duration': 711250861}
+Response: Poorly
+Analyzing frame 34/66: q_25_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18988 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:39:57.798637031Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 131015891324, 'load_duration': 129330716382, 'prompt_eval_count': 300, 'prompt_eval_duration': 976201167, 'eval_count': 3, 'eval_duration': 706903024}
+Response: Poorly
+Analyzing frame 35/66: q_26_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19048 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:42:11.868294679Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 133038870601, 'load_duration': 131367065247, 'prompt_eval_count': 300, 'prompt_eval_duration': 962440933, 'eval_count': 3, 'eval_duration': 707465336}
+Response: Poorly
+Analyzing frame 36/66: q_26_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19268 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:44:23.773546065Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 130871875597, 'load_duration': 129205646054, 'prompt_eval_count': 300, 'prompt_eval_duration': 957191897, 'eval_count': 3, 'eval_duration': 707051677}
+Response: Poorly
+Analyzing frame 37/66: q_27_main_0_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19212 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:46:29.084729016Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124284952326, 'load_duration': 122597441155, 'prompt_eval_count': 300, 'prompt_eval_duration': 1648209042, 'eval_count': 3, 'eval_duration': 36981426}
+Response: Poorly
+Analyzing frame 38/66: q_27_main_0_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19396 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:48:33.455235851Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123340258193, 'load_duration': 121689847195, 'prompt_eval_count': 300, 'prompt_eval_duration': 940489817, 'eval_count': 3, 'eval_duration': 708216403}
+Response: Poorly
+Analyzing frame 39/66: q_28_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19348 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:50:40.6282396Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126142572725, 'load_duration': 124469619021, 'prompt_eval_count': 300, 'prompt_eval_duration': 1649575757, 'eval_count': 3, 'eval_duration': 21520865}
+Response: Poorly
+Analyzing frame 40/66: q_28_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19256 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:52:46.26323181Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124570745295, 'load_duration': 122907372502, 'prompt_eval_count': 300, 'prompt_eval_duration': 954033017, 'eval_count': 3, 'eval_duration': 707522523}
+Response: Poorly
+Analyzing frame 41/66: q_29_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18768 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:54:53.610285349Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126313677615, 'load_duration': 124663212004, 'prompt_eval_count': 300, 'prompt_eval_duration': 938710794, 'eval_count': 3, 'eval_duration': 708829786}
+Response: Poorly
+Analyzing frame 42/66: q_29_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18760 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:57:02.160874982Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127530256429, 'load_duration': 125877285355, 'prompt_eval_count': 300, 'prompt_eval_duration': 1629314808, 'eval_count': 3, 'eval_duration': 21731933}
+Response: Poorly
+Analyzing frame 43/66: q_2_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18532 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T18:59:28.806446405Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 145608767825, 'load_duration': 143936069937, 'prompt_eval_count': 300, 'prompt_eval_duration': 962930020, 'eval_count': 3, 'eval_duration': 707802117}
+Response: Poorly
+Analyzing frame 44/66: q_2_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18560 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:01:39.204225204Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129363218673, 'load_duration': 127706271522, 'prompt_eval_count': 300, 'prompt_eval_duration': 948400576, 'eval_count': 3, 'eval_duration': 706441975}
+Response: Poorly
+Analyzing frame 45/66: q_30_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19132 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:03:47.848279954Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127603291408, 'load_duration': 125917282560, 'prompt_eval_count': 300, 'prompt_eval_duration': 1662735555, 'eval_count': 3, 'eval_duration': 21701508}
+Response: Poorly
+Analyzing frame 46/66: q_30_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19300 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:05:54.530379048Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125652838177, 'load_duration': 123995385545, 'prompt_eval_count': 300, 'prompt_eval_duration': 933657355, 'eval_count': 3, 'eval_duration': 722076688}
+Response: Poorly
+Analyzing frame 47/66: q_3_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18820 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:08:08.301855831Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 132732411609, 'load_duration': 131083562583, 'prompt_eval_count': 300, 'prompt_eval_duration': 939337192, 'eval_count': 3, 'eval_duration': 707687924}
+Response: Poorly
+Analyzing frame 48/66: q_3_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18980 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:10:13.998775576Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124668681593, 'load_duration': 123011631128, 'prompt_eval_count': 300, 'prompt_eval_duration': 948810568, 'eval_count': 3, 'eval_duration': 706430939}
+Response: Poorly
+Analyzing frame 49/66: q_4_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19324 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:12:24.364591901Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129317409140, 'load_duration': 127647682688, 'prompt_eval_count': 300, 'prompt_eval_duration': 1635345777, 'eval_count': 3, 'eval_duration': 32289741}
+Response: Poorly
+Analyzing frame 50/66: q_4_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19292 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:14:35.178661839Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129783345008, 'load_duration': 128106498188, 'prompt_eval_count': 300, 'prompt_eval_duration': 1653469160, 'eval_count': 3, 'eval_duration': 21763491}
+Response: Poorly
+Analyzing frame 51/66: q_5_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18768 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:16:41.158484637Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124934012040, 'load_duration': 123277554377, 'prompt_eval_count': 300, 'prompt_eval_duration': 1642169086, 'eval_count': 2, 'eval_duration': 12434348}
+Response: Well
+Analyzing frame 52/66: q_5_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18868 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:18:52.872985119Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 130679543561, 'load_duration': 128984343776, 'prompt_eval_count': 300, 'prompt_eval_duration': 1671865076, 'eval_count': 3, 'eval_duration': 21443945}
+Response: Poorly
+Analyzing frame 53/66: q_6_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19188 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:20:59.454008525Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125535079301, 'load_duration': 123876867351, 'prompt_eval_count': 300, 'prompt_eval_duration': 1633350269, 'eval_count': 3, 'eval_duration': 23289976}
+Response: Poorly
+Analyzing frame 54/66: q_6_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19108 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:23:06.440655303Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125960612540, 'load_duration': 124289867940, 'prompt_eval_count': 300, 'prompt_eval_duration': 1637167558, 'eval_count': 3, 'eval_duration': 31121094}
+Response: Poorly
+Analyzing frame 55/66: q_7_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19216 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:25:17.774543686Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 130296240615, 'load_duration': 128613934909, 'prompt_eval_count': 300, 'prompt_eval_duration': 972673044, 'eval_count': 3, 'eval_duration': 707367963}
+Response: Poorly
+Analyzing frame 56/66: q_7_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19076 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:27:24.657932764Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125852887869, 'load_duration': 124160214112, 'prompt_eval_count': 300, 'prompt_eval_duration': 981271279, 'eval_count': 3, 'eval_duration': 708707104}
+Response: Poorly
+Analyzing frame 57/66: q_8_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19404 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:29:31.295437041Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125591722658, 'load_duration': 123973411075, 'prompt_eval_count': 300, 'prompt_eval_duration': 904068892, 'eval_count': 3, 'eval_duration': 711533261}
+Response: Poorly
+Analyzing frame 58/66: q_8_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19248 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:31:38.144173414Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125819571668, 'load_duration': 124161111724, 'prompt_eval_count': 300, 'prompt_eval_duration': 949112083, 'eval_count': 3, 'eval_duration': 707612822}
+Response: Poorly
+Analyzing frame 59/66: q_9_main_0_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18836 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:33:51.667110217Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 132481373554, 'load_duration': 130807575445, 'prompt_eval_count': 300, 'prompt_eval_duration': 963221677, 'eval_count': 3, 'eval_duration': 708488732}
+Response: Poorly
+Analyzing frame 60/66: q_9_main_0_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18884 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:36:03.880211759Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 131181276276, 'load_duration': 129529345664, 'prompt_eval_count': 300, 'prompt_eval_duration': 1628169666, 'eval_count': 3, 'eval_duration': 21197314}
+Response: Poorly
+Analyzing frame 61/66: q_warmup_3_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19192 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:38:09.130202476Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124211528904, 'load_duration': 122448439668, 'prompt_eval_count': 300, 'prompt_eval_duration': 1739782363, 'eval_count': 3, 'eval_duration': 21200488}
+Response: Poorly
+Analyzing frame 62/66: q_warmup_3_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 19020 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:40:15.76269124Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125595040362, 'load_duration': 123946338118, 'prompt_eval_count': 300, 'prompt_eval_duration': 937227279, 'eval_count': 3, 'eval_duration': 708929132}
+Response: Poorly
+Analyzing frame 63/66: q_warmup_4_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18940 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:42:29.510474378Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 132697187225, 'load_duration': 131049256375, 'prompt_eval_count': 300, 'prompt_eval_duration': 939625935, 'eval_count': 3, 'eval_duration': 706255321}
+Response: Poorly
+Analyzing frame 64/66: q_warmup_4_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18976 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:44:34.60314389Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124062074799, 'load_duration': 122351787890, 'prompt_eval_count': 300, 'prompt_eval_duration': 1000646667, 'eval_count': 3, 'eval_duration': 707621981}
+Response: Poorly
+Analyzing frame 65/66: q_warmup_5_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18908 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:46:41.261909043Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125615054542, 'load_duration': 123928568690, 'prompt_eval_count': 300, 'prompt_eval_duration': 963483702, 'eval_count': 3, 'eval_duration': 721284954}
+Response: Poorly
+Analyzing frame 66/66: q_warmup_5_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 18776 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:48:51.622701923Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129330658780, 'load_duration': 127674373409, 'prompt_eval_count': 300, 'prompt_eval_duration': 943107589, 'eval_count': 3, 'eval_duration': 710937781}
+Response: Poorly
+Processed 66 frames for participant 1048
+
+Results saved to ./results/results_gemma3_1s.csv
+Total frames processed: 66
+
+==================================================
+Processing participant 2/30
+
+Processing participant: 1251
+Found 66 frames
+Analyzing frame 1/66: q_10_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12756 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:50:59.181691461Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126518426181, 'load_duration': 124866634082, 'prompt_eval_count': 300, 'prompt_eval_duration': 932736394, 'eval_count': 3, 'eval_duration': 717236723}
+Response: Poorly
+Analyzing frame 2/66: q_10_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13356 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:53:05.004474322Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124797686230, 'load_duration': 123178922476, 'prompt_eval_count': 300, 'prompt_eval_duration': 909336188, 'eval_count': 3, 'eval_duration': 707624460}
+Response: Poorly
+Analyzing frame 3/66: q_11_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12720 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:55:12.023905079Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125991075789, 'load_duration': 124319982184, 'prompt_eval_count': 300, 'prompt_eval_duration': 948650061, 'eval_count': 3, 'eval_duration': 720763882}
+Response: Poorly
+Analyzing frame 4/66: q_11_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12912 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:57:17.032665302Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123981366297, 'load_duration': 122311009375, 'prompt_eval_count': 300, 'prompt_eval_duration': 945462113, 'eval_count': 3, 'eval_duration': 722756975}
+Response: Poorly
+Analyzing frame 5/66: q_12_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13132 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T19:59:23.860897653Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125799949963, 'load_duration': 124079684510, 'prompt_eval_count': 300, 'prompt_eval_duration': 1696469260, 'eval_count': 3, 'eval_duration': 21328237}
+Response: Poorly
+Analyzing frame 6/66: q_12_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13084 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:01:41.274096968Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 136388023134, 'load_duration': 134693497821, 'prompt_eval_count': 300, 'prompt_eval_duration': 1671412558, 'eval_count': 3, 'eval_duration': 21486468}
+Response: Poorly
+Analyzing frame 7/66: q_13_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13112 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:03:49.954788805Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127615917152, 'load_duration': 125955416055, 'prompt_eval_count': 300, 'prompt_eval_duration': 949676332, 'eval_count': 3, 'eval_duration': 709279218}
+Response: Poorly
+Analyzing frame 8/66: q_13_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13060 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:05:58.052030097Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127066153046, 'load_duration': 125387468682, 'prompt_eval_count': 300, 'prompt_eval_duration': 967195812, 'eval_count': 3, 'eval_duration': 709211869}
+Response: Poorly
+Analyzing frame 9/66: q_14_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13344 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:08:03.655486474Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124577546881, 'load_duration': 122924148497, 'prompt_eval_count': 300, 'prompt_eval_duration': 941994967, 'eval_count': 3, 'eval_duration': 709109622}
+Response: Poorly
+Analyzing frame 10/66: q_14_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13792 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:10:10.18067345Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125499243018, 'load_duration': 123832433652, 'prompt_eval_count': 300, 'prompt_eval_duration': 955565727, 'eval_count': 3, 'eval_duration': 708803547}
+Response: Poorly
+Analyzing frame 11/66: q_15_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12412 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:12:15.308195622Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124103038299, 'load_duration': 122423277157, 'prompt_eval_count': 300, 'prompt_eval_duration': 1656082008, 'eval_count': 3, 'eval_duration': 21780039}
+Response: Poorly
+Analyzing frame 12/66: q_15_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12540 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:14:26.146169449Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129798137988, 'load_duration': 128109431915, 'prompt_eval_count': 300, 'prompt_eval_duration': 1665188507, 'eval_count': 3, 'eval_duration': 22280061}
+Response: Poorly
+Analyzing frame 13/66: q_16_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13112 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:16:33.080856327Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125904203308, 'load_duration': 124226928341, 'prompt_eval_count': 300, 'prompt_eval_duration': 1654491109, 'eval_count': 3, 'eval_duration': 21252898}
+Response: Poorly
+Analyzing frame 14/66: q_16_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12996 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:18:43.160601252Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129051242769, 'load_duration': 127365742618, 'prompt_eval_count': 300, 'prompt_eval_duration': 1661751211, 'eval_count': 3, 'eval_duration': 21558217}
+Response: Poorly
+Analyzing frame 15/66: q_17_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 11912 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:20:54.176934568Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 129989552124, 'load_duration': 128345561779, 'prompt_eval_count': 300, 'prompt_eval_duration': 933813501, 'eval_count': 3, 'eval_duration': 708673779}
+Response: Poorly
+Analyzing frame 16/66: q_17_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 11668 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:23:00.934711484Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125714096072, 'load_duration': 124059660251, 'prompt_eval_count': 300, 'prompt_eval_duration': 1629026029, 'eval_count': 3, 'eval_duration': 23304092}
+Response: Poorly
+Analyzing frame 17/66: q_18_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12656 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:25:07.401054956Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125452463440, 'load_duration': 123798036500, 'prompt_eval_count': 300, 'prompt_eval_duration': 945400247, 'eval_count': 3, 'eval_duration': 707212792}
+Response: Poorly
+Analyzing frame 18/66: q_18_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12480 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:27:13.053229088Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124609631596, 'load_duration': 122941919446, 'prompt_eval_count': 300, 'prompt_eval_duration': 958155567, 'eval_count': 3, 'eval_duration': 707709480}
+Response: Poorly
+Analyzing frame 19/66: q_19_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12792 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:29:18.011656764Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 123933856689, 'load_duration': 122259259340, 'prompt_eval_count': 300, 'prompt_eval_duration': 1651472152, 'eval_count': 3, 'eval_duration': 21669473}
+Response: Poorly
+Analyzing frame 20/66: q_19_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12756 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:31:24.799121692Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 125758854097, 'load_duration': 124087774703, 'prompt_eval_count': 300, 'prompt_eval_duration': 961813752, 'eval_count': 3, 'eval_duration': 707420287}
+Response: Poorly
+Analyzing frame 21/66: q_1_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 10712 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:33:30.1886143Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 124361877773, 'load_duration': 122658887090, 'prompt_eval_count': 300, 'prompt_eval_duration': 1679221190, 'eval_count': 3, 'eval_duration': 21530104}
+Response: Poorly
+Analyzing frame 22/66: q_1_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 11476 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:35:39.711553195Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 128494853077, 'load_duration': 126813641083, 'prompt_eval_count': 300, 'prompt_eval_duration': 1657389394, 'eval_count': 3, 'eval_duration': 21598984}
+Response: Poorly
+Analyzing frame 23/66: q_20_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12804 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:37:48.446874225Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 127708449178, 'load_duration': 126072934308, 'prompt_eval_count': 300, 'prompt_eval_duration': 923870170, 'eval_count': 3, 'eval_duration': 709907544}
+Response: Poorly
+Analyzing frame 24/66: q_20_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12848 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:39:56.363760705Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 126883920338, 'load_duration': 125229317566, 'prompt_eval_count': 300, 'prompt_eval_duration': 943060243, 'eval_count': 3, 'eval_duration': 709229014}
+Response: Poorly
+Analyzing frame 25/66: q_21_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13904 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:42:12.383730761Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 134994742438, 'load_duration': 133331407271, 'prompt_eval_count': 300, 'prompt_eval_duration': 950811640, 'eval_count': 3, 'eval_duration': 710721801}
+Response: Poorly
+Analyzing frame 26/66: q_21_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13884 bytes
+Response status code: 200
+{'model': 'gemma3', 'created_at': '2025-11-27T20:45:11.287269292Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done_reason': 'stop', 'done': True, 'total_duration': 177760470392, 'load_duration': 176111813412, 'prompt_eval_count': 300, 'prompt_eval_duration': 937045770, 'eval_count': 3, 'eval_duration': 709688376}
+Response: Poorly
+Analyzing frame 27/66: q_22_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12108 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 28/66: q_22_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12236 bytes
+Response: Error analyzing image: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Analyzing frame 29/66: q_23_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 14332 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 30/66: q_23_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 14048 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 31/66: q_24_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13288 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 32/66: q_24_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13548 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 33/66: q_25_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12316 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 34/66: q_25_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12048 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 35/66: q_26_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12940 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 36/66: q_26_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13312 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 37/66: q_27_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12760 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 38/66: q_27_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12532 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 39/66: q_28_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12976 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 40/66: q_28_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12800 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 41/66: q_29_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 11740 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 42/66: q_29_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 11372 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 43/66: q_2_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12216 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 44/66: q_2_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12172 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 45/66: q_30_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13296 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 46/66: q_30_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 13628 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 47/66: q_3_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12360 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 48/66: q_3_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)
+Image size: 12252 bytes
+Response: Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+Analyzing frame 49/66: q_4_main_1_30fps_frame0013.png

@@ -268,7 +268,7 @@ def main():
     parser.add_argument('--model', type=str, default='llama3.2-vision',
                         help='Ollama model to use (default: llama3.2-vision)')
     parser.add_argument('--prompt', type=str,
-                        default='Given the human reaction shown in the image, do you think the situation observed by the subject ends well or poorly? (Use only one word to answer)',
+                        default='Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)',
                         help='Prompt for the vision model')
     parser.add_argument('--frames-folder', type=str, default='./frames',
                         help='Folder containing frame files organized by participant (default: ./frames)')
@@ -290,8 +290,25 @@ def main():
     analyzer.run()
 
     # Example usage:
-    # python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/frames_results_1s.csv'
-    # python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_5s/' --output-csv './results/frames_results_5s.csv'
+     #conda activate ollama
+    #ollama pull llama3.2-vision
 
-if __name__ == "__main__":
-    main()
+    #DONE
+    # python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/frames_results_1s.csv'
+    # python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/frames_results_3s.csv'
+    #nohup python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/frames_results_1s.csv' > ./logs/vlm_output_frames_1s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/frames_results_3s.csv' > ./logs/vlm_output_frames_3s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py --model llava --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_llava_1s.csv' > ./logs/vlm_output_llava1.log 2>&1 &
+    #nohup python vlm_reactions_frames.py --model llava --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_llava_3s.csv' > ./logs/vlm_output_llava3.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model deepseek-ocr:3b --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_deepseek-ocr_1s.csv' > ./logs/vlm_output_deepseek_ocr_1s.log 2>&1 &
+    
+    #TO DO 
+    #nohup python vlm_reactions_frames.py  --model deepseek-ocr:3b --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_deepseek-ocr_1s.csv' > ./logs/vlm_output_deepseek_ocr_1s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model gemma3 --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_gemma3_1s.csv' > ./logs/vlm_output_gemma3_1s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model gemma3 --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_gemma3_3s.csv' > ./logs/vlm_output_gemma3_3s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model qwen3-vl --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_qwen3_1s.csv' > ./logs/vlm_output_qwen3_1s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model qwen3-vl --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_qwen3_3s.csv' > ./logs/vlm_output_qwen3_3s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model llava-llama3 --video-folder '../../../data/reactions/image_dataset_1s/' --output-csv './results/results_llavallama3_1s.csv' > ./logs/vlm_output_llavallama3_1s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model llava-llama3 --video-folder '../../../data/reactions/image_dataset_3s/' --output-csv './results/results_llavallama3_3s.csv' > ./logs/vlm_output_llavallama3_3s.log 2>&1 &
+
+
