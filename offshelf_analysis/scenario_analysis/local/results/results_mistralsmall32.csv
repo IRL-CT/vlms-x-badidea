@@ -1,0 +1,467 @@
+video_name,frame,outcome_prediction
+11_final.mp4,0,Poorly
+11_final.mp4,15,Poorly
+11_final.mp4,30,Poorly
+11_final.mp4,45,Poorly
+11_final.mp4,60,Poorly
+11_final.mp4,75,Poorly
+11_final.mp4,90,Poorly
+11_final.mp4,105,Poorly
+11_final.mp4,120,Poorly
+11_final.mp4,135,Poorly
+11_final.mp4,150,Poorly
+11_final.mp4,165,Poorly
+11_final.mp4,180,Poorly
+11_final.mp4,195,Poorly
+11_final.mp4,210,Poorly
+11_final.mp4,225,Poorly
+11_final.mp4,240,Poorly
+11_final.mp4,255,Poorly
+11_final.mp4,270,Poorly
+11_final.mp4,285,Poorly
+11_final.mp4,300,Poorly
+11_final.mp4,315,Poorly
+11_final.mp4,330,Poorly
+11_final.mp4,345,Poorly
+11_final.mp4,360,Poorly
+11_final.mp4,375,Poorly
+11_final.mp4,390,Poorly
+11_final.mp4,405,Poorly
+11_final.mp4,420,Poorly
+12_final.mp4,0,Poorly
+12_final.mp4,15,Poorly
+12_final.mp4,30,Poorly
+12_final.mp4,45,Poorly
+12_final.mp4,60,Poorly
+12_final.mp4,75,Poorly
+12_final.mp4,90,Poorly
+12_final.mp4,105,Poorly
+12_final.mp4,120,Poorly
+12_final.mp4,135,Poorly
+12_final.mp4,150,Poorly
+12_final.mp4,165,Poorly
+12_final.mp4,180,Poorly
+12_final.mp4,195,Poorly
+12_final.mp4,210,Poorly
+14_final.mp4,0,Poorly
+14_final.mp4,15,Well
+14_final.mp4,30,Poorly
+14_final.mp4,45,Poorly
+14_final.mp4,60,Poorly
+14_final.mp4,75,Poorly
+14_final.mp4,90,Poorly
+14_final.mp4,105,Poorly
+14_final.mp4,120,Poorly
+14_final.mp4,135,Poorly
+14_final.mp4,150,Poorly
+14_final.mp4,165,Poorly
+14_final.mp4,180,Poorly
+14_final.mp4,195,Poorly
+14_final.mp4,210,Poorly
+14_final.mp4,225,Poorly
+14_final.mp4,240,Poorly
+14_final.mp4,255,Poorly
+14_final.mp4,270,Poorly
+14_final.mp4,285,Poorly
+14_final.mp4,300,Poorly
+14_final.mp4,315,Poorly
+14_final.mp4,330,Poorly
+14_final.mp4,345,Poorly
+14_final.mp4,360,Poorly
+14_final.mp4,375,Poorly
+15_final.mp4,0,Poorly
+15_final.mp4,15,Poorly
+15_final.mp4,30,Poorly
+15_final.mp4,45,Poorly
+15_final.mp4,60,Poorly
+15_final.mp4,75,Poorly
+15_final.mp4,90,Poorly
+15_final.mp4,105,Poorly
+15_final.mp4,120,Poorly
+15_final.mp4,135,Poorly
+15_final.mp4,150,Poorly
+15_final.mp4,165,Poorly
+15_final.mp4,180,Poorly
+15_final.mp4,195,Poorly
+15_final.mp4,210,Poorly
+19_final.mp4,0,Poorly
+19_final.mp4,15,Poorly
+19_final.mp4,30,Poorly
+19_final.mp4,45,poorly
+19_final.mp4,60,Poorly
+19_final.mp4,75,Poorly
+19_final.mp4,90,Poorly
+19_final.mp4,105,Poorly
+19_final.mp4,120,Poorly
+19_final.mp4,135,Poorly
+19_final.mp4,150,Poorly
+19_final.mp4,165,Poorly
+19_final.mp4,180,Poorly
+19_final.mp4,195,Poorly
+19_final.mp4,210,Poorly
+19_final.mp4,225,Poorly
+19_final.mp4,240,Poorly
+19_final.mp4,255,Poorly
+21_final.mp4,0,Poorly
+21_final.mp4,15,poorly
+21_final.mp4,30,Poorly
+21_final.mp4,45,Poorly
+21_final.mp4,60,poorly
+21_final.mp4,75,Poorly
+21_final.mp4,90,Poorly
+21_final.mp4,105,Poorly
+21_final.mp4,120,Poorly
+21_final.mp4,135,poorly
+21_final.mp4,150,Poorly
+21_final.mp4,165,Poorly
+21_final.mp4,180,Poorly
+21_final.mp4,195,Poorly
+21_final.mp4,210,Poorly
+21_final.mp4,225,Poorly
+21_final.mp4,240,Poorly
+21_final.mp4,255,Poorly
+21_final.mp4,270,Poorly
+21_final.mp4,285,Poorly
+21_final.mp4,300,Poorly
+21_final.mp4,315,Poorly
+22_final.mp4,0,Poorly
+22_final.mp4,15,Poorly
+22_final.mp4,30,Poorly
+22_final.mp4,45,Poorly
+22_final.mp4,60,Poorly
+22_final.mp4,75,Poorly
+22_final.mp4,90,Poorly
+22_final.mp4,105,Poorly
+22_final.mp4,120,Poorly
+22_final.mp4,135,Poorly
+22_final.mp4,150,Poorly
+22_final.mp4,165,Poorly
+22_final.mp4,180,Poorly
+22_final.mp4,195,Poorly
+24_final.mp4,0,Poorly
+24_final.mp4,15,Poorly
+24_final.mp4,30,Poorly
+24_final.mp4,45,Poorly
+24_final.mp4,60,Poorly
+24_final.mp4,75,Poorly
+24_final.mp4,90,Poorly
+24_final.mp4,105,Poorly
+24_final.mp4,120,Poorly
+24_final.mp4,135,Poorly
+24_final.mp4,150,Poorly
+24_final.mp4,165,Poorly
+24_final.mp4,180,Poorly
+24_final.mp4,195,Poorly
+24_final.mp4,210,Poorly
+24_final.mp4,225,Poorly
+24_final.mp4,240,Poorly
+24_final.mp4,255,Poorly
+24_final.mp4,270,Poorly
+24_final.mp4,285,Poorly
+24_final.mp4,300,Poorly
+24_final.mp4,315,Poorly
+24_final.mp4,330,Poorly
+24_final.mp4,345,poorly
+24_final.mp4,360,Poorly
+29_final.mp4,0,Poorly
+29_final.mp4,15,Poorly
+29_final.mp4,30,Poorly
+29_final.mp4,45,Poorly
+29_final.mp4,60,Poorly
+29_final.mp4,75,Poorly
+29_final.mp4,90,Poorly
+29_final.mp4,105,Poorly
+29_final.mp4,120,Poorly
+29_final.mp4,135,Poorly
+29_final.mp4,150,Poorly
+29_final.mp4,165,Poorly
+29_final.mp4,180,Poorly
+29_final.mp4,195,Poorly
+29_final.mp4,210,Poorly
+30_final.mp4,0,poorly
+30_final.mp4,15,Poorly
+30_final.mp4,30,poorly
+30_final.mp4,45,poorly
+30_final.mp4,60,poorly
+30_final.mp4,75,poorly
+30_final.mp4,90,poorly
+30_final.mp4,105,poorly
+30_final.mp4,120,Poorly
+30_final.mp4,135,poorly
+30_final.mp4,150,Poorly
+30_final.mp4,165,poorly
+30_final.mp4,180,poorly
+30_final.mp4,195,poorly
+30_final.mp4,210,poorly
+30_final.mp4,225,poorly
+30_final.mp4,240,poorly
+30_final.mp4,255,poorly
+30_final.mp4,270,poorly
+30_final.mp4,285,poorly
+30_final.mp4,300,poorly
+30_final.mp4,315,poorly
+30_final.mp4,330,poorly
+30_final.mp4,345,poorly
+30_final.mp4,360,poorly
+30_final.mp4,375,poorly
+31_final.mp4,0,Poorly
+31_final.mp4,15,Poorly
+31_final.mp4,30,Poorly
+31_final.mp4,45,Well
+31_final.mp4,60,Poorly
+31_final.mp4,75,Poorly
+31_final.mp4,90,Poorly
+31_final.mp4,105,Poorly
+31_final.mp4,120,Poorly
+31_final.mp4,135,Poorly
+31_final.mp4,150,Poorly
+31_final.mp4,165,Poorly
+31_final.mp4,180,Poorly
+31_final.mp4,195,Poorly
+31_final.mp4,210,Poorly
+31_final.mp4,225,Poorly
+31_final.mp4,240,Poorly
+31_final.mp4,255,Poorly
+31_final.mp4,270,Poorly
+31_final.mp4,285,Poorly
+33_final.mp4,0,Poorly
+33_final.mp4,15,Poorly
+33_final.mp4,30,Poorly
+33_final.mp4,45,Poorly
+33_final.mp4,60,Poorly
+33_final.mp4,75,Poorly
+33_final.mp4,90,Poorly
+33_final.mp4,105,Poorly
+33_final.mp4,120,Poorly
+33_final.mp4,135,Poorly
+33_final.mp4,150,Poorly
+33_final.mp4,165,Poorly
+33_final.mp4,180,Poorly
+33_final.mp4,195,Poorly
+33_final.mp4,210,Poorly
+34_final.mp4,0,poorly
+34_final.mp4,15,Poorly
+34_final.mp4,30,Poorly
+34_final.mp4,45,Poorly
+34_final.mp4,60,Poorly
+34_final.mp4,75,Poorly
+34_final.mp4,90,Poorly
+34_final.mp4,105,Poorly
+34_final.mp4,120,Poorly
+34_final.mp4,135,Poorly
+34_final.mp4,150,Poorly
+34_final.mp4,165,Poorly
+34_final.mp4,180,Poorly
+34_final.mp4,195,Poorly
+34_final.mp4,210,Poorly
+40_final.mp4,0,Poorly
+40_final.mp4,15,Poorly
+40_final.mp4,30,Poorly
+40_final.mp4,45,poorly
+40_final.mp4,60,Poorly
+40_final.mp4,75,Poorly
+40_final.mp4,90,Poorly
+40_final.mp4,105,Poorly
+40_final.mp4,120,Poorly
+40_final.mp4,135,Poorly
+40_final.mp4,150,Poorly
+40_final.mp4,165,Poorly
+40_final.mp4,180,Poorly
+40_final.mp4,195,Poorly
+40_final.mp4,210,Poorly
+40_final.mp4,225,Poorly
+40_final.mp4,240,Poorly
+41_final.mp4,0,Poorly
+41_final.mp4,15,poorly
+41_final.mp4,30,Poorly
+41_final.mp4,45,poorly
+41_final.mp4,60,Poorly
+41_final.mp4,75,poorly
+41_final.mp4,90,Poorly
+41_final.mp4,105,poorly
+41_final.mp4,120,Poorly
+41_final.mp4,135,Poorly
+41_final.mp4,150,Poorly
+41_final.mp4,165,Poorly
+41_final.mp4,180,Poorly
+41_final.mp4,195,Poorly
+41_final.mp4,210,Poorly
+41_final.mp4,225,Poorly
+41_final.mp4,240,Poorly
+41_final.mp4,255,Poorly
+41_final.mp4,270,poorly
+44_final.mp4,0,Poorly
+44_final.mp4,15,Poorly
+44_final.mp4,30,Poorly
+44_final.mp4,45,Poorly
+44_final.mp4,60,Poorly
+44_final.mp4,75,Poorly
+44_final.mp4,90,Poorly
+44_final.mp4,105,Poorly
+44_final.mp4,120,Poorly
+44_final.mp4,135,Poorly
+44_final.mp4,150,Poorly
+44_final.mp4,165,Poorly
+44_final.mp4,180,Poorly
+44_final.mp4,195,Poorly
+44_final.mp4,210,Poorly
+44_final.mp4,225,Poorly
+46_final.mp4,0,Poorly
+46_final.mp4,15,Poorly
+46_final.mp4,30,Poorly
+46_final.mp4,45,Poorly
+46_final.mp4,60,Poorly
+46_final.mp4,75,Poorly
+46_final.mp4,90,Poorly
+46_final.mp4,105,Poorly
+46_final.mp4,120,Poorly
+46_final.mp4,135,Poorly
+46_final.mp4,150,Poorly
+46_final.mp4,165,Poorly
+46_final.mp4,180,Poorly
+46_final.mp4,195,Poorly
+46_final.mp4,210,Poorly
+46_final.mp4,225,Poorly
+46_final.mp4,240,Poorly
+46_final.mp4,255,Poorly
+46_final.mp4,270,Poorly
+46_final.mp4,285,Poorly
+48_final.mp4,0,Poorly
+48_final.mp4,15,Poorly
+48_final.mp4,30,Poorly
+48_final.mp4,45,Poorly
+48_final.mp4,60,Poorly
+48_final.mp4,75,Poorly
+48_final.mp4,90,Poorly
+48_final.mp4,105,Poorly
+48_final.mp4,120,Poorly
+48_final.mp4,135,Poorly
+48_final.mp4,150,Poorly
+48_final.mp4,165,Poorly
+48_final.mp4,180,Poorly
+48_final.mp4,195,Poorly
+48_final.mp4,210,Poorly
+48_final.mp4,225,Poorly
+48_final.mp4,240,Poorly
+49_final.mp4,0,Poorly
+49_final.mp4,15,Poorly
+49_final.mp4,30,Poorly
+49_final.mp4,45,Poorly
+49_final.mp4,60,Poorly
+49_final.mp4,75,Poorly
+49_final.mp4,90,Poorly
+49_final.mp4,105,Poorly
+49_final.mp4,120,Poorly
+49_final.mp4,135,Poorly
+49_final.mp4,150,Poorly
+49_final.mp4,165,Poorly
+49_final.mp4,180,Poorly
+49_final.mp4,195,Poorly
+49_final.mp4,210,Poorly
+49_final.mp4,225,Poorly
+49_final.mp4,240,Poorly
+49_final.mp4,255,Poorly
+49_final.mp4,270,Poorly
+49_final.mp4,285,Poorly
+49_final.mp4,300,Poorly
+49_final.mp4,315,Poorly
+49_final.mp4,330,Poorly
+49_final.mp4,345,Poorly
+50_final.mp4,0,Poorly
+50_final.mp4,15,Poorly
+50_final.mp4,30,Poorly
+50_final.mp4,45,Poorly
+50_final.mp4,60,Poorly
+50_final.mp4,75,Poorly
+50_final.mp4,90,Poorly
+50_final.mp4,105,Poorly
+50_final.mp4,120,Poorly
+50_final.mp4,135,Poorly
+50_final.mp4,150,Poorly
+50_final.mp4,165,Poorly
+50_final.mp4,180,Poorly
+50_final.mp4,195,Poorly
+50_final.mp4,210,Poorly
+50_final.mp4,225,Poorly
+50_final.mp4,240,Poorly
+50_final.mp4,255,Poorly
+52_final.mp4,0,Poorly
+52_final.mp4,15,Poorly
+52_final.mp4,30,Poorly
+52_final.mp4,45,Poorly
+52_final.mp4,60,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,75,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,90,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,105,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,120,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,135,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,150,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,165,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,180,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,195,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,210,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,225,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,240,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,255,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,270,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,285,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,300,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,315,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,330,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,345,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,360,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,375,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,390,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,405,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,420,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,435,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,450,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,465,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,480,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,495,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,510,Poorly
+52_final.mp4,525,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,540,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,555,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,570,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+52_final.mp4,585,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,30,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,45,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,60,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,75,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,90,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,105,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,120,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,135,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,150,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,165,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,180,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,195,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,210,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,225,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,240,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,255,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,270,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,285,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,300,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+53_final.mp4,315,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,0,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,15,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,30,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,45,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,60,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,75,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,90,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,105,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+54_final.mp4,120,Well
+54_final.mp4,135,Well
+54_final.mp4,150,Poorly
+54_final.mp4,165,Poorly
+54_final.mp4,180,Poorly
+54_final.mp4,195,Poorly
+54_final.mp4,210,Poorly
+54_final.mp4,225,Poorly
+54_final.mp4,240,Poorly
+54_final.mp4,255,Poorly

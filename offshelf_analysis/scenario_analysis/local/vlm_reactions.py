@@ -304,7 +304,9 @@ def main():
     #DONE
     #nohup python vlm_reactions.py  --model deepseek-ocr:3b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_deepseek_ocr.csv' --frame-sample-rate 15 > ./logs/vlm_output_deepseek_ocr.log 2>&1 &
     #nohup python vlm_reactions.py  --model qwen3-vl --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_qwen3.csv' --frame-sample-rate 15 > ./logs/vlm_output_qwen3.log 2>&1 &
+    #nohup python vlm_reactions.py  --model mistral-small3.2 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_mistralsmall32.csv' --frame-sample-rate 15 > ./logs/vlm_output_mistralsmall32.log 2>&1 &
     
+
     #to do
     #nohup python vlm_reactions.py  --model minicpm-v --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_minicpm.csv' --frame-sample-rate 15 > ./logs/vlm_output_minicpm.log 2>&1 &
     #nohup python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_lamma32.csv' --frame-sample-rate 15 > ./logs/vlm_output_lamma32.log 2>&1 &
