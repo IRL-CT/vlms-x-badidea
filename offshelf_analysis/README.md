@@ -112,12 +112,6 @@ For binary classification:
 - "Well" = 0
 
 
-## Local Model Installation
-
-Using Ollama on Linux, code based on [this repository](https://github.com/AGRamirezz/BAD-Dog/tree/main/Demo) by collaborator Adolfo Ramirez-Artistizabal.
-
-Prompts: prompt 5 and 6
-
 ### Pending issues
 - [ ] Llama3.2-vision only predicting "poorly"
 - [ ] Models cannot accept more than 1 image

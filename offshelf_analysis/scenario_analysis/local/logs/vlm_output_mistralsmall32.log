@@ -2943,3 +2943,804 @@ Response status code: 200
 {'model': 'mistral-small3.2', 'created_at': '2025-11-30T16:17:52.174077884Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 416243035006, 'load_duration': 409670000087, 'prompt_eval_count': 844, 'prompt_eval_duration': 4663186240, 'eval_count': 4, 'eval_duration': 1724202635}
 Response: Poorly
 Analyzing frame 3/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81636 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T16:24:37.668242296Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 404417711692, 'load_duration': 397933312877, 'prompt_eval_count': 844, 'prompt_eval_duration': 4648588114, 'eval_count': 4, 'eval_duration': 1656470452}
+Response: Poorly
+Analyzing frame 4/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81776 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T16:32:29.024591311Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 470317621289, 'load_duration': 463428133924, 'prompt_eval_count': 844, 'prompt_eval_duration': 4642243764, 'eval_count': 4, 'eval_duration': 2064318297}
+Response: Poorly
+Analyzing frame 5/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81368 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T16:39:51.58992914Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 441523620085, 'load_duration': 434792409159, 'prompt_eval_count': 844, 'prompt_eval_duration': 4740342289, 'eval_count': 4, 'eval_duration': 1788167567}
+Response: Poorly
+Analyzing frame 6/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81088 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T16:46:55.038790373Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 422410094588, 'load_duration': 415751310681, 'prompt_eval_count': 844, 'prompt_eval_duration': 4667184062, 'eval_count': 4, 'eval_duration': 1778824966}
+Response: Poorly
+Analyzing frame 7/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81448 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T16:53:57.742990414Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 421666429352, 'load_duration': 415215398416, 'prompt_eval_count': 844, 'prompt_eval_duration': 4583139928, 'eval_count': 4, 'eval_duration': 1699880309}
+Response: Poorly
+Analyzing frame 8/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81584 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:01:18.357951068Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 439577884803, 'load_duration': 432976320904, 'prompt_eval_count': 844, 'prompt_eval_duration': 4669475297, 'eval_count': 4, 'eval_duration': 1757450645}
+Response: Poorly
+Analyzing frame 9/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81392 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:08:27.905100595Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 428508679297, 'load_duration': 421968380682, 'prompt_eval_count': 844, 'prompt_eval_duration': 4610650377, 'eval_count': 4, 'eval_duration': 1760608546}
+Response: Poorly
+Analyzing frame 10/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81416 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:15:48.775774314Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 439829345336, 'load_duration': 433576272091, 'prompt_eval_count': 844, 'prompt_eval_duration': 4628585042, 'eval_count': 4, 'eval_duration': 1461580747}
+Response: Poorly
+Analyzing frame 11/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81772 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:23:04.37644826Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 434559381736, 'load_duration': 427918257934, 'prompt_eval_count': 844, 'prompt_eval_duration': 4703908339, 'eval_count': 4, 'eval_duration': 1774534889}
+Response: Poorly
+Analyzing frame 12/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81456 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:30:12.299471179Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 426885221503, 'load_duration': 420426713611, 'prompt_eval_count': 844, 'prompt_eval_duration': 4685044803, 'eval_count': 4, 'eval_duration': 1571265346}
+Response: Poorly
+Analyzing frame 13/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 80960 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:37:39.030355149Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 445692308689, 'load_duration': 438267547357, 'prompt_eval_count': 844, 'prompt_eval_duration': 4616673838, 'eval_count': 4, 'eval_duration': 2633311107}
+Response: Poorly
+Analyzing frame 14/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81016 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:44:55.099900847Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 435030048883, 'load_duration': 428415583655, 'prompt_eval_count': 844, 'prompt_eval_duration': 4603764546, 'eval_count': 4, 'eval_duration': 1819236375}
+Response: Poorly
+Analyzing frame 15/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81036 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:50:36.245639832Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 340107017028, 'load_duration': 333592027510, 'prompt_eval_count': 844, 'prompt_eval_duration': 4641139863, 'eval_count': 4, 'eval_duration': 1706973537}
+Response: Poorly
+Analyzing frame 16/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81048 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T17:55:39.615996806Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 302328468765, 'load_duration': 295131264115, 'prompt_eval_count': 844, 'prompt_eval_duration': 4744084605, 'eval_count': 4, 'eval_duration': 2280350803}
+Response: Poorly
+Analyzing frame 17/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 81012 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:00:44.651077402Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 303990414740, 'load_duration': 297033767302, 'prompt_eval_count': 844, 'prompt_eval_duration': 4604187140, 'eval_count': 4, 'eval_duration': 2180455464}
+Response: Poorly
+Analyzing frame 18/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 80756 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:05:13.881340689Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268142418362, 'load_duration': 261770591530, 'prompt_eval_count': 844, 'prompt_eval_duration': 4635763667, 'eval_count': 4, 'eval_duration': 1533249366}
+Response: Poorly
+Final prediction for 55_final.mp4: Poorly
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 484
+
+==================================================
+Processing video 25/30
+
+Processing video: 57_final.mp4
+Video info: 275 frames, 30.00 FPS, 9.17 seconds
+Extracted 19 frames for analysis
+Analyzing frame 1/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34276 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:10:05.419179333Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 289408081164, 'load_duration': 282818080030, 'prompt_eval_count': 844, 'prompt_eval_duration': 4630231389, 'eval_count': 4, 'eval_duration': 1795279317}
+Response: Poorly
+Analyzing frame 2/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34172 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:15:11.587180181Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 305129283159, 'load_duration': 298396945740, 'prompt_eval_count': 844, 'prompt_eval_duration': 4813876931, 'eval_count': 4, 'eval_duration': 1764535330}
+Response: Poorly
+Analyzing frame 3/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34580 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:20:10.896063261Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 298267247916, 'load_duration': 291774594144, 'prompt_eval_count': 844, 'prompt_eval_duration': 4622413615, 'eval_count': 4, 'eval_duration': 1696203092}
+Response: Poorly
+Analyzing frame 4/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35296 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:25:22.14424196Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 310206275640, 'load_duration': 303751612302, 'prompt_eval_count': 844, 'prompt_eval_duration': 4660495298, 'eval_count': 4, 'eval_duration': 1635410106}
+Response: Poorly
+Analyzing frame 5/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 35868 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:30:35.606681888Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 312425308189, 'load_duration': 305690077450, 'prompt_eval_count': 844, 'prompt_eval_duration': 4745595980, 'eval_count': 4, 'eval_duration': 1809703287}
+Response: Poorly
+Analyzing frame 6/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38204 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:35:41.630989207Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 304981677194, 'load_duration': 298483119366, 'prompt_eval_count': 844, 'prompt_eval_duration': 4601817028, 'eval_count': 4, 'eval_duration': 1725088575}
+Response: Poorly
+Analyzing frame 7/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38508 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:40:46.774472033Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 304103796032, 'load_duration': 297420843970, 'prompt_eval_count': 844, 'prompt_eval_duration': 4590106540, 'eval_count': 4, 'eval_duration': 1929823173}
+Response: Poorly
+Analyzing frame 8/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38412 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:45:56.210451869Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 308395712243, 'load_duration': 302148823617, 'prompt_eval_count': 844, 'prompt_eval_duration': 4618422395, 'eval_count': 4, 'eval_duration': 1445305901}
+Response: Poorly
+Analyzing frame 9/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 38340 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:51:21.669123007Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 324418683384, 'load_duration': 318025377118, 'prompt_eval_count': 844, 'prompt_eval_duration': 4704152064, 'eval_count': 4, 'eval_duration': 1526300340}
+Response: Poorly
+Analyzing frame 10/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 34044 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T18:56:12.711134551Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 290002890628, 'load_duration': 283415724744, 'prompt_eval_count': 844, 'prompt_eval_duration': 4628981685, 'eval_count': 4, 'eval_duration': 1794350240}
+Response: Poorly
+Analyzing frame 11/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33508 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:01:22.815278358Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 309064519785, 'load_duration': 302763456553, 'prompt_eval_count': 844, 'prompt_eval_duration': 4701926239, 'eval_count': 4, 'eval_duration': 1432442130}
+Response: Poorly
+Analyzing frame 12/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33404 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:06:26.255740374Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 302399009068, 'load_duration': 295778652233, 'prompt_eval_count': 844, 'prompt_eval_duration': 4680755072, 'eval_count': 4, 'eval_duration': 1764948503}
+Response: Poorly
+Analyzing frame 13/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 32968 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:11:22.965829987Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 295668742394, 'load_duration': 289086007314, 'prompt_eval_count': 844, 'prompt_eval_duration': 4619043428, 'eval_count': 4, 'eval_duration': 1788557272}
+Response: Poorly
+Analyzing frame 14/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33052 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:16:26.85193219Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 302822605791, 'load_duration': 296424660031, 'prompt_eval_count': 844, 'prompt_eval_duration': 4626242623, 'eval_count': 4, 'eval_duration': 1592381823}
+Response: Poorly
+Analyzing frame 15/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33068 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:21:24.777981424Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 296887290937, 'load_duration': 290318896722, 'prompt_eval_count': 844, 'prompt_eval_duration': 4574637274, 'eval_count': 4, 'eval_duration': 1809061932}
+Response: Poorly
+Analyzing frame 16/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33088 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:26:24.296858065Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 298478774332, 'load_duration': 292006418030, 'prompt_eval_count': 844, 'prompt_eval_duration': 4597505264, 'eval_count': 4, 'eval_duration': 1687580003}
+Response: Poorly
+Analyzing frame 17/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33084 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:31:14.971920722Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 289638559814, 'load_duration': 283108321716, 'prompt_eval_count': 844, 'prompt_eval_duration': 4652234526, 'eval_count': 4, 'eval_duration': 1707005448}
+Response: Poorly
+Analyzing frame 18/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33084 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:36:29.307351266Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 313295897448, 'load_duration': 307232921709, 'prompt_eval_count': 844, 'prompt_eval_duration': 4725685689, 'eval_count': 4, 'eval_duration': 1153866203}
+Response: Poorly
+Analyzing frame 19/19...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 33088 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:41:38.133337912Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 307786376980, 'load_duration': 301368141559, 'prompt_eval_count': 844, 'prompt_eval_duration': 4625122627, 'eval_count': 4, 'eval_duration': 1574979917}
+Response: Poorly
+Final prediction for 57_final.mp4: Poorly
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 503
+
+==================================================
+Processing video 26/30
+
+Processing video: 59_final.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21280 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:46:39.640136049Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 299763353274, 'load_duration': 294397011085, 'prompt_eval_count': 844, 'prompt_eval_duration': 4640826807, 'eval_count': 2, 'eval_duration': 556068517}
+Response: Well
+Analyzing frame 2/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21644 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:51:27.431557496Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 286735398621, 'load_duration': 281353729866, 'prompt_eval_count': 844, 'prompt_eval_duration': 4608144826, 'eval_count': 2, 'eval_duration': 585849115}
+Response: Well
+Analyzing frame 3/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21764 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T19:56:29.345896732Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 300869746433, 'load_duration': 295435594386, 'prompt_eval_count': 844, 'prompt_eval_duration': 4710054988, 'eval_count': 2, 'eval_duration': 559103826}
+Response: Well
+Analyzing frame 4/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22084 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:01:44.675633735Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 314289136686, 'load_duration': 308864264223, 'prompt_eval_count': 844, 'prompt_eval_duration': 4691227582, 'eval_count': 2, 'eval_duration': 568692865}
+Response: Well
+Analyzing frame 5/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22192 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:07:02.24279545Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 316524825105, 'load_duration': 311084474946, 'prompt_eval_count': 844, 'prompt_eval_duration': 4686773662, 'eval_count': 2, 'eval_duration': 585401751}
+Response: Well
+Analyzing frame 6/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22328 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:12:09.049811475Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 305771834700, 'load_duration': 300333851786, 'prompt_eval_count': 844, 'prompt_eval_duration': 4678247370, 'eval_count': 2, 'eval_duration': 562242345}
+Response: Well
+Analyzing frame 7/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22328 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:17:12.83762109Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 302749018682, 'load_duration': 297270958047, 'prompt_eval_count': 844, 'prompt_eval_duration': 4610986285, 'eval_count': 2, 'eval_duration': 671381410}
+Response: Well
+Analyzing frame 8/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21204 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:22:07.568459893Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 293692982473, 'load_duration': 287080764431, 'prompt_eval_count': 844, 'prompt_eval_duration': 4644669765, 'eval_count': 4, 'eval_duration': 1791529850}
+Response: Poorly
+Analyzing frame 9/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21332 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:27:10.634292927Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 301998643914, 'load_duration': 295996430217, 'prompt_eval_count': 844, 'prompt_eval_duration': 4654490574, 'eval_count': 3, 'eval_duration': 1178709607}
+Response: poorly
+Analyzing frame 10/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21384 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:32:12.426600661Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 300752438665, 'load_duration': 295277168190, 'prompt_eval_count': 844, 'prompt_eval_duration': 4692648467, 'eval_count': 2, 'eval_duration': 608192185}
+Response: Well
+Analyzing frame 11/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21748 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:37:20.066579025Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 306600728867, 'load_duration': 297233256967, 'prompt_eval_count': 844, 'prompt_eval_duration': 8199634607, 'eval_count': 2, 'eval_duration': 659583457}
+Response: Well
+Analyzing frame 12/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 21912 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:42:11.317996871Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 290214428412, 'load_duration': 283336844024, 'prompt_eval_count': 844, 'prompt_eval_duration': 4957233248, 'eval_count': 3, 'eval_duration': 1537738710}
+Response: poorly
+Analyzing frame 13/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22176 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:46:37.956401661Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 265621490733, 'load_duration': 259039794735, 'prompt_eval_count': 844, 'prompt_eval_duration': 4649683671, 'eval_count': 4, 'eval_duration': 1741190716}
+Response: Poorly
+Analyzing frame 14/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22184 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:51:40.769259127Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 301772092340, 'load_duration': 295189340815, 'prompt_eval_count': 844, 'prompt_eval_duration': 4580284622, 'eval_count': 4, 'eval_duration': 1832711825}
+Response: Poorly
+Analyzing frame 15/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22180 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T20:55:43.829816887Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 242022798895, 'load_duration': 235992180028, 'prompt_eval_count': 844, 'prompt_eval_duration': 4668223328, 'eval_count': 3, 'eval_duration': 1191962302}
+Response: poorly
+Analyzing frame 16/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22192 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:00:43.970424136Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 299103128550, 'load_duration': 292497000434, 'prompt_eval_count': 844, 'prompt_eval_duration': 4712289533, 'eval_count': 4, 'eval_duration': 1714205638}
+Response: Poorly
+Analyzing frame 17/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22164 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:06:10.021807436Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 325007203462, 'load_duration': 318466161941, 'prompt_eval_count': 844, 'prompt_eval_duration': 4564373492, 'eval_count': 4, 'eval_duration': 1820946450}
+Response: Poorly
+Analyzing frame 18/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22172 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:10:41.285961995Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 270225519674, 'load_duration': 263887852604, 'prompt_eval_count': 844, 'prompt_eval_duration': 4564350277, 'eval_count': 4, 'eval_duration': 1603963585}
+Response: Poorly
+Final prediction for 59_final.mp4: Well
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 521
+
+==================================================
+Processing video 27/30
+
+Processing video: 60_final.mp4
+Video info: 270 frames, 30.00 FPS, 9.00 seconds
+Extracted 18 frames for analysis
+Analyzing frame 1/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 57628 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:15:02.056726304Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 256502675794, 'load_duration': 251087126433, 'prompt_eval_count': 844, 'prompt_eval_duration': 4621029874, 'eval_count': 2, 'eval_duration': 614823307}
+Response: Well
+Analyzing frame 2/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 56592 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:19:54.756433488Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 291656201212, 'load_duration': 286045278146, 'prompt_eval_count': 844, 'prompt_eval_duration': 4647895389, 'eval_count': 2, 'eval_duration': 798466687}
+Response: Well
+Analyzing frame 3/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 57196 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:24:03.673226684Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 247879939917, 'load_duration': 242571636368, 'prompt_eval_count': 844, 'prompt_eval_duration': 4606729245, 'eval_count': 2, 'eval_duration': 532720026}
+Response: Well
+Analyzing frame 4/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 56696 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:29:02.092111575Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 297379011196, 'load_duration': 292241468053, 'prompt_eval_count': 844, 'prompt_eval_duration': 4581871029, 'eval_count': 2, 'eval_duration': 383425244}
+Response: Well
+Analyzing frame 5/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 57680 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:33:43.29486968Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 280130926407, 'load_duration': 274784695293, 'prompt_eval_count': 844, 'prompt_eval_duration': 4615604568, 'eval_count': 2, 'eval_duration': 565202878}
+Response: Well
+Analyzing frame 6/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 56032 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:38:32.15806964Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 287822268869, 'load_duration': 282477225550, 'prompt_eval_count': 844, 'prompt_eval_duration': 4595142472, 'eval_count': 2, 'eval_duration': 567650111}
+Response: Well
+Analyzing frame 7/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 54896 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:43:19.658853268Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 286462600186, 'load_duration': 281139269180, 'prompt_eval_count': 844, 'prompt_eval_duration': 4578535636, 'eval_count': 2, 'eval_duration': 578717817}
+Response: Well
+Analyzing frame 8/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 51100 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:48:06.027093203Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 285335009584, 'load_duration': 278835767003, 'prompt_eval_count': 844, 'prompt_eval_duration': 4547580444, 'eval_count': 4, 'eval_duration': 1800547024}
+Response: Poorly
+Analyzing frame 9/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 49072 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:52:42.421179692Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 275356816342, 'load_duration': 268845862339, 'prompt_eval_count': 844, 'prompt_eval_duration': 4664126593, 'eval_count': 4, 'eval_duration': 1673792124}
+Response: Poorly
+Analyzing frame 10/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 44804 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T21:57:40.771327676Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 297308439987, 'load_duration': 290911938530, 'prompt_eval_count': 844, 'prompt_eval_duration': 4623714397, 'eval_count': 4, 'eval_duration': 1613828806}
+Response: Poorly
+Analyzing frame 11/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 43936 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:02:34.097261434Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 292278245568, 'load_duration': 285719603285, 'prompt_eval_count': 844, 'prompt_eval_duration': 4547982157, 'eval_count': 4, 'eval_duration': 1830256764}
+Response: Poorly
+Analyzing frame 12/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 42516 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:07:23.569083891Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 288429539805, 'load_duration': 281841943503, 'prompt_eval_count': 844, 'prompt_eval_duration': 4596328606, 'eval_count': 4, 'eval_duration': 1798435474}
+Response: Poorly
+Analyzing frame 13/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40152 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:12:05.658847155Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281052699150, 'load_duration': 274529892381, 'prompt_eval_count': 844, 'prompt_eval_duration': 4625782726, 'eval_count': 4, 'eval_duration': 1736677935}
+Response: Poorly
+Analyzing frame 14/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40184 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:17:00.992661735Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 294296128525, 'load_duration': 287750674891, 'prompt_eval_count': 844, 'prompt_eval_duration': 4535720316, 'eval_count': 4, 'eval_duration': 1850844560}
+Response: Poorly
+Analyzing frame 15/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40204 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:21:42.249185684Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 280217873628, 'load_duration': 274842156222, 'prompt_eval_count': 844, 'prompt_eval_duration': 4635043678, 'eval_count': 2, 'eval_duration': 569398569}
+Response: Well
+Analyzing frame 16/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40180 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:26:51.643954794Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 308352999829, 'load_duration': 301807188921, 'prompt_eval_count': 844, 'prompt_eval_duration': 4582042002, 'eval_count': 4, 'eval_duration': 1793686638}
+Response: Poorly
+Analyzing frame 17/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40192 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:31:44.302397721Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 291617759141, 'load_duration': 284938555010, 'prompt_eval_count': 844, 'prompt_eval_duration': 4641841040, 'eval_count': 4, 'eval_duration': 1877438804}
+Response: Poorly
+Analyzing frame 18/18...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 40204 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:36:45.212915058Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 299868521192, 'load_duration': 293428487684, 'prompt_eval_count': 844, 'prompt_eval_duration': 4583776035, 'eval_count': 4, 'eval_duration': 1675276994}
+Response: Poorly
+Final prediction for 60_final.mp4: Well
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 539
+
+==================================================
+Processing video 28/30
+
+Processing video: 6_final.mp4
+Video info: 184 frames, 30.00 FPS, 6.13 seconds
+Extracted 13 frames for analysis
+Analyzing frame 1/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24552 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:41:26.493937317Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279440878026, 'load_duration': 272830259413, 'prompt_eval_count': 844, 'prompt_eval_duration': 4623529209, 'eval_count': 4, 'eval_duration': 1805483526}
+Response: Poorly
+Analyzing frame 2/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24704 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:46:29.154005681Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 301621066890, 'load_duration': 295135090274, 'prompt_eval_count': 844, 'prompt_eval_duration': 4534092935, 'eval_count': 4, 'eval_duration': 1760039237}
+Response: Poorly
+Analyzing frame 3/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25440 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:51:33.760271328Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 303569048133, 'load_duration': 297496494558, 'prompt_eval_count': 844, 'prompt_eval_duration': 4676739272, 'eval_count': 4, 'eval_duration': 1232348498}
+Response: Poorly
+Analyzing frame 4/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 25292 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T22:56:27.154894047Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 292354496790, 'load_duration': 285536517889, 'prompt_eval_count': 844, 'prompt_eval_duration': 4692604891, 'eval_count': 4, 'eval_duration': 1963724474}
+Response: Poorly
+Analyzing frame 5/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 24136 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:01:02.869610426Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 274677952647, 'load_duration': 269166810504, 'prompt_eval_count': 844, 'prompt_eval_duration': 4674007690, 'eval_count': 2, 'eval_duration': 651632743}
+Response: Well
+Analyzing frame 6/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22548 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:05:57.111629336Z', 'message': {'role': 'assistant', 'content': 'Well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 293202357426, 'load_duration': 287730023676, 'prompt_eval_count': 844, 'prompt_eval_duration': 4595607540, 'eval_count': 2, 'eval_duration': 698152464}
+Response: Well
+Analyzing frame 7/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22744 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:10:29.861250858Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 271710771849, 'load_duration': 265182089934, 'prompt_eval_count': 844, 'prompt_eval_duration': 4602743577, 'eval_count': 4, 'eval_duration': 1758179452}
+Response: Poorly
+Analyzing frame 8/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22648 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:15:27.514810766Z', 'message': {'role': 'assistant', 'content': "It's impossible to determine from a single image."}, 'done': True, 'done_reason': 'stop', 'total_duration': 296612567890, 'load_duration': 286533767854, 'prompt_eval_count': 844, 'prompt_eval_duration': 4636941103, 'eval_count': 11, 'eval_duration': 5273373766}
+Response: It's impossible to determine from a single image.
+Analyzing frame 9/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22632 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:19:47.486326009Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 258930504862, 'load_duration': 252472460115, 'prompt_eval_count': 844, 'prompt_eval_duration': 4609095614, 'eval_count': 4, 'eval_duration': 1674486645}
+Response: Poorly
+Analyzing frame 10/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22652 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:24:39.455329288Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 290931354677, 'load_duration': 284388735383, 'prompt_eval_count': 844, 'prompt_eval_duration': 4603842721, 'eval_count': 4, 'eval_duration': 1774654387}
+Response: Poorly
+Analyzing frame 11/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22652 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:29:35.104424736Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 294610754869, 'load_duration': 287894165976, 'prompt_eval_count': 844, 'prompt_eval_duration': 4590550450, 'eval_count': 4, 'eval_duration': 1967537802}
+Response: Poorly
+Analyzing frame 12/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22648 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:34:15.162910474Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279021139698, 'load_duration': 272307586392, 'prompt_eval_count': 844, 'prompt_eval_duration': 4708291554, 'eval_count': 4, 'eval_duration': 1824670354}
+Response: Poorly
+Analyzing frame 13/13...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 22644 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:38:49.145059266Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272942617437, 'load_duration': 266342450368, 'prompt_eval_count': 844, 'prompt_eval_duration': 4598038985, 'eval_count': 4, 'eval_duration': 1824645940}
+Response: Poorly
+Final prediction for 6_final.mp4: Poorly
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 552
+
+==================================================
+Processing video 29/30
+
+Processing video: 7_final.mp4
+Video info: 244 frames, 30.00 FPS, 8.13 seconds
+Extracted 17 frames for analysis
+Analyzing frame 1/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18156 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:43:45.561125864Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 294540294441, 'load_duration': 288753710920, 'prompt_eval_count': 844, 'prompt_eval_duration': 4577084556, 'eval_count': 3, 'eval_duration': 1037231651}
+Response: poorly
+Analyzing frame 2/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18568 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:48:34.931471602Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 288304342409, 'load_duration': 281259431472, 'prompt_eval_count': 844, 'prompt_eval_duration': 4571654737, 'eval_count': 4, 'eval_duration': 2314910006}
+Response: Poorly
+Analyzing frame 3/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18940 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:53:34.1150303Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 298148048285, 'load_duration': 292270714184, 'prompt_eval_count': 844, 'prompt_eval_duration': 4578750989, 'eval_count': 3, 'eval_duration': 1131583044}
+Response: poorly
+Analyzing frame 4/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19036 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-11-30T23:58:17.087494162Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281928025760, 'load_duration': 275453028693, 'prompt_eval_count': 844, 'prompt_eval_duration': 4639138231, 'eval_count': 4, 'eval_duration': 1647108338}
+Response: Poorly
+Analyzing frame 5/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19112 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:03:22.312360933Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 304186032514, 'load_duration': 289698839213, 'prompt_eval_count': 844, 'prompt_eval_duration': 11969214785, 'eval_count': 4, 'eval_duration': 2135449891}
+Response: Poorly
+Analyzing frame 6/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 19152 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:07:28.590730902Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 245238615233, 'load_duration': 231409139111, 'prompt_eval_count': 844, 'prompt_eval_duration': 11484323733, 'eval_count': 4, 'eval_duration': 1926025829}
+Response: Poorly
+Analyzing frame 7/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18908 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:12:14.375278367Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 284755212059, 'load_duration': 273155442908, 'prompt_eval_count': 844, 'prompt_eval_duration': 8975668790, 'eval_count': 4, 'eval_duration': 2261912063}
+Response: Poorly
+Analyzing frame 8/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18444 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:16:52.791145374Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 277371075831, 'load_duration': 264727950538, 'prompt_eval_count': 844, 'prompt_eval_duration': 10058454765, 'eval_count': 4, 'eval_duration': 2179885279}
+Response: Poorly
+Analyzing frame 9/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18492 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:21:27.24112558Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 273386934466, 'load_duration': 260505058038, 'prompt_eval_count': 844, 'prompt_eval_duration': 10137702466, 'eval_count': 4, 'eval_duration': 2264817428}
+Response: Poorly
+Analyzing frame 10/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18340 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:26:58.974471945Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 330676426856, 'load_duration': 319320755505, 'prompt_eval_count': 844, 'prompt_eval_duration': 9099353456, 'eval_count': 4, 'eval_duration': 1880647068}
+Response: Poorly
+Analyzing frame 11/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17280 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:31:33.959478823Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 273916592012, 'load_duration': 263657957805, 'prompt_eval_count': 844, 'prompt_eval_duration': 8684105628, 'eval_count': 3, 'eval_duration': 1212468810}
+Response: poorly
+Analyzing frame 12/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18360 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:35:43.284689492Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 248265916096, 'load_duration': 237087090730, 'prompt_eval_count': 844, 'prompt_eval_duration': 9178775084, 'eval_count': 4, 'eval_duration': 1640187168}
+Response: Poorly
+Analyzing frame 13/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18368 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:41:22.72377944Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 338378149729, 'load_duration': 328331301604, 'prompt_eval_count': 844, 'prompt_eval_duration': 7803179946, 'eval_count': 4, 'eval_duration': 1763225622}
+Response: Poorly
+Analyzing frame 14/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18368 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:45:54.675613684Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 270890628833, 'load_duration': 260768811645, 'prompt_eval_count': 844, 'prompt_eval_duration': 7979487429, 'eval_count': 4, 'eval_duration': 1746735857}
+Response: Poorly
+Analyzing frame 15/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18364 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:50:12.161379767Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 256430925771, 'load_duration': 245401378935, 'prompt_eval_count': 844, 'prompt_eval_duration': 8477219478, 'eval_count': 4, 'eval_duration': 2025187976}
+Response: Poorly
+Analyzing frame 16/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18372 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T00:55:33.995420883Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 320749373401, 'load_duration': 310698054464, 'prompt_eval_count': 844, 'prompt_eval_duration': 7851946794, 'eval_count': 4, 'eval_duration': 1846763807}
+Response: Poorly
+Analyzing frame 17/17...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 18372 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:00:27.399744928Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 292343009146, 'load_duration': 282732315125, 'prompt_eval_count': 844, 'prompt_eval_duration': 7227208997, 'eval_count': 4, 'eval_duration': 1846222795}
+Response: Poorly
+Final prediction for 7_final.mp4: poorly
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 569
+
+==================================================
+Processing video 30/30
+
+Processing video: 9_final.mp4
+Video info: 296 frames, 30.00 FPS, 9.87 seconds
+Extracted 20 frames for analysis
+Analyzing frame 1/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 16956 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:04:27.770221579Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 235727617790, 'load_duration': 223377127270, 'prompt_eval_count': 844, 'prompt_eval_duration': 9933131756, 'eval_count': 4, 'eval_duration': 1832207286}
+Response: Poorly
+Analyzing frame 2/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17152 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:09:55.935499545Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 327125383075, 'load_duration': 316151937704, 'prompt_eval_count': 844, 'prompt_eval_duration': 9385879531, 'eval_count': 4, 'eval_duration': 1174789785}
+Response: Poorly
+Analyzing frame 3/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17140 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:14:38.065714782Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281087601333, 'load_duration': 270047489184, 'prompt_eval_count': 844, 'prompt_eval_duration': 8437547194, 'eval_count': 4, 'eval_duration': 2172328688}
+Response: Poorly
+Analyzing frame 4/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17128 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:18:36.370435971Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 237274479570, 'load_duration': 227232585233, 'prompt_eval_count': 844, 'prompt_eval_duration': 8159069997, 'eval_count': 4, 'eval_duration': 1441783614}
+Response: Poorly
+Analyzing frame 5/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17052 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:23:50.854368077Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 313441029857, 'load_duration': 302998803149, 'prompt_eval_count': 844, 'prompt_eval_duration': 8478482745, 'eval_count': 4, 'eval_duration': 1562913736}
+Response: Poorly
+Analyzing frame 6/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17080 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:28:24.079696994Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272177281408, 'load_duration': 261410437503, 'prompt_eval_count': 844, 'prompt_eval_duration': 7977048096, 'eval_count': 4, 'eval_duration': 2241006049}
+Response: Poorly
+Analyzing frame 7/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17240 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:32:53.095148214Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 267988996922, 'load_duration': 258043000630, 'prompt_eval_count': 844, 'prompt_eval_duration': 8202732568, 'eval_count': 4, 'eval_duration': 1310611710}
+Response: Poorly
+Analyzing frame 8/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17700 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:38:12.372114931Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 318219708758, 'load_duration': 308342922025, 'prompt_eval_count': 844, 'prompt_eval_duration': 7711127376, 'eval_count': 4, 'eval_duration': 1719169100}
+Response: Poorly
+Analyzing frame 9/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17572 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:42:54.635741289Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281205419186, 'load_duration': 270715816792, 'prompt_eval_count': 844, 'prompt_eval_duration': 8189290803, 'eval_count': 4, 'eval_duration': 1920374067}
+Response: Poorly
+Analyzing frame 10/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17684 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:47:06.789658123Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 251105557999, 'load_duration': 240690187697, 'prompt_eval_count': 844, 'prompt_eval_duration': 8357380526, 'eval_count': 4, 'eval_duration': 1649121876}
+Response: Poorly
+Analyzing frame 11/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17752 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:52:39.678301565Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 331829499605, 'load_duration': 321548796318, 'prompt_eval_count': 844, 'prompt_eval_duration': 7867721749, 'eval_count': 4, 'eval_duration': 2011960485}
+Response: Poorly
+Analyzing frame 12/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17668 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T01:56:58.172617429Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 257445773157, 'load_duration': 247441909946, 'prompt_eval_count': 844, 'prompt_eval_duration': 7892720968, 'eval_count': 4, 'eval_duration': 1723998744}
+Response: Poorly
+Analyzing frame 13/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17636 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:01:12.859845463Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 253596257188, 'load_duration': 242840886053, 'prompt_eval_count': 844, 'prompt_eval_duration': 8368781390, 'eval_count': 4, 'eval_duration': 1892232641}
+Response: Poorly
+Analyzing frame 14/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17668 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:06:26.327533466Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 312421380001, 'load_duration': 301990438830, 'prompt_eval_count': 844, 'prompt_eval_duration': 8054894966, 'eval_count': 4, 'eval_duration': 1984200970}
+Response: Poorly
+Analyzing frame 15/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17744 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:10:57.860330858Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 270476115481, 'load_duration': 260371939518, 'prompt_eval_count': 844, 'prompt_eval_duration': 7960619623, 'eval_count': 4, 'eval_duration': 1621823089}
+Response: Poorly
+Analyzing frame 16/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17732 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:15:04.269275783Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 245344441923, 'load_duration': 234910200968, 'prompt_eval_count': 844, 'prompt_eval_duration': 7731835748, 'eval_count': 4, 'eval_duration': 2149602249}
+Response: Poorly
+Analyzing frame 17/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17760 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:20:17.951284309Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 312645709435, 'load_duration': 302810985228, 'prompt_eval_count': 844, 'prompt_eval_duration': 7493628076, 'eval_count': 4, 'eval_duration': 1869904965}
+Response: Poorly
+Analyzing frame 18/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17768 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:24:53.94223782Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 274933829998, 'load_duration': 264131865803, 'prompt_eval_count': 844, 'prompt_eval_duration': 7967591276, 'eval_count': 4, 'eval_duration': 2396441795}
+Response: Poorly
+Analyzing frame 19/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17756 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:29:10.344716365Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 255342785074, 'load_duration': 245297974587, 'prompt_eval_count': 844, 'prompt_eval_duration': 7631832728, 'eval_count': 4, 'eval_duration': 1956199551}
+Response: Poorly
+Analyzing frame 20/20...
+Prompt: Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)
+Image size: 17772 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-01T02:34:38.052657515Z', 'message': {'role': 'assistant', 'content': 'Poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 326650215273, 'load_duration': 317203051486, 'prompt_eval_count': 844, 'prompt_eval_duration': 7311169366, 'eval_count': 4, 'eval_duration': 1742856770}
+Response: Poorly
+Final prediction for 9_final.mp4: Poorly
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 589
+
+Results saved to ./results/results_mistralsmall32.csv
+Total videos processed: 589
+
+==================================================
+Analysis complete!

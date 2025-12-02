@@ -16,7 +16,7 @@ VIDEO,TIME_START,DESCRIPTION
 11_final,7.0,"A white robot is standing on a checkered floor, waving its arms."
 11_final,7.5,"A white robot with blue and black accents is standing on a white floor with black tiles, its arms outstretched."
 11_final,8.0,A white robot with black and blue accents is standing on a checkered floor and appears to be gesturing with its arms in a room with people and tables in the background.
-11_final,8.5,The video shows a white robot with blue and black accents standing on a white tiled floor with black squares. The robot has its arms extended to the sides.
+11_final,8.5,A white robot with blue and black accents standing on a white tiled floor with black squares. The robot has its arms extended to the sides.
 11_final,9.0,A humanoid robot is standing on a checkered floor with its arms outstretched.
 11_final,9.5,"A white and blue humanoid robot is standing on a tiled floor, extending its arms with open hands as if greeting or inviting someone."
 11_final,10.0,A white humanoid robot stands on a checkered floor with outstretched arms.
@@ -104,7 +104,7 @@ VIDEO,TIME_START,DESCRIPTION
 19_final,8.5,"A man is standing on a skateboard, seemingly trying to balance or perform a trick."
 21_final,0.0,a group of individuals are riding or resting with go-karts on a paved area near some street lights at dusk or dawn.
 21_final,0.5,"In a plaza at sunset, a person on a scooter approaches two seated figures and their bikes."
-21_final,1.0,The video shows a person riding a bike away from another person who is lying on the ground.
+21_final,1.0,A person riding a bike away from another person who is lying on the ground.
 21_final,1.5,A person on a bicycle is riding on a paved surface toward some people in the distance.
 21_final,2.0,A person is riding a bicycle on a paved surface with buildings and trees in the background.
 21_final,2.5,A person rides a BMX bike on a flat surface with buildings in the background.
@@ -293,25 +293,25 @@ VIDEO,TIME_START,DESCRIPTION
 44_final,0.0,"A person is standing on the ledge of a tall building, possibly contemplating jumping."
 44_final,0.5,A person wearing sneakers and a yellow shirt stands on the edge of a high-rise building.
 44_final,1.0,A person is standing on the edge of a very tall building.
-44_final,1.5,The video shows a person wearing black sneakers and yellow pants standing on the edge of a tall building.
+44_final,1.5,A person wearing black sneakers and yellow pants standing on the edge of a tall building.
 44_final,2.0,"From a high vantage point on a rooftop, an individual appears to be standing near the edge, with a cityscape visible in the background."
 44_final,2.5,"From a high vantage point, a person stands on the edge of a rooftop."
 44_final,3.0,A person is standing on the edge of a tall building.
 44_final,3.5,A person is hanging off the side of a very tall building.
-44_final,4.0,"The video shows a person sitting on the edge of a tall building, with their legs dangling over the side, looking out at the city below."
+44_final,4.0,"A person sitting on the edge of a tall building, with their legs dangling over the side, looking out at the city below."
 44_final,4.5,A person is sitting on the edge of a tall building with their legs dangling over the side.
 44_final,5.0,The video shows someone sitting on the edge of a tall building with their legs dangling over the side.
 44_final,5.5,A person is sitting on the edge of a tall building.
 44_final,6.0,"A person is sitting on the edge of a tall building, dangling their legs over the side."
 44_final,6.5,"In a high-angle shot, a person sits on the ledge of a tall building with their legs dangling over the edge, with an urban landscape visible in the background."
-44_final,7.0,The video shows a person dangling their legs off the edge of a very high building.
-44_final,7.5,"The video shows a view from a very high building, with a person's legs dangling over the edge."
+44_final,7.0,A person dangling their legs off the edge of a very high building.
+44_final,7.5,"A view from a very high building, with a person's legs dangling over the edge."
 46_final,0.0,"In a warehouse setting, bipedal robots move along a marked path beneath shelves of yellow bins, as a worker observes in the background."
 46_final,0.5,"The video shows two green and black robots walking in an industrial setting, where there is a man supervising the processes and yellow storage boxes lined up in rows along the wall."
 46_final,1.0,"In a warehouse, bipedal robots are seen walking between rows of bins, possibly retrieving or depositing items."
 46_final,1.5,"In a warehouse-like setting, bipedal robots with teal torsos and light-blue heads walk past shelving units filled with yellow containers, likely as part of a sorting or inventory management process."
 46_final,2.0,"In an industrial setting, two humanoid robots are seen walking alongside rows of yellow containers, suggesting automated tasks or processes."
-46_final,2.5,The video shows a warehouse with robots maneuvering through shelves filled with yellow bins.
+46_final,2.5,A warehouse with robots maneuvering through shelves filled with yellow bins.
 46_final,3.0,"In an automated warehouse setting, robots with green and gray accents are moving yellow bins of goods along an assembly line, while people observe in the background."
 46_final,3.5,"In a warehouse setting, two bipedal robots, one holding a yellow bin, navigate a row of shelves filled with similar bins, with human workers observing nearby."
 46_final,4.0,The video shows robots moving yellow bins in a warehouse-like environment.
@@ -353,7 +353,7 @@ VIDEO,TIME_START,DESCRIPTION
 49_final,3.5,A robot dog-like device with an arm is washing dishes in a messy kitchen sink.
 49_final,4.0,"In a kitchen with dirty dishes on the counter, a robotic dog-like creature is using an arm-like attachment to interact with the sink."
 49_final,4.5,"In a messy kitchen, a quadrupedal robot stands near a sink full of dirty dishes."
-49_final,5.0,The video shows a robot dog standing in a messy kitchen next to a sink full of dishes and an open dishwasher.
+49_final,5.0,A robot dog standing in a messy kitchen next to a sink full of dishes and an open dishwasher.
 49_final,5.5,A robotic dog is in a kitchen near a sink filled with dirty dishes.
 49_final,6.0,"A robotic dog is in a kitchen, near a sink full of dishes and a dish rack."
 49_final,6.5,"In a cluttered kitchen with dirty dishes piled near the sink, a quadruped robot lies on the floor near a white door."
@@ -448,15 +448,15 @@ VIDEO,TIME_START,DESCRIPTION
 53_final,10.0,"A blue and white robot stands in front of a yellow wall, facing the camera, with another similar robot partially visible on the right side of the frame."
 53_final,10.5,A bipedal robot stands still in front of a yellow wall.
 54_final,0.0,"A stationary BB-8 droid is present in an indoor location, with shelves and a clock visible in the background."
-54_final,0.5,The video shows a BB-8 droid replica in an indoor setting with shelves and decorations visible in the background.
+54_final,0.5,A BB-8 droid replica in an indoor setting with shelves and decorations visible in the background.
 54_final,1.0,A close-up shot showcases a BB-8 droid replica.
 54_final,1.5,A BB-8 droid replica is visible in front of a wall display and other items in a room.
 54_final,2.0,"A BB-8 droid replica is visible in a room with a shelf of items, a clock, and decorative spiders on the wall."
 54_final,2.5,A large BB-8 droid is in a room with a display case and a counter.
 54_final,3.0,A BB-8 droid is standing in a room that appears to be a coffee shop or cafe.
-54_final,3.5,The video features a BB-8 droid in a store.
+54_final,3.5,A BB-8 droid in a store.
 54_final,4.0,"A BB-8 droid stands on the floor in a room that has a snacks display, a beverage bar, and decorations on the wall."
-54_final,4.5,"The video shows a BB-8 droid replica in what appears to be a public space, such as a store or office waiting area."
+54_final,4.5,"A BB-8 droid replica in what appears to be a public space, such as a store or office waiting area."
 54_final,5.0,A BB-8 droid is standing on a floor.
 54_final,5.5,A BB-8 droid stands in a room.
 54_final,6.0,BB-8 stands on a gray floor with orange walls.

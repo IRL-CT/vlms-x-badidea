@@ -1,24 +1,0 @@
-2025-07-08 19:43:44.888861: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-07-08 19:43:51.690454: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-07-08 19:44:03.763902: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:45<00:45, 45.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:02<00:00, 28.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:02<00:00, 31.17s/it][mov,mp4,m4a,3gp,3g2,mj2 @ 0x561c08d07c80] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x561c08dbfe80] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x561c08dc8780] moov atom not found
-
-2025-07-08 19:47:13.733948: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-07-08 19:47:13.785601: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-07-08 19:47:15.342457: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.92s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.44s/it][mov,mp4,m4a,3gp,3g2,mj2 @ 0x556de8b3cf40] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x556de8b49ec0] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x556de8b36b80] moov atom not found
-
-2025-07-08 19:48:39.196957: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-07-08 19:48:39.249098: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-07-08 19:48:40.535844: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.23s/it][mov,mp4,m4a,3gp,3g2,mj2 @ 0x55dc86a0ae80] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55dc89b994c0] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55db90c0bc80] moov atom not found
-

@@ -1,7 +1,0 @@
-2025-07-10 23:51:01.442040: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-07-10 23:51:19.581741: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [02:46<02:46, 166.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [03:54<00:00, 108.78s/it]Loading checkpoint shards: 100%|██████████| 2/2 [03:54<00:00, 117.44s/it][mov,mp4,m4a,3gp,3g2,mj2 @ 0x56242be1af00] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56242c1aef80] moov atom not found
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56242c1aef80] moov atom not found
-
