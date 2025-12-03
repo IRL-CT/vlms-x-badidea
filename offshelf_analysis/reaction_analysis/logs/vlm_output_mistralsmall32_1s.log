@@ -384,3 +384,1225 @@ Response status code: 200
 {'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:28:27.041294375Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279645209768, 'load_duration': 274221036191, 'prompt_eval_count': 615, 'prompt_eval_duration': 4139277000, 'eval_count': 3, 'eval_duration': 1150362730}
 Response: poorly
 Analyzing frame 63/66: q_warmup_4_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18940 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:32:59.967002633Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 271809840131, 'load_duration': 266421200185, 'prompt_eval_count': 615, 'prompt_eval_duration': 4097919242, 'eval_count': 3, 'eval_duration': 1167492139}
+Response: poorly
+Analyzing frame 64/66: q_warmup_4_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18976 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:37:18.773462905Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 257735603693, 'load_duration': 252291833248, 'prompt_eval_count': 615, 'prompt_eval_duration': 4079225666, 'eval_count': 3, 'eval_duration': 1231672179}
+Response: poorly
+Analyzing frame 65/66: q_warmup_5_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18908 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:41:47.745347416Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 267898499386, 'load_duration': 262717119506, 'prompt_eval_count': 615, 'prompt_eval_duration': 4530952203, 'eval_count': 2, 'eval_duration': 514998771}
+Response: well
+Analyzing frame 66/66: q_warmup_5_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 18776 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:46:37.362491731Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 288560081759, 'load_duration': 283496013472, 'prompt_eval_count': 615, 'prompt_eval_duration': 4552205415, 'eval_count': 2, 'eval_duration': 393548151}
+Response: well
+Processed 66 frames for participant 1048
+
+Results saved to ./results/results_mistralsmall32_1s.csv
+Total frames processed: 66
+
+==================================================
+Processing participant 2/30
+
+Processing participant: 1251
+Found 66 frames
+Analyzing frame 1/66: q_10_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12756 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:50:46.37891363Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 247916181285, 'load_duration': 237762337622, 'prompt_eval_count': 615, 'prompt_eval_duration': 8369788556, 'eval_count': 3, 'eval_duration': 1450984300}
+Response: poorly
+Analyzing frame 2/66: q_10_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13356 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:54:44.412306815Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 236964777831, 'load_duration': 230390809611, 'prompt_eval_count': 615, 'prompt_eval_duration': 4754645787, 'eval_count': 3, 'eval_duration': 1307764997}
+Response: poorly
+Analyzing frame 3/66: q_11_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12720 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T02:59:51.254654808Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 305770147878, 'load_duration': 299389015190, 'prompt_eval_count': 615, 'prompt_eval_duration': 4703192330, 'eval_count': 3, 'eval_duration': 1446799924}
+Response: poorly
+Analyzing frame 4/66: q_11_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12912 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:04:27.742257483Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 275417618177, 'load_duration': 269352654336, 'prompt_eval_count': 615, 'prompt_eval_duration': 4693533577, 'eval_count': 3, 'eval_duration': 1162501608}
+Response: poorly
+Analyzing frame 5/66: q_12_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13132 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:09:15.618120982Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 286800116908, 'load_duration': 281109921117, 'prompt_eval_count': 615, 'prompt_eval_duration': 4486610010, 'eval_count': 3, 'eval_duration': 1044301164}
+Response: poorly
+Analyzing frame 6/66: q_12_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13084 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:14:58.811670853Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 342127173581, 'load_duration': 336419388472, 'prompt_eval_count': 615, 'prompt_eval_duration': 4467740825, 'eval_count': 3, 'eval_duration': 1115544709}
+Response: poorly
+Analyzing frame 7/66: q_13_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13112 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:19:23.263965104Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 263390233691, 'load_duration': 257925416620, 'prompt_eval_count': 615, 'prompt_eval_duration': 4265111612, 'eval_count': 3, 'eval_duration': 1070442198}
+Response: poorly
+Analyzing frame 8/66: q_13_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13060 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:24:06.831382543Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282496786607, 'load_duration': 277078779990, 'prompt_eval_count': 615, 'prompt_eval_duration': 4347922354, 'eval_count': 3, 'eval_duration': 922256236}
+Response: poorly
+Analyzing frame 9/66: q_14_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13344 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:28:31.773684938Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 263887796562, 'load_duration': 258143503582, 'prompt_eval_count': 615, 'prompt_eval_duration': 4536184338, 'eval_count': 3, 'eval_duration': 1063080567}
+Response: poorly
+Analyzing frame 10/66: q_14_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13792 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:32:26.995448374Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 234159555991, 'load_duration': 228470160129, 'prompt_eval_count': 615, 'prompt_eval_duration': 4086760882, 'eval_count': 3, 'eval_duration': 1467360108}
+Response: poorly
+Analyzing frame 11/66: q_15_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12412 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:37:07.746350508Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279692290223, 'load_duration': 274359485946, 'prompt_eval_count': 615, 'prompt_eval_duration': 4091035941, 'eval_count': 3, 'eval_duration': 1108433517}
+Response: poorly
+Analyzing frame 12/66: q_15_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12540 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:41:53.873177221Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 285063282557, 'load_duration': 279261313488, 'prompt_eval_count': 615, 'prompt_eval_duration': 4185614575, 'eval_count': 3, 'eval_duration': 1471495184}
+Response: poorly
+Analyzing frame 13/66: q_16_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13112 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:46:43.252638643Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 288323235453, 'load_duration': 282640767498, 'prompt_eval_count': 615, 'prompt_eval_duration': 4088999714, 'eval_count': 3, 'eval_duration': 1464161816}
+Response: poorly
+Analyzing frame 14/66: q_16_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12996 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:51:16.402998101Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272086254341, 'load_duration': 266328431795, 'prompt_eval_count': 615, 'prompt_eval_duration': 4474637496, 'eval_count': 3, 'eval_duration': 1150014619}
+Response: poorly
+Analyzing frame 15/66: q_17_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11912 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T03:56:13.674644152Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 296201709586, 'load_duration': 290687297317, 'prompt_eval_count': 615, 'prompt_eval_duration': 4087978629, 'eval_count': 3, 'eval_duration': 1297508450}
+Response: poorly
+Analyzing frame 16/66: q_17_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11668 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:00:34.838153877Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 260104869629, 'load_duration': 254713688180, 'prompt_eval_count': 615, 'prompt_eval_duration': 4101484130, 'eval_count': 3, 'eval_duration': 1164783503}
+Response: poorly
+Analyzing frame 17/66: q_18_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12656 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:05:11.294346312Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 275390427348, 'load_duration': 269819509353, 'prompt_eval_count': 615, 'prompt_eval_duration': 4185877421, 'eval_count': 3, 'eval_duration': 1240333905}
+Response: poorly
+Analyzing frame 18/66: q_18_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12480 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:09:45.239697905Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272875587389, 'load_duration': 267637364781, 'prompt_eval_count': 615, 'prompt_eval_duration': 4085770943, 'eval_count': 3, 'eval_duration': 1023155172}
+Response: poorly
+Analyzing frame 19/66: q_19_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12792 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:14:40.636727577Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 294331535097, 'load_duration': 288732760364, 'prompt_eval_count': 615, 'prompt_eval_duration': 4312062985, 'eval_count': 3, 'eval_duration': 1155599631}
+Response: poorly
+Analyzing frame 20/66: q_19_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12756 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:19:16.746032194Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 275035871168, 'load_duration': 269583207196, 'prompt_eval_count': 615, 'prompt_eval_duration': 4088625911, 'eval_count': 3, 'eval_duration': 1237213922}
+Response: poorly
+Analyzing frame 21/66: q_1_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 10712 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:23:43.123168679Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 265312764004, 'load_duration': 259949479779, 'prompt_eval_count': 615, 'prompt_eval_duration': 4071245180, 'eval_count': 3, 'eval_duration': 1156811088}
+Response: poorly
+Analyzing frame 22/66: q_1_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11476 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:28:26.935862369Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282705731320, 'load_duration': 277186944706, 'prompt_eval_count': 615, 'prompt_eval_duration': 4215563241, 'eval_count': 3, 'eval_duration': 1162843505}
+Response: poorly
+Analyzing frame 23/66: q_20_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12804 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:33:06.731714105Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 278725538449, 'load_duration': 273251607695, 'prompt_eval_count': 615, 'prompt_eval_duration': 4217490775, 'eval_count': 3, 'eval_duration': 1126523647}
+Response: poorly
+Analyzing frame 24/66: q_20_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12848 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:37:41.313474439Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 273516399295, 'load_duration': 268126388570, 'prompt_eval_count': 615, 'prompt_eval_duration': 4106936673, 'eval_count': 3, 'eval_duration': 1144236361}
+Response: poorly
+Analyzing frame 25/66: q_21_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13904 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:42:17.158661619Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 274775913612, 'load_duration': 269296707364, 'prompt_eval_count': 615, 'prompt_eval_duration': 4147915215, 'eval_count': 3, 'eval_duration': 1215608748}
+Response: poorly
+Analyzing frame 26/66: q_21_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13884 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:46:59.12247558Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 280897656627, 'load_duration': 275523531346, 'prompt_eval_count': 615, 'prompt_eval_duration': 4096604109, 'eval_count': 3, 'eval_duration': 1149172980}
+Response: poorly
+Analyzing frame 27/66: q_22_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12108 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:51:41.218219496Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281027238333, 'load_duration': 275630807027, 'prompt_eval_count': 615, 'prompt_eval_duration': 4079435039, 'eval_count': 3, 'eval_duration': 1179389952}
+Response: poorly
+Analyzing frame 28/66: q_22_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12236 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T04:56:10.349837311Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268068802449, 'load_duration': 262576510917, 'prompt_eval_count': 615, 'prompt_eval_duration': 4126229033, 'eval_count': 3, 'eval_duration': 1236678016}
+Response: poorly
+Analyzing frame 29/66: q_23_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 14332 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:00:51.447255213Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 280027133002, 'load_duration': 274558747660, 'prompt_eval_count': 615, 'prompt_eval_duration': 4105629728, 'eval_count': 3, 'eval_duration': 1206560254}
+Response: poorly
+Analyzing frame 30/66: q_23_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 14048 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:05:09.798646976Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 257290649151, 'load_duration': 251775437300, 'prompt_eval_count': 615, 'prompt_eval_duration': 4223964181, 'eval_count': 3, 'eval_duration': 1147654179}
+Response: poorly
+Analyzing frame 31/66: q_24_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13288 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:09:43.041466603Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272177264726, 'load_duration': 266524981232, 'prompt_eval_count': 615, 'prompt_eval_duration': 4176665277, 'eval_count': 3, 'eval_duration': 1320189136}
+Response: poorly
+Analyzing frame 32/66: q_24_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13548 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:14:22.259218564Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 278152055307, 'load_duration': 272723045250, 'prompt_eval_count': 615, 'prompt_eval_duration': 4199608265, 'eval_count': 3, 'eval_duration': 1112598840}
+Response: poorly
+Analyzing frame 33/66: q_25_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12316 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:19:01.616016787Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 278291744234, 'load_duration': 272900743385, 'prompt_eval_count': 615, 'prompt_eval_duration': 4161278578, 'eval_count': 3, 'eval_duration': 1090565804}
+Response: poorly
+Analyzing frame 34/66: q_25_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12048 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:23:38.927433799Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 276245207847, 'load_duration': 270800106564, 'prompt_eval_count': 615, 'prompt_eval_duration': 4181616928, 'eval_count': 3, 'eval_duration': 1127079040}
+Response: poorly
+Analyzing frame 35/66: q_26_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12940 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:28:19.877060854Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279835137836, 'load_duration': 274508051272, 'prompt_eval_count': 615, 'prompt_eval_duration': 4091254855, 'eval_count': 3, 'eval_duration': 1109490669}
+Response: poorly
+Analyzing frame 36/66: q_26_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13312 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:33:10.056538271Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 289122995929, 'load_duration': 283579296603, 'prompt_eval_count': 615, 'prompt_eval_duration': 4150373452, 'eval_count': 3, 'eval_duration': 1257090569}
+Response: poorly
+Analyzing frame 37/66: q_27_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12760 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:37:32.954876785Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 261833690607, 'load_duration': 256294569834, 'prompt_eval_count': 615, 'prompt_eval_duration': 4164935427, 'eval_count': 3, 'eval_duration': 1239475340}
+Response: poorly
+Analyzing frame 38/66: q_27_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12532 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:41:59.819460168Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 265793118720, 'load_duration': 260452174345, 'prompt_eval_count': 615, 'prompt_eval_duration': 4077620498, 'eval_count': 3, 'eval_duration': 1143987985}
+Response: poorly
+Analyzing frame 39/66: q_28_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12976 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:46:37.727195959Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 276846563424, 'load_duration': 270981753408, 'prompt_eval_count': 615, 'prompt_eval_duration': 4174775206, 'eval_count': 3, 'eval_duration': 1561755390}
+Response: poorly
+Analyzing frame 40/66: q_28_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12800 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:51:18.666057446Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279877520709, 'load_duration': 274508451174, 'prompt_eval_count': 615, 'prompt_eval_duration': 4097298098, 'eval_count': 3, 'eval_duration': 1136474214}
+Response: poorly
+Analyzing frame 41/66: q_29_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11740 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T05:56:02.289026431Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282551481938, 'load_duration': 276740471520, 'prompt_eval_count': 615, 'prompt_eval_duration': 4095079734, 'eval_count': 3, 'eval_duration': 1576056003}
+Response: poorly
+Analyzing frame 42/66: q_29_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11372 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:00:24.300924708Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 260956115350, 'load_duration': 255444369184, 'prompt_eval_count': 615, 'prompt_eval_duration': 4193599447, 'eval_count': 3, 'eval_duration': 1175155125}
+Response: poorly
+Analyzing frame 43/66: q_2_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12216 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:05:22.014240981Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 296657011931, 'load_duration': 290809058539, 'prompt_eval_count': 615, 'prompt_eval_duration': 4120755225, 'eval_count': 3, 'eval_duration': 1591179553}
+Response: poorly
+Analyzing frame 44/66: q_2_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12172 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:09:49.512501004Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 266435876081, 'load_duration': 261064566999, 'prompt_eval_count': 615, 'prompt_eval_duration': 4119825018, 'eval_count': 3, 'eval_duration': 1132216637}
+Response: poorly
+Analyzing frame 45/66: q_30_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13296 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:14:22.828167614Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272247422691, 'load_duration': 266347772639, 'prompt_eval_count': 615, 'prompt_eval_duration': 4194328027, 'eval_count': 3, 'eval_duration': 1568746704}
+Response: poorly
+Analyzing frame 46/66: q_30_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13628 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:19:08.374030974Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 284474758132, 'load_duration': 279057546867, 'prompt_eval_count': 615, 'prompt_eval_duration': 4182407837, 'eval_count': 3, 'eval_duration': 1110702567}
+Response: poorly
+Analyzing frame 47/66: q_3_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12360 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:23:37.733879814Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268224560106, 'load_duration': 262764875468, 'prompt_eval_count': 615, 'prompt_eval_duration': 4194021247, 'eval_count': 3, 'eval_duration': 1127041751}
+Response: poorly
+Analyzing frame 48/66: q_3_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12252 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:28:10.721032362Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 271919337149, 'load_duration': 266531931650, 'prompt_eval_count': 615, 'prompt_eval_duration': 4199298097, 'eval_count': 3, 'eval_duration': 1048125619}
+Response: poorly
+Analyzing frame 49/66: q_4_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13072 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:32:45.613744758Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 273812298815, 'load_duration': 268138206396, 'prompt_eval_count': 615, 'prompt_eval_duration': 4129157027, 'eval_count': 3, 'eval_duration': 1407883455}
+Response: poorly
+Analyzing frame 50/66: q_4_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12992 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:37:30.230068363Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 283551661073, 'load_duration': 277686713725, 'prompt_eval_count': 615, 'prompt_eval_duration': 4268383477, 'eval_count': 3, 'eval_duration': 1451874030}
+Response: poorly
+Analyzing frame 51/66: q_5_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12592 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:42:01.723663169Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 270429596704, 'load_duration': 265046119645, 'prompt_eval_count': 615, 'prompt_eval_duration': 4215945867, 'eval_count': 3, 'eval_duration': 1032722500}
+Response: poorly
+Analyzing frame 52/66: q_5_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12460 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:46:35.598294981Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272802753481, 'load_duration': 267029806158, 'prompt_eval_count': 615, 'prompt_eval_duration': 4089959568, 'eval_count': 3, 'eval_duration': 1555382229}
+Response: poorly
+Analyzing frame 53/66: q_6_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13404 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:51:19.385631303Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282720832922, 'load_duration': 268449634198, 'prompt_eval_count': 615, 'prompt_eval_duration': 12426267756, 'eval_count': 3, 'eval_duration': 1389400087}
+Response: poorly
+Analyzing frame 54/66: q_6_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13504 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:54:58.474521442Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 218017229533, 'load_duration': 204116824781, 'prompt_eval_count': 615, 'prompt_eval_duration': 12200225490, 'eval_count': 3, 'eval_duration': 1229526121}
+Response: poorly
+Analyzing frame 55/66: q_7_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12420 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T06:59:22.978352196Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 263438495542, 'load_duration': 257328104342, 'prompt_eval_count': 615, 'prompt_eval_duration': 4923195407, 'eval_count': 3, 'eval_duration': 928645866}
+Response: poorly
+Analyzing frame 56/66: q_7_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12412 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:03:54.98588173Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 270943316900, 'load_duration': 257353527613, 'prompt_eval_count': 615, 'prompt_eval_duration': 11959582837, 'eval_count': 3, 'eval_duration': 1303638033}
+Response: poorly
+Analyzing frame 57/66: q_8_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12904 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:08:24.98227502Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268929042754, 'load_duration': 255908798402, 'prompt_eval_count': 615, 'prompt_eval_duration': 11296516649, 'eval_count': 3, 'eval_duration': 1485687793}
+Response: poorly
+Analyzing frame 58/66: q_8_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12760 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:13:23.404690104Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 297356960552, 'load_duration': 287800274818, 'prompt_eval_count': 615, 'prompt_eval_duration': 8127828507, 'eval_count': 3, 'eval_duration': 1124479758}
+Response: poorly
+Analyzing frame 59/66: q_9_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12564 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:17:49.810709354Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 265335115893, 'load_duration': 251934365787, 'prompt_eval_count': 615, 'prompt_eval_duration': 11544378066, 'eval_count': 3, 'eval_duration': 1526006546}
+Response: poorly
+Analyzing frame 60/66: q_9_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13004 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:22:22.103732039Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 271200401580, 'load_duration': 258956641207, 'prompt_eval_count': 615, 'prompt_eval_duration': 10697597241, 'eval_count': 3, 'eval_duration': 1217383066}
+Response: poorly
+Analyzing frame 61/66: q_warmup_3_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13388 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:27:19.993482396Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 296832226182, 'load_duration': 287247100460, 'prompt_eval_count': 615, 'prompt_eval_duration': 7771649545, 'eval_count': 3, 'eval_duration': 1513093072}
+Response: poorly
+Analyzing frame 62/66: q_warmup_3_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13024 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:31:45.925809166Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 264867605701, 'load_duration': 251022857671, 'prompt_eval_count': 615, 'prompt_eval_duration': 12369172359, 'eval_count': 2, 'eval_duration': 1139228154}
+Response: well
+Analyzing frame 63/66: q_warmup_4_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13012 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:36:19.769740963Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272775768580, 'load_duration': 261620545649, 'prompt_eval_count': 615, 'prompt_eval_duration': 9297753337, 'eval_count': 3, 'eval_duration': 1522275858}
+Response: poorly
+Analyzing frame 64/66: q_warmup_4_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13100 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:41:10.457199294Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 289618034088, 'load_duration': 277325574818, 'prompt_eval_count': 615, 'prompt_eval_duration': 10734289691, 'eval_count': 3, 'eval_duration': 1136982705}
+Response: poorly
+Analyzing frame 65/66: q_warmup_5_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13716 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:45:43.773733964Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272246497470, 'load_duration': 258665828425, 'prompt_eval_count': 615, 'prompt_eval_duration': 12006656523, 'eval_count': 3, 'eval_duration': 1298915159}
+Response: poorly
+Analyzing frame 66/66: q_warmup_5_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13976 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:50:37.091842342Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 292256604367, 'load_duration': 283664437162, 'prompt_eval_count': 615, 'prompt_eval_duration': 7115003322, 'eval_count': 3, 'eval_duration': 1144123035}
+Response: poorly
+Processed 66 frames for participant 1251
+
+Results saved to ./results/results_mistralsmall32_1s.csv
+Total frames processed: 132
+
+==================================================
+Processing participant 3/30
+
+Processing participant: 1483
+Found 62 frames
+Analyzing frame 1/62: q_10_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 7452 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:55:23.517803791Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 285284249215, 'load_duration': 271251555370, 'prompt_eval_count': 615, 'prompt_eval_duration': 12416541107, 'eval_count': 3, 'eval_duration': 1298919992}
+Response: poorly
+Analyzing frame 2/62: q_10_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 7388 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T07:59:40.292020176Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 255712018957, 'load_duration': 240668162436, 'prompt_eval_count': 615, 'prompt_eval_duration': 12983922181, 'eval_count': 3, 'eval_duration': 1793244583}
+Response: poorly
+Analyzing frame 3/62: q_11_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 10276 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:04:23.649376501Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282294077225, 'load_duration': 273952691916, 'prompt_eval_count': 615, 'prompt_eval_duration': 6255787957, 'eval_count': 3, 'eval_duration': 1705445437}
+Response: poorly
+Analyzing frame 4/62: q_11_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 9964 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:09:10.929535471Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 286209599808, 'load_duration': 272849079087, 'prompt_eval_count': 615, 'prompt_eval_duration': 11861656755, 'eval_count': 3, 'eval_duration': 1204439602}
+Response: poorly
+Analyzing frame 5/62: q_12_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8740 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:13:30.955925782Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 258964655404, 'load_duration': 245182112213, 'prompt_eval_count': 615, 'prompt_eval_duration': 12025767581, 'eval_count': 3, 'eval_duration': 1468028946}
+Response: poorly
+Analyzing frame 6/62: q_12_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8616 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:18:06.661370026Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 274623232154, 'load_duration': 265495777339, 'prompt_eval_count': 615, 'prompt_eval_duration': 8054641429, 'eval_count': 2, 'eval_duration': 751794560}
+Response: well
+Analyzing frame 7/62: q_13_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8908 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:22:49.025626276Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281302281773, 'load_duration': 269128673052, 'prompt_eval_count': 615, 'prompt_eval_duration': 11226728057, 'eval_count': 2, 'eval_duration': 605663767}
+Response: well
+Analyzing frame 8/62: q_13_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8684 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:27:09.209535775Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 259118334956, 'load_duration': 246492299055, 'prompt_eval_count': 615, 'prompt_eval_duration': 11436962051, 'eval_count': 2, 'eval_duration': 727723458}
+Response: well
+Analyzing frame 9/62: q_14_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8988 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:31:44.263619719Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 273994555145, 'load_duration': 263381535876, 'prompt_eval_count': 615, 'prompt_eval_duration': 8580957869, 'eval_count': 3, 'eval_duration': 1612785650}
+Response: poorly
+Analyzing frame 10/62: q_14_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8976 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:36:27.661432597Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282330739299, 'load_duration': 267648499119, 'prompt_eval_count': 615, 'prompt_eval_duration': 12999892722, 'eval_count': 3, 'eval_duration': 1334260792}
+Response: poorly
+Analyzing frame 11/62: q_15_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8872 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:40:52.147737312Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 263420446015, 'load_duration': 249901834154, 'prompt_eval_count': 615, 'prompt_eval_duration': 11906862731, 'eval_count': 3, 'eval_duration': 1311202169}
+Response: poorly
+Analyzing frame 12/62: q_15_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8932 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:45:33.036220721Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279821433823, 'load_duration': 268665482129, 'prompt_eval_count': 615, 'prompt_eval_duration': 9147267841, 'eval_count': 3, 'eval_duration': 1704181728}
+Response: poorly
+Analyzing frame 13/62: q_16_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8628 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:50:10.78539362Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 276679044867, 'load_duration': 263385456562, 'prompt_eval_count': 615, 'prompt_eval_duration': 11584697795, 'eval_count': 3, 'eval_duration': 1247976621}
+Response: poorly
+Analyzing frame 14/62: q_16_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8736 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:54:35.47496914Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 263627476317, 'load_duration': 251454464526, 'prompt_eval_count': 615, 'prompt_eval_duration': 10370095671, 'eval_count': 3, 'eval_duration': 1486614813}
+Response: poorly
+Analyzing frame 15/62: q_17_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 9048 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T08:59:19.321285938Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282777231207, 'load_duration': 268519259603, 'prompt_eval_count': 615, 'prompt_eval_duration': 12261431584, 'eval_count': 3, 'eval_duration': 1681212784}
+Response: poorly
+Analyzing frame 16/62: q_17_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 9028 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:04:08.24371161Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 287859058320, 'load_duration': 274827861863, 'prompt_eval_count': 615, 'prompt_eval_duration': 12015142898, 'eval_count': 2, 'eval_duration': 728810968}
+Response: well
+Analyzing frame 17/62: q_18_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 9072 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:08:40.28074315Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 270974814993, 'load_duration': 259349141200, 'prompt_eval_count': 615, 'prompt_eval_duration': 10292102316, 'eval_count': 3, 'eval_duration': 1023295745}
+Response: poorly
+Analyzing frame 18/62: q_18_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8840 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:13:09.519058925Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268150075520, 'load_duration': 254324409583, 'prompt_eval_count': 615, 'prompt_eval_duration': 11981183927, 'eval_count': 3, 'eval_duration': 1531560375}
+Response: poorly
+Analyzing frame 19/62: q_19_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8420 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:17:52.479926945Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281900914128, 'load_duration': 270744286696, 'prompt_eval_count': 615, 'prompt_eval_duration': 10234743403, 'eval_count': 2, 'eval_duration': 674897637}
+Response: well
+Analyzing frame 20/62: q_19_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8492 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:22:30.568592537Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 277033990028, 'load_duration': 263245607901, 'prompt_eval_count': 615, 'prompt_eval_duration': 12145673027, 'eval_count': 3, 'eval_duration': 1314235736}
+Response: poorly
+Analyzing frame 21/62: q_21_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8552 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:27:02.803862822Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 271175998704, 'load_duration': 258390639801, 'prompt_eval_count': 615, 'prompt_eval_duration': 10941292097, 'eval_count': 3, 'eval_duration': 1459310619}
+Response: poorly
+Analyzing frame 22/62: q_21_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8416 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:31:36.047105056Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272188659133, 'load_duration': 261440538204, 'prompt_eval_count': 615, 'prompt_eval_duration': 8885912727, 'eval_count': 3, 'eval_duration': 1538575841}
+Response: poorly
+Analyzing frame 23/62: q_22_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8652 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:36:12.3644794Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 275254092458, 'load_duration': 261006678406, 'prompt_eval_count': 615, 'prompt_eval_duration': 11923650201, 'eval_count': 3, 'eval_duration': 2003325804}
+Response: poorly
+Analyzing frame 24/62: q_22_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8876 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:40:49.229000522Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 275807841454, 'load_duration': 264748327978, 'prompt_eval_count': 615, 'prompt_eval_duration': 9977624446, 'eval_count': 2, 'eval_duration': 754442307}
+Response: well
+Analyzing frame 25/62: q_23_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8992 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:45:18.300607448Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268020193025, 'load_duration': 256335067232, 'prompt_eval_count': 615, 'prompt_eval_duration': 10082803909, 'eval_count': 2, 'eval_duration': 1230415535}
+Response: well
+Analyzing frame 26/62: q_23_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8872 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:49:37.614484475Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 258255171318, 'load_duration': 245037961810, 'prompt_eval_count': 615, 'prompt_eval_duration': 12265749060, 'eval_count': 2, 'eval_duration': 611154764}
+Response: well
+Analyzing frame 27/62: q_24_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8536 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:54:12.29403003Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 273623756542, 'load_duration': 264983594995, 'prompt_eval_count': 615, 'prompt_eval_duration': 7718570483, 'eval_count': 2, 'eval_duration': 582986699}
+Response: well
+Analyzing frame 28/62: q_24_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8460 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T09:58:41.206906541Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 267859889070, 'load_duration': 255637500764, 'prompt_eval_count': 615, 'prompt_eval_duration': 11183547411, 'eval_count': 2, 'eval_duration': 744461346}
+Response: well
+Analyzing frame 29/62: q_25_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8596 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:02:48.340098167Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 246073355542, 'load_duration': 233124937260, 'prompt_eval_count': 615, 'prompt_eval_duration': 11618297446, 'eval_count': 2, 'eval_duration': 1004910706}
+Response: well
+Analyzing frame 30/62: q_25_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8504 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:07:29.959209554Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 280558559704, 'load_duration': 271485537069, 'prompt_eval_count': 615, 'prompt_eval_duration': 8022102121, 'eval_count': 2, 'eval_duration': 736752069}
+Response: well
+Analyzing frame 31/62: q_26_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8828 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:11:52.827650503Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 261800608839, 'load_duration': 250447254038, 'prompt_eval_count': 615, 'prompt_eval_duration': 10354869415, 'eval_count': 2, 'eval_duration': 610307332}
+Response: well
+Analyzing frame 32/62: q_26_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8600 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:16:12.886421085Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 258998397544, 'load_duration': 245911464243, 'prompt_eval_count': 615, 'prompt_eval_duration': 12208745883, 'eval_count': 2, 'eval_duration': 585365364}
+Response: well
+Analyzing frame 33/62: q_27_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8528 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:20:46.577040135Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 272625425499, 'load_duration': 261908897454, 'prompt_eval_count': 615, 'prompt_eval_duration': 8908373192, 'eval_count': 3, 'eval_duration': 1477197431}
+Response: poorly
+Analyzing frame 34/62: q_27_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8456 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:25:12.446845436Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 264802260225, 'load_duration': 252799541054, 'prompt_eval_count': 615, 'prompt_eval_duration': 9969538808, 'eval_count': 3, 'eval_duration': 1722649693}
+Response: poorly
+Analyzing frame 35/62: q_28_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 9016 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:29:36.203079908Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 262706638150, 'load_duration': 249015455327, 'prompt_eval_count': 615, 'prompt_eval_duration': 12214007020, 'eval_count': 3, 'eval_duration': 990886334}
+Response: poorly
+Analyzing frame 36/62: q_28_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8876 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:34:14.329849264Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 277078377148, 'load_duration': 267269194625, 'prompt_eval_count': 615, 'prompt_eval_duration': 8747732897, 'eval_count': 2, 'eval_duration': 742851721}
+Response: well
+Analyzing frame 37/62: q_29_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8768 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:38:40.40220218Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 265018002821, 'load_duration': 252466599241, 'prompt_eval_count': 615, 'prompt_eval_duration': 11501532371, 'eval_count': 2, 'eval_duration': 689819957}
+Response: well
+Analyzing frame 38/62: q_29_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8612 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:41:45.126346166Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 183664411269, 'load_duration': 177931809131, 'prompt_eval_count': 615, 'prompt_eval_duration': 4820832628, 'eval_count': 2, 'eval_duration': 789815635}
+Response: well
+Analyzing frame 39/62: q_2_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8828 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:44:03.214161463Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 137025928178, 'load_duration': 131005939118, 'prompt_eval_count': 615, 'prompt_eval_duration': 4745197274, 'eval_count': 3, 'eval_duration': 1130407531}
+Response: poorly
+Analyzing frame 40/62: q_2_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8588 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:47:26.438444887Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 202153400280, 'load_duration': 196632434343, 'prompt_eval_count': 615, 'prompt_eval_duration': 4820566323, 'eval_count': 2, 'eval_duration': 566912574}
+Response: well
+Analyzing frame 41/62: q_30_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8180 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:50:03.036586849Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 155532776776, 'load_duration': 149599437683, 'prompt_eval_count': 615, 'prompt_eval_duration': 4774709153, 'eval_count': 2, 'eval_duration': 1009759219}
+Response: well
+Analyzing frame 42/62: q_30_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8160 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:52:30.605074668Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 146509611165, 'load_duration': 141059063843, 'prompt_eval_count': 615, 'prompt_eval_duration': 4719904512, 'eval_count': 2, 'eval_duration': 582385737}
+Response: well
+Analyzing frame 43/62: q_3_main_0_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8908 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:55:55.164494603Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 203500328600, 'load_duration': 197870230924, 'prompt_eval_count': 615, 'prompt_eval_duration': 4912878346, 'eval_count': 2, 'eval_duration': 575420252}
+Response: well
+Analyzing frame 44/62: q_3_main_0_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8684 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T10:58:04.493125948Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 128249042289, 'load_duration': 122823533342, 'prompt_eval_count': 615, 'prompt_eval_duration': 4709333078, 'eval_count': 2, 'eval_duration': 582426219}
+Response: well
+Analyzing frame 45/62: q_4_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8544 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:00:45.568908539Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 160010241580, 'load_duration': 154518825253, 'prompt_eval_count': 615, 'prompt_eval_duration': 4829342570, 'eval_count': 2, 'eval_duration': 527132186}
+Response: well
+Analyzing frame 46/62: q_4_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8480 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:03:27.947020279Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 161312763149, 'load_duration': 155240635931, 'prompt_eval_count': 615, 'prompt_eval_duration': 4766700657, 'eval_count': 3, 'eval_duration': 1174510659}
+Response: poorly
+Analyzing frame 47/62: q_5_main_0_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8940 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:06:22.4646483Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 173448854112, 'load_duration': 167775651418, 'prompt_eval_count': 615, 'prompt_eval_duration': 4782622684, 'eval_count': 2, 'eval_duration': 769333420}
+Response: well
+Analyzing frame 48/62: q_5_main_0_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8800 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:08:14.167746715Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 110630709675, 'load_duration': 104767662671, 'prompt_eval_count': 615, 'prompt_eval_duration': 4883122652, 'eval_count': 2, 'eval_duration': 849640339}
+Response: well
+Analyzing frame 49/62: q_6_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8908 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:11:38.738292725Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 203503335160, 'load_duration': 197744511436, 'prompt_eval_count': 615, 'prompt_eval_duration': 4714579173, 'eval_count': 2, 'eval_duration': 918865159}
+Response: well
+Analyzing frame 50/62: q_6_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8780 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:14:00.502994293Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 140700438830, 'load_duration': 135267317824, 'prompt_eval_count': 615, 'prompt_eval_duration': 4739883320, 'eval_count': 2, 'eval_duration': 566486371}
+Response: well
+Analyzing frame 51/62: q_7_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8660 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:16:39.847184376Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 158282884744, 'load_duration': 152379614009, 'prompt_eval_count': 615, 'prompt_eval_duration': 5073787244, 'eval_count': 2, 'eval_duration': 710162520}
+Response: well
+Analyzing frame 52/62: q_7_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8588 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:19:19.62803274Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 158723796150, 'load_duration': 153270846787, 'prompt_eval_count': 615, 'prompt_eval_duration': 4795508887, 'eval_count': 2, 'eval_duration': 545150871}
+Response: well
+Analyzing frame 53/62: q_8_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8884 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:22:19.565891132Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 178876966995, 'load_duration': 173376842870, 'prompt_eval_count': 615, 'prompt_eval_duration': 4809646903, 'eval_count': 2, 'eval_duration': 568109372}
+Response: well
+Analyzing frame 54/62: q_8_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8876 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:24:12.999939333Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 112369211142, 'load_duration': 106388893578, 'prompt_eval_count': 615, 'prompt_eval_duration': 4889715579, 'eval_count': 3, 'eval_duration': 954227392}
+Response: poorly
+Analyzing frame 55/62: q_9_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8916 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:27:37.873612853Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 203812929859, 'load_duration': 198335692730, 'prompt_eval_count': 615, 'prompt_eval_duration': 4767556016, 'eval_count': 2, 'eval_duration': 581110467}
+Response: well
+Analyzing frame 56/62: q_9_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8736 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:29:50.457444092Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 131510602485, 'load_duration': 125993357886, 'prompt_eval_count': 615, 'prompt_eval_duration': 4821350971, 'eval_count': 2, 'eval_duration': 563875506}
+Response: well
+Analyzing frame 57/62: q_warmup_3_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8560 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:32:29.474892079Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 157903799527, 'load_duration': 152517963388, 'prompt_eval_count': 615, 'prompt_eval_duration': 4772119719, 'eval_count': 2, 'eval_duration': 497752274}
+Response: well
+Analyzing frame 58/62: q_warmup_3_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8488 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:35:13.06177695Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 162526941636, 'load_duration': 156897379916, 'prompt_eval_count': 615, 'prompt_eval_duration': 4914088025, 'eval_count': 2, 'eval_duration': 594688301}
+Response: well
+Analyzing frame 59/62: q_warmup_4_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8824 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:38:14.176685407Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 180050445167, 'load_duration': 174020176715, 'prompt_eval_count': 615, 'prompt_eval_duration': 4744868292, 'eval_count': 3, 'eval_duration': 1167211629}
+Response: poorly
+Analyzing frame 60/62: q_warmup_4_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8736 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:40:05.2956496Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 110043360198, 'load_duration': 103693689418, 'prompt_eval_count': 615, 'prompt_eval_duration': 4753807555, 'eval_count': 3, 'eval_duration': 1458571643}
+Response: poorly
+Analyzing frame 61/62: q_warmup_5_main_1_30fps_frame0013.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8236 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:43:35.498671266Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 209152784531, 'load_duration': 203515212760, 'prompt_eval_count': 615, 'prompt_eval_duration': 4951224299, 'eval_count': 2, 'eval_duration': 562646571}
+Response: well
+Analyzing frame 62/62: q_warmup_5_main_1_30fps_frame0028.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 8188 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:45:47.834827493Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 131268081588, 'load_duration': 125339049169, 'prompt_eval_count': 615, 'prompt_eval_duration': 4784108476, 'eval_count': 2, 'eval_duration': 1002187540}
+Response: well
+Processed 62 frames for participant 1483
+
+Results saved to ./results/results_mistralsmall32_1s.csv
+Total frames processed: 194
+
+==================================================
+Processing participant 4/30
+
+Processing participant: 1676
+Found 66 frames
+Analyzing frame 1/66: q_10_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12768 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:48:31.314690533Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 162339260286, 'load_duration': 156159974351, 'prompt_eval_count': 615, 'prompt_eval_duration': 4875589740, 'eval_count': 3, 'eval_duration': 1178116910}
+Response: poorly
+Analyzing frame 2/66: q_10_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12688 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:50:33.650658671Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 121269849084, 'load_duration': 115291499271, 'prompt_eval_count': 615, 'prompt_eval_duration': 4727060038, 'eval_count': 3, 'eval_duration': 1118146444}
+Response: poorly
+Analyzing frame 3/66: q_11_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13752 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:54:01.417608065Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 206698859795, 'load_duration': 200390856908, 'prompt_eval_count': 615, 'prompt_eval_duration': 4888121536, 'eval_count': 3, 'eval_duration': 1293307161}
+Response: poorly
+Analyzing frame 4/66: q_11_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13404 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:55:52.333727495Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 109848438913, 'load_duration': 103707674579, 'prompt_eval_count': 615, 'prompt_eval_duration': 4791364643, 'eval_count': 3, 'eval_duration': 1224862100}
+Response: poorly
+Analyzing frame 5/66: q_12_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12664 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T11:58:48.920271788Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 175512668882, 'load_duration': 169544810181, 'prompt_eval_count': 615, 'prompt_eval_duration': 4831337254, 'eval_count': 2, 'eval_duration': 1016042744}
+Response: well
+Analyzing frame 6/66: q_12_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12696 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:01:26.737840228Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 156744678962, 'load_duration': 150651675428, 'prompt_eval_count': 615, 'prompt_eval_duration': 4729992157, 'eval_count': 3, 'eval_duration': 1219383502}
+Response: poorly
+Analyzing frame 7/66: q_13_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11644 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:04:08.481617028Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 160646847822, 'load_duration': 154763094497, 'prompt_eval_count': 615, 'prompt_eval_duration': 4774145517, 'eval_count': 3, 'eval_duration': 971817412}
+Response: poorly
+Analyzing frame 8/66: q_13_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11540 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:06:42.687695983Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 153145080263, 'load_duration': 147086592358, 'prompt_eval_count': 615, 'prompt_eval_duration': 4822301872, 'eval_count': 3, 'eval_duration': 1100629141}
+Response: poorly
+Analyzing frame 9/66: q_14_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13840 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:09:57.003478837Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 193249625662, 'load_duration': 187128194768, 'prompt_eval_count': 615, 'prompt_eval_duration': 4806058269, 'eval_count': 3, 'eval_duration': 1172230403}
+Response: poorly
+Analyzing frame 10/66: q_14_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13620 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:12:18.547183329Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 140469234424, 'load_duration': 134419643457, 'prompt_eval_count': 615, 'prompt_eval_duration': 4788408387, 'eval_count': 3, 'eval_duration': 1132897779}
+Response: poorly
+Analyzing frame 11/66: q_15_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12172 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:15:16.490553359Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 176871032749, 'load_duration': 171423979380, 'prompt_eval_count': 615, 'prompt_eval_duration': 4797195199, 'eval_count': 2, 'eval_duration': 512332853}
+Response: well
+Analyzing frame 12/66: q_15_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12028 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:17:55.450569832Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 157878695424, 'load_duration': 152426694812, 'prompt_eval_count': 615, 'prompt_eval_duration': 4756725441, 'eval_count': 2, 'eval_duration': 576248476}
+Response: well
+Analyzing frame 13/66: q_16_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12128 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:20:41.748189812Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 165235281020, 'load_duration': 159822643377, 'prompt_eval_count': 615, 'prompt_eval_duration': 4732413720, 'eval_count': 2, 'eval_duration': 559732850}
+Response: well
+Analyzing frame 14/66: q_16_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12344 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:22:54.038681994Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 131229842562, 'load_duration': 125792337266, 'prompt_eval_count': 615, 'prompt_eval_duration': 4755586076, 'eval_count': 2, 'eval_duration': 557911418}
+Response: well
+Analyzing frame 15/66: q_17_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12100 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:26:15.146998922Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 200046042051, 'load_duration': 194064327679, 'prompt_eval_count': 615, 'prompt_eval_duration': 4721490785, 'eval_count': 3, 'eval_duration': 1118304373}
+Response: poorly
+Analyzing frame 16/66: q_17_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12300 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:28:22.859301104Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 126646729209, 'load_duration': 120581266276, 'prompt_eval_count': 615, 'prompt_eval_duration': 4850375481, 'eval_count': 3, 'eval_duration': 1104766233}
+Response: poorly
+Analyzing frame 17/66: q_18_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12692 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:31:23.478262496Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 179545123684, 'load_duration': 173520676365, 'prompt_eval_count': 615, 'prompt_eval_duration': 4776278573, 'eval_count': 3, 'eval_duration': 1120378683}
+Response: poorly
+Analyzing frame 18/66: q_18_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12592 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:33:56.677457582Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 152127904173, 'load_duration': 146273122315, 'prompt_eval_count': 615, 'prompt_eval_duration': 4649044795, 'eval_count': 3, 'eval_duration': 1058499932}
+Response: poorly
+Analyzing frame 19/66: q_19_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12000 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:36:45.024702812Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 167241580443, 'load_duration': 161694805555, 'prompt_eval_count': 615, 'prompt_eval_duration': 4830574327, 'eval_count': 2, 'eval_duration': 592325753}
+Response: well
+Analyzing frame 20/66: q_19_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11868 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:38:52.841261748Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 126755828605, 'load_duration': 120995845342, 'prompt_eval_count': 615, 'prompt_eval_duration': 4763928833, 'eval_count': 2, 'eval_duration': 865679780}
+Response: well
+Analyzing frame 21/66: q_1_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11888 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:42:20.823352315Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 206921588607, 'load_duration': 200922839631, 'prompt_eval_count': 615, 'prompt_eval_duration': 4835625838, 'eval_count': 3, 'eval_duration': 1029174026}
+Response: poorly
+Analyzing frame 22/66: q_1_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12040 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:44:24.420431146Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 122525041166, 'load_duration': 116527018509, 'prompt_eval_count': 615, 'prompt_eval_duration': 4738455671, 'eval_count': 3, 'eval_duration': 1115311645}
+Response: poorly
+Analyzing frame 23/66: q_20_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13684 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:47:13.895478228Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 168392105206, 'load_duration': 162536394993, 'prompt_eval_count': 615, 'prompt_eval_duration': 4639791841, 'eval_count': 3, 'eval_duration': 1065403018}
+Response: poorly
+Analyzing frame 24/66: q_20_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13480 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:49:56.066652085Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 161095996968, 'load_duration': 154941443131, 'prompt_eval_count': 615, 'prompt_eval_duration': 4877860813, 'eval_count': 3, 'eval_duration': 1133683446}
+Response: poorly
+Analyzing frame 25/66: q_21_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11988 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:52:33.626511502Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 156490817325, 'load_duration': 150558042378, 'prompt_eval_count': 615, 'prompt_eval_duration': 4693602265, 'eval_count': 3, 'eval_duration': 1119267600}
+Response: poorly
+Analyzing frame 26/66: q_21_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11880 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:55:08.191291269Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 153497941174, 'load_duration': 147371566199, 'prompt_eval_count': 615, 'prompt_eval_duration': 4826594773, 'eval_count': 3, 'eval_duration': 1151779631}
+Response: poorly
+Analyzing frame 27/66: q_22_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12576 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T12:58:19.181298842Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 189927861095, 'load_duration': 183844580012, 'prompt_eval_count': 615, 'prompt_eval_duration': 4844011418, 'eval_count': 3, 'eval_duration': 1111229678}
+Response: poorly
+Analyzing frame 28/66: q_22_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12644 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:00:34.970992923Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 134723351405, 'load_duration': 128800190975, 'prompt_eval_count': 615, 'prompt_eval_duration': 4834651834, 'eval_count': 3, 'eval_duration': 968633124}
+Response: poorly
+Analyzing frame 29/66: q_23_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12688 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:03:26.586630976Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 170549488304, 'load_duration': 164485096393, 'prompt_eval_count': 615, 'prompt_eval_duration': 4858384926, 'eval_count': 3, 'eval_duration': 1084005110}
+Response: poorly
+Analyzing frame 30/66: q_23_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12592 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:06:22.653774857Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 175004075242, 'load_duration': 169025415178, 'prompt_eval_count': 615, 'prompt_eval_duration': 4750904001, 'eval_count': 3, 'eval_duration': 1098316578}
+Response: poorly
+Analyzing frame 31/66: q_24_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12244 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:09:03.492289162Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 159781436939, 'load_duration': 153551495376, 'prompt_eval_count': 615, 'prompt_eval_duration': 4846512812, 'eval_count': 3, 'eval_duration': 1255803788}
+Response: poorly
+Analyzing frame 32/66: q_24_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12244 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:11:36.453493808Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 151867503992, 'load_duration': 145819304327, 'prompt_eval_count': 615, 'prompt_eval_duration': 4782734845, 'eval_count': 3, 'eval_duration': 1130691922}
+Response: poorly
+Analyzing frame 33/66: q_25_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12888 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:15:04.971254947Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 207460361340, 'load_duration': 201285031952, 'prompt_eval_count': 615, 'prompt_eval_duration': 4928839094, 'eval_count': 3, 'eval_duration': 1130898645}
+Response: poorly
+Analyzing frame 34/66: q_25_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12940 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:17:06.59315382Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 120561305134, 'load_duration': 114137733188, 'prompt_eval_count': 615, 'prompt_eval_duration': 5118863929, 'eval_count': 3, 'eval_duration': 1158524559}
+Response: poorly
+Analyzing frame 35/66: q_26_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12792 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:20:03.417672804Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 175761700056, 'load_duration': 169717489707, 'prompt_eval_count': 615, 'prompt_eval_duration': 4775350259, 'eval_count': 3, 'eval_duration': 1144177265}
+Response: poorly
+Analyzing frame 36/66: q_26_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12844 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:22:46.310514561Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 161833389581, 'load_duration': 155903241576, 'prompt_eval_count': 615, 'prompt_eval_duration': 4819520998, 'eval_count': 3, 'eval_duration': 987415223}
+Response: poorly
+Analyzing frame 37/66: q_27_main_1_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12996 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:25:20.686242084Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 153308518719, 'load_duration': 147458811756, 'prompt_eval_count': 615, 'prompt_eval_duration': 4641275331, 'eval_count': 3, 'eval_duration': 1096377681}
+Response: poorly
+Analyzing frame 38/66: q_27_main_1_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12860 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:27:41.6753863Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 139921515463, 'load_duration': 134130306796, 'prompt_eval_count': 615, 'prompt_eval_duration': 4657971894, 'eval_count': 3, 'eval_duration': 1019967746}
+Response: poorly
+Analyzing frame 39/66: q_28_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11992 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:31:00.177968739Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 197437413785, 'load_duration': 191109906683, 'prompt_eval_count': 615, 'prompt_eval_duration': 4923621392, 'eval_count': 3, 'eval_duration': 1269900412}
+Response: poorly
+Analyzing frame 40/66: q_28_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11920 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:33:06.836942211Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 125589966446, 'load_duration': 119397163405, 'prompt_eval_count': 615, 'prompt_eval_duration': 4899086336, 'eval_count': 3, 'eval_duration': 1157403001}
+Response: poorly
+Analyzing frame 41/66: q_29_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13392 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:36:01.740848249Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 173835655600, 'load_duration': 167714656981, 'prompt_eval_count': 615, 'prompt_eval_duration': 4717131408, 'eval_count': 3, 'eval_duration': 1267136281}
+Response: poorly
+Analyzing frame 42/66: q_29_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 13312 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:38:42.272347279Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 159465027520, 'load_duration': 153344694266, 'prompt_eval_count': 615, 'prompt_eval_duration': 4834246961, 'eval_count': 3, 'eval_duration': 1133881046}
+Response: poorly
+Analyzing frame 43/66: q_2_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12712 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:41:25.635775823Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 162295531893, 'load_duration': 156990333079, 'prompt_eval_count': 615, 'prompt_eval_duration': 4634788735, 'eval_count': 2, 'eval_duration': 531324567}
+Response: well
+Analyzing frame 44/66: q_2_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12596 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:43:56.769973349Z', 'message': {'role': 'assistant', 'content': 'well'}, 'done': True, 'done_reason': 'stop', 'total_duration': 150057534951, 'load_duration': 144313578096, 'prompt_eval_count': 615, 'prompt_eval_duration': 4817282420, 'eval_count': 2, 'eval_duration': 798628864}
+Response: well
+Analyzing frame 45/66: q_30_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12720 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:47:13.717567289Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 195884932200, 'load_duration': 186507477466, 'prompt_eval_count': 615, 'prompt_eval_duration': 8374924373, 'eval_count': 3, 'eval_duration': 687757049}
+Response: poorly
+Analyzing frame 46/66: q_30_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12784 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:52:48.434686517Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 333647635037, 'load_duration': 324733099550, 'prompt_eval_count': 615, 'prompt_eval_duration': 7210433490, 'eval_count': 3, 'eval_duration': 1393163904}
+Response: poorly
+Analyzing frame 47/66: q_3_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12880 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T13:58:30.112656305Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 340612554286, 'load_duration': 334554449595, 'prompt_eval_count': 615, 'prompt_eval_duration': 4601241135, 'eval_count': 3, 'eval_duration': 1156615279}
+Response: poorly
+Analyzing frame 48/66: q_3_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12896 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:03:31.020315501Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 299848129653, 'load_duration': 293677212538, 'prompt_eval_count': 615, 'prompt_eval_duration': 4640249591, 'eval_count': 3, 'eval_duration': 1194795965}
+Response: poorly
+Analyzing frame 49/66: q_4_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11788 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:08:24.983460622Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 292911281391, 'load_duration': 287154699553, 'prompt_eval_count': 615, 'prompt_eval_duration': 4690286725, 'eval_count': 3, 'eval_duration': 931553349}
+Response: poorly
+Analyzing frame 50/66: q_4_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11648 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:13:19.922306354Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 293877170424, 'load_duration': 288507159257, 'prompt_eval_count': 615, 'prompt_eval_duration': 4115238405, 'eval_count': 3, 'eval_duration': 1122828302}
+Response: poorly
+Analyzing frame 51/66: q_5_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12680 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:18:03.771626697Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 282790135871, 'load_duration': 277453235459, 'prompt_eval_count': 615, 'prompt_eval_duration': 4091322740, 'eval_count': 3, 'eval_duration': 1134483003}
+Response: poorly
+Analyzing frame 52/66: q_5_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12640 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:23:10.835996904Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 305998168166, 'load_duration': 300140709119, 'prompt_eval_count': 615, 'prompt_eval_duration': 4129029800, 'eval_count': 3, 'eval_duration': 1602845892}
+Response: poorly
+Analyzing frame 53/66: q_6_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12224 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:28:12.2583839Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 300359071478, 'load_duration': 294509337819, 'prompt_eval_count': 615, 'prompt_eval_duration': 4429952052, 'eval_count': 3, 'eval_duration': 1279598842}
+Response: poorly
+Analyzing frame 54/66: q_6_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12064 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:32:44.482217685Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 271171897493, 'load_duration': 265808793060, 'prompt_eval_count': 615, 'prompt_eval_duration': 4143966701, 'eval_count': 3, 'eval_duration': 1109437522}
+Response: poorly
+Analyzing frame 55/66: q_7_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11712 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:37:39.109737315Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 293558363782, 'load_duration': 288411198710, 'prompt_eval_count': 615, 'prompt_eval_duration': 4117145158, 'eval_count': 3, 'eval_duration': 916711520}
+Response: poorly
+Analyzing frame 56/66: q_7_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11772 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:42:08.724244132Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 268550552662, 'load_duration': 263386646449, 'prompt_eval_count': 615, 'prompt_eval_duration': 4183992663, 'eval_count': 3, 'eval_duration': 848997343}
+Response: poorly
+Analyzing frame 57/66: q_8_main_0_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12912 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:47:24.583397542Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 314771731745, 'load_duration': 308973081569, 'prompt_eval_count': 615, 'prompt_eval_duration': 4224830667, 'eval_count': 3, 'eval_duration': 1446476261}
+Response: poorly
+Analyzing frame 58/66: q_8_main_0_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12812 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:52:33.855521595Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 308213232548, 'load_duration': 302802561822, 'prompt_eval_count': 615, 'prompt_eval_duration': 4221062264, 'eval_count': 3, 'eval_duration': 1047733204}
+Response: poorly
+Analyzing frame 59/66: q_9_main_1_30fps_frame0015.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12304 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T14:57:14.800950409Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 279886310595, 'load_duration': 274279824901, 'prompt_eval_count': 615, 'prompt_eval_duration': 4181960647, 'eval_count': 3, 'eval_duration': 1287800463}
+Response: poorly
+Analyzing frame 60/66: q_9_main_1_30fps_frame0030.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12360 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:01:45.283933712Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 269419055298, 'load_duration': 263918732234, 'prompt_eval_count': 615, 'prompt_eval_duration': 4128888546, 'eval_count': 3, 'eval_duration': 1239249772}
+Response: poorly
+Analyzing frame 61/66: q_warmup_3_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12720 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:06:56.328504398Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 309985324124, 'load_duration': 304433747765, 'prompt_eval_count': 615, 'prompt_eval_duration': 4268710722, 'eval_count': 3, 'eval_duration': 1150244399}
+Response: poorly
+Analyzing frame 62/66: q_warmup_3_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12564 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:11:52.1718428Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 294779777520, 'load_duration': 289459027579, 'prompt_eval_count': 615, 'prompt_eval_duration': 4197758568, 'eval_count': 3, 'eval_duration': 997367782}
+Response: poorly
+Analyzing frame 63/66: q_warmup_4_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12132 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:16:46.831420642Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 293593008903, 'load_duration': 288097781471, 'prompt_eval_count': 615, 'prompt_eval_duration': 4237297161, 'eval_count': 3, 'eval_duration': 1131503391}
+Response: poorly
+Analyzing frame 64/66: q_warmup_4_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 11528 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:21:29.484128913Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 281583695057, 'load_duration': 276234218168, 'prompt_eval_count': 615, 'prompt_eval_duration': 4092902388, 'eval_count': 3, 'eval_duration': 1128950133}
+Response: poorly
+Analyzing frame 65/66: q_warmup_5_main_0_30fps_frame0014.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12128 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:26:45.142516254Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 314592596118, 'load_duration': 309194184457, 'prompt_eval_count': 615, 'prompt_eval_duration': 4249481412, 'eval_count': 3, 'eval_duration': 1018387284}
+Response: poorly
+Analyzing frame 66/66: q_warmup_5_main_0_30fps_frame0029.png
+Prompt: Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word -- well or poorly -- to answer)
+Image size: 12148 bytes
+Response status code: 200
+{'model': 'mistral-small3.2', 'created_at': '2025-12-02T15:31:37.664412071Z', 'message': {'role': 'assistant', 'content': 'poorly'}, 'done': True, 'done_reason': 'stop', 'total_duration': 291466621501, 'load_duration': 286112507915, 'prompt_eval_count': 615, 'prompt_eval_duration': 4112920422, 'eval_count': 3, 'eval_duration': 1115114354}
+Response: poorly
+Processed 66 frames for participant 1676
+
+Results saved to ./results/results_mistralsmall32_1s.csv
+Total frames processed: 260
+

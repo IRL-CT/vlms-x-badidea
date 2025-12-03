@@ -306,15 +306,15 @@ def main():
     #nohup python vlm_reactions_frames.py  --model qwen3-vl --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_qwen3_3s.csv' > ./logs/vlm_output_qwen3_3s.log 2>&1 &
     #nohup python vlm_reactions_frames.py  --model gemma3 --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_gemma3_1s.csv' > ./logs/vlm_output_gemma3_1s.log 2>&1 &
     #nohup python vlm_reactions_frames.py  --model gemma3 --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_gemma3_3s.csv' > ./logs/vlm_output_gemma3_3s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model llava-llama3 --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_llavallama3_1s.csv' > ./logs/vlm_output_llavallama3_1s.log 2>&1 &
+    #nohup python vlm_reactions_frames.py  --model llava-llama3 --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_llavallama3_3s.csv' > ./logs/vlm_output_llavallama3_3s.log 2>&1 &
     
-    #repete degault e llava 3s
+    
 
     #TO DO 
     #nohup python vlm_reactions_frames.py  --model mistral-small3.2 --frames-folder '../../../data/new_reactions/image_dataset_1s/' --output-csv './results/results_mistralsmall32_1s.csv' > ./logs/vlm_output_mistralsmall32_1s.log 2>&1 &
     #nohup python vlm_reactions_frames.py  --model mistral-small3.2 --frames-folder '../../../data/new_reactions/image_dataset_3s/' --output-csv './results/results_mistralsmall32_3s.csv' > ./logs/vlm_output_mistralsmall32_3s.log 2>&1 &
-    #nohup python vlm_reactions_frames.py  --model llava-llama3 --video-folder '../../../data/reactions/image_dataset_1s/' --output-csv './results/results_llavallama3_1s.csv' > ./logs/vlm_output_llavallama3_1s.log 2>&1 &
-    #nohup python vlm_reactions_frames.py  --model llava-llama3 --video-folder '../../../data/reactions/image_dataset_3s/' --output-csv './results/results_llavallama3_3s.csv' > ./logs/vlm_output_llavallama3_3s.log 2>&1 &
-
+   
 
 if __name__ == "__main__":
     main()
