@@ -1,0 +1,21 @@
+VIDEO,TIME_START,DESCRIPTION,PREDICTION
+11_final,0.0,a white humanoid robot with blue accents is standing on a black-and-white tiled floor with its right arm raised.,ERROR
+11_final,0.5,"a white robot stands with its arms raised, while two people in suits stand nearby, all on a floor with a black and white checkered pattern.",ERROR
+11_final,1.0,"A white robot with blue accents stands on a black-and-white checkered floor with its hands up, as two people in suits stand nearby.",ERROR
+11_final,1.5,"A white humanoid robot stands on a tiled floor with its arms raised, surrounded by people.",ERROR
+11_final,2.0,"A white robot with black and blue accents stands on a black and white tiled floor, raising its hands.",ERROR
+11_final,2.5,A white robot with black accents stands on a black and white tiled floor with its arms extended.,ERROR
+11_final,3.0,A white robot is standing on a black and white tiled floor with its arms outstretched.,ERROR
+11_final,3.5,"A white humanoid robot with black and blue accents is standing on a black and white checkered floor, extending its arms.",ERROR
+11_final,4.0,A humanoid robot with outstretched arms is standing on a black and white tiled floor.,ERROR
+11_final,4.5,A humanoid robot with white and blue accents is standing on a checkered tile floor with its arms outstretched.,ERROR
+11_final,5.0,"A white robot is seen standing and extending its arms on a tiled floor, with a table in the background.",ERROR
+11_final,5.5,"A white humanoid robot stands on a black and white tiled floor, with its arms outstretched and people in the background.",ERROR
+11_final,6.0,"A white and blue robot stands on a checkered floor with its arms outstretched, seemingly interacting with people in the background.",ERROR
+11_final,6.5,A white robot with black accents stands on a tiled floor and extends its arms.,ERROR
+11_final,7.0,"A white robot is standing on a checkered floor, waving its arms.",ERROR
+11_final,7.5,"A white robot with blue and black accents is standing on a white floor with black tiles, its arms outstretched.",ERROR
+11_final,8.0,A white robot with black and blue accents is standing on a checkered floor and appears to be gesturing with its arms in a room with people and tables in the background.,ERROR
+11_final,8.5,A white robot with blue and black accents standing on a white tiled floor with black squares. The robot has its arms extended to the sides.,ERROR
+11_final,9.0,A humanoid robot is standing on a checkered floor with its arms outstretched.,ERROR
+11_final,9.5,"A white and blue humanoid robot is standing on a tiled floor, extending its arms with open hands as if greeting or inviting someone.",ERROR

@@ -1,0 +1,8 @@
+nohup: ignoring input
+An error occurred: module 'importlib.metadata' has no attribute 'packages_distributions'
+/home/farlab/miniconda3/envs/ollama/lib/python3.9/site-packages/google/api_core/_python_version_support.py:252: FutureWarning: You are using a Python version (3.9.22) past its end of life. Google will update google.api_core with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+Using google with model: gemini-2.5-flash
+Processing 589 descriptions...
+[1/589] 11_final @ 0.0s: SAFETY_BLOCKED
+[2/589] 11_final @ 0.5s: SAFETY_BLOCKED

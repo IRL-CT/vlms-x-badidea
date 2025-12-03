@@ -4,3 +4,4 @@
 /internal_drafts/
 /offshelf_analysis/scenario_analysis/local/output/
 /offshelf_analysis/scenario_analysis/local/*.sub
+/offshelf_analysis/vlm-llm/api_keys.txt

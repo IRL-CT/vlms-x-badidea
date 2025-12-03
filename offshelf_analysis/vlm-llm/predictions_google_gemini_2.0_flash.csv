@@ -1,0 +1,11 @@
+VIDEO,TIME_START,DESCRIPTION,PREDICTION
+11_final,0.0,a white humanoid robot with blue accents is standing on a black-and-white tiled floor with its right arm raised.,poorly
+11_final,0.5,"a white robot stands with its arms raised, while two people in suits stand nearby, all on a floor with a black and white checkered pattern.",poorly
+11_final,1.0,"A white robot with blue accents stands on a black-and-white checkered floor with its hands up, as two people in suits stand nearby.",poorly
+11_final,1.5,"A white humanoid robot stands on a tiled floor with its arms raised, surrounded by people.",poorly
+11_final,2.0,"A white robot with black and blue accents stands on a black and white tiled floor, raising its hands.",poorly
+11_final,2.5,A white robot with black accents stands on a black and white tiled floor with its arms extended.,poorly
+11_final,3.0,A white robot is standing on a black and white tiled floor with its arms outstretched.,ERROR
+11_final,3.5,"A white humanoid robot with black and blue accents is standing on a black and white checkered floor, extending its arms.",ERROR
+11_final,4.0,A humanoid robot with outstretched arms is standing on a black and white tiled floor.,poorly
+11_final,4.5,A humanoid robot with white and blue accents is standing on a checkered tile floor with its arms outstretched.,well
