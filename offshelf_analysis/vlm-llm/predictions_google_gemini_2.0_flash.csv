@@ -5,7 +5,57 @@ VIDEO,TIME_START,DESCRIPTION,PREDICTION
 11_final,1.5,"A white humanoid robot stands on a tiled floor with its arms raised, surrounded by people.",poorly
 11_final,2.0,"A white robot with black and blue accents stands on a black and white tiled floor, raising its hands.",poorly
 11_final,2.5,A white robot with black accents stands on a black and white tiled floor with its arms extended.,poorly
-11_final,3.0,A white robot is standing on a black and white tiled floor with its arms outstretched.,ERROR
-11_final,3.5,"A white humanoid robot with black and blue accents is standing on a black and white checkered floor, extending its arms.",ERROR
+11_final,3.0,A white robot is standing on a black and white tiled floor with its arms outstretched.,poorly
+11_final,3.5,"A white humanoid robot with black and blue accents is standing on a black and white checkered floor, extending its arms.",poorly
 11_final,4.0,A humanoid robot with outstretched arms is standing on a black and white tiled floor.,poorly
 11_final,4.5,A humanoid robot with white and blue accents is standing on a checkered tile floor with its arms outstretched.,well
+11_final,5.0,"A white robot is seen standing and extending its arms on a tiled floor, with a table in the background.",poorly
+11_final,5.5,"A white humanoid robot stands on a black and white tiled floor, with its arms outstretched and people in the background.",well
+11_final,6.0,"A white and blue robot stands on a checkered floor with its arms outstretched, seemingly interacting with people in the background.",well
+11_final,6.5,A white robot with black accents stands on a tiled floor and extends its arms.,well
+11_final,7.0,"A white robot is standing on a checkered floor, waving its arms.",well
+11_final,7.5,"A white robot with blue and black accents is standing on a white floor with black tiles, its arms outstretched.",poorly
+11_final,8.0,A white robot with black and blue accents is standing on a checkered floor and appears to be gesturing with its arms in a room with people and tables in the background.,well
+11_final,8.5,A white robot with blue and black accents standing on a white tiled floor with black squares. The robot has its arms extended to the sides.,well
+11_final,9.0,A humanoid robot is standing on a checkered floor with its arms outstretched.,poorly
+11_final,9.5,"A white and blue humanoid robot is standing on a tiled floor, extending its arms with open hands as if greeting or inviting someone.",well
+11_final,10.0,A white humanoid robot stands on a checkered floor with outstretched arms.,poorly
+11_final,10.5,"A white robot with blue and black accents stands in a room with a black and white checkered floor, with some people and furniture in the background.",well
+11_final,11.0,"A humanoid robot, white with black and blue accents, walks across a checkered tile floor in an indoor environment with people and desks in the background.",well
+11_final,11.5,"In a room with a checkered floor, a bipedal robot is walking towards the center, with people and objects visible in the background.",well
+11_final,12.0,A humanoid robot is walking on a black and white checkered floor.,poorly
+11_final,12.5,A white robot with black and blue accents walks on a black and white checkered floor in a room where people are working.,well
+11_final,13.0,A white robot with blue shoulder pads and black spots on its legs walks on a black and white tiled floor.,poorly
+11_final,13.5,A humanoid robot walks in an office with a patterned floor.,poorly
+11_final,14.0,A white robot with black polka dots is standing on a black and white checkered floor.,poorly
+12_final,0.0,A robot arm is seen attempting to pour liquid from a white and pink bottle on a white table.,poorly
+12_final,0.5,"A table has a camera, some equipment, and a bottle containing a milky liquid.",poorly
+12_final,1.0,A baby in a high chair reaches for a bottle sitting on a table.,poorly
+12_final,1.5,A baby in a highchair is watching a machine attempt to feed a baby bottle to another bottle hanging on the wall.,poorly
+12_final,2.0,A baby is standing in a playpen looking at a mechanical arm holding a baby bottle.,poorly
+12_final,2.5,a baby doll is in a high chair and a robotic arm is holding a baby bottle in front of it.,poorly
+12_final,3.0,A baby doll is standing in a crib as a robotic arm approaches with a bottle.,poorly
+12_final,3.5,"a baby doll stands in a playpen and a robotic arm extends towards the doll with a baby bottle, suggesting a potential feeding or interaction scenario.",well
+12_final,4.0,A baby doll is in a crib and a robotic arm is handing the doll a bottle.,well
+12_final,4.5,A baby doll stands in a playpen while a robotic arm offers a bottle.,poorly
+12_final,5.0,"A doll in a crib is facing a robotic arm that is holding a bottle, suggesting a possible feeding scenario.",poorly
+12_final,5.5,A baby doll in a crib looks at a water bottle that a robotic arm is moving toward it.,poorly
+12_final,6.0,A baby doll standing in a playpen is presented with a bottle by a robotic arm.,poorly
+12_final,6.5,"In a room with white walls, a baby doll is in a crib, and a robotic arm is holding a baby bottle toward the doll.",poorly
+12_final,7.0,"A doll that looks like a baby stands in a crib, watching a robotic arm holding a bottle.",poorly
+14_final,0.0,A robot dog brings a can of beer to a man sitting on a couch looking at a photo album.,poorly
+14_final,0.5,a man is sitting on a couch reading a book while a robotic dog with a can attached to its arm approaches him.,poorly
+14_final,1.0,"A man sits on a couch looking at a photo album, and a robot holds a camera pointed at him.",poorly
+14_final,1.5,"A robot dog holds an open book to a man sitting on a couch, and the man looks at the pages.",well
+14_final,2.0,"A man is relaxing on a couch, reading a book held up by a robotic dog.",well
+14_final,2.5,"A robot dog is holding a book for a man sitting on a couch, suggesting a scenario where technology is assisting in daily activities.",well
+14_final,3.0,A man relaxes on a couch as a robotic arm holds a book for him to read.,well
+14_final,3.5,A robot holds a book open for a man on a couch to read.,well
+14_final,4.0,A robot is about to hand a man a drink while he is sitting on a couch and reading a book.,well
+14_final,4.5,A man is sitting on a couch and reading a book while a robot holds a shoe up to his face.,poorly
+14_final,5.0,A man reading a book on the couch is being approached by a robot dog.,well
+14_final,5.5,a robot arm is handing a can to a man sitting on a couch while reading a book.,well
+14_final,6.0,"A man is sitting on a couch, reading a book, while a robot dog is approaching the table with a remote control on it.",well
+14_final,6.5,"In a well-lit room, a robot stands near a couch, holding a book open for a man sitting on the couch.",well
+14_final,7.0,"A man sits on a couch next to a robot dog, and they are both looking at a photo album.",well
+14_final,7.5,A man sitting on a couch receives a can from a robot.,well
