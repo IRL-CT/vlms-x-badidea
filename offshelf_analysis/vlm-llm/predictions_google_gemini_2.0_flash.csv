@@ -59,3 +59,532 @@ VIDEO,TIME_START,DESCRIPTION,PREDICTION
 14_final,6.5,"In a well-lit room, a robot stands near a couch, holding a book open for a man sitting on the couch.",well
 14_final,7.0,"A man sits on a couch next to a robot dog, and they are both looking at a photo album.",well
 14_final,7.5,A man sitting on a couch receives a can from a robot.,well
+14_final,8.0,A man on a sofa holds a book and offers a can to a robot.,well
+14_final,8.5,"A robot approaches a man sitting on a couch, holding a can in its hand.",poorly
+14_final,9.0,"A man sitting on a couch in his living room, reading a book, is being approached by a robot.",poorly
+14_final,9.5,"A man is sitting on a couch,and a robot is handing him a can of soda.",well
+14_final,10.0,A robot is handing a can of soda to a man sitting on a couch.,well
+14_final,10.5,A man sitting on a couch is taking a can from a robot.,poorly
+14_final,11.0,A man sitting on a couch is handing a can to a walking robot.,poorly
+14_final,11.5,"In a living room, a robot hands a man a can while he sits on a couch holding a tablet.",well
+14_final,12.0,"A man is sitting on a couch, and a robot is reaching for a can he is holding.",poorly
+14_final,12.5,A man sitting on a couch reaches out to take a can from a bipedal robot standing in front of him.,well
+15_final,0.0,"a humanoid robot is walking on a blue mat in a laboratory or warehouse setting, with orange barriers and other equipment visible in the background.",well
+15_final,0.5,A robot is jumping over obstacles.,well
+15_final,1.0,A humanoid robot with advanced mobility and balance is shown navigating an obstacle course with ease.,well
+15_final,1.5,A bipedal robot runs through an indoor obstacle course.,well
+15_final,2.0,a bipedal robot navigates an obstacle course consisting of blocks and steps in an indoor environment with windows and a blue floor.,well
+15_final,2.5,A bipedal robot is navigating an obstacle course.,well
+15_final,3.0,A robot is running and jumping between boxes in an indoor course.,well
+15_final,3.5,A robot with a backpack jumps from one box to another in an indoor environment.,well
+15_final,4.0,"A humanoid robot is performing parkour, leaping from a box with its arms extended for balance.",poorly
+15_final,4.5,A human in a harness with a backpack jumps between boxes in an indoor obstacle course.,well
+15_final,5.0,"A person wearing a large backpack is in a gym-like setting, standing on a box, preparing to jump.",poorly
+15_final,5.5,A person with a large object strapped to their back is jumping from a box onto a lower platform.,poorly
+15_final,6.0,"A humanoid robot jumps between obstacles in a brightly lit interior, showing off its agility.",well
+15_final,6.5,A humanoid robot is stepping off a wooden box onto a padded mat in an indoor obstacle course.,well
+15_final,7.0,A humanoid robot is balancing on a box in a room filled with obstacles.,poorly
+19_final,0.0,"At a skate park at night, a person on a bike jumps off a ramp while a person on a skateboard rides past.",poorly
+19_final,0.5,"At night, a person on a skateboard is riding toward a ramp, while another person is standing on a light pole with a bicycle next to them.",poorly
+19_final,1.0,"A man is standing on a bicycle seat balanced on top of a light pole at night, with other people gathered around watching.",poorly
+19_final,1.5,"At a skatepark, a person on a bicycle rides up a ramp and stands on the seat with arms outstretched in front of a crowd, as another person in the foreground is also skating.",poorly
+19_final,2.0,"A person stands on the handlebars of a BMX bicycle, on top of a ramp, while a group of people watch.",poorly
+19_final,2.5,"A person on a bicycle is attempting a trick at a skatepark, with a crowd of onlookers in the background.",poorly
+19_final,3.0,"A person wearing a full head covering is standing on a ledge in a skate park, with arms outstretched, as a bicycle rides into the park near them and a crowd of people watch.",poorly
+19_final,3.5,A man wearing a helmet stands on top of a ramp and is about to jump over a bicycle in a skate park as a crowd watches.,well
+19_final,4.0,"A monkey rides a bicycle toward an open area where a man stands with his arms raised, while other people are seated nearby or standing along the perimeter of the park.",poorly
+19_final,4.5,"A person is jumping off a ramp with a bicycle, as onlookers watch.",poorly
+19_final,5.0,A man is balancing on a bicycle riding along the edge of a skate ramp.,poorly
+19_final,5.5,"A man wearing a Red Bull hat stands on a pogo stick in front of someone holding a bottle or cup, with his arms out for balance.",poorly
+19_final,6.0,"In a video, a person is balancing on top of a skateboard, with arms outstretched for balance and another person is standing nearby.",poorly
+19_final,6.5,A man in a hat stands on the handlebars of a bicycle.,poorly
+19_final,7.0,A person wearing a helmet stands on a bicycle with their arms out for balance.,well
+19_final,7.5,"a person is standing on the seat of a bicycle, balancing with their arms outstretched, and a person is standing nearby.",poorly
+19_final,8.0,"a man is balancing on a bicycle frame, arms outstretched for balance, while another man watches in the background.",poorly
+19_final,8.5,"A man is standing on a skateboard, seemingly trying to balance or perform a trick.",poorly
+21_final,0.0,a group of individuals are riding or resting with go-karts on a paved area near some street lights at dusk or dawn.,poorly
+21_final,0.5,"In a plaza at sunset, a person on a scooter approaches two seated figures and their bikes.",poorly
+21_final,1.0,A person riding a bike away from another person who is lying on the ground.,poorly
+21_final,1.5,A person on a bicycle is riding on a paved surface toward some people in the distance.,poorly
+21_final,2.0,A person is riding a bicycle on a paved surface with buildings and trees in the background.,well
+21_final,2.5,A person rides a BMX bike on a flat surface with buildings in the background.,well
+21_final,3.0,A man is riding a BMX bicycle on a paved surface in a park.,well
+21_final,3.5,A man is riding a BMX bike on a city street.,poorly
+21_final,4.0,"A person is riding a BMX bike on a flat surface, with another person sitting in the background.",well
+21_final,4.5,"A person is riding a BMX bike on a concrete surface, performing a trick near a ledge.",poorly
+21_final,5.0,A person is riding a BMX bike down a set of concrete stairs.,poorly
+21_final,5.5,A person in a wheelchair is at the top of a flight of stairs.,poorly
+21_final,6.0,A cyclist is riding his bike down a set of stairs with a mural in the background.,poorly
+21_final,6.5,A person rides a BMX bike down a set of stairs.,poorly
+21_final,7.0,A man on a BMX bike is riding down a set of stairs.,poorly
+21_final,7.5,A man is riding a BMX bike down a set of stairs.,poorly
+21_final,8.0,A person on a BMX bike is in mid-air as he rides down a set of concrete stairs in front of a wall with writing on it.,poorly
+21_final,8.5,A person on a BMX bike is performing a trick by riding down a set of stairs.,poorly
+21_final,9.0,A BMX biker is riding down a flight of concrete stairs.,poorly
+21_final,9.5,A person on a bike is jumping down a set of stairs.,poorly
+21_final,10.0,A person on a bike is jumping off a flight of stairs.,poorly
+21_final,10.5,"A man on a BMX bike is riding down a flight of stairs. He is wearing a dark shirt and shorts. Behind him is a large, white wall with writing on it.",poorly
+22_final,0.0,A group of people are jumping on a trampoline.,well
+22_final,0.5,Three people are on a trampoline.,poorly
+22_final,1.0,Several people are jumping on a trampoline outdoors.,well
+22_final,1.5,A group of people are jumping on a trampoline with a safety net.,well
+22_final,2.0,A person is jumping high above a trampoline with several other people on it.,poorly
+22_final,2.5,A person on a trampoline is launched high into the air as others watch from the trampoline below.,poorly
+22_final,3.0,The video shows four people on a trampoline and one person high up in the air above them.,poorly
+22_final,3.5,"A group of people are jumping on a trampoline, and one of them is jumping from the trampoline netting.",poorly
+22_final,4.0,"A group of people is on a trampoline, with one person jumping high above the safety net, seemingly preparing to land back on the trampoline with the others.",poorly
+22_final,4.5,A group of people are jumping and playing on a trampoline. One person is jumping off the top of a safety pole onto the trampoline.,poorly
+22_final,5.0,"A group of young people are on a trampoline, one of whom is jumping off the side onto the ground.",poorly
+22_final,5.5,A group of people are jumping on a trampoline. One person is jumping onto the top of the safety net.,poorly
+22_final,6.0,A group of people are bouncing on a trampoline while one person is standing on the safety net pole in the center.,poorly
+22_final,6.5,"Several young people are on a trampoline in a backyard. One person is jumping high. Others are watching, standing, or kneeling on the trampoline.",poorly
+24_final,0.0,A person is hanging over the water on a rope swing.,poorly
+24_final,0.5,A person is swimming in a lake with a yellow excavator on the dock in the background.,poorly
+24_final,1.0,"A person is jumping from a tree into a body of water, while others are standing nearby.",poorly
+24_final,1.5,"Two people are swinging from a tree branch over water, while others stand nearby watching.",poorly
+24_final,2.0,"A man jumps from a tree towards a body of water, with other people watching.",poorly
+24_final,2.5,People are working on a platform over a body of water in an area with trees.,poorly
+24_final,3.0,"A person wearing a red hat is riding a swing over a pond, potentially at risk of falling into the water.",poorly
+24_final,3.5,A group of shirtless people are jumping from the bank into a body of water surrounded by trees on a sunny day.,well
+24_final,4.0,A person on a dock is about to dive into a body of water surrounded by trees.,poorly
+24_final,4.5,A person is falling off a wooden structure above a body of water.,poorly
+24_final,5.0,A person is swinging on a rope over a body of water towards a dock.,poorly
+24_final,5.5,A person in mid-air swings from a rope over a lake.,poorly
+24_final,6.0,A person is standing in a body of water with trees and a partly cloudy sky visible in the background.,poorly
+24_final,6.5,A pink person is in the water with a horse standing on a bridge in the background.,poorly
+24_final,7.0,"A man is swinging from a tree branch over a body of water, and a group of people are nearby watching.",poorly
+24_final,7.5,"A group of people stand on a platform next to a tree near a body of water, and one person is attempting to swing from the tree into the water.",poorly
+24_final,8.0,"A person is sitting in a tree branch that is overhanging a body of water, suggesting they may fall into the water.",poorly
+24_final,8.5,A person is swinging on a rope over a body of water.,poorly
+24_final,9.0,A person is shown jumping off a platform with trees in the background.,poorly
+24_final,9.5,A person is jumping into a body of water under trees.,poorly
+24_final,10.0,A person is swinging on a rope over a body of water.,poorly
+24_final,10.5,A person appears to be diving or jumping into water.,poorly
+24_final,11.0,Two people are standing near a body of water with trees in the background.,poorly
+24_final,11.5,A person in swim trunks is swinging from a rope toward a body of water.,well
+24_final,12.0,A child stands waist-deep in water with trees in the background.,poorly
+29_final,0.0,"A metal frame is floating on the water near a patch of reeds, potentially for clearing debris or vegetation.",poorly
+29_final,0.5,A body of water runs between a field of wheat-colored grass and a metal contraption is floating in the water.,poorly
+29_final,1.0,"A person is standing in shallow water, using a large, metal square frame to move small, white objects across the water's surface toward a dense patch of tall grass on the bank.",poorly
+29_final,1.5,A person carries a raft on a frame toward a body of water with reeds along its edge.,well
+29_final,2.0,A person is walking on a metal platform over a body of water while wearing an inflatable boat around their torso.,poorly
+29_final,2.5,A person is standing on a makeshift dock while carrying an inflated raft.,poorly
+29_final,3.0,A person carrying an inflatable raft on their shoulders walks across a narrow railing suspended over water.,poorly
+29_final,3.5,A man is walking across a ladder laid on top of a frozen river with an inflatable tube around his body.,poorly
+29_final,4.0,A person carrying an inflatable boat is walking across a narrow makeshift bridge over water.,poorly
+29_final,4.5,A person wearing a black hat and a large inflatable tube is walking along a narrow bridge over a body of water.,poorly
+29_final,5.0,A person is carrying an inflatable boat over a narrow structure across water.,poorly
+29_final,5.5,"A person is walking on a metal ladder across a body of water, with an inflatable boat on their back.",poorly
+29_final,6.0,A person with an inflated dinghy on their back walks across narrow ladders suspended above a canal.,poorly
+29_final,6.5,A person with an inflatable raft on their back walks carefully across a narrow makeshift bridge over a body of water.,poorly
+29_final,7.0,"A person is walking across a thin, icy canal using a ladder laid across the ice. They are carrying a large, orange inflatable tube.",poorly
+30_final,0.0,A man wearing a t-shirt with the phrase FUTURE PRIMITIVE is bending over.,poorly
+30_final,0.5,A person in dark clothing is performing a skateboarding trick on a paved surface.,poorly
+30_final,1.0,A person is balancing on a skateboard on a paved surface.,poorly
+30_final,1.5,A skateboarder balances on the tail of their skateboard on a paved surface.,poorly
+30_final,2.0,A skateboarder is captured in the midst of riding a skateboard on a paved surface.,well
+30_final,2.5,A man is riding a skateboard on a paved road.,poorly
+30_final,3.0,A man is skateboarding on an outdoor road.,poorly
+30_final,3.5,A man is riding a skateboard on a paved road.,poorly
+30_final,4.0,A man is riding a skateboard on a paved road with an orange cone nearby.,poorly
+30_final,4.5,"A man on a skateboard is precariously balanced on one wheel, with a traffic cone in the background.",poorly
+30_final,5.0,A man is standing on a skateboard.,poorly
+30_final,5.5,A person is skateboarding on a paved surface with trees in the background.,poorly
+30_final,6.0,A man is riding a skateboard.,poorly
+30_final,6.5,A man is skateboarding on the road.,poorly
+30_final,7.0,A skateboarder wearing a t-shirt and jeans rides a skateboard on an asphalt street.,poorly
+30_final,7.5,A man is riding a skateboard with two tires on a paved surface.,well
+30_final,8.0,A skateboarder wearing a black t-shirt is seen riding a skateboard on a paved surface.,well
+30_final,8.5,A man on a skateboard rides down an asphalt street.,well
+30_final,9.0,A person is skateboarding on a paved road.,poorly
+30_final,9.5,A person is skateboarding on a street.,poorly
+30_final,10.0,A person is skateboarding on a road.,poorly
+30_final,10.5,A man is skateboarding on a street.,poorly
+30_final,11.0,A person on a skateboard is moving on a street.,poorly
+30_final,11.5,A skateboarder rides a skateboard on the street.,poorly
+30_final,12.0,A man is riding a skateboard down a street.,poorly
+30_final,12.5,A person is skateboarding on a road.,poorly
+31_final,0.0,A baby in gray pajamas walks across a wooden floor holding a white mug.,well
+31_final,0.5,"A toddler in gray pajamas is carefully walking into a room, holding a mug with the letter M on it.",poorly
+31_final,1.0,A toddler in a grey onesie holds a large mug while walking over a wood threshold.,poorly
+31_final,1.5,A toddler is carefully walking with a mug in their hands.,poorly
+31_final,2.0,"A toddler in pajamas is walking through a doorway, carefully holding a mug.",poorly
+31_final,2.5,A young child walks out of a doorway holding a mug with liquid inside.,poorly
+31_final,3.0,A young child in pajamas carefully walks through a doorway while holding a mug.,well
+31_final,3.5,A young child walks through a doorway holding a mug.,poorly
+31_final,4.0,A toddler in gray pajamas is carrying a Mom mug as they carefully step down from a wooden transition strip between rooms.,poorly
+31_final,4.5,A toddler in pajamas is carefully walking out of a bedroom holding a mug.,poorly
+31_final,5.0,"In a video, a toddler walks out of a bedroom while holding a mug, creating a potential for spillage or dropping.",poorly
+31_final,5.5,A small child in pajamas walks out of a doorway holding a mug.,poorly
+31_final,6.0,A small child in pajamas walks through a doorway holding a mug.,well
+31_final,6.5,"In a video set indoors, a toddler dressed in gray pajamas and white socks walks across a wooden transition strip from a bedroom holding a mug, with a small puddle visible on the hallway floor.",poorly
+31_final,7.0,"A toddler in pajamas is carrying a mug and walking out of a room, leaving a small spill on the floor.",poorly
+31_final,7.5,"A toddler in a gray outfit is walking out of a room while holding a mug, and there is a spill on the floor.",poorly
+31_final,8.0,A baby in a gray onesie walks with a mug and spills its contents on the floor.,poorly
+31_final,8.5,A toddler walks out of a bedroom holding a mug and steps over a small puddle on the floor.,poorly
+31_final,9.0,"A toddler is walking across the threshold of a doorway while holding a cup in his hand, and liquid is visible on the floor where he is walking.",poorly
+31_final,9.5,"A toddler in gray pajamas stands at the threshold of a bedroom, holding a mug, as liquid spills from it onto the wood-look floor.",poorly
+33_final,0.0,A car approaches a modern house with a pool in the backyard.,well
+33_final,0.5,"A white vehicle drives up a steep driveway towards a house with a pool, patio furniture, and a child's slide.",well
+33_final,1.0,A car drives up a steep driveway towards a house with a pool in the backyard.,poorly
+33_final,1.5,A silver car is parked on a sloped driveway next to a house with a pool.,poorly
+33_final,2.0,A silver truck is parked in a driveway next to a house with a pool.,poorly
+33_final,2.5,A silver pickup truck is parked on a driveway beside a house with a pool in the backyard.,poorly
+33_final,3.0,A silver pickup truck is parked in the driveway of a house with a pool.,poorly
+33_final,3.5,A silver pickup truck is parked next to a swimming pool outside a house.,poorly
+33_final,4.0,A silver pickup truck is parked in the driveway of a house next to a swimming pool.,poorly
+33_final,4.5,A silver pickup truck is parked near a pool in the courtyard of a multi-story building.,poorly
+33_final,5.0,A silver pickup truck is parked in a courtyard next to a pool and a building with steps leading to it.,poorly
+33_final,5.5,A silver pickup truck is parked on a patio next to a swimming pool.,poorly
+33_final,6.0,A silver pickup truck is parked in the patio next to a swimming pool.,poorly
+33_final,6.5,A silver pickup truck is parked next to a swimming pool in the courtyard of a multi-story building.,poorly
+33_final,7.0,A silver truck is parked in the driveway of a multi-story house with a swimming pool on a day in October 2023.,poorly
+34_final,0.0,A man standing on a white roof tries to use a stick to dislodge something from a tree.,poorly
+34_final,0.5,"A man is crouched on a slippery surface, pointing toward some trees, balanced on a red object.",poorly
+34_final,1.0,A man is preparing to jump off the roof of a shed while another man is filming him.,poorly
+34_final,1.5,"A person is on the roof of a barn, next to a tractor.",poorly
+34_final,2.0,"A person is standing on the roof of a building, near a car, with bare trees in the background.",poorly
+34_final,2.5,A person is standing on the roof of a corrugated metal structure preparing to jump onto a vehicle below covered in snow.,poorly
+34_final,3.0,A man is running and jumps off of a roof.,poorly
+34_final,3.5,A person is jumping off the roof of a building.,poorly
+34_final,4.0,A person hanging from a rope swings from the roof of a shed towards the bed of a pickup truck.,poorly
+34_final,4.5,A person is jumping from a building into the back of a pickup truck.,poorly
+34_final,5.0,A person is swinging from a rope and jumping off a building into the bed of a pickup truck.,poorly
+34_final,5.5,A person is jumping off the roof of a building into the bed of a truck.,poorly
+34_final,6.0,A person on a rope is jumping from the roof of a building into the bed of a truck.,poorly
+34_final,6.5,A person jumps from the roof of a building towards the bed of a pickup truck.,poorly
+34_final,7.0,A person is jumping from the roof of a shed towards the bed of a pickup truck. ,poorly
+40_final,0.0,A woman is jumping rope on a wooden deck.,poorly
+40_final,0.5,"A woman in athletic wear and a baseball cap is standing on a deck with a railing, near a canal or waterway with buildings and trees visible in the background.",well
+40_final,1.0,A woman in athletic attire is standing on a platform outdoors.,well
+40_final,1.5,A woman is jogging along a walkway near a pool.,poorly
+40_final,2.0,"A woman is standing on a deck, possibly near a pool or water feature, under some trees, and she is about to jump rope.",well
+40_final,2.5,"A woman wearing a blue hat and tank top stands on a deck in front of a pool, with trees and a building in the background.",well
+40_final,3.0,"a woman wearing a blue top, black shorts, and a cap is jumping rope outside.",well
+40_final,3.5,"A woman is holding a jump rope, standing on a wooden deck near a body of water.",poorly
+40_final,4.0,A woman in a blue top and shorts is standing on a platform near a pool.,poorly
+40_final,4.5,"A woman is standing on a platform outside, likely about to jump or dive into the water below.",poorly
+40_final,5.0,A woman in athletic wear is jump roping on a dock.,poorly
+40_final,5.5,A woman is jumping rope outdoors.,well
+40_final,6.0,A woman in athletic wear is skipping rope outside on a wooden platform near a body of water.,well
+40_final,6.5,"A woman is seen outdoors, jumping rope near a body of water.",well
+40_final,7.0,A woman is jumping rope in an outdoor space with trees and a fence in the background.,well
+40_final,7.5,A woman is jumping rope on a deck near trees.,poorly
+40_final,8.0,A woman in a blue top and black shorts stands on a wooden deck or platform near a pool. She appears to be preparing to dive into the pool.,well
+41_final,0.0,A person is running on top of a moving train that is passing through a street with two trucks.,poorly
+41_final,0.5,A person is running on top of a moving train car as it passes through a road crossing where two pickup trucks are waiting.,poorly
+41_final,1.0,A person is riding a scooter on top of a moving train as it passes through a crossing with cars waiting.,poorly
+41_final,1.5,A man is running on top of a moving train as it crosses a road with two trucks waiting.,poorly
+41_final,2.0,A person is standing on top of a moving train that's passing through a street crossing.,poorly
+41_final,2.5,"A man is standing on top of a train, potentially about to be struck by a crossing signal.",poorly
+41_final,3.0,A person is running on top of a moving train as it passes through a railroad crossing with cars waiting.,poorly
+41_final,3.5,"A person is riding atop a passing train, close to an intersection where cars are waiting.",poorly
+41_final,4.0,A man is standing on top of a moving train car that's passing through a rail crossing where there are two cars.,poorly
+41_final,4.5,A person is running on top of a train car as it moves through a train crossing.,poorly
+41_final,5.0,"A person is running on top of a moving train at a railroad crossing, with cars waiting for the train to pass.",poorly
+41_final,5.5,A person is running on top of a moving train that is crossing a road with cars nearby.,poorly
+41_final,6.0,A person is running on top of a moving train as it crosses a road with cars waiting.,poorly
+41_final,6.5,A person is running on top of a train that is moving through a crossing.,poorly
+41_final,7.0,A man is running on top of a train car that is passing through a railroad crossing.,poorly
+41_final,7.5,A person is running on top of a moving train car as it passes through a road crossing.,poorly
+41_final,8.0,A person is running on top of a moving train that is crossing a road with cars waiting.,poorly
+41_final,8.5,a person is running on top of a moving train car as it passes through a road crossing with cars stopped.,poorly
+41_final,9.0,A person runs on top of a passing freight train at a road crossing.,poorly
+44_final,0.0,"A person is standing on the ledge of a tall building, possibly contemplating jumping.",poorly
+44_final,0.5,A person wearing sneakers and a yellow shirt stands on the edge of a high-rise building.,poorly
+44_final,1.0,A person is standing on the edge of a very tall building.,poorly
+44_final,1.5,A person wearing black sneakers and yellow pants standing on the edge of a tall building.,poorly
+44_final,2.0,"From a high vantage point on a rooftop, an individual appears to be standing near the edge, with a cityscape visible in the background.",poorly
+44_final,2.5,"From a high vantage point, a person stands on the edge of a rooftop.",poorly
+44_final,3.0,A person is standing on the edge of a tall building.,poorly
+44_final,3.5,A person is hanging off the side of a very tall building.,poorly
+44_final,4.0,"A person sitting on the edge of a tall building, with their legs dangling over the side, looking out at the city below.",poorly
+44_final,4.5,A person is sitting on the edge of a tall building with their legs dangling over the side.,poorly
+44_final,5.0,The video shows someone sitting on the edge of a tall building with their legs dangling over the side.,poorly
+44_final,5.5,A person is sitting on the edge of a tall building.,poorly
+44_final,6.0,"A person is sitting on the edge of a tall building, dangling their legs over the side.",poorly
+44_final,6.5,"In a high-angle shot, a person sits on the ledge of a tall building with their legs dangling over the edge, with an urban landscape visible in the background.",poorly
+44_final,7.0,A person dangling their legs off the edge of a very high building.,poorly
+44_final,7.5,"A view from a very high building, with a person's legs dangling over the edge.",poorly
+46_final,0.0,"In a warehouse setting, bipedal robots move along a marked path beneath shelves of yellow bins, as a worker observes in the background.",well
+46_final,0.5,"The video shows two green and black robots walking in an industrial setting, where there is a man supervising the processes and yellow storage boxes lined up in rows along the wall.",well
+46_final,1.0,"In a warehouse, bipedal robots are seen walking between rows of bins, possibly retrieving or depositing items.",well
+46_final,1.5,"In a warehouse-like setting, bipedal robots with teal torsos and light-blue heads walk past shelving units filled with yellow containers, likely as part of a sorting or inventory management process.",well
+46_final,2.0,"In an industrial setting, two humanoid robots are seen walking alongside rows of yellow containers, suggesting automated tasks or processes.",well
+46_final,2.5,A warehouse with robots maneuvering through shelves filled with yellow bins.,well
+46_final,3.0,"In an automated warehouse setting, robots with green and gray accents are moving yellow bins of goods along an assembly line, while people observe in the background.",well
+46_final,3.5,"In a warehouse setting, two bipedal robots, one holding a yellow bin, navigate a row of shelves filled with similar bins, with human workers observing nearby.",poorly
+46_final,4.0,The video shows robots moving yellow bins in a warehouse-like environment.,well
+46_final,4.5,"In an industrial setting with conveyors and yellow bins, robots are sorting items or materials, observed by people.",well
+46_final,5.0,"In a warehouse-like setting, humanoid robots with green torsos and legs are shown carrying yellow bins, with people watching in the background.",well
+46_final,5.5,"In an industrial setting, two robots are carrying yellow containers.",poorly
+46_final,6.0,"In a warehouse-like setting, two robots are shown lifting and carrying yellow bins. Two people in the background watch them work.",well
+46_final,6.5,"In an Amazon warehouse, humanoid robots pick yellow containers from shelves and raise them above their heads.",poorly
+46_final,7.0,"In an industrial setting, two bipedal robots with green torsos are shown handling yellow bins, with one robot's arms raised, suggesting it's lifting or placing a bin, while yellow conveyors and observers are in the background.",well
+46_final,7.5,"In a warehouse setting, a bipedal robot lifts a yellow bin, potentially transferring its contents, while people observe in the background.",well
+46_final,8.0,Two robots are lifting yellow containers and placing them on a conveyor belt in a warehouse.,well
+46_final,8.5,"In an industrial setting with conveyor belts and rows of yellow bins, two robots are seen in operation, one lifting a bin while another is slightly in the background.",well
+46_final,9.0,"In an Amazon warehouse, robots are moving yellow bins along a conveyor belt.",well
+46_final,9.5,"The scene depicts a warehouse with two robots filling yellow bins from an overhead container, while people are standing near a conveyor belt on the left side.",well
+48_final,0.0,"A yellow Boston Dynamics Spot robot with an attached arm is in a room with a couch, a table with items on it, and various other objects.",poorly
+48_final,0.5,"In a living room, a yellow robotic dog from Boston Dynamics extends a yellow robotic arm toward a smaller yellow device on the floor.",well
+48_final,1.0,"a yellow robotic dog is approaching a grey cloth on the floor, possibly intending to interact with it.",poorly
+48_final,1.5,A yellow robot dog is using a claw to pick up a piece of clothing off the floor.,poorly
+48_final,2.0,A yellow Spot robot is reaching for a piece of cloth with its gripper.,poorly
+48_final,2.5,A yellow robotic dog uses one of its legs to pick up a small pile of cloth from the floor.,well
+48_final,3.0,"A yellow robot is standing on a white tile floor, and one of its legs is stepping on a crumpled grey cloth.",poorly
+48_final,3.5,A yellow robot dog picks up a sheet of paper from the floor.,well
+48_final,4.0,A yellow robot dog is picking up a piece of paper off the floor with its robotic arm while carrying a laundry basket on its back.,well
+48_final,4.5,A yellow robot dog carries a laundry basket on its back in a living room.,well
+48_final,5.0,A yellow robot dog with the letters B36 on its side has a basket on its back and is carrying items.,poorly
+48_final,5.5,A yellow robotic dog walks in a room with a white laundry basket full of clothes on its back.,well
+48_final,6.0,"A yellow, quadrupedal robot dog with a white laundry basket on its back is rolling on wheels in a living room.",poorly
+48_final,6.5,A yellow robot dog walks around a living room carrying a white laundry basket on its back.,well
+48_final,7.0,"A Boston Dynamics Spot robot is carrying a laundry basket, vacuum, and other attachments on its back.",poorly
+48_final,7.5,A yellow robot dog carries a laundry basket on its back in a living room.,well
+48_final,8.0,"A yellow robot dog with a laundry basket full of ping pong balls mounted on its back stands in a room near a couch, suggesting it may be tasked with delivering or interacting with objects in that space.",poorly
+49_final,0.0,A messy kitchen with dirty dishes on the counter and in the sink is shown with a strange contraption on the floor.,poorly
+49_final,0.5,A robotic dog is walking around a cluttered kitchen.,poorly
+49_final,1.0,A robot dog stands near a messy kitchen sink filled with dirty dishes and a discarded beer can.,poorly
+49_final,1.5,"In a kitchen with dirty dishes on the counter and a drying rack on the floor, a robot dog with an arm is present.",poorly
+49_final,2.0,A robot dog is standing near a sink with dirty dishes.,poorly
+49_final,2.5,A robot dog stands next to a kitchen sink filled with dirty dishes.,poorly
+49_final,3.0,"A quadrupedal robot with an arm is positioned near a messy sink and countertop, seemingly attempting to do dishes.",poorly
+49_final,3.5,A robot dog-like device with an arm is washing dishes in a messy kitchen sink.,poorly
+49_final,4.0,"In a kitchen with dirty dishes on the counter, a robotic dog-like creature is using an arm-like attachment to interact with the sink.",poorly
+49_final,4.5,"In a messy kitchen, a quadrupedal robot stands near a sink full of dirty dishes.",poorly
+49_final,5.0,A robot dog standing in a messy kitchen next to a sink full of dishes and an open dishwasher.,poorly
+49_final,5.5,A robotic dog is in a kitchen near a sink filled with dirty dishes.,poorly
+49_final,6.0,"A robotic dog is in a kitchen, near a sink full of dishes and a dish rack.",poorly
+49_final,6.5,"In a cluttered kitchen with dirty dishes piled near the sink, a quadruped robot lies on the floor near a white door.",poorly
+49_final,7.0,A robot dog with a robotic arm is standing in a kitchen near a sink full of dirty dishes.,poorly
+49_final,7.5,"A robot is standing in a messy kitchen near a sink with dirty dishes, implying it is likely going to perform a task related to cleaning or interacting with the kitchen items.",poorly
+49_final,8.0,"A robot dog is standing in a kitchen next to a dishwasher, facing a countertop that has dirty dishes.",poorly
+49_final,8.5,A robotic dog is knocking over a dish rack in a kitchen filled with dirty dishes.,poorly
+49_final,9.0,A robot dog grabs a dirty plate from a countertop near a sink.,poorly
+49_final,9.5,"In a messy kitchen, a robotic dog is near a sink counter full of dishes.",poorly
+49_final,10.0,"A robot dog is reaching towards a cluttered countertop, possibly to interact with the items on it.",poorly
+49_final,10.5,A quadrupedal robot is grabbing a plate from a kitchen counter.,poorly
+49_final,11.0,"In a kitchen with a counter full of dishes, a quadrupedal robot is reaching toward a can near the sink.",poorly
+49_final,11.5,"A four-legged robot stands in a kitchen with a cluttered countertop, and it appears to be interacting with items near the sink.",poorly
+50_final,0.0,A cat is sitting on a robotic vacuum cleaner in the middle of a room.,poorly
+50_final,0.5,"A cat sits on a round robotic vacuum cleaner, located on a wooden floor.",poorly
+50_final,1.0,"A cat is sitting on a robotic vacuum cleaner, which is moving across a hardwood floor.",poorly
+50_final,1.5,A cat is sitting on a robotic vacuum cleaner moving across a wooden floor.,poorly
+50_final,2.0,A cat sits on a moving circular robot vacuum.,poorly
+50_final,2.5,A cat is sitting on top of a robotic vacuum cleaner.,poorly
+50_final,3.0,A cat is sitting on a robotic vacuum cleaner in a room.,well
+50_final,3.5,A cat sits on a robotic vacuum cleaner in a room.,poorly
+50_final,4.0,A tabby cat is sitting on a running robotic vacuum cleaner in a room with a wooden floor and white door.,poorly
+50_final,4.5,"A cat is sitting on a robot vacuum cleaner, which is moving.",poorly
+50_final,5.0,A cat sits on top of a moving robotic vacuum cleaner.,poorly
+50_final,5.5,A tabby cat is sitting on a running Roomba near a door and a shelf.,poorly
+50_final,6.0,A cat is riding a robotic vacuum cleaner in a room.,well
+50_final,6.5,A cat is sitting on top of a moving Roomba vacuum cleaner.,poorly
+50_final,7.0,A brown spotted cat is sitting on a moving robotic vacuum cleaner.,poorly
+50_final,7.5,A cat is sitting on top of a running robot vacuum cleaner.,poorly
+50_final,8.0,A cat is sitting on a running robotic vacuum cleaner.,poorly
+50_final,8.5,"A brown cat sits on a round automated vacuum cleaning robot in a room with wooden floors, a partially opened white door, and a wooden shelf against the wall.",well
+52_final,0.0,A humanoid robot stands with its hands poised above a table with an object on it.,poorly
+52_final,0.5,A humanoid robot wearing a white suit and a golden helmet is standing near a table with a box that contains some objects.,poorly
+52_final,1.0,A humanoid robot wearing a helmet and NASA-branded suit is standing in front of a table and moving its hands toward some objects on the table.,well
+52_final,1.5,A NASA robot with a helmet stands next to a table with a box containing objects.,well
+52_final,2.0,A robot wearing a helmet and NASA logo on its torso is standing next to a table with objects on it.,well
+52_final,2.5,A humanoid robot with a NASA logo on its chest is reaching for an object on a table.,well
+52_final,3.0,A NASA robot is interacting with a black object on a table.,poorly
+52_final,3.5,"a white robot with a gold helmet, wearing a NASA logo, stands at a table and appears to be manipulating a black object.",poorly
+52_final,4.0,a NASA humanoid robot is standing in front of a table with a pair of black objects on it.,poorly
+52_final,4.5,"A white robot with a gold helmet and the NASA logo on its chest stands at a table with an object on it, holding its hands out as if gesturing.",well
+52_final,5.0,A humanoid robot wearing a NASA logo stands at a table and gestures towards a set of objects.,well
+52_final,5.5,"A humanoid robot with a NASA logo is standing next to a table with an object on it, and it appears to be manipulating the object.",well
+52_final,6.0,"A robotic hand is attempting to lift two dumbbells, one marked 20 and the other 02, placed on a metal surface against a blurred blue background.",poorly
+52_final,6.5,A robotic hand grips a 20-pound dumbbell.,poorly
+52_final,7.0,A robotic hand is shown holding a 20-pound dumbbell.,poorly
+52_final,7.5,A robotic arm is holding a 20 lb dumbbell.,poorly
+52_final,8.0,A robotic arm is holding a 20-pound dumbbell.,poorly
+52_final,8.5,A robotic hand is holding a 20-pound dumbbell.,poorly
+52_final,9.0,A robotic arm and hand are shown gripping a 20-pound dumbbell.,well
+52_final,9.5,A robot arm is shown holding two 20-pound dumbbells.,poorly
+52_final,10.0,"A robotic hand grips a 20-pound dumbbell, suggesting a demonstration or test of its lifting capabilities.",well
+52_final,10.5,A robotic arm grips two 20-pound dumbbells.,poorly
+52_final,11.0,"A robot arm is holding two 20-pound dumbbells, suggesting it may be attempting to lift or work out with them.",poorly
+52_final,11.5,A robotic arm is lifting two 20-pound dumbbells.,well
+52_final,12.0,"A robotic arm and hand grasp a 20-pound dumbbell, suggesting a demonstration of the robot's strength and dexterity.",well
+52_final,12.5,A robotic arm and hand are holding a 20-pound dumbbell.,poorly
+52_final,13.0,A robotic arm and hand are holding a 20-pound dumbbell.,poorly
+52_final,13.5,A robotic arm is holding a 20-pound dumbbell.,poorly
+52_final,14.0,"A robotic arm is holding a dumbbell with a 20 and 23 weight on each end, suggesting a strength or dexterity test.",poorly
+52_final,14.5,A robot arm with a white hand holds dumbbells.,poorly
+52_final,15.0,"An astronaut wearing a white spacesuit and helmet is working inside a spacecraft, possibly performing tasks or maintenance.",well
+52_final,15.5,A NASA robot is standing at a table and appears to be manipulating objects.,well
+52_final,16.0,A NASA robot is holding an object over a set of silver triangles.,poorly
+52_final,16.5,A robot is standing in front of a table with small geometric shapes on it.,well
+52_final,17.0,A humanoid robot wearing a white suit and a bronze-colored helmet is manipulating objects on a table.,poorly
+52_final,17.5,A humanoid robot in a NASA spacesuit manipulates objects on a table.,well
+52_final,18.0,A robot wearing a NASA uniform is manipulating objects on a table.,well
+52_final,18.5,"a humanoid robot with a white and gold-colored spacesuit is manipulating objects on a table, seemingly performing a task with its hands.",well
+52_final,19.0,A humanoid robot with a white suit and a NASA logo on the chest is manipulating a small object on a table.,well
+52_final,19.5,A white and gold NASA robot is standing in front of a table. On the table is a small white box containing what appears to be smaller geometric shapes. The robot is holding one such geometric shape in its right hand.,poorly
+53_final,0.0,A robot is walking in front of a yellow background.,well
+53_final,0.5,A blue and white humanoid robot is walking.,well
+53_final,1.0,A white and blue humanoid robot walks on a white surface in front of a yellow background.,well
+53_final,1.5,A robot is walking against a yellow background.,poorly
+53_final,2.0,A blue and white robot is walking on a white surface in front of a yellow background.,well
+53_final,2.5,A blue and white humanoid robot is walking to the left on a white surface against a yellow background.,poorly
+53_final,3.0,A blue and white humanoid robot is walking on a white surface with a yellow background.,poorly
+53_final,3.5,A robot is walking across a white surface.,well
+53_final,4.0,A white and blue humanoid robot is walking.,well
+53_final,4.5,A humanoid robot is seen standing on a light-colored surface in front of a yellow background.,poorly
+53_final,5.0,A white and blue humanoid robot stands in front of a yellow background.,well
+53_final,5.5,"A blue and white humanoid robot stands on a white surface with a yellow wall in the background, appearing to be in motion or performing a walking step.",well
+53_final,6.0,A humanoid robot stands in front of a yellow wall.,well
+53_final,6.5,A humanoid robot stands on a white floor against a yellow wall.,poorly
+53_final,7.0,"A humanoid robot stands in front of a yellow wall, with another robot partially visible to its right.",poorly
+53_final,7.5,A blue and white bipedal robot stands in front of a yellow background with another similar robot partially visible in the background.,poorly
+53_final,8.0,A humanoid robot with a white and blue color scheme is standing stationary in front of a yellow background.,poorly
+53_final,8.5,A blue and white robot stands still in front of a yellow wall.,poorly
+53_final,9.0,A blue and white humanoid robot is standing on a white floor against a yellow background.,poorly
+53_final,9.5,"A white and blue robot stands in front of a yellow wall, with another robot partially visible in the background.",poorly
+53_final,10.0,"A blue and white robot stands in front of a yellow wall, facing the camera, with another similar robot partially visible on the right side of the frame.",well
+53_final,10.5,A bipedal robot stands still in front of a yellow wall.,poorly
+54_final,0.0,"A stationary BB-8 droid is present in an indoor location, with shelves and a clock visible in the background.",poorly
+54_final,0.5,A BB-8 droid replica in an indoor setting with shelves and decorations visible in the background.,well
+54_final,1.0,A close-up shot showcases a BB-8 droid replica.,well
+54_final,1.5,A BB-8 droid replica is visible in front of a wall display and other items in a room.,well
+54_final,2.0,"A BB-8 droid replica is visible in a room with a shelf of items, a clock, and decorative spiders on the wall.",poorly
+54_final,2.5,A large BB-8 droid is in a room with a display case and a counter.,poorly
+54_final,3.0,A BB-8 droid is standing in a room that appears to be a coffee shop or cafe.,well
+54_final,3.5,A BB-8 droid in a store.,well
+54_final,4.0,"A BB-8 droid stands on the floor in a room that has a snacks display, a beverage bar, and decorations on the wall.",well
+54_final,4.5,"A BB-8 droid replica in what appears to be a public space, such as a store or office waiting area.",well
+54_final,5.0,A BB-8 droid is standing on a floor.,well
+54_final,5.5,A BB-8 droid stands in a room.,well
+54_final,6.0,BB-8 stands on a gray floor with orange walls.,well
+54_final,6.5,A BB-8 droid toy rolls across the floor.,well
+54_final,7.0,A BB-8 droid is moving in an indoor setting.,well
+54_final,7.5,A BB-8 droid sits on a gray floor in front of some shelves and gray cabinets.,well
+54_final,8.0,"BB-8, the droid from Star Wars, rolls on a gray floor in a brightly lit indoor space.",well
+54_final,8.5,"BB-8, the droid from Star Wars, rolls on a gray floor in a brightly lit indoor space.",well
+55_final,0.0,Someone is controlling a drone with a remote control in a backyard.,poorly
+55_final,0.5,A person is controlling a drone with a remote control in a backyard with potted plants.,poorly
+55_final,1.0,"A drone is being remotely piloted in a backyard, with various potted plants and a gate visible in the background.",poorly
+55_final,1.5,A drone is being controlled by a person with a remote control in an outdoor patio setting with plants and a gate.,poorly
+55_final,2.0,"A person is holding a drone controller in a garden, likely preparing to fly the drone, which is visible on the ground nearby.",well
+55_final,2.5,A person is operating a drone with a remote control in a backyard with plants and a gate.,poorly
+55_final,3.0,A person is controlling a quadcopter-like drone in a backyard with potted plants using a remote control.,poorly
+55_final,3.5,A person is operating a drone in a garden with a remote controller.,poorly
+55_final,4.0,"A person is operating a remote control for a drone with four round vessels, positioned near a gate and several potted plants in an outdoor area.",poorly
+55_final,4.5,A drone is hovering over the ground while a person holds its remote controller in their hands in a garden.,well
+55_final,5.0,A person is holding a remote control and flying a drone in a backyard.,well
+55_final,5.5,A person is controlling a drone with a remote control in a backyard.,poorly
+55_final,6.0,A person is holding a drone controller with a drone on the ground in a backyard.,poorly
+55_final,6.5,"In a backyard setting with potted plants and a gate in the background, a person is holding a remote control, operating a small quadcopter drone that is hovering in front of them.",well
+55_final,7.0,A person is operating a drone with a remote control in a backyard with potted plants and a brick patio.,poorly
+55_final,7.5,A person is holding a remote control and operating a drone in a backyard.,well
+55_final,8.0,Someone is operating a drone in a backyard full of plants and tiled ground.,poorly
+55_final,8.5,A person holds a drone controller in their hands as a drone hovers above a patio.,poorly
+57_final,0.0,"A large, black humanoid robot is standing in front of a stack of light-colored boards in a warehouse-like room, with its hands poised above the boards.",poorly
+57_final,0.5,A robot is standing in front of a stack of boards and appears to be preparing to lift one.,poorly
+57_final,1.0,"A black robot is leaning on a stack of boards or panels, with its hands placed on the top surface, in what appears to be a lab or workshop environment.",poorly
+57_final,1.5,A bipedal robot is shown leaning on a stack of wooden boards.,poorly
+57_final,2.0,Two robotic arms with hands are resting on a table.,well
+57_final,2.5,The video shows two robotic arms with hands resting on a table.,poorly
+57_final,3.0,"Two black robot arms with hands are positioned on a light-colored surface, with a silver stepladder visible in the background.",poorly
+57_final,3.5,"The video shows two black robotic arms with claw-like hands positioned on a light-colored surface, with a silver ladder in the background.",poorly
+57_final,4.0,A robot is lifting a piece of material from a stack of material.,well
+57_final,4.5,A humanoid robot stands by a stack of boards on a table and extends one of its arms to interact with the boards.,poorly
+57_final,5.0,"A bipedal robot is manipulating a sheet of material on a stack of similar materials, seemingly in a construction or industrial setting.",well
+57_final,5.5,A robot is holding a sheet of plywood over a stack of plywood.,poorly
+57_final,6.0,"A robot is lifting a sheet of white material from a stack on a table, likely as part of a manufacturing or assembly process.",well
+57_final,6.5,A black robot is manipulating pieces of plywood in a warehouse-like setting.,well
+57_final,7.0,a robot is using its arms to handle a sheet of white material placed on top of a stack of similar sheets.,poorly
+57_final,7.5,A black humanoid robot is placing a large white sheet onto a stack of wooden boards in a room with partitions and building materials.,poorly
+57_final,8.0,A humanoid robot is using its arms to place a white panel on top of a large stack of panels on a wooden table.,well
+57_final,8.5,"A humanoid robot stands at a table stacked with sheets of plywood, carefully handling a sheet of white material.",well
+57_final,9.0,"A robot, positioned in front of a table stacked with plywood, appears to be handling a sheet of white material.",poorly
+59_final,0.0,A potter is shaping a large piece of clay on a potter's wheel.,well
+59_final,0.5,A person is shown with their hands covered in clay working on a large clay pot on a pottery wheel.,well
+59_final,1.0,"a person is shaping the top of a large clay vessel, likely on a potter's wheel, with their hands covered in clay.",well
+59_final,1.5,"A potter is working on a large, white, onion-shaped vase, shaping its opening with their hands.",well
+59_final,2.0,"A person is shown working with their hands to shape the top of a large, rounded clay pot.",well
+59_final,2.5,"A person with clay-covered hands is shown smoothing the top of a large, onion-shaped, white clay vessel.",well
+59_final,3.0,"a person wearing gloves is near a white, rounded vase, potentially preparing to work on it. An old-fashioned scale is visible in the background.",poorly
+59_final,3.5,A person is shown shaping a vase on a potter's wheel.,well
+59_final,4.0,"A person is shaping a large piece of clay on a pottery wheel, with their hands covered in clay and forming the clay into a bulbous shape with a narrow neck.",well
+59_final,4.5,A person with clay-covered hands is shaping the top of a vase.,well
+59_final,5.0,"A person with clay-covered hands is shaping a large, light-colored vase-like object, presumably made of clay, on a table.",well
+59_final,5.5,A person is shown shaping a clay pot using their hands.,well
+59_final,6.0,A person is shaping a white clay vase with their hands.,well
+59_final,6.5,"A potter is shaping a large, rounded vase on a pottery wheel, carefully molding the clay with their hands.",well
+59_final,7.0,A person is shaping a clay pot on a potter's wheel.,well
+59_final,7.5,A person is shaping a clay pot on a potter's wheel.,well
+59_final,8.0,A person is shaping a clay vase with their hands.,well
+59_final,8.5,A person is shaping a large vase on a potter's wheel using their hands.,well
+60_final,0.0,"A man is riding a red lawnmower on a grassy lawn, cutting the grass. In the background, there is a white house and a grey truck.",well
+60_final,0.5,"A man is riding a lawnmower through a grassy yard, cutting the grass.",well
+60_final,1.0,A man is mowing a lawn with a riding mower.,poorly
+60_final,1.5,A man on a riding mower is cutting tall grass.,poorly
+60_final,2.0,A person is riding a red lawn mower on a grassy lawn.,well
+60_final,2.5,A man is mowing tall grass on a riding lawnmower.,poorly
+60_final,3.0,A man is mowing a field of tall grass with a zero-turn lawnmower.,poorly
+60_final,3.5,A man on a red Toro riding lawnmower cuts grass.,well
+60_final,4.0,A person is mowing a lawn while sitting on a red and black Toro mower.,poorly
+60_final,4.5,A man wearing sunglasses is riding a red and gray lawn mower and mowing grass.,well
+60_final,5.0,"A man in sunglasses drives a red Toro riding lawnmower across a green, grassy lawn.",well
+60_final,5.5,A man is driving a Toro zero-turn lawn mower across a grassy area.,well
+60_final,6.0,A man is mowing a lawn while sitting on a zero-turn lawnmower.,well
+60_final,6.5,"A man is sitting on a Toro lawn mower, in a yard with long grass.",poorly
+60_final,7.0,A man is riding a Toro zero-turn mower across a grassy lawn.,well
+60_final,7.5,A man wearing sunglasses and a green long-sleeved shirt is operating a red and black TORO lawn mower.,well
+60_final,8.0,"A man is driving a Toro riding lawn mower through a grassy field, with his right foot pressing down on a pedal, seemingly engaged in mowing.",well
+60_final,8.5,A man is mowing grass on a Toro zero-turn riding lawnmower.,poorly
+6_final,0.0,An elderly man is driving a red mobility scooter across a grassy lawn toward a stone bird bath.,poorly
+6_final,0.5,An elderly man is driving a mobility scooter on a lawn in a garden with bird baths and fountains.,poorly
+6_final,1.0,A man is driving a mobility scooter on the grass through a garden with statues.,poorly
+6_final,1.5,A bald man is driving a red mobility scooter on a grassy lawn.,poorly
+6_final,2.0,A man is driving a red mobility scooter on a grassy lawn.,poorly
+6_final,2.5,A bald man is riding a red scooter in a grassy yard.,well
+6_final,3.0,A man is sitting in a motorized wheelchair in a grassy backyard.,poorly
+6_final,3.5,A bald man is sitting outside in a motorized wheelchair.,well
+6_final,4.0,A bald man is sitting in a powered wheelchair in a sunny backyard.,well
+6_final,4.5,A bald man in a gray shirt is sitting in a motorized chair outside in a grassy area with trees and a bird bath in the background.,well
+6_final,5.0,"A bald man is sitting in a motorized wheelchair in a sunny yard, looking directly at the camera.",well
+6_final,5.5,A bald man in a gray shirt is sitting outside in a motorized chair and is about to start it up.,poorly
+6_final,6.0,A bald man sitting in a wheelchair is operating the controls.,poorly
+7_final,0.0,"A person in black pants and a shirt is doing yoga in a living room, and two men are looking down at her from a landing above.",poorly
+7_final,0.5,A woman on a hoverboard attempts a headstand in front of a man.,poorly
+7_final,1.0,"A person wearing black clothing is attempting to do a handstand on a hoverboard, while another person wearing a blue shirt stands and watches.",poorly
+7_final,1.5,"A woman is attempting to balance on a hoverboard, while another person watches from an elevated position.",poorly
+7_final,2.0,A woman is attempting to perform a push-up with her hands on a hoverboard.,poorly
+7_final,2.5,"A woman does a handstand on a hoverboard, and there's a man watching in the background.",poorly
+7_final,3.0,"A woman is doing a handstand on a hoverboard in a living room, while a man sits in a chair watching.",poorly
+7_final,3.5,A person is doing a handstand on a hoverboard in a living room.,poorly
+7_final,4.0,A person is doing a handstand on a moving hoverboard in a living room.,poorly
+7_final,4.5,a person is doing a handstand on a moving hoverboard in a room with people watching.,poorly
+7_final,5.0,A person is doing a handstand on a hoverboard in a living room with a Christmas tree and other people.,poorly
+7_final,5.5,A person is doing a handstand on a hoverboard in a room with a Christmas tree.,poorly
+7_final,6.0,A person is doing a handstand on a hoverboard near a Christmas tree.,poorly
+7_final,6.5,A person is doing a handstand on a hoverboard in a room with a Christmas tree and other people watching.,poorly
+7_final,7.0,A person is doing a handstand on a moving hoverboard in a living room with a Christmas tree and other people in the background.,poorly
+7_final,7.5,A person is doing a handstand on a hoverboard in a room with other people and a Christmas tree.,poorly
+7_final,8.0,A person is doing a handstand on a hoverboard in a room with other people and a Christmas tree.,poorly
+9_final,0.0,A robot is dancing in a bathroom.,poorly
+9_final,0.5,A white and red humanoid robot is moving its arms and legs in a tiled bathroom.,poorly
+9_final,1.0,"In a tiled room, a white and red robot is in a dancing pose with its arms out.",well
+9_final,1.5,"A red and white humanoid robot is standing on a tiled floor in front of a white cabinet and door, appearing to dance or move erratically.",poorly
+9_final,2.0,A white and red robot is dancing in a bathroom.,well
+9_final,2.5,"A white and red robot stands in a bathroom, and appears to be performing a dance or exercise routine.",well
+9_final,3.0,A white and red humanoid robot is dancing on a white tiled floor in a bathroom.,well
+9_final,3.5,A white and red humanoid robot stands on a tiled floor with its arms outstretched.,poorly
+9_final,4.0,"In the image, a white robot with red accents is shown with its arms outstretched. The robot stands in a white room with tiled floors, suggesting it might be in a bathroom or similar space.",poorly
+9_final,4.5,"A white and red robot stands on a tiled floor with its arms outstretched, seemingly about to fall.",poorly
+9_final,5.0,"A white and red robot stands in a bathroom, with its right arm raised.",poorly
+9_final,5.5,"A small, humanoid robot with a white body and red accents is standing on a tiled floor in what appears to be a bathroom, with its arms extended in front of it.",poorly
+9_final,6.0,"In a bathroom with white tiled floors and a white cabinet and door, a robot with a white body, red accents, and human-like features is in a bent-over posture, suggesting it may be dancing or performing some sort of action.",well
+9_final,6.5,A white and red robot is dancing in a bathroom.,well
+9_final,7.0,A humanoid robot with red and white coloring is dancing on a tiled floor in a bathroom.,poorly
+9_final,7.5,A humanoid robot with red accents is dancing on a tiled floor in what appears to be a bathroom.,poorly
+9_final,8.0,"A white robot with red accents is standing on a tiled floor near a cabinet and a white door, positioned with its arms outstretched to the sides.",poorly
+9_final,8.5,A white and red Nao robot is standing and moving its arms in a tiled room with white cabinets and a door.,well
+9_final,9.0,A Nao robot is dancing in a bathroom.,poorly
+9_final,9.5,"A humanoid robot with a red head, white body, and a cross on its feet is dancing on a tiled floor in front of a white cabinet and door.",poorly

@@ -170,6 +170,12 @@ video_name,model,frame,outcome_prediction,outcome_prediction_numeric
 49_final.mp4,mistralsmall32,0,Poorly,1
 50_final.mp4,mistralsmall32,0,Poorly,1
 55_final.mp4,mistralsmall32,0,Poorly,1
+57_final.mp4,mistralsmall32,0,Poorly,1
+59_final.mp4,mistralsmall32,0,Well,0
+60_final.mp4,mistralsmall32,0,Poorly,1
+6_final.mp4,mistralsmall32,0,Poorly,1
+7_final.mp4,mistralsmall32,0,Poorly,1
+9_final.mp4,mistralsmall32,0,Poorly,1
 11_final.mp4,qwen3,0,well,0
 12_final.mp4,qwen3,0,well,0
 14_final.mp4,qwen3,0,well,0
