@@ -927,7 +927,7 @@ participant,frame_file,frame_name,outcome_prediction
 3157,q_2_main_1_30fps_frame0029.png,q_2_main_1_30fps_frame0029,well
 3157,q_2_main_1_30fps_frame0044.png,q_2_main_1_30fps_frame0044,poorly
 3157,q_2_main_1_30fps_frame0059.png,q_2_main_1_30fps_frame0059,poorly
-3157,q_2_main_1_30fps_frame0074.png,q_2_main_1_30fps_frame0074,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+3157,q_2_main_1_30fps_frame0074.png,q_2_main_1_30fps_frame0074,well
 3157,q_2_main_1_30fps_frame0089.png,q_2_main_1_30fps_frame0089,well
 3157,q_30_main_1_30fps_frame0014.png,q_30_main_1_30fps_frame0014,well
 3157,q_30_main_1_30fps_frame0029.png,q_30_main_1_30fps_frame0029,well
@@ -2511,7 +2511,7 @@ participant,frame_file,frame_name,outcome_prediction
 8184,q_27_main_0_30fps_frame0029.png,q_27_main_0_30fps_frame0029,poorly
 8184,q_27_main_0_30fps_frame0044.png,q_27_main_0_30fps_frame0044,well
 8184,q_27_main_0_30fps_frame0059.png,q_27_main_0_30fps_frame0059,poorly
-8184,q_27_main_0_30fps_frame0074.png,q_27_main_0_30fps_frame0074,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+8184,q_27_main_0_30fps_frame0074.png,q_27_main_0_30fps_frame0074,well
 8184,q_27_main_0_30fps_frame0089.png,q_27_main_0_30fps_frame0089,poorly
 8184,q_30_main_0_30fps_frame0014.png,q_30_main_0_30fps_frame0014,well
 8184,q_30_main_0_30fps_frame0029.png,q_30_main_0_30fps_frame0029,well

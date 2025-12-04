@@ -843,6 +843,7 @@ qwen3_1s,1s,5124,q_12_main_0_30fps_frame0015.png,q_12_main_0_30fps_frame0015,poo
 qwen3_1s,1s,5124,q_12_main_0_30fps_frame0030.png,q_12_main_0_30fps_frame0030,poorly,q_12
 qwen3_1s,1s,5124,q_13_main_1_30fps_frame0014.png,q_13_main_1_30fps_frame0014,poorly,q_13
 qwen3_1s,1s,5124,q_13_main_1_30fps_frame0029.png,q_13_main_1_30fps_frame0029,poorly,q_13
+qwen3_1s,1s,5124,q_14_main_0_30fps_frame0013.png,q_14_main_0_30fps_frame0013,poorly,q_14
 qwen3_1s,1s,5124,q_14_main_0_30fps_frame0028.png,q_14_main_0_30fps_frame0028,poorly,q_14
 qwen3_1s,1s,5124,q_15_main_1_30fps_frame0014.png,q_15_main_1_30fps_frame0014,well,q_15
 qwen3_1s,1s,5124,q_15_main_1_30fps_frame0029.png,q_15_main_1_30fps_frame0029,well,q_15

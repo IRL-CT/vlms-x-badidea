@@ -927,7 +927,7 @@ participant,frame_file,frame_name,outcome_prediction
 5124,q_12_main_0_30fps_frame0030.png,q_12_main_0_30fps_frame0030,poorly
 5124,q_13_main_1_30fps_frame0014.png,q_13_main_1_30fps_frame0014,poorly
 5124,q_13_main_1_30fps_frame0029.png,q_13_main_1_30fps_frame0029,poorly
-5124,q_14_main_0_30fps_frame0013.png,q_14_main_0_30fps_frame0013,"Error analyzing image: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+5124,q_14_main_0_30fps_frame0013.png,q_14_main_0_30fps_frame0013,poorly
 5124,q_14_main_0_30fps_frame0028.png,q_14_main_0_30fps_frame0028,poorly
 5124,q_15_main_1_30fps_frame0014.png,q_15_main_1_30fps_frame0014,well
 5124,q_15_main_1_30fps_frame0029.png,q_15_main_1_30fps_frame0029,well

@@ -86,7 +86,7 @@ participant,frame_file,frame_name,outcome_prediction
 1251,q_19_main_0_30fps_frame0014.png,q_19_main_0_30fps_frame0014,Poorly.
 1251,q_19_main_0_30fps_frame0029.png,q_19_main_0_30fps_frame0029,Poorly.
 1251,q_1_main_0_30fps_frame0015.png,q_1_main_0_30fps_frame0015,Poorly
-1251,q_1_main_0_30fps_frame0030.png,q_1_main_0_30fps_frame0030,Unanswerable
+1251,q_1_main_0_30fps_frame0030.png,q_1_main_0_30fps_frame0030,Poorly
 1251,q_20_main_0_30fps_frame0015.png,q_20_main_0_30fps_frame0015,Poorly
 1251,q_20_main_0_30fps_frame0030.png,q_20_main_0_30fps_frame0030,Poorly.
 1251,q_21_main_0_30fps_frame0015.png,q_21_main_0_30fps_frame0015,Poorly
@@ -118,7 +118,7 @@ participant,frame_file,frame_name,outcome_prediction
 1251,q_5_main_0_30fps_frame0014.png,q_5_main_0_30fps_frame0014,Poorly.
 1251,q_5_main_0_30fps_frame0029.png,q_5_main_0_30fps_frame0029,Poorly.
 1251,q_6_main_1_30fps_frame0014.png,q_6_main_1_30fps_frame0014,Poorly
-1251,q_6_main_1_30fps_frame0029.png,q_6_main_1_30fps_frame0029,**Unanswerable**
+1251,q_6_main_1_30fps_frame0029.png,q_6_main_1_30fps_frame0029,Poorly
 1251,q_7_main_1_30fps_frame0015.png,q_7_main_1_30fps_frame0015,Poorly
 1251,q_7_main_1_30fps_frame0030.png,q_7_main_1_30fps_frame0030,Poorly
 1251,q_8_main_0_30fps_frame0014.png,q_8_main_0_30fps_frame0014,Poorly
@@ -148,7 +148,7 @@ participant,frame_file,frame_name,outcome_prediction
 1483,q_17_main_1_30fps_frame0014.png,q_17_main_1_30fps_frame0014,Poorly
 1483,q_17_main_1_30fps_frame0029.png,q_17_main_1_30fps_frame0029,Poorly.
 1483,q_18_main_0_30fps_frame0014.png,q_18_main_0_30fps_frame0014,Well
-1483,q_18_main_0_30fps_frame0029.png,q_18_main_0_30fps_frame0029,**Unanswerable**
+1483,q_18_main_0_30fps_frame0029.png,q_18_main_0_30fps_frame0029,Well
 1483,q_19_main_0_30fps_frame0014.png,q_19_main_0_30fps_frame0014,Well
 1483,q_19_main_0_30fps_frame0029.png,q_19_main_0_30fps_frame0029,Poorly.
 1483,q_21_main_1_30fps_frame0014.png,q_21_main_1_30fps_frame0014,Poorly

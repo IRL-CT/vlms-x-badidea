@@ -671,8 +671,8 @@ participant,frame_file,frame_name,outcome_prediction
 2698,q_23_main_0_30fps_frame0060.png,q_23_main_0_30fps_frame0060,poorly
 2698,q_23_main_0_30fps_frame0075.png,q_23_main_0_30fps_frame0075,poorly
 2698,q_23_main_0_30fps_frame0090.png,q_23_main_0_30fps_frame0090,well
-2698,q_25_main_0_30fps_frame0014.png,q_25_main_0_30fps_frame0014,I cannot determine the outcome of the situation based solely on the image.
-2698,q_25_main_0_30fps_frame0029.png,q_25_main_0_30fps_frame0029,I cannot determine the outcome of the situation based solely on the image.
+2698,q_25_main_0_30fps_frame0014.png,q_25_main_0_30fps_frame0014,poorly
+2698,q_25_main_0_30fps_frame0029.png,q_25_main_0_30fps_frame0029,poorly
 2698,q_25_main_0_30fps_frame0044.png,q_25_main_0_30fps_frame0044,poorly
 2698,q_25_main_0_30fps_frame0059.png,q_25_main_0_30fps_frame0059,poorly
 2698,q_25_main_0_30fps_frame0074.png,q_25_main_0_30fps_frame0074,poorly

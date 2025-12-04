@@ -31,7 +31,7 @@ participant,frame_file,frame_name,outcome_prediction
 1048,q_17_main_1_30fps_frame0088.png,q_17_main_1_30fps_frame0088,poorly.
 1048,q_20_main_0_30fps_frame0014.png,q_20_main_0_30fps_frame0014,poorly.
 1048,q_20_main_0_30fps_frame0029.png,q_20_main_0_30fps_frame0029,Poorly.
-1048,q_20_main_0_30fps_frame0044.png,q_20_main_0_30fps_frame0044,"Poorly. The human in the image appears to be smiling, but the context of the image suggests that the situation is not going well for him. The image shows a man sitting in a chair, looking at the camera with a forced smile on his face. He appears to be in a kitchen or dining room, and there are various objects on the table behind him. The overall atmosphere of the image suggests that the man is feeling uncomfortable or anxious, and the forced smile is an attempt to hide his true emotions."
+1048,q_20_main_0_30fps_frame0044.png,q_20_main_0_30fps_frame0044,Poorly.
 1048,q_20_main_0_30fps_frame0059.png,q_20_main_0_30fps_frame0059,Poorly.
 1048,q_20_main_0_30fps_frame0074.png,q_20_main_0_30fps_frame0074,Poorly.
 1048,q_20_main_0_30fps_frame0089.png,q_20_main_0_30fps_frame0089,Poorly.
@@ -2991,7 +2991,7 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 8436,q_warmup_4_main_0_30fps_frame0030.png,q_warmup_4_main_0_30fps_frame0030,Poorly.
 8436,q_warmup_4_main_0_30fps_frame0045.png,q_warmup_4_main_0_30fps_frame0045,Well.
 8436,q_warmup_4_main_0_30fps_frame0060.png,q_warmup_4_main_0_30fps_frame0060,Well.
-8436,q_warmup_4_main_0_30fps_frame0075.png,q_warmup_4_main_0_30fps_frame0075,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+8436,q_warmup_4_main_0_30fps_frame0075.png,q_warmup_4_main_0_30fps_frame0075,Well
 8436,q_warmup_4_main_0_30fps_frame0090.png,q_warmup_4_main_0_30fps_frame0090,Well.
 8758,q_13_main_1_30fps_frame0015.png,q_13_main_1_30fps_frame0015,poorly
 8758,q_13_main_1_30fps_frame0030.png,q_13_main_1_30fps_frame0030,Poorly.
@@ -3205,7 +3205,7 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 8786,q_warmup_3_main_1_30fps_frame0089.png,q_warmup_3_main_1_30fps_frame0089,poorly
 9055,q_13_main_1_30fps_frame0015.png,q_13_main_1_30fps_frame0015,Well.
 9055,q_13_main_1_30fps_frame0030.png,q_13_main_1_30fps_frame0030,Well.
-9055,q_13_main_1_30fps_frame0045.png,q_13_main_1_30fps_frame0045,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+9055,q_13_main_1_30fps_frame0045.png,q_13_main_1_30fps_frame0045,Well
 9055,q_13_main_1_30fps_frame0060.png,q_13_main_1_30fps_frame0060,Well.
 9055,q_13_main_1_30fps_frame0075.png,q_13_main_1_30fps_frame0075,Well.
 9055,q_13_main_1_30fps_frame0090.png,q_13_main_1_30fps_frame0090,Poorly.
@@ -3214,8 +3214,7 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 9055,q_16_main_1_30fps_frame0045.png,q_16_main_1_30fps_frame0045,Well.
 9055,q_16_main_1_30fps_frame0060.png,q_16_main_1_30fps_frame0060,Well.
 9055,q_16_main_1_30fps_frame0075.png,q_16_main_1_30fps_frame0075,Well.
-9055,q_16_main_1_30fps_frame0090.png,q_16_main_1_30fps_frame0090,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
-9055,q_17_main_0_30fps_frame0014.png,q_17_main_0_30fps_frame0014,Well.
+9055,q_16_main_1_30fps_frame0090.png,q_16_main_1_30fps_frame0090,Well
 9055,q_17_main_0_30fps_frame0029.png,q_17_main_0_30fps_frame0029,Well.
 9055,q_17_main_0_30fps_frame0044.png,q_17_main_0_30fps_frame0044,**Answer:** Well
 9055,q_17_main_0_30fps_frame0059.png,q_17_main_0_30fps_frame0059,Well.
@@ -3226,7 +3225,7 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 9055,q_20_main_0_30fps_frame0044.png,q_20_main_0_30fps_frame0044,Poorly.
 9055,q_20_main_0_30fps_frame0059.png,q_20_main_0_30fps_frame0059,Well.
 9055,q_20_main_0_30fps_frame0074.png,q_20_main_0_30fps_frame0074,Poorly.
-9055,q_20_main_0_30fps_frame0089.png,q_20_main_0_30fps_frame0089,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+9055,q_20_main_0_30fps_frame0089.png,q_20_main_0_30fps_frame0089,Poorly
 9055,q_21_main_1_30fps_frame0015.png,q_21_main_1_30fps_frame0015,Well.
 9055,q_21_main_1_30fps_frame0030.png,q_21_main_1_30fps_frame0030,Well.
 9055,q_21_main_1_30fps_frame0045.png,q_21_main_1_30fps_frame0045,Poorly.
@@ -3235,7 +3234,7 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 9055,q_21_main_1_30fps_frame0090.png,q_21_main_1_30fps_frame0090,Well.
 9055,q_23_main_0_30fps_frame0014.png,q_23_main_0_30fps_frame0014,Well.
 9055,q_23_main_0_30fps_frame0029.png,q_23_main_0_30fps_frame0029,Well.
-9055,q_23_main_0_30fps_frame0044.png,q_23_main_0_30fps_frame0044,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+9055,q_23_main_0_30fps_frame0044.png,q_23_main_0_30fps_frame0044,Poorly
 9055,q_23_main_0_30fps_frame0059.png,q_23_main_0_30fps_frame0059,Poorly.
 9055,q_23_main_0_30fps_frame0074.png,q_23_main_0_30fps_frame0074,Well.
 9055,q_23_main_0_30fps_frame0089.png,q_23_main_0_30fps_frame0089,**Answer:** Poorly
@@ -3246,14 +3245,14 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 9055,q_26_main_0_30fps_frame0074.png,q_26_main_0_30fps_frame0074,Poorly.
 9055,q_26_main_0_30fps_frame0089.png,q_26_main_0_30fps_frame0089,Well.
 9055,q_27_main_1_30fps_frame0014.png,q_27_main_1_30fps_frame0014,Well.
-9055,q_27_main_1_30fps_frame0029.png,q_27_main_1_30fps_frame0029,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+9055,q_27_main_1_30fps_frame0029.png,q_27_main_1_30fps_frame0029,well
 9055,q_27_main_1_30fps_frame0044.png,q_27_main_1_30fps_frame0044,Well.
 9055,q_27_main_1_30fps_frame0059.png,q_27_main_1_30fps_frame0059,Well.
 9055,q_27_main_1_30fps_frame0074.png,q_27_main_1_30fps_frame0074,Well.
-9055,q_27_main_1_30fps_frame0089.png,q_27_main_1_30fps_frame0089,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+9055,q_27_main_1_30fps_frame0089.png,q_27_main_1_30fps_frame0089,well
 9055,q_2_main_1_30fps_frame0015.png,q_2_main_1_30fps_frame0015,Poorly.
 9055,q_2_main_1_30fps_frame0030.png,q_2_main_1_30fps_frame0030,Poorly.
-9055,q_2_main_1_30fps_frame0045.png,q_2_main_1_30fps_frame0045,I don’t have enough information to answer this question. Can you provide more context or clarify what you are asking?
+9055,q_2_main_1_30fps_frame0045.png,q_2_main_1_30fps_frame0045,Well
 9055,q_2_main_1_30fps_frame0060.png,q_2_main_1_30fps_frame0060,Well.
 9055,q_2_main_1_30fps_frame0075.png,q_2_main_1_30fps_frame0075,Poorly.
 9055,q_2_main_1_30fps_frame0090.png,q_2_main_1_30fps_frame0090,Well.
@@ -3268,7 +3267,7 @@ Therefore, based on the human's reaction, it is likely that the situation observ
 9055,q_4_main_0_30fps_frame0045.png,q_4_main_0_30fps_frame0045,Well.
 9055,q_4_main_0_30fps_frame0060.png,q_4_main_0_30fps_frame0060,Poorly.
 9055,q_4_main_0_30fps_frame0075.png,q_4_main_0_30fps_frame0075,Poorly.
-9055,q_4_main_0_30fps_frame0090.png,q_4_main_0_30fps_frame0090,I don’t have enough information to answer this question. Can you provide more context or clarify the situation?
+9055,q_4_main_0_30fps_frame0090.png,q_4_main_0_30fps_frame0090,poorly
 9055,q_6_main_0_30fps_frame0015.png,q_6_main_0_30fps_frame0015,Well.
 9055,q_6_main_0_30fps_frame0030.png,q_6_main_0_30fps_frame0030,Well.
 9055,q_6_main_0_30fps_frame0045.png,q_6_main_0_30fps_frame0045,Well.

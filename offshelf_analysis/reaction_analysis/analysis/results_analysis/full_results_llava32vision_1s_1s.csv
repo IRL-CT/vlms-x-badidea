@@ -80,6 +80,7 @@ llava32vision_1s,1s,1251,q_18_main_0_30fps_frame0030.png,q_18_main_0_30fps_frame
 llava32vision_1s,1s,1251,q_19_main_0_30fps_frame0014.png,q_19_main_0_30fps_frame0014,poorly,q_19
 llava32vision_1s,1s,1251,q_19_main_0_30fps_frame0029.png,q_19_main_0_30fps_frame0029,poorly,q_19
 llava32vision_1s,1s,1251,q_1_main_0_30fps_frame0015.png,q_1_main_0_30fps_frame0015,poorly,q_1
+llava32vision_1s,1s,1251,q_1_main_0_30fps_frame0030.png,q_1_main_0_30fps_frame0030,poorly,q_1
 llava32vision_1s,1s,1251,q_20_main_0_30fps_frame0015.png,q_20_main_0_30fps_frame0015,poorly,q_20
 llava32vision_1s,1s,1251,q_20_main_0_30fps_frame0030.png,q_20_main_0_30fps_frame0030,poorly,q_20
 llava32vision_1s,1s,1251,q_21_main_0_30fps_frame0015.png,q_21_main_0_30fps_frame0015,poorly,q_21
@@ -111,6 +112,7 @@ llava32vision_1s,1s,1251,q_4_main_1_30fps_frame0028.png,q_4_main_1_30fps_frame00
 llava32vision_1s,1s,1251,q_5_main_0_30fps_frame0014.png,q_5_main_0_30fps_frame0014,poorly,q_5
 llava32vision_1s,1s,1251,q_5_main_0_30fps_frame0029.png,q_5_main_0_30fps_frame0029,poorly,q_5
 llava32vision_1s,1s,1251,q_6_main_1_30fps_frame0014.png,q_6_main_1_30fps_frame0014,poorly,q_6
+llava32vision_1s,1s,1251,q_6_main_1_30fps_frame0029.png,q_6_main_1_30fps_frame0029,poorly,q_6
 llava32vision_1s,1s,1251,q_7_main_1_30fps_frame0015.png,q_7_main_1_30fps_frame0015,poorly,q_7
 llava32vision_1s,1s,1251,q_7_main_1_30fps_frame0030.png,q_7_main_1_30fps_frame0030,poorly,q_7
 llava32vision_1s,1s,1251,q_8_main_0_30fps_frame0014.png,q_8_main_0_30fps_frame0014,poorly,q_8
@@ -134,6 +136,7 @@ llava32vision_1s,1s,1483,q_16_main_1_30fps_frame0029.png,q_16_main_1_30fps_frame
 llava32vision_1s,1s,1483,q_17_main_1_30fps_frame0014.png,q_17_main_1_30fps_frame0014,poorly,q_17
 llava32vision_1s,1s,1483,q_17_main_1_30fps_frame0029.png,q_17_main_1_30fps_frame0029,poorly,q_17
 llava32vision_1s,1s,1483,q_18_main_0_30fps_frame0014.png,q_18_main_0_30fps_frame0014,well,q_18
+llava32vision_1s,1s,1483,q_18_main_0_30fps_frame0029.png,q_18_main_0_30fps_frame0029,well,q_18
 llava32vision_1s,1s,1483,q_19_main_0_30fps_frame0014.png,q_19_main_0_30fps_frame0014,well,q_19
 llava32vision_1s,1s,1483,q_19_main_0_30fps_frame0029.png,q_19_main_0_30fps_frame0029,poorly,q_19
 llava32vision_1s,1s,1483,q_21_main_1_30fps_frame0014.png,q_21_main_1_30fps_frame0014,poorly,q_21

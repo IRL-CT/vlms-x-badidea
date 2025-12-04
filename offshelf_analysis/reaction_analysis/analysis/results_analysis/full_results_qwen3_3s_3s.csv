@@ -849,6 +849,7 @@ qwen3_3s,3s,3157,q_2_main_1_30fps_frame0014.png,q_2_main_1_30fps_frame0014,poorl
 qwen3_3s,3s,3157,q_2_main_1_30fps_frame0029.png,q_2_main_1_30fps_frame0029,well,q_2
 qwen3_3s,3s,3157,q_2_main_1_30fps_frame0044.png,q_2_main_1_30fps_frame0044,poorly,q_2
 qwen3_3s,3s,3157,q_2_main_1_30fps_frame0059.png,q_2_main_1_30fps_frame0059,poorly,q_2
+qwen3_3s,3s,3157,q_2_main_1_30fps_frame0074.png,q_2_main_1_30fps_frame0074,well,q_2
 qwen3_3s,3s,3157,q_2_main_1_30fps_frame0089.png,q_2_main_1_30fps_frame0089,well,q_2
 qwen3_3s,3s,3157,q_30_main_1_30fps_frame0014.png,q_30_main_1_30fps_frame0014,well,q_30
 qwen3_3s,3s,3157,q_30_main_1_30fps_frame0029.png,q_30_main_1_30fps_frame0029,well,q_30
@@ -2324,6 +2325,7 @@ qwen3_3s,3s,8184,q_27_main_0_30fps_frame0014.png,q_27_main_0_30fps_frame0014,wel
 qwen3_3s,3s,8184,q_27_main_0_30fps_frame0029.png,q_27_main_0_30fps_frame0029,poorly,q_27
 qwen3_3s,3s,8184,q_27_main_0_30fps_frame0044.png,q_27_main_0_30fps_frame0044,well,q_27
 qwen3_3s,3s,8184,q_27_main_0_30fps_frame0059.png,q_27_main_0_30fps_frame0059,poorly,q_27
+qwen3_3s,3s,8184,q_27_main_0_30fps_frame0074.png,q_27_main_0_30fps_frame0074,well,q_27
 qwen3_3s,3s,8184,q_27_main_0_30fps_frame0089.png,q_27_main_0_30fps_frame0089,poorly,q_27
 qwen3_3s,3s,8184,q_30_main_0_30fps_frame0014.png,q_30_main_0_30fps_frame0014,well,q_30
 qwen3_3s,3s,8184,q_30_main_0_30fps_frame0029.png,q_30_main_0_30fps_frame0029,well,q_30
