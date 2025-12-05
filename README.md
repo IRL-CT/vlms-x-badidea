@@ -1,153 +1,222 @@
-# VLM Prompt Testing
+# Bad Idea or Good Prediction? Comparing VLM and Human Anticipatory Judgment
 
-## Study Objective
+**Authors:** [To be filled]
 
-In this experiment, we want to explore how different prompts or VLMs used for text inputing will affect the output of predition models. By testing different prompts and different VLMs, we expect to find the prompts and vlms that will maximize the accuracy of robot predictions.
+**Published in:** [To be filled]
 
+---
+
+## Overview
+
+Anticipating outcomes of everyday scenarios is crucial for robots operating in human environments. This study evaluates the anticipatory reasoning capabilities of state-of-the-art Vision Language Models (VLMs) by showing them videos of human and robot scenarios with outcomes removed, then asking them to predict whether the situation will end well or poorly.
+
+![Research Questions Overview](submission/figure_lbr2025.png)
+
+## Abstract
+
+We tested multiple VLMs, including closed-source, open-source, and VLM-LLM combinations, using various prompts and compared their predictions against both true outcomes and judgments from 29 human participants. The best-performing VLM configuration achieved **70.0% accuracy** in predicting true outcomes, outperforming the average individual human (62.1% ± 6.2%), while other configurations ranged from 43.3% to 60.0%.
+
+Alignment with individual human judgments ranged from 44.4% to 69.7%. Prompt engineering significantly impacted performance, with variations up to 6.7% within the same model. Notably, VLMs struggled to predict outcomes by analyzing human facial reactions, achieving only 48% accuracy, suggesting limitations in leveraging social cues.
 
 ## Research Questions
 
-### RQ1 - What is the off-the-shelf predictive power of current VLMs?
+We investigate anticipatory judgment across four dimensions:
 
-- Testing VLMs ability to predict outcome of a scenario shown based only on the context available
-- Testing how this predictive power compares with human judgements
-- Add. testing: predictive power based only on human reactions or both (reactions + scenario)
+- **RQ1:** What is the anticipatory judgement of **closed-source VLMs** (predicting outcomes on scenario videos)?
+- **RQ2:** What is the anticipatory judgement of **open-source VLMs** (predicting outcomes on scenario videos)?
+- **RQ3:** What is the anticipatory judgement given a **VLM-LLM combination**?
+- **RQ4:** What is the anticipatory social intelligence of closed-source VLMs (predicting outcomes based on human reactions)?
 
-### RQ2 - Can VLMs improve outcome prediction performance?
+## Dataset
 
-What is the performance change if adding as model input:
+### Video Scenarios
+We used 30 videos from the "Bad Idea?" study ([Parreira et al., 2024](https://github.com/IRL-CT/badidea)), featuring scenarios where humans and robots are shown before outcomes are revealed. Videos include everyday situations with both good and bad outcomes.
 
-- Text descriptions of videos (from VLM)
-- VLMs outcome prediction
-- (additional) video embeddings of reactions and/or scenario
+<table>
+<tr>
+<td width="50%">
+<img src="submission/video1.png" alt="Hoverboard scenario example" width="100%"/>
+<p align="center"><i>Example: Hoverboard scenario</i></p>
+</td>
+<td width="50%">
+<img src="submission/video2.png" alt="Robot scenario example" width="100%"/>
+<p align="center"><i>Example: Robot scenario</i></p>
+</td>
+</tr>
+</table>
 
+### Human Participants
+29 participants from an online study provided baseline human judgments. After watching each video (stopped before resolution), participants predicted whether the situation would end "well" or "poorly."
 
-Steps include:
-1. **LLM Comparison**: 
-   - Compare the performance of different LLMs (GPT-4o, Gemini 2.0 Flash, Qwen-2.5-vl-72b) on video prediction tasks using various prompts.
-   - Evaluate the models' accuracy, precision, recall, F1 score, AUC, MSE, and MAE.
-2. **Local Models**:
-   - Test local models (Qwen-2.5-vl-7b-Instruct, llava-video, Phi-4) on video prediction tasks.
-   - Compare their performance with cloud-based models.
-3. **Text Embeddings**:
-   - Generate text embeddings for video clips using Gemini 2.0 Flash and prompt 4.1.
-   - Analyze the embeddings for potential insights into video content and prediction tasks.
+## Methods
 
-## Tested Prompts & Responses
+### Models Tested
 
-| No. | **Prompts**                                                                                                                                                                                                                                                                                                                                                                 |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | "Describe the content of this video in detail. Include information about the environment, objects, people or robots, and their actions. Provide a coherent narrative that explains what is happening in the scene"                                                                                                                                                          |
-| 2   | "Analyze this video and describe the following aspects in structured format: 1. Objects Present: List the key objects, 2. Actions: Describe what is happening in the scene, 3. Human or Robot Interaction: If applicable, describe interactions, 4. Emotions or Reactions: Identify any human reactions in the scene. 5. Environment: Describe the setting and background." |
-| 3   | "Summarize this video as if explaining it to someone who cannot see it. Focus on key actions, emotions, and interactions. Use clear and vivid language to create a mental picture."                                                                                                                                                                                         |
-| 4   | Give me a sentence describing what's going on in the video, keeping only key elements of scenario shown                                                                                                                                                                                                                                                                     |
-|4.1|Output a sentence describing what's going on in the video, keeping only key elements of the scenario shown that would allow me to predict the outcome of the situation.|                                                                                                                                      
-|5 |Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)|
-|6|Given the scenario shown on the video, you think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)|
+**Closed-Source VLMs (RQ1):**
+- GPT-4o
+- Gemini 2.0 Flash
+- Qwen-2.5-vl-72b
 
+**Open-Source VLMs (RQ2):**
+- LLaMA 3.2 Vision
+- LLaVA (multiple variants)
+- DeepSeek-OCR
+- Gemma 3
+- Qwen 2.5 & Qwen 3
+- Mistral Small 3.2 (Pixtral)
 
+Open-source models were deployed locally using [Ollama](https://ollama.com/).
 
-## Results & Discussion
+**VLM-LLM Combinations (RQ3):**
+Two-stage pipeline using Gemini 2.0 Flash for both stages:
+1. VLM generates text descriptions of video scenarios
+2. LLM predicts outcomes from the descriptions
 
-### Performance at predicting real outcome (good/bad) across all videos
+### Prompts
+
+**For Direct Outcome Prediction (RQ1, RQ2):**
+
+- **Prompt A (Direct):** "Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)"
+
+- **Prompt B (Human-like):** "Given the scenario shown on the video, you think this situation ends well or poorly as if you are a human watching the video? (Use only one word to answer)"
+
+**For VLM-LLM Combinations (RQ3):**
+
+- **Prompt C (Descriptive):** "Output a sentence describing what's going on in the video, keeping only key elements of the scenario shown that would allow me to predict the outcome of the situation."
+
+- **Prompt D:** Two variants for outcome prediction from text descriptions
+
+**For Social Intelligence (RQ4):**
+
+- **Prompt E (Reaction-based):** "Given the human reaction shown in the image, do you think the situation observed by that human ends well or poorly? (Use only one word – well or poorly – to answer)"
+
+### Frame Aggregation
+
+Since many VLMs process images rather than video, we extracted frames and tested two aggregation methods:
+- **MODE:** Most frequent prediction across all frames
+- **LAST:** Prediction from the final frame
+
+### Evaluation Metrics
+
+- **Ground Truth Alignment:** Model predictions vs. actual video outcomes
+- **Human Alignment:** Model predictions vs. individual human judgments
+- **Metrics:** Accuracy, Precision, Recall, F1-score, and "Poorly" prediction ratio
+
+## Results
+
+### RQ1: Closed-Source VLM Performance
+
+| Model | Accuracy | Precision | Recall | F1 | Poorly Ratio |
+|-------|----------|-----------|--------|-----|--------------|
+| **Gemini (Prompt A)** | **0.700** | **0.625** | **0.769** | **0.690** | 0.467 |
+| Gemini (Prompt B) | 0.633 | 0.562 | 0.692 | 0.621 | 0.467 |
+| Qwen (Prompt B) | 0.533 | 0.476 | 0.769 | 0.588 | 0.300 |
+| Qwen (Prompt A) | 0.500 | 0.450 | 0.692 | 0.545 | 0.333 |
+| GPT-4o (Prompt B) | 0.467 | 0.400 | 0.462 | 0.429 | 0.500 |
+| GPT-4o (Prompt A) | 0.433 | 0.375 | 0.462 | 0.414 | 0.467 |
+| **Human Average** | **0.621 ± 0.062** | **0.575 ± 0.086** | **0.599 ± 0.091** | **0.579 ± 0.056** | — |
+
+**Key Findings:**
+- **Gemini 2.0 Flash (Prompt A)** achieved the highest accuracy (70.0%), outperforming average human performance
+- Prompt engineering significantly impacted performance (up to 6.7% difference within same model)
+- GPT-4o underperformed relative to other closed-source models
+
+**Alignment with Individual Humans:**
 
 | Model | Accuracy | Precision | Recall | F1 |
 |-------|----------|-----------|--------|-----|
-| Gemini (prompt 5) | 0.700 | 0.625 | 0.769 | 0.690 |
-| Gemini (prompt 6) | 0.633 | 0.562 | 0.692 | 0.621 |
-| Qwen (prompt 6) | 0.533 | 0.476 | 0.769 | 0.588 |
-| Qwen (prompt 5) | 0.500 | 0.450 | 0.692 | 0.545 |
-| GPT-4o (prompt 6) | 0.467 | 0.400 | 0.462 | 0.429 |
-| GPT-4o (prompt 5) | 0.433 | 0.375 | 0.462 | 0.414 |
-| Average Individual Human (n=29) | 0.621 ± 0.062 | 0.575 ± 0.086 | 0.599 ± 0.091 | 0.579 ± 0.056 |
+| Gemini (Prompt A) | 0.697 ± 0.070 | 0.651 ± 0.129 | 0.755 ± 0.076 | 0.691 ± 0.087 |
+| Gemini (Prompt B) | 0.692 ± 0.069 | 0.647 ± 0.130 | 0.750 ± 0.074 | 0.686 ± 0.087 |
+| Qwen (Prompt B) | 0.639 ± 0.087 | 0.574 ± 0.119 | 0.871 ± 0.077 | 0.684 ± 0.095 |
+| Qwen (Prompt A) | 0.605 ± 0.087 | 0.553 ± 0.125 | 0.794 ± 0.071 | 0.644 ± 0.101 |
+| GPT-4o (Prompt A) | 0.489 ± 0.076 | 0.457 ± 0.126 | 0.522 ± 0.091 | 0.482 ± 0.105 |
+| GPT-4o (Prompt B) | 0.444 ± 0.072 | 0.408 ± 0.102 | 0.440 ± 0.074 | 0.418 ± 0.082 |
 
-### ALIGNMENT WITH INDIVIDUAL HUMANS (comparing model predictions with each human prediction)
+### RQ2: Open-Source VLM Performance
+
+| Model | Accuracy | Precision | Recall | F1 | Method |
+|-------|----------|-----------|--------|-----|--------|
+| LLaVA-LLaMA 3 | 0.533 | 0.400 | 0.154 | 0.222 | MODE |
+| Qwen 2.5 | 0.533 | 0.462 | 0.462 | 0.462 | LAST |
+| DeepSeek-OCR | 0.500 | 0.250 | 0.077 | 0.118 | MODE |
+| Qwen 3 | 0.467 | 0.286 | 0.154 | 0.200 | MODE |
+| **Best Open-Source** | **0.533** | **—** | **—** | **—** | **—** |
+| **Best Closed-Source** | **0.700** | **—** | **—** | **—** | **—** |
+
+**Key Findings:**
+- Open-source models underperformed closed-source alternatives (53.3% vs. 70.0% at best)
+- Several models exhibited severe prediction bias (predicting "poorly" for nearly all scenarios)
+- Frame aggregation method (MODE vs. LAST) impacted performance differently across models
+- All open-source models remained below human-level performance
+
+### RQ3: VLM-LLM Combination Performance
 
 | Model | Accuracy | Precision | Recall | F1 |
 |-------|----------|-----------|--------|-----|
-| Gemini (prompt 5) | 0.697 ± 0.070 | 0.651 ± 0.129 | 0.755 ± 0.076 | 0.691 ± 0.087 |
-| Gemini (prompt 6) | 0.692 ± 0.069 | 0.647 ± 0.130 | 0.750 ± 0.074 | 0.686 ± 0.087 |
-| Qwen (prompt 6) | 0.639 ± 0.087 | 0.574 ± 0.119 | 0.871 ± 0.077 | 0.684 ± 0.095 |
-| Qwen (prompt 5) | 0.605 ± 0.087 | 0.553 ± 0.125 | 0.794 ± 0.071 | 0.644 ± 0.101 |
-| GPT-4o (prompt 5) | 0.489 ± 0.076 | 0.457 ± 0.126 | 0.522 ± 0.091 | 0.482 ± 0.105 |
-| GPT-4o (prompt 6) | 0.444 ± 0.072 | 0.408 ± 0.102 | 0.440 ± 0.074 | 0.418 ± 0.082 |
+| Gemini 2.0 (Direct) | 0.600 | 0.545 | 0.462 | 0.500 |
+| Gemini 2.0 (Descriptive) | 0.500 | 0.458 | 0.846 | 0.595 |
 
+**Key Findings:**
+- Two-stage approach achieved 60.0% accuracy (below best end-to-end VLM at 70.0%)
+- Generating explicit text descriptions before prediction did not improve performance
+- LAST frame aggregation consistently outperformed MODE in VLM-LLM pipeline
+- Decomposing task into description + prediction did not bridge anticipatory reasoning gap
 
-#### 1. Model Performance vs True Outcomes
+### RQ4: Anticipatory Social Intelligence
 
-- Gemini (prompt 5) achieved the highest accuracy (70.0%) against true outcomes, outperforming the average individual human accuracy (62.1%) by 7.9 percentage points
-- **GPT-4o (prompt 5)** achieved the highest accuracy (66.7%) against true outcomes, outperforming the average individual human accuracy (62.1%)
-- All other LLM configurations showed lower accuracy than the average individual human, with **GPT-4o (prompt 6)** and **Qwen (prompt 6)** performing worst (46.7%)
-- All models with prompt 6 demonstrated perfect or near-perfect recall (100% for GPT-4o, 84.6% for Qwen and Gemini), but at the cost of precision
+VLMs analyzed human facial reactions to predict outcomes:
 
-#### 2. LLM-Human Alignment
+| Model | Window | Accuracy | F1 | Poorly Ratio |
+|-------|--------|----------|-----|--------------|
+| DeepSeek-OCR | 1s | 0.535 | 0.000 | 0.000 |
+| Qwen 3 | 1s | **0.479** | **0.524** | 0.630 |
+| LLaMA 3.2 Vision | 3s | 0.478 | 0.606 | 0.848 |
+| LLaVA | 3s | 0.481 | 0.649 | 1.000 |
 
-- **Gemini (prompt 5)** showed the highest alignment with human predictions across both prompts (63.3% for prompt 5, 69.2% for prompt 6)
-- **GPT-4o** demonstrated the lowest alignment with human predictions across both prompts (49.0% for prompt 5, 47.1% for prompt 6)
-- Models showed consistently higher F1 scores when compared to human predictions than when compared to true outcomes, suggesting humans and models make similar types of errors
+**Key Findings:**
+- VLMs performed poorly at predicting outcomes from human reactions (best: 48% accuracy vs. 62% human self-agreement)
+- Many models exhibited extreme prediction bias (poorly ratio near 0.0 or 1.0)
+- No significant performance difference between 1-second and 3-second temporal windows
+- Current VLMs show fundamental limitations in leveraging social cues for anticipatory reasoning
 
-#### 3. Per-Video Performance
+## Discussion
 
-- **Gemini (prompt 5)** outperformed humans on 63.3% of videos, the highest among all models
-- **GPT-4o (prompt 6)** and **Qwen (prompt 6)** underperformed on all videos compared to humans, suggesting a consistent bias in their predictions
+### Main Takeaways
 
-#### 4. Standard Deviation Analysis
+1. **Some VLMs can exceed human performance:** Gemini 2.0 Flash achieved 70.0% accuracy compared to 62.1% average human performance, demonstrating that current state-of-the-art VLMs show promise for anticipatory reasoning tasks.
 
-- **Gemini (prompt 5)** showed the lowest standard deviation in human agreement (0.070), indicating the most consistent alignment with human judgment
-- **Gemini (prompt 5)** also showed the lowest standard deviation in performance across videos (0.458), suggesting the most consistent accuracy across different scenarios
-- **GPT-4o (prompt 5)** showed the highest standard deviation in human agreement (0.082), indicating the least consistent alignment with human judgment
+2. **High sensitivity to model and prompt selection:** Performance varied by up to 23.4 percentage points across different models and prompts, indicating that anticipatory reasoning capabilities are fragile and highly dependent on specific configurations.
 
-### Model Comparison
+3. **Open-source models lag behind:** The best open-source model (53.3% accuracy) performed 17 percentage points below the best closed-source model, with several exhibiting severe prediction biases.
 
-#### GPT-4o
+4. **Limitations in social intelligence:** VLMs struggled substantially when predicting outcomes from human facial reactions (48% accuracy), suggesting fundamental limitations in interpreting social cues and emotional expressions.
 
-- **GPT-4o (prompt 5)** achieved the second highest accuracy against true outcomes (66.7%) and showed the highest standard deviation in human agreement (0.082)
-- **GPT-4o (prompt 6)** achieved the lowest accuracy against true outcomes (46.7%) and showed the highest standard deviation in performance across videos (0.499)
+5. **Prompt engineering matters:** Variations of up to 6.7% within the same model highlight the importance of careful prompt design for anticipatory reasoning tasks.
 
-#### Gemini
+### Implications for Human-Robot Interaction
 
-- Different prompts for Gemini showed significant differences in performance, with **Gemini (prompt 5)** achieving the highest accuracy against true outcomes (70.0%) and the lowest standard deviation in human agreement (0.070)
-- **Gemini (prompt 6)** the highest standard deviation in performance across videos (0.500)
+- VLMs show potential for proactive error prevention in robots, though performance is highly model-dependent
+- Current limitations in social intelligence may constrain applications requiring interpretation of human emotional states
+- Careful model selection and prompt engineering are critical for safety-sensitive applications
 
-#### Qwen
+### Limitations
 
-- Qwen shows a slimilar pattern to Gemini, with **Qwen (prompt 5)** achieving the same accuracy as **Gemini (prompt 5)** (56.7%) and **Qwen (prompt 6)** achieving the same accuracy as **GPT-4o (prompt 6)** (46.7%)
-- Qwen has the largest standard deviation(0.086 and 0.091) of model-human agreement
+- Small dataset (30 videos) limits generalizability
+- Limited selection of models and prompts tested
+- Binary outcome framing (well/poorly) oversimplifies real-world complexity
+- Rapid VLM development means findings may become outdated quickly
+- Frame aggregation strategies were limited to MODE and LAST
 
-### Video-Level Analysis
+## Repository
 
-The performance by video reveals interesting patterns:
+Dataset and study materials from Parreira et al.: https://github.com/IRL-CT/badidea
 
-1. Human accuracy varies substantially across videos, indicating some videos are inherently more difficult to judge
-2. LLMs tend toward binary judgments (all correct or all incorrect for a given video)
-3. There is only partial overlap between videos that humans find difficult and those that challenge LLMs
+## References
 
-The boxplot visualization confirms this pattern, showing much greater variance in human performance compared to the more extreme (all-or-nothing) LLM performance distribution.
+[1] A. Bremers, M. T. Parreira, X. Fang, N. Friedman, A. Ramirez-Aristizabal, A. Pabst, M. Spasojevic, M. Kuniavsky, and W. Ju. The bystander affect detection (bad) dataset for failure detection in hri, 2023.
 
-### Limitations and Future Directions
+[2] S. Liu, J. Zhang, R. X. Gao, X. Vincent Wang, and L. Wang. Vision-language model-driven scene understanding and robotic object manipulation. In 2024 IEEE 20th International Conference on Automation Science and Engineering (CASE), pages 21–26, 2024.
 
-1. The binary pattern in LLM predictions suggests they may lack nuance in their judgment compared to humans
+[3] M. T. Parreira, S. G. Lingaraju, A. Ramirez-Artistizabal, A. Bremers, M. Saha, M. Kuniavsky, and W. Ju. "bad idea, right?" exploring anticipatory human reactions for outcome prediction in hri. In 2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN), pages 2072–2078, 2024.
 
-2. The high variability in human performance indicates inherent task difficulty or subjectivity that should be further explored
-
-### Conclusion
-
-This analysis demonstrates that state-of-the-art LLMs can match or exceed average individual human performance on video prediction tasks when properly prompted. Gemini with prompt 5 achieves the highest accuracy overall, while GPT4o and Qwen show more variability in performance. 
-
-The significant impact of prompt engineering highlights both a challenge and an opportunity—LLM performance can potentially be further improved through careful prompt optimization. The finding that LLMs outperform humans on approximately half of the videos suggests promising avenues for human-AI collaboration in judgment tasks.
-
-## Todo
-
-- [x] GPT-4o finish all prompts testing
-- [x] Gemini 2.0 Flash vertex ai api
-- [x] Gemini 2.0 Flash finish all prompts testing
-- [x] Qwen-2.5-vl API setup
-- [x] Qwen-2.5-vl finish all prompts testing
-- [x] Extract frames from clips
-- [x] Genenrate description for video clips
-- [x] Compare VLM predictions vs human predictions
-- [x] Compare True Outcome vs human predictions
-- [x] Compare VLM predictions vs True Outcome
-- [x] Download local model Qwen2.5-vl-7b-Instruct
-- [ ] Download more local models
-
+[4] K. Sasabuchi, N. Wake, A. Kanehira, J. Takamatsu, and K. Ikeuchi. Agreeing to interact in human-robot interaction using large language models and vision language models, 2025.
