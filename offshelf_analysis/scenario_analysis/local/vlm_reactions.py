@@ -23,7 +23,7 @@ from pathlib import Path
 class VideoAnalyzer:
     def __init__(self, 
                  model="llama3.2-vision", 
-                 prompt="Given the reaction shown on the video, you think this situation ends well or poorly? (Use only one word to answer)",
+                 prompt="Given the scenario shown on the video, you think this situation ends well or poorly? (Use only one word to answer)",
                  ollama_url="http://localhost:11434",
                  video_folder="./videos",
                  output_csv="reaction_results.csv",
@@ -41,6 +41,11 @@ class VideoAnalyzer:
         
         # Results storage
         self.results = []
+
+        #create output directory if it doesn't exist
+        output_dir = os.path.dirname(self.output_csv)
+        if output_dir and not os.path.exists(output_dir):
+            os.makedirs(output_dir)
         
     def get_video_files(self):
         """Get all video files from the specified folder"""
@@ -136,6 +141,7 @@ class VideoAnalyzer:
         # Sample frames from the video
         sampled_frames = []
         frame_indices = range(0, total_frames, self.frame_sample_rate)
+
         
         frame_times = []
         for frame_idx in frame_indices:
@@ -145,8 +151,8 @@ class VideoAnalyzer:
                 sampled_frames.append(frame)
                 frame_times.append(frame_idx)
             
-            if len(sampled_frames) >= 45:  # Limit to 45 frames per video
-                break
+            #if len(sampled_frames) >= 45:  # Limit to 45 frames per video
+            #    break
         
         cap.release()
         
@@ -190,7 +196,12 @@ class VideoAnalyzer:
         if not self.results:
             print("No results to save.")
             return
-            
+        
+        #create output directory if it doesn't exist
+        output_dir = os.path.dirname(self.output_csv)
+        if output_dir and not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        
         #create csv file and save results, knowing that it's 3 columns, video_name, frame_time, outcome_prediction
         with open(self.output_csv, mode='w', newline='', encoding='utf-8') as csvfile:
             fieldnames = ['video_name','frame', 'outcome_prediction']
@@ -299,12 +310,17 @@ def main():
 
     #conda activate ollama
     #ollama pull llama3.2-vision
-    #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/test_results.csv' --frame-sample-rate 15
+    #python vlm_reactions.py --video-folder '../../../data/final_cut_videos/' --output-csv './results/test_results.csv' --frame-sample-rate 30
 
     #DONE
-    #nohup python vlm_reactions.py  --model deepseek-ocr:3b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_deepseek_ocr.csv' --frame-sample-rate 15 > ./logs/vlm_output_deepseek_ocr.log 2>&1 &
-    #nohup python vlm_reactions.py  --model qwen3-vl --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_qwen3.csv' --frame-sample-rate 15 > ./logs/vlm_output_qwen3.log 2>&1 &
-    #nohup python vlm_reactions.py  --model mistral-small3.2 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_mistralsmall32.csv' --frame-sample-rate 15 > ./logs/vlm_output_mistralsmall32.log 2>&1 &
+    #nohup python vlm_reactions.py  --model deepseek-ocr:3b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_deepseek_ocr.csv' --frame-sample-rate 3 > ./logs/vlm_output_deepseek_ocr.log 2>&1 &
+    #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 3 > ./logs/vlm_output_llavallama3.log 2>&1 &
+    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 3 > ./logs/vlm_output_gemma3.log 2>&1 &
+    
+    #nohup bash -c 'sleep 5h && python vlm_reactions.py --model llava-llama3 --video-folder "../../../data/final_cut_videos/" --output-csv "./results/results_llavallama3_promptA.csv" --frame-sample-rate 3' > ./logs/vlm_output_llavallama3_A.log 2>&1 &
+    
+    #nohup python vlm_reactions.py  --model qwen3-vl --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_qwen3.csv' --frame-sample-rate 30 > ./logs/vlm_output_qwen3.log 2>&1 &
+    #nohup python vlm_reactions.py  --model mistral-small3.2 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_mistralsmall32.csv' --frame-sample-rate 30 > ./logs/vlm_output_mistralsmall32.log 2>&1 &
     
 
     #to do
