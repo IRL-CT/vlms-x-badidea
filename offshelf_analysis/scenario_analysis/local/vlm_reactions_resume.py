@@ -348,4 +348,5 @@ if __name__ == "__main__":
 
 #nohup python vlm_reactions_resume.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 3 > ./logs/vlm_output_gemma3.log 2>&1 &
 #nohup python vlm_reactions_resume.py  --model  deepseek-ocr:3b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_deepseek_ocr.csv' --frame-sample-rate 3 > ./logs/vlm_output_deepseek_ocr.log 2>&1 &
-#nohup p
+#nohup python vlm_reactions_resume.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 3 > ./logs/vlm_output_llavallama3.log 2>&1 &
+    

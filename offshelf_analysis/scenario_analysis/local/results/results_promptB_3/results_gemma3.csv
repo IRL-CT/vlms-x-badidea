@@ -228,7 +228,6 @@ video_name,frame,outcome_prediction
 14_final.mp4,33,Poorly
 14_final.mp4,36,Poorly
 14_final.mp4,39,Poorly
-14_final.mp4,42,Awkward
 14_final.mp4,45,Poorly
 14_final.mp4,48,Poorly
 14_final.mp4,51,Poorly
@@ -236,9 +235,6 @@ video_name,frame,outcome_prediction
 14_final.mp4,57,Poorly
 14_final.mp4,60,Poorly
 14_final.mp4,63,Poorly
-14_final.mp4,66,Awkward
-14_final.mp4,69,Awkward
-14_final.mp4,72,Awkward
 14_final.mp4,75,Poorly
 14_final.mp4,78,Poorly
 14_final.mp4,81,Poorly
@@ -258,16 +254,11 @@ video_name,frame,outcome_prediction
 14_final.mp4,123,Poorly
 14_final.mp4,126,Poorly
 14_final.mp4,129,Poorly
-14_final.mp4,132,Awkward
-14_final.mp4,135,Awkward
 14_final.mp4,138,Poorly
 14_final.mp4,141,Poorly
-14_final.mp4,144,Amusing
-14_final.mp4,147,Awkward
 14_final.mp4,150,Poorly
 14_final.mp4,153,Poorly
 14_final.mp4,156,Poorly
-14_final.mp4,159,Awkward
 14_final.mp4,162,Poorly
 14_final.mp4,165,Poorly
 14_final.mp4,168,Poorly
@@ -308,7 +299,6 @@ video_name,frame,outcome_prediction
 14_final.mp4,273,Poorly
 14_final.mp4,276,Poorly
 14_final.mp4,279,Poorly
-14_final.mp4,282,Awkward
 14_final.mp4,285,Poorly
 14_final.mp4,288,Poorly
 14_final.mp4,291,Poorly
@@ -508,8 +498,6 @@ video_name,frame,outcome_prediction
 19_final.mp4,264,Poorly
 19_final.mp4,267,Poorly
 21_final.mp4,0,Poorly
-21_final.mp4,3,Sadly
-21_final.mp4,6,Sadly
 21_final.mp4,9,Poorly
 21_final.mp4,12,Poorly
 21_final.mp4,15,Poorly
@@ -1908,7 +1896,6 @@ video_name,frame,outcome_prediction
 52_final.mp4,33,Poorly
 52_final.mp4,36,Poorly
 52_final.mp4,39,Poorly
-52_final.mp4,42,Awkward
 52_final.mp4,45,Poorly
 52_final.mp4,48,Poorly
 52_final.mp4,51,Poorly
@@ -2092,7 +2079,8 @@ video_name,frame,outcome_prediction
 52_final.mp4,585,Poorly
 52_final.mp4,588,Poorly
 52_final.mp4,591,Poorly
-52_final.mp4,594,Poorly53_final.mp4,0,Poorly
+52_final.mp4,594,Poorly
+53_final.mp4,0,Poorly
 53_final.mp4,3,Poorly
 53_final.mp4,6,Poorly
 53_final.mp4,9,Poorly

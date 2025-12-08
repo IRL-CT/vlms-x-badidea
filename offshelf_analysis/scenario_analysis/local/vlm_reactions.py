@@ -315,7 +315,7 @@ def main():
     #DONE
     #nohup python vlm_reactions.py  --model deepseek-ocr:3b --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_deepseek_ocr.csv' --frame-sample-rate 3 > ./logs/vlm_output_deepseek_ocr.log 2>&1 &
     #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 3 > ./logs/vlm_output_llavallama3.log 2>&1 &
-    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 3 > ./logs/vlm_output_gemma3.log 2>&1 &
+    #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3_A.csv' --frame-sample-rate 3 > ./logs/vlm_output_gemma3_A.log 2>&1 &
     
     #nohup bash -c 'sleep 5h && python vlm_reactions.py --model llava-llama3 --video-folder "../../../data/final_cut_videos/" --output-csv "./results/results_llavallama3_promptA.csv" --frame-sample-rate 3' > ./logs/vlm_output_llavallama3_A.log 2>&1 &
     
@@ -329,6 +329,8 @@ def main():
     #nohup python vlm_reactions.py  --model llava --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llava.csv' --frame-sample-rate 15 > ./logs/vlm_output_llava.log 2>&1 &
     #nohup python vlm_reactions.py  --model gemma3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_gemma3.csv' --frame-sample-rate 15 > ./logs/vlm_output_gemma3.log 2>&1 &
     #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3.csv' --frame-sample-rate 15 > ./logs/vlm_output_llavallama3.log 2>&1 &
+    
+    #nohup python vlm_reactions.py  --model llava-llama3 --video-folder '../../../data/final_cut_videos/' --output-csv './results/results_llavallama3_A.csv' --frame-sample-rate 15 > ./logs/vlm_output_llavallama3_A.log 2>&1 &
 
     
 if __name__ == "__main__":
