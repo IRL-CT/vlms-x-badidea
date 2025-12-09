@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Comparing Vision Language Models and Human Anticipatory Judgment in predicting outcomes of scenarios.">
+  <meta name="keywords" content="VLMs, Anticipatory Reasoning, Human-Robot Interaction, Vision Language Models">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bad Idea or Good Prediction? Comparing VLM and Human Anticipatory Judgment</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://github.com/IRL-CT/badidea">
+      <span class="icon">
+          <i class="fab fa-github"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Related Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://github.com/IRL-CT/badidea">
+            "Bad Idea?" Dataset
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Bad Idea or Good Prediction? Comparing VLM and Human Anticipatory Judgment</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Anonymous Author(s)</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">HRI 2026</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/images/main_lbr.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/IRL-CT/vlms-x-badidea"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code & Dataset</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/figure_full_part.png" alt="Research Questions Overview" width="100%">
+      <h2 class="subtitle has-text-centered">
+        <br>
+        Can VLMs predict whether situations will end well or poorly? We evaluate both direct scenario analysis (RQ1) and the ability to interpret human reactions (RQ2).
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Anticipatory reasoning – predicting whether situations will resolve positively or negatively by interpreting contextual cues – is crucial for robots operating in human environments. This exploratory study evaluates whether Vision Language Models (VLMs) possess such predictive capabilities through two complementary approaches.
+          </p>
+          <p>
+            First, we test VLMs on direct outcome prediction by inputting videos of human and robot scenarios with outcomes removed, asking the models to predict whether situations will end well or poorly. Second, we introduce a novel evaluation of anticipatory social intelligence: can VLMs predict outcomes by analyzing human facial reactions of people watching these scenarios?
+          </p>
+          <p>
+            We tested multiple VLMs, including closed-source and open-source, using various prompts and compared their predictions against both true outcomes and judgments from 29 human participants. The best-performing VLM (Gemini 2.0 Flash) achieved <strong>70.0% accuracy</strong> in predicting true outcomes, outperforming the average individual human (62.1% ± 6.2%). Agreement with individual human judgments ranged from 44.4% to 69.7%.
+          </p>
+          <p>
+            Critically, VLMs struggled to predict outcomes by analyzing human facial reactions, suggesting limitations in leveraging social cues. These preliminary findings indicate that while some VLMs show promise for anticipatory reasoning, their performance is sensitive to model selection and prompt design, with current limitations in social intelligence that warrant further investigation for human-robot interaction applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Research Questions</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            We investigate anticipatory reasoning through two complementary approaches:
+          </p>
+          <ul>
+            <li><strong>RQ1:</strong> What are the anticipatory reasoning capabilities of VLMs (i.e., predicting outcomes on the scenario dataset)?</li>
+            <li><strong>RQ2:</strong> What is the anticipatory social intelligence of VLMs (i.e., predicting anticipated outcomes based on human facial reactions)?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset</h2>
+
+        <div class="columns">
+          <div class="column">
+            <img src="./static/images/video1.png" alt="Hoverboard scenario" width="100%">
+            <p class="has-text-centered"><em>Example: Hoverboard scenario</em></p>
+          </div>
+          <div class="column">
+            <img src="./static/images/video2.png" alt="Robot scenario" width="100%">
+            <p class="has-text-centered"><em>Example: Robot scenario</em></p>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            We used 30 videos from the <a href="https://ieeexplore.ieee.org/abstract/document/10731310">"Bad Idea?"</a> study, featuring scenarios where humans and robots are shown before outcomes are revealed. Videos include everyday situations with both good and bad outcomes. 29 participants from an online study provided baseline human judgments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Models Tested</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            We evaluated both closed-source and open-source VLMs:
+          </p>
+          <p>
+            <strong>Closed-Source VLMs (API-accessed):</strong>
+          </p>
+          <ul>
+            <li>GPT-4o</li>
+            <li>Gemini 2.0 Flash</li>
+            <li>Qwen2.5-vl (72b)</li>
+          </ul>
+          <p>
+            <strong>Open-Source VLMs (locally deployed via <a href="https://ollama.com/">Ollama</a>):</strong>
+          </p>
+          <ul>
+            <li>DeepSeek-OCR (3b)</li>
+            <li>Gemma 3 (4b)</li>
+            <li>LLaVA-LLaMA 3 (8b)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Key Results</h2>
+
+        <h3 class="title is-4">RQ1: Anticipatory Reasoning of VLMs</h3>
+
+        <div class="content has-text-justified">
+          <p><strong>Ground Truth Performance:</strong></p>
+          <ul>
+            <li>The best-performing closed-source VLM (<strong>Gemini 2.0 Flash with Prompt A</strong>) achieved <strong>70.0% accuracy</strong>, exceeding average human performance (62.1% ± 6.2%)</li>
+            <li>Performance varied substantially across models (43.3% to 70.0%)</li>
+            <li>Open-source models demonstrated competitive but generally lower performance, with the best configuration (LLaVA-LLaMA 3 with Prompt B) reaching 63.3% accuracy</li>
+            <li>Some models exhibited severe prediction bias (e.g., DeepSeek-OCR and Gemma3 predicted only one type of outcome)</li>
+            <li>Prompt engineering impacted performance even within the same model, with variations up to 6.7 percentage points</li>
+          </ul>
+
+          <p><strong>Agreement with Individual Human Predictions:</strong></p>
+          <ul>
+            <li>Gemini 2.0 Flash achieved 69.7% ± 7.0% agreement with individual human judgments</li>
+            <li>Models showing higher agreement with individual human predictions did not necessarily achieve higher accuracy on true outcomes, suggesting shared biases</li>
+          </ul>
+        </div>
+
+        <h3 class="title is-4">RQ2: Anticipatory Social Intelligence</h3>
+
+        <div class="content has-text-justified">
+          <ul>
+            <li>VLMs performed poorly at predicting outcomes from human anticipatory reactions, with accuracy ranging from 44.5% to 53.8%</li>
+            <li>Several models exhibited severe prediction bias, suggesting difficulty in discriminating between different outcome types</li>
+            <li>No significant performance difference emerged between 1-second and 3-second temporal windows</li>
+            <li>These results hint at limitations in current VLMs' ability to interpret human facial expressions and anticipatory reactions as predictive signals</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Main Takeaways</h2>
+
+        <div class="content has-text-justified">
+          <ol>
+            <li><strong>Some VLMs can exceed human performance:</strong> Gemini 2.0 Flash achieved 70.0% accuracy on scenario prediction, exceeding average human performance (62.1%). However, considerable fragility emerged, with performance varying up to 26.7 percentage points across models and up to 6.7 percentage points across prompts within some models.</li>
+
+            <li><strong>Performance gap between closed-source and open-source models:</strong> The best closed-source model (70.0%) outperformed the best open-source model (63.3%), which is unsurprising given differences in scale, training resources, and fine-tuning.</li>
+
+            <li><strong>Limitations in social intelligence:</strong> VLMs analyzing human facial reactions achieved only 47.9% agreement with human predictions, substantially below direct scenario prediction performance (63-70%). This suggests a critical gap in VLMs' ability to interpret human anticipatory states and emotional signals – capabilities essential for effective HRI.</li>
+
+            <li><strong>Prompt engineering matters:</strong> Variations of up to 6.7% within the same model highlight the importance of careful prompt design for anticipatory reasoning tasks.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Implications for Human-Robot Interaction</h2>
+
+        <div class="content has-text-justified">
+          <ul>
+            <li>VLMs show potential for proactive error prevention in robots, though performance is highly model-dependent</li>
+            <li>Current limitations in social intelligence may significantly constrain applications requiring interpretation of human emotional states and anticipatory behaviors</li>
+            <li>Careful model selection and prompt engineering are critical for safety-sensitive applications</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{badidea2026,
+  title={Bad Idea or Good Prediction? Comparing VLM and Human Anticipatory Judgment},
+  author={Anonymous Author(s)},
+  booktitle={Proceedings of ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  year={2026}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        This website is licensed under a <a rel="license"
+                                            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+        Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+      <p>
+        Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
