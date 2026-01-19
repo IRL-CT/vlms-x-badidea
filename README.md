@@ -10,7 +10,7 @@
 
 Anticipating outcomes of everyday scenarios is crucial for robots operating in human environments. This study evaluates the anticipatory reasoning capabilities of state-of-the-art Vision Language Models (VLMs) by showing them videos of human and robot scenarios with outcomes removed, then asking them to predict whether the situation will end well or poorly.
 
-![Research Questions Overview](submission/figure_lbr2025.png)
+![Research Questions Overview](submission/figure_lbr26.png)
 
 ## Abstract
 
