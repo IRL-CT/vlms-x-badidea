@@ -1,8 +1,10 @@
 # Bad Idea or Good Prediction? Comparing VLM and Human Anticipatory Judgment
 
-**Authors:** [To be filled]
+**Authors:** Maria Teresa Parreira (Cornell University), Hongjin Quan (Cornell Tech), Adolfo G. Ramirez-Aristizabal (Accenture), Wendy Ju (Cornell Tech)
 
-**Published in:** [To be filled]
+**Published in:** HRI Companion '26 - Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction, March 16–19, 2026, Edinburgh, Scotland, UK
+
+**DOI:** [10.1145/3776734.3794531](https://doi.org/10.1145/3776734.3794531)
 
 ---
 
